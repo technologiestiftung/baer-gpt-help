@@ -25,7 +25,7 @@ export const FooterNavBar = () => {
 								<span>{link.name}</span>
 								<img
 									src="/images/arrow-link.svg"
-									alt="Icon Link Pfeil"
+									alt={content.footer.arrowIconAltText}
 									className={`${index === 0 ? "flex" : "hidden"}`}
 								/>
 							</div>
