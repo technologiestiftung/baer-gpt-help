@@ -10,7 +10,7 @@ import type { ReactNode } from "react";
 import type { Route } from "./+types/root";
 import "./app.css";
 import { Header } from "~/components/header";
-import { Footer } from "~/components/footer";
+import { Footer } from "~/components/footer/footer";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "icon", type: "image/svg+xml", href: "/citylab.png" },
