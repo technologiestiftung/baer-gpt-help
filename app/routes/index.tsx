@@ -1,6 +1,5 @@
 import type { Route } from "./+types/index";
-import content from "~/content/index.md?raw";
-import Markdown from "react-markdown";
+import { content } from "../content";
 
 export function meta(_: Route.MetaArgs) {
 	return [{ title: "BärGPT Hilfe" }];
@@ -9,7 +8,8 @@ export function meta(_: Route.MetaArgs) {
 export default function Index() {
 	return (
 		<div className="bg-sky-300">
-			<Markdown>{content}</Markdown>
+			<h1>{content.hero.title}</h1>
+			<p>{content.hero.description}</p>
 		</div>
 	);
 }
