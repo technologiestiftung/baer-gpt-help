@@ -16,12 +16,12 @@ export const FooterNavBar = () => {
 					<li key={link.url}>
 						<a
 							href={link.url}
-							className={`text-white text-base font-normal border-b border-b-dunkelblau-100 hover:border-b-white w-fit
+							className={`text-white text-base font-normal w-fit
                             focus-visible:rounded-[3px] focus-visible:outline-3 focus-visible:outline-mittelblau-100 focus-visible:outline-offset-2`}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<div className="flex items-center gap-0.5">
+							<div className="flex items-center gap-0.5 border-b border-b-dunkelblau-100 hover:border-b-white">
 								<span>{link.name}</span>
 								<img
 									src="/images/arrow-link.svg"
