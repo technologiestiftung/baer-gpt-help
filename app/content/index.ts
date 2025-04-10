@@ -4,6 +4,7 @@ export const content = {
 		description: "Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
 	},
 	footer: {
+		baerIconAltText: "Berlin Bär Logo",
 		navbar: [
 			{
 				name: "BärGPT",
