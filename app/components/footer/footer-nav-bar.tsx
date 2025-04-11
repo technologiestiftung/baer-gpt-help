@@ -1,13 +1,26 @@
 import { content } from "../../content";
 
 export const FooterNavBar = () => {
-	const navbarLinks = content.footer.navbar;
+	const navbarLinks = [
+		{
+			name: content["footer.navbar.0.name"],
+			url: content["footer.navbar.0.url"],
+		},
+		{
+			name: content["footer.navbar.1.name"],
+			url: content["footer.navbar.1.url"],
+		},
+		{
+			name: content["footer.navbar.2.name"],
+			url: content["footer.navbar.2.url"],
+		},
+	];
 
 	return (
 		<div className="flex flex-col lg:flex-row gap-6 justify-between lg:items-center w-full p-6 lg:py-4 lg:px-[50px] bg-dunkelblau-100 text-white">
 			<img
-				src="/images/berlin-baer.svg"
-				alt={content.footer.baerIconAltText}
+				src="/icons/berlin-baer.svg"
+				alt={content["footer.baerIconAltText"]}
 				className="size-11"
 			/>
 
@@ -17,15 +30,15 @@ export const FooterNavBar = () => {
 						<a
 							href={link.url}
 							className={`text-white text-base font-normal w-fit
-                            focus-visible:rounded-[3px] focus-visible:outline-3 focus-visible:outline-mittelblau-100 focus-visible:outline-offset-2`}
+                           focus-outline-default`}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<div className="flex items-center gap-0.5 border-b border-b-dunkelblau-100 hover:border-b-white">
 								<span>{link.name}</span>
 								<img
-									src="/images/arrow-link.svg"
-									alt={content.footer.arrowIconAltText}
+									src="/icons/arrow-icon-light.svg"
+									alt={content["footer.arrowIconAltText"]}
 									className={`${index === 0 ? "flex" : "hidden"}`}
 								/>
 							</div>

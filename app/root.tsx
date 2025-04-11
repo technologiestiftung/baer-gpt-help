@@ -9,14 +9,17 @@ import {
 import type { ReactNode } from "react";
 import type { Route } from "./+types/root";
 import "./app.css";
-import { Header } from "~/components/header";
+import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
+import { useMenuStore } from "./store/use-menu-store";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "icon", type: "image/svg+xml", href: "/citylab.png" },
 ];
 
 export function Layout({ children }: { children: ReactNode }) {
+	const { isMobileMenuOpen } = useMenuStore();
+
 	return (
 		<html lang="de">
 			<head>
@@ -25,7 +28,9 @@ export function Layout({ children }: { children: ReactNode }) {
 				<Meta />
 				<Links />
 			</head>
-			<body>
+			<body
+				className={`${isMobileMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
+			>
 				<Header />
 				<main>{children}</main>
 				<Footer />
