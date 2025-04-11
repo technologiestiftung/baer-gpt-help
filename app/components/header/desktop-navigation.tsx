@@ -1,43 +1,36 @@
 import { useLocation } from "react-router";
 import { AnchorLink } from "../primitives/anchor-links/anchor-link";
-import type { NavItem, ExternalNavItem } from "./header";
+import { content } from "../../content";
 
-interface DesktopNavigationProps {
-	navItems: NavItem[];
-	externalNavItem: ExternalNavItem;
-}
-
-export const DesktopNavigation = ({
-	navItems,
-	externalNavItem,
-}: DesktopNavigationProps) => {
+export const DesktopNavigation = () => {
 	const location = useLocation();
 	const currentPath = location.pathname;
+
 	return (
 		<nav className="hidden lg:flex justify-end items-center text-dunkelblau-100">
 			<ul className="flex flex-row gap-8 text-lg leading-7 font-normal">
-				{navItems.map((item, i) => (
-					<li key={i} className="flex items-center">
+				{content.header.nav.internal.map(({ url, name, ariaLabel }, index) => (
+					<li key={index} className="flex items-center">
 						<a
-							href={item.url}
+							href={url}
 							className={`focus-outline-default border-b hover:border-b-dunkelblau-100 
-                                ${currentPath === item.url ? "border-b border-b-dunkelblau-100" : "border-b-transparent"}
+                                ${currentPath === url ? "border-b border-b-dunkelblau-100" : "border-b-transparent"}
                             `}
-							aria-label={item.ariaLabel}
+							aria-label={ariaLabel}
 						>
-							{item.name}
+							{name}
 						</a>
 					</li>
 				))}
 				<AnchorLink
-					href={externalNavItem.url}
+					href={content.header.nav.external.url}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					{externalNavItem.name}
+					{content.header.nav.external.name}
 					<img
 						src="/icons/arrow-icon-dark.svg"
-						alt={externalNavItem.altText}
+						alt={content.header.nav.external.altText}
 						className="size-6"
 					/>
 				</AnchorLink>
