@@ -13,8 +13,8 @@ export function Header() {
 					<img src="/logo/logo.svg" alt={content["header.logoAlt"]} />
 				</a>
 
-				{/* Desktop nav */}
 				<DesktopNavigation />
+
 				{/* Mobile hamburger */}
 				<button
 					onClick={toggleMobileMenu}
@@ -23,6 +23,7 @@ export function Header() {
 				>
 					<img src="/icons/menu-icon.svg" alt="Menu" />
 				</button>
+
 				{/* close button */}
 				<button
 					onClick={toggleMobileMenu}
