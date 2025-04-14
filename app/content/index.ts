@@ -4,6 +4,12 @@ export const content = {
 	"hero.description":
 		"Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
 
+	/* -------------------- Anchor links -------------------- */
+	"anchor.download.label": "Download",
+	"anchor.download.alt": "PDF Herunterladen",
+	"anchor.toVideo.label": "zum Video",
+	"anchor.toVideo.alt": "zum Video-Tutorial",
+
 	/* -------------------- Header -------------------- */
 	"header.logoAlt": "Zur Startseite",
 	header: {
@@ -80,4 +86,9 @@ export const content = {
 			},
 		],
 	},
+	/* -------------------- FAQ PAGE -------------------- */
+	"faq.title": "Fragen und Antworten",
+	"faq.accordion.chevronDownAltText": "Antwort zeigen",
+	"faq.accordion.chevronUpAltText": "Antwort verstecken",
+	/* -------------------- FAQ PAGE -------------------- */
 } as const;

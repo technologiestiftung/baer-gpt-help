@@ -32,7 +32,9 @@ export function Layout({ children }: { children: ReactNode }) {
 				className={`${isMobileMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
-				<main>{children}</main>
+				<main className="px-5 lg:px-[50px] max-w-[1412px] flex justify-center mx-auto">
+					{children}
+				</main>
 				<Footer />
 				<ScrollRestoration />
 				<Scripts />

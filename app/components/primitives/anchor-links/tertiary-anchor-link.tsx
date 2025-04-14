@@ -1,13 +1,14 @@
 import React from "react";
 import type { AnchorLinkProps } from "./anchor-link-types";
 
-export const AnchorLink: React.FC<AnchorLinkProps> = ({
+export const TertiaryAnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
 	target = "_self",
 	rel,
 	ariaLabel,
 	title,
 	className,
+	children,
 }) => {
 	return (
 		<a
@@ -16,11 +17,11 @@ export const AnchorLink: React.FC<AnchorLinkProps> = ({
 			rel={rel}
 			aria-label={ariaLabel}
 			title={title}
-			className={`flex underline decoration-1 underline-offset-4 focus-outline-default text-base leading-6 font-normal
-            ${className}`}
+			className={`
+			flex rounded-[2px] w-fit items-center gap-2 px-2 py-1 border border-dunkelblau-100 hover:bg-hellblau-30 focus-outline-default text-base leading-6
+			${className}`}
 		>
-			<span>{title}</span>
-			<img src="/icons/arrow-icon-dark.svg" />
+			{children}
 		</a>
 	);
 };

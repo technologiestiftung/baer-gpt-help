@@ -9,7 +9,7 @@ export function Header() {
 	return (
 		<header className="relative z-50">
 			<div className="flex justify-between items-center px-5 1080:px-[50px] py-4 bg-white border-b border-schwarz-100">
-				<a href="/">
+				<a href="/" className="focus-outline-default">
 					<img src="/logo/logo.svg" alt={content["header.logoAlt"]} />
 				</a>
 
