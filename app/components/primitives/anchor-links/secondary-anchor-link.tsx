@@ -1,17 +1,8 @@
 import React from "react";
-import type { ReactNode } from "react";
+import type { AnchorLinkProps } from "./anchor-link-types";
+import { Link } from "react-router";
 
-interface AnchorLinkProps {
-	href: string;
-	target?: string;
-	rel?: string;
-	ariaLabel?: string;
-	title?: string;
-	className?: string;
-	children?: ReactNode;
-}
-
-export const AnchorLink: React.FC<AnchorLinkProps> = ({
+export const SecondaryAnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
 	target = "_self",
 	rel,
@@ -21,8 +12,8 @@ export const AnchorLink: React.FC<AnchorLinkProps> = ({
 	children,
 }) => {
 	return (
-		<a
-			href={href}
+		<Link
+			to={href}
 			target={target}
 			rel={rel}
 			aria-label={ariaLabel}
@@ -32,6 +23,6 @@ export const AnchorLink: React.FC<AnchorLinkProps> = ({
             ${className}`}
 		>
 			{children}
-		</a>
+		</Link>
 	);
 };
