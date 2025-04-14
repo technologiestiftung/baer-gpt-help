@@ -18,7 +18,7 @@ export const PrimaryAnchorLink: React.FC<AnchorLinkProps> = ({
 			rel={rel}
 			aria-label={ariaLabel}
 			className={`
-			flex rounded-[2px] w-fit items-center gap-2 px-3 py-2 bg-dunkelblau-100 text-white focus-outline-default text-base leading-6 lg:text-lg lg:leading-7
+			flex rounded-[2px] w-fit items-center gap-2 px-3 py-2 bg-dunkelblau-100 hover:bg-dunkelblau-80 text-white focus-outline-default text-base leading-6 lg:text-lg lg:leading-7
 			${className}`}
 			title={title}
 		>
