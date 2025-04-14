@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export const content = {
 	/* -------------------- Hero -------------------- */
 	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
