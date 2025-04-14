@@ -1,8 +1,8 @@
 export const content = {
 	/* -------------------- Hero -------------------- */
-	"hero.title": "BärGPT",
-	"hero.description":
-		"Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
+	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
+	"hero.title":
+		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
 
 	/* -------------------- Header -------------------- */
 	"header.logoAlt": "Zur Startseite",
@@ -80,4 +80,19 @@ export const content = {
 			},
 		],
 	},
+
+	/* -------------------- FAQ Hompage -------------------- */
+	"faq.title": "Fragen und Antworten",
+	"faq.button": "Alle Fragen anzeigen",
+	"faq.arrowIconAltText": "Icon Pfeil rechts",
+
+	/* -------------------- Feedback -------------------- */
+
+	"feedback.title": "Hast du Feedback zu BärGPT?",
+	"feedback.description":
+		"Fülle die Umfrage aus und hilf uns, BärGPT noch besser zu machen.",
+	"feedback.button": "Zur Umfrage",
+	"feedback.link":
+		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
+	"feedback.arrowIconAltText": "Icon Link Pfeil",
 } as const;

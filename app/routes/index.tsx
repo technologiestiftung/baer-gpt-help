@@ -1,5 +1,8 @@
 import type { Route } from "./+types/index";
-import { content } from "../content";
+import { Hero } from "~/components/hero/hero";
+import { Feedback } from "~/components/feedback/feedback";
+import { PrimaryAnchorLink } from "~/components/primitives/anchor-links/primary-anchor-link";
+import { content } from "~/content";
 
 export function meta(_: Route.MetaArgs) {
 	return [{ title: "BärGPT Hilfe" }];
@@ -7,9 +10,22 @@ export function meta(_: Route.MetaArgs) {
 
 export default function Index() {
 	return (
-		<div className="bg-sky-300">
-			<h1>{content["hero.title"]}</h1>
-			<p>{content["hero.description"]}</p>
+		<div className="">
+			<Hero />
+			<div className="h-30  flex flex-col items-center justify-center gap-8">
+				<h2 className="text-4xl leading-10 font-semibold text-center text-dunkelblau-200">
+					{content["faq.title"]}
+				</h2>
+				<PrimaryAnchorLink href="/faq" ariaLabel={content["faq.button"]}>
+					{content["faq.button"]}
+					<img
+						src="/icons/arrow-right-icon-light.svg"
+						alt={content["faq.arrowIconAltText"]}
+					/>
+				</PrimaryAnchorLink>
+			</div>
+
+			<Feedback />
 		</div>
 	);
 }

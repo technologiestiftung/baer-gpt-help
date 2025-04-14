@@ -1,5 +1,5 @@
 import { useLocation } from "react-router";
-import { AnchorLink } from "../primitives/anchor-links/anchor-link";
+import { SecondaryAnchorLink } from "../primitives/anchor-links/secondary-anchor-link";
 import { content } from "../../content";
 
 export const DesktopNavigation = () => {
@@ -22,7 +22,7 @@ export const DesktopNavigation = () => {
 						</a>
 					</li>
 				))}
-				<AnchorLink
+				<SecondaryAnchorLink
 					href={content.header.nav.external.url}
 					target="_blank"
 					rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export const DesktopNavigation = () => {
 						alt={content.header.nav.external.altText}
 						className="size-6"
 					/>
-				</AnchorLink>
+				</SecondaryAnchorLink>
 			</ul>
 		</nav>
 	);
