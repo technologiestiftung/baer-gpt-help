@@ -22,7 +22,6 @@ export const FooterNavBar = () => (
 							{index === 0 && (
 								<img
 									src="/icons/arrow-icon-light.svg"
-									alt={content["footer.arrowIconAltText"]}
 									className={`${index === 0 ? "flex" : "hidden"}`}
 								/>
 							)}

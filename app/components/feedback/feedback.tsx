@@ -18,13 +18,9 @@ export function Feedback() {
 					title={content["feedback.button"]}
 					target="_blank"
 					rel="noopener noreferrer"
-					ariaLabel={content["feedback.button"]}
 				>
 					{content["feedback.button"]}
-					<img
-						src="/icons/arrow-icon-light.svg"
-						alt={content["feedback.arrowIconAltText"]}
-					/>
+					<img src="/icons/arrow-icon-light.svg" />
 				</PrimaryAnchorLink>
 			</div>
 		</div>

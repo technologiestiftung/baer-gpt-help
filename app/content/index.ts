@@ -3,6 +3,24 @@ export const content = {
 	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
 	"hero.title":
 		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
+	"hero.pill.videoTutorial": "Video Tutorial",
+	hero: {
+		cards: [
+			{
+				title: "Starke Anfragen formulieren mit BärGPT",
+				description: "So erstellen Sie effektive Master-Prompts",
+				link: "/tutorials", //add fitting link when available
+			},
+			{
+				title: "Texte schreiben und bearbeiten mit KI",
+				description: "BärGPT als kreatives Schreibwerkzeug nutzen.",
+				link: "/tutorials", //add fitting link when available
+			},
+		],
+	},
+	"hero.card.allTutorials.title": "Noch mehr über BärGPT lernen?",
+	"hero.card.allTutorials.button": "Alle Video-Tutorials",
+	"hero.card.allTutorials.link": "/tutorials",
 
 	/* -------------------- Header -------------------- */
 	"header.logoAlt": "Zur Startseite",
@@ -40,7 +58,6 @@ export const content = {
 
 	/* -------------------- Footer -------------------- */
 	"footer.baerIconAltText": "Logo Berlin Bär",
-	"footer.arrowIconAltText": "Icon Link Pfeil",
 	footer: {
 		navbar: [
 			{
@@ -84,7 +101,6 @@ export const content = {
 	/* -------------------- FAQ Hompage -------------------- */
 	"faq.title": "Fragen und Antworten",
 	"faq.button": "Alle Fragen anzeigen",
-	"faq.arrowIconAltText": "Icon Pfeil rechts",
 
 	/* -------------------- Feedback -------------------- */
 
@@ -94,5 +110,4 @@ export const content = {
 	"feedback.button": "Zur Umfrage",
 	"feedback.link":
 		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
-	"feedback.arrowIconAltText": "Icon Link Pfeil",
 } as const;
