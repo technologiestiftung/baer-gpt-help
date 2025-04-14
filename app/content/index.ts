@@ -1,11 +1,47 @@
 export const content = {
-	hero: {
-		title: "BärGPT",
-		description: "Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
+	/* -------------------- Hero -------------------- */
+	"hero.title": "BärGPT",
+	"hero.description":
+		"Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
+
+	/* -------------------- Header -------------------- */
+	"header.logoAlt": "Zur Startseite",
+	header: {
+		nav: {
+			internal: [
+				{
+					name: "Fragen & Antworten",
+					url: "/faq",
+					ariaLabel: "zu Fragen & Antworten Seite",
+				},
+				{
+					name: "Video-Tutorials",
+					url: "/tutorials",
+					ariaLabel: "zu Video-Tutorials Seite",
+				},
+				{
+					name: "Prompts",
+					url: "/prompts",
+					ariaLabel: "zu Prompts Seite",
+				},
+				{
+					name: "Über BärGPT",
+					url: "/about",
+					ariaLabel: "zu Über BärGPT Seite",
+				},
+			],
+			external: {
+				name: "zu BärGPT",
+				url: "https://baer-gpt-staging.vercel.app/",
+				altText: "zur BärGPT Webseite",
+			},
+		},
 	},
+
+	/* -------------------- Footer -------------------- */
+	"footer.baerIconAltText": "Logo Berlin Bär",
+	"footer.arrowIconAltText": "Icon Link Pfeil",
 	footer: {
-		baerIconAltText: "Logo Berlin Bär",
-		arrowIconAltText: "Icon Link Pfeil",
 		navbar: [
 			{
 				name: "BärGPT",

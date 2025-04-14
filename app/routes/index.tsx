@@ -8,8 +8,8 @@ export function meta(_: Route.MetaArgs) {
 export default function Index() {
 	return (
 		<div className="bg-sky-300">
-			<h1>{content.hero.title}</h1>
-			<p>{content.hero.description}</p>
+			<h1>{content["hero.title"]}</h1>
+			<p>{content["hero.description"]}</p>
 		</div>
 	);
 }
