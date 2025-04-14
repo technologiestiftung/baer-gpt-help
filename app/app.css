@@ -16,6 +16,7 @@
 	--color-hellblau-30: #f5f8fc;
 
 	--breakpoint-1080: 1080px;
+	--breakpoint-1512: 1512px;
 }
 
 @layer utilities {
