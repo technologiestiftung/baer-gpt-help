@@ -8,7 +8,7 @@ export function HeroCards() {
 			{content.hero.cards.map(({ title, description, link }, index) => (
 				<Link
 					to={link}
-					className="flex-1 min-w-0 bg-hellblau-100 text-dunkelblau-200 p-3.5 lg:py-[22px] lg:px-[26px] rounded-[3px] min-h-[230px] md:h-[270px] lg:h-[305px] flex flex-col justify-between"
+					className="flex-1 min-w-0 bg-hellblau-100 hover:bg-hellblau-60 text-dunkelblau-200 p-3.5 lg:py-[22px] lg:px-[26px] rounded-[3px] min-h-[230px] md:h-[270px] lg:h-[305px] flex flex-col justify-between"
 					key={index}
 				>
 					<div className="w-fit text-sm leading-5 lg:text-base lg:leading-6 font-semibold bg-white text-dunkelblau-200 rounded-full px-2">
