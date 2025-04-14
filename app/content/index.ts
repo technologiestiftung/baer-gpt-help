@@ -4,6 +4,8 @@ export const content = {
 	"hero.title":
 		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
+	"hero.video.title": "Erste Schritte mit BärGPT",
+	"hero.video.link": "https://player.vimeo.com/video/1038180636?",
 	hero: {
 		cards: [
 			{

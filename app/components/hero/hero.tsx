@@ -14,18 +14,15 @@ export function Hero() {
 			</div>
 			<div className="w-full flex flex-col gap-2 lg:gap-3 lg:max-w-[942px] px-5 lg:px-0">
 				<div className="flex flex-row justify-between items-center text-sm md:text-base leading-5 md-leading-6 font-semibold">
-					<p>Erste Schritte mit BärGPT</p>
+					<p>{content["hero.video.title"]}</p>
 					<div className="bg-white font-semibold text-dunkelblau-200 rounded-full px-2">
 						{content["hero.pill.videoTutorial"]}
 					</div>
 				</div>
 				<iframe
 					className="w-full aspect-video rounded-[3px]"
-					title={"Video: "}
-					src={
-						"https://player.vimeo.com/video/1038180636?" +
-						"&color=1E3791&title=0&byline=0&portrait=0&texttrack=de"
-					}
+					title={`Video: ${content["hero.video.title"]}`}
+					src={`${content["hero.video.link"]}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 					allowFullScreen={true}
 					referrerPolicy="strict-origin-when-cross-origin"
 				/>
