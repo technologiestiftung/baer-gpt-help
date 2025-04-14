@@ -7,7 +7,7 @@ export const DesktopNavigation = () => {
 	const currentPath = location.pathname;
 
 	return (
-		<nav className="hidden lg:flex justify-end items-center text-dunkelblau-100">
+		<nav className="hidden 1080:flex justify-end items-center text-dunkelblau-100">
 			<ul className="flex flex-row gap-8 text-lg leading-7 font-normal">
 				{content.header.nav.internal.map(({ url, name, ariaLabel }, index) => (
 					<li key={index} className="flex items-center">

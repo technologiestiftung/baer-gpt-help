@@ -6,7 +6,7 @@ export const MobileNavigation = () => {
 	const location = useLocation();
 	const currentPath = location.pathname;
 	return (
-		<nav className="flex lg:hidden justify-center items-center h-svh px-5 text-dunkelblau-100 text-3xl leading-9 font-semibold">
+		<nav className="flex 1080:hidden justify-left items-center h-svh px-5 text-dunkelblau-100 text-3xl leading-9 font-semibold">
 			<div className="flex flex-col gap-5 items-start">
 				{content.header.nav.internal.map(({ url, name, ariaLabel }, index) => (
 					<div key={index}>
@@ -15,7 +15,7 @@ export const MobileNavigation = () => {
 							className={
 								currentPath === url
 									? "underline decoration-3 underline-offset-6"
-									: ""
+									: "hover:underline hover:decoration-3 hover:underline-offset-6"
 							}
 							aria-label={ariaLabel}
 						>
