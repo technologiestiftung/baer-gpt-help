@@ -26,7 +26,7 @@ export const content = {
 				},
 				{
 					name: "Über BärGPT",
-					url: "/ueber",
+					url: "/about",
 					ariaLabel: "zu Über BärGPT Seite",
 				},
 			],
