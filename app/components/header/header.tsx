@@ -8,7 +8,7 @@ export function Header() {
 
 	return (
 		<header className="relative z-50">
-			<div className="flex justify-between items-center px-5 lg:px-[50px] py-4 bg-white border-b border-schwarz-100">
+			<div className="flex justify-between items-center px-5 1080:px-[50px] py-4 bg-white border-b border-schwarz-100">
 				<a href="/">
 					<img src="/logo/logo.svg" alt={content["header.logoAlt"]} />
 				</a>
@@ -18,7 +18,7 @@ export function Header() {
 				{/* Mobile hamburger */}
 				<button
 					onClick={toggleMobileMenu}
-					className={`lg:hidden flex items-center ${isMobileMenuOpen ? "hidden" : "block"}`}
+					className={`1080:hidden flex items-center ${isMobileMenuOpen ? "hidden" : "block"}`}
 					aria-label="Toggle menu"
 				>
 					<img src="/icons/menu-icon.svg" alt="Menu" />
@@ -28,7 +28,7 @@ export function Header() {
 				<button
 					onClick={toggleMobileMenu}
 					aria-label="Close menu"
-					className={`lg:hidden flex items-center ${isMobileMenuOpen ? "block" : "hidden"}`}
+					className={`1080:hidden flex items-center ${isMobileMenuOpen ? "block" : "hidden"}`}
 				>
 					<img src="/icons/close-icon.svg" alt="Close" />
 				</button>
