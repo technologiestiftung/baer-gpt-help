@@ -1,5 +1,5 @@
 import { content } from "~/content";
-import { VideoSection } from "./video-section";
+import { VideoSection } from "../../components/video-section/video-section";
 import { Feedback } from "~/components/feedback/feedback";
 
 export default function Index() {
@@ -35,15 +35,14 @@ export default function Index() {
 			</div>
 
 			<div className="max-w-[1512px] mx-auto flex flex-col py-10 md:py-[60px] lg:py-[100px] px-5 lg:px-[50px] 1512:px-0 gap-10 md:gap-[80px] lg:gap-[100px]">
-				<VideoSection
-					sectionTitle={content["tutorials.sectionDocuments"]}
-					sectionElements={content.tutorials.sectionDocuments}
-				/>
-
-				<VideoSection
-					sectionTitle={content["tutorials.sectionPrompts"]}
-					sectionElements={content.tutorials.sectionPrompts}
-				/>
+				{content["tutorials.sections"].map(({ title, videos }, index) => (
+					<VideoSection
+						key={index}
+						sectionTitle={title}
+						sectionIndex={index}
+						sectionElements={videos}
+					/>
+				))}
 			</div>
 			<Feedback />
 		</>

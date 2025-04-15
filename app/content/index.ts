@@ -366,53 +366,48 @@ export const content = {
 	"tutorials.pill.videoTutorial": "Video Tutorial",
 	"tutorials.video.link": "https://player.vimeo.com/video/1038180636?",
 
-	"tutorials.sectionDocuments": "Mit Dokumenten und Ordnern arbeiten",
-	"tutorials.sectionPrompts":
-		"Was sind Anfragen (Prompts) und wie nutze ich sie richtig?",
-	tutorials: {
-		sectionDocuments: [
-			{
-				title: "Dokumente hochladen leicht gemacht",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Dokument anzeigen, löschen und herunterladen",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Ordner erstellen und Dateien sortieren",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Fragen zu Ordnern und Dokumenten im Chat stellen",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-		],
-		sectionPrompts: [
-			{
-				title: "Starke Anfragen formulieren mit BärGPT",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Dokumente präzise zusammenfassen",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Dokumente direkt im Chat übersetzen",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-			{
-				title: "Texte schreiben und bearbeiten mit BärGPT",
-				videoLink: "https://player.vimeo.com/video/1038180636?",
-				link: "/tutorials",
-			},
-		],
-	},
+	"tutorials.sections": [
+		{
+			title: "Mit Dokumenten und Ordnern arbeiten",
+			videos: [
+				{
+					videoTitle: "Dokumente hochladen leicht gemacht",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+				{
+					videoTitle: "Dokument anzeigen, löschen und herunterladen",
+					videoLink: "https://player.vimeo.com/video/1038255491?",
+				},
+				{
+					videoTitle: "Ordner erstellen und Dateien sortieren",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+				{
+					videoTitle: "Fragen zu Ordnern und Dokumenten im Chat stellen",
+					videoLink: "https://player.vimeo.com/video/1038255491?",
+				},
+			],
+		},
+		{
+			title: "Was sind Anfragen (Prompts) und wie nutze ich sie richtig?",
+			videos: [
+				{
+					videoTitle: "Starke Anfragen formulieren mit BärGPT",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+				{
+					videoTitle: "Dokumente präzise zusammenfassen",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+				{
+					videoTitle: "Dokumente direkt im Chat übersetzen",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+				{
+					videoTitle: "Texte schreiben und bearbeiten mit BärGPT",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+			],
+		},
+	],
 } as const;
