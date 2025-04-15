@@ -1,5 +1,5 @@
 import React from "react";
-import { TertiaryAnchorLink } from "../primitives/anchor-links/tertiary-anchor-link";
+import { TertiaryTrackedAnchorLink } from "../primitives/anchor-links/tertiary-tracked-anchor-link";
 import { content } from "../../content";
 
 interface DownloadItemProps {
@@ -19,13 +19,13 @@ export const DownloadItem: React.FC<DownloadItemProps> = ({
 				<p className="text-base leading-6 font-semibold">{title}</p>
 				<p className="text-xs leading-4 font-normal">{subtitle}</p>
 			</div>
-			<TertiaryAnchorLink href={href}>
+			<TertiaryTrackedAnchorLink href={href}>
 				{content["anchor.download.label"]}
 				<img
 					src="/icons/download-icon.svg"
 					alt={content["anchor.download.alt"]}
 				/>
-			</TertiaryAnchorLink>
+			</TertiaryTrackedAnchorLink>
 		</div>
 	);
 };

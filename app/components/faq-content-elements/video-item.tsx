@@ -1,5 +1,5 @@
 import React from "react";
-import { TertiaryAnchorLink } from "../primitives/anchor-links/tertiary-anchor-link";
+import { TertiaryTrackedAnchorLink } from "../primitives/anchor-links/tertiary-tracked-anchor-link";
 import { content } from "../../content";
 
 interface VideoItemProps {
@@ -14,13 +14,13 @@ export const VideoItem: React.FC<VideoItemProps> = ({ title, href }) => {
 				<p className="text-base leading-6 font-semibold">{title}</p>
 				<p className="text-xs leading-4 font-normal">Video-Tutorial</p>
 			</div>
-			<TertiaryAnchorLink href={href}>
+			<TertiaryTrackedAnchorLink href={href}>
 				{content["anchor.toVideo.label"]}
 				<img
 					src="/icons/arrow-right-icon.svg"
 					alt={content["anchor.toVideo.alt"]}
 				/>
-			</TertiaryAnchorLink>
+			</TertiaryTrackedAnchorLink>
 		</div>
 	);
 };

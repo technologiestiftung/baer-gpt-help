@@ -1,7 +1,8 @@
 import React from "react";
 import type { AnchorLinkProps } from "./anchor-link-types";
+import { TrackedAnchorLink } from "./tracked-anchor-link";
 
-export const TertiaryAnchorLink: React.FC<AnchorLinkProps> = ({
+export const TertiaryTrackedAnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
 	target = "_self",
 	rel,
@@ -11,7 +12,7 @@ export const TertiaryAnchorLink: React.FC<AnchorLinkProps> = ({
 	children,
 }) => {
 	return (
-		<a
+		<TrackedAnchorLink
 			href={href}
 			target={target}
 			rel={rel}
@@ -22,6 +23,6 @@ export const TertiaryAnchorLink: React.FC<AnchorLinkProps> = ({
 			${className}`}
 		>
 			{children}
-		</a>
+		</TrackedAnchorLink>
 	);
 };
