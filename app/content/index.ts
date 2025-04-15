@@ -1,8 +1,28 @@
 export const content = {
 	/* -------------------- Hero -------------------- */
-	"hero.title": "BärGPT",
-	"hero.description":
-		"Hier findet man Erklärungen, Tutorials und Videos zu BärGPT.",
+	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
+	"hero.title":
+		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
+	"hero.pill.videoTutorial": "Video Tutorial",
+	"hero.video.title": "Erste Schritte mit BärGPT",
+	"hero.video.link": "https://player.vimeo.com/video/1038180636?",
+	hero: {
+		cards: [
+			{
+				title: "Starke Anfragen formulieren mit BärGPT",
+				description: "So erstellen Sie effektive Master-Prompts",
+				link: "/tutorials", //add fitting link when available
+			},
+			{
+				title: "Texte schreiben und bearbeiten mit KI",
+				description: "BärGPT als kreatives Schreibwerkzeug nutzen.",
+				link: "/tutorials", //add fitting link when available
+			},
+		],
+	},
+	"hero.card.allTutorials.title": "Noch mehr über BärGPT lernen?",
+	"hero.card.allTutorials.button": "Alle Video-Tutorials",
+	"hero.card.allTutorials.link": "/tutorials",
 
 	/* -------------------- Anchor links -------------------- */
 	"anchor.download.label": "Download",
@@ -46,7 +66,6 @@ export const content = {
 
 	/* -------------------- Footer -------------------- */
 	"footer.baerIconAltText": "Logo Berlin Bär",
-	"footer.arrowIconAltText": "Icon Link Pfeil",
 	footer: {
 		navbar: [
 			{
@@ -86,6 +105,8 @@ export const content = {
 			},
 		],
 	},
+	/* -------------------- FAQ Hompage -------------------- */
+	"faq.button": "Alle Fragen anzeigen",
 
 	/* -------------------- FAQ PAGE -------------------- */
 	"faq.title": "Fragen und Antworten",
@@ -328,4 +349,12 @@ export const content = {
 	"faq.top5.a5.video1.title":
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 	"faq.top5.a5.video1.link": "/", //TODO: add the correct link
+
+	/* -------------------- Feedback -------------------- */
+	"feedback.title": "Hast du Feedback zu BärGPT?",
+	"feedback.description":
+		"Fülle die Umfrage aus und hilf uns, BärGPT noch besser zu machen.",
+	"feedback.button": "Zur Umfrage",
+	"feedback.link":
+		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
 } as const;
