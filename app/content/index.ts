@@ -112,4 +112,62 @@ export const content = {
 	"feedback.button": "Zur Umfrage",
 	"feedback.link":
 		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
+
+	/* -------------------- Tutorials -------------------- */
+	"tutorials.title": "Video-Tutorials",
+	"tutorials.description":
+		"Unsere kurzen Videoanleitungen helfen Ihnen, schnell und sicher mit BärGPT durchzustarten. Vom ersten Überblick über die Benutzeroberfläche bis hin zur Arbeit mit Dokumenten und der gezielten Nutzung von Anfragen – hier finden Sie praxisnahe Tipps für Ihren Arbeitsalltag in der Verwaltung.",
+	"tutorials.video.title": "Erste Schritte mit BärGPT",
+	"tutorials.pill.videoTutorial": "Video Tutorial",
+	"tutorials.video.link": "https://player.vimeo.com/video/1038180636?",
+
+	"tutorials.sectionDocuments": "Mit Dokumenten und Ordnern arbeiten",
+	"tutorials.sectionPrompts":
+		"Was sind Anfragen (Prompts) und wie nutze ich sie richtig?",
+	tutorials: {
+		sectionDocuments: [
+			{
+				title: "Dokumente hochladen leicht gemacht",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Dokument anzeigen, löschen und herunterladen",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Ordner erstellen und Dateien sortieren",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Fragen zu Ordnern und Dokumenten im Chat stellen",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+		],
+		sectionPrompts: [
+			{
+				title: "Starke Anfragen formulieren mit BärGPT",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Dokumente präzise zusammenfassen",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Dokumente direkt im Chat übersetzen",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+			{
+				title: "Texte schreiben und bearbeiten mit BärGPT",
+				videoLink: "https://player.vimeo.com/video/1038180636?",
+				link: "/tutorials",
+			},
+		],
+	},
 } as const;
