@@ -1,4 +1,4 @@
-import { AnchorLink } from "../components/primitives/anchor-links/anchor-link";
+import { AnchorLink } from "../components/primitives/anchor-links/anhor-link";
 import { VideoItem } from "../components/faq-content-elements/video-item";
 import { content } from "./index";
 
@@ -32,7 +32,7 @@ export const faq = {
 								<p className="mt-3">{content["faq.section1.a2.p2"]}</p>
 							</div>
 							<div>
-								<h4 className="px-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 text-base leading-6 font-semibold">
 									{content["faq.section1.a2.h4"]}
 								</h4>
 								<VideoItem
@@ -124,7 +124,7 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section2.a8.p1"]}</p>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section2.a8.h4"]}
 								</h4>
 
@@ -173,7 +173,7 @@ export const faq = {
 								<p className="mt-3 italic">{content["faq.section3.a1.p2"]}</p>
 							</div>
 							<div>
-								<h4 className="px-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 text-base leading-6 font-semibold">
 									{content["faq.section3.a1.h4"]}
 								</h4>
 								<VideoItem
@@ -228,7 +228,7 @@ export const faq = {
 								<p className="mt-3 italic">{content["faq.section3.a5.p3"]}</p>
 							</div>
 							<div>
-								<h4 className="px-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 text-base leading-6 font-semibold">
 									{content["faq.section3.a5.h4"]}
 								</h4>
 								<VideoItem
@@ -245,7 +245,7 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section3.a6.p1"]}</p>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section3.a6.h4"]}
 								</h4>
 								<VideoItem
@@ -292,7 +292,7 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section4.a2.p1"]}</p>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section4.a2.h4"]}
 								</h4>
 								<VideoItem
@@ -314,7 +314,7 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section5.a1.p1"]}</p>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section5.a1.h4"]}
 								</h4>
 								<VideoItem
@@ -350,7 +350,7 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section6.a1.p1"]}</p>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section6.a1.h4"]}{" "}
 									{content["faq.section6.a1.email"]}
 								</h4>
@@ -374,7 +374,7 @@ export const faq = {
 								<p>{content["faq.section6.a2.p2"]}</p>
 							</div>
 							<div>
-								<h4 className="px-3 pt-3 text-base leading-6 font-semibold">
+								<h4 className="px-1 md:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section6.a2.h4"]}
 								</h4>
 								<div className="px-1 lg:px-3 py-3">
