@@ -1,4 +1,4 @@
-import { VideoItem } from "../faq-content-elements/video-item";
+import { VideoItem } from "../accordion-content-elements/video-item";
 import { content } from "../../content/index";
 
 export const topFaq = {
