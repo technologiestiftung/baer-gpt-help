@@ -23,7 +23,7 @@ export const Accordion: React.FC<AccordionProps> = ({
 				<h3 className="text-base leading-6 font-semibold md:text-xl md:leading-7">
 					{question}
 				</h3>
-				<span className="ml-4">
+				<span className="ml-4 min-w-6">
 					{isExpanded ? (
 						<img
 							src="/icons/chevron-up-icon.svg"
