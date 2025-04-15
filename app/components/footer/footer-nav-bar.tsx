@@ -1,4 +1,5 @@
 import { content } from "../../content";
+import { TrackedAnchorLink } from "../primitives/anchor-links/tracked-anchor-link";
 
 export const FooterNavBar = () => (
 	<div className="flex flex-col lg:flex-row gap-6 justify-between lg:items-center w-full p-6 lg:py-4 lg:px-[50px] bg-dunkelblau-100 text-white">
@@ -11,7 +12,7 @@ export const FooterNavBar = () => (
 		<ul className="flex flex-col lg:flex-row gap-2 lg:gap-8">
 			{content.footer.navbar.map(({ name, url }, index) => (
 				<li key={url}>
-					<a
+					<TrackedAnchorLink
 						href={url}
 						className="text-white text-base font-normal w-fit focus-outline-default"
 						target="_blank"
@@ -26,7 +27,7 @@ export const FooterNavBar = () => (
 								/>
 							)}
 						</div>
-					</a>
+					</TrackedAnchorLink>
 				</li>
 			))}
 		</ul>
