@@ -11,12 +11,12 @@ export const content = {
 			{
 				title: "Starke Anfragen formulieren mit BärGPT",
 				description: "So erstellen Sie effektive Master-Prompts",
-				link: "/tutorials", //add fitting link when available
+				videoTitle: "Starke Anfragen formulieren mit BärGPT",
 			},
 			{
 				title: "Texte schreiben und bearbeiten mit KI",
 				description: "BärGPT als kreatives Schreibwerkzeug nutzen.",
-				link: "/tutorials", //add fitting link when available
+				videoTitle: "Texte schreiben und bearbeiten mit BärGPT",
 			},
 		],
 	},

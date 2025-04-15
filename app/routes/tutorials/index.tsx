@@ -6,7 +6,7 @@ export default function Index() {
 	return (
 		<>
 			<div className="max-w-[1512px] mx-auto flex flex-col items-start">
-				<div className="md:max-w-[603px] lg:max-w-[815px] px-5 lg:px-[50px] 1512:px-0 py-10 md:py-[60px] lg:py-20 gap-3 flex flex-col text-schwarz-80">
+				<div className="md:max-w-[603px] lg:max-w-[815px] px-5 lg:px-[50px] 1512:px-0 py-10 md:py-[60px] lg:py-20 gap-3 flex flex-col text-dunkelblau-200">
 					<h1 className="lg:text-6xl lg:leading-none font-semibold md:text-4xl md:leading-10 text-2xl leading-8">
 						{content["tutorials.title"]}
 					</h1>
