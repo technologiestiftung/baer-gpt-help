@@ -1,5 +1,5 @@
-import { VideoItem } from "../components/faq-content-elements/video-item";
-import { content } from "./index";
+import { VideoItem } from "../faq-content-elements/video-item";
+import { content } from "../../content/index";
 
 export const topFaq = {
 	questions: [

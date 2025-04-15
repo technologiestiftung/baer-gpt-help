@@ -20,7 +20,9 @@ export const Accordion: React.FC<AccordionProps> = ({
 				onClick={() => setIsExpanded(!isExpanded)}
 				className="w-full flex justify-between items-center text-left cursor-pointer focus-outline-default"
 			>
-				<h3 className="text-xl leading-7 font-semibold">{question}</h3>
+				<h3 className="text-base leading-6 font-semibold md:text-xl md:leading-7">
+					{question}
+				</h3>
 				<span className="ml-4">
 					{isExpanded ? (
 						<img

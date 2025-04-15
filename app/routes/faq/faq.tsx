@@ -1,6 +1,6 @@
-import { AnchorLink } from "../components/primitives/anchor-links/anhor-link";
-import { VideoItem } from "../components/faq-content-elements/video-item";
-import { content } from "./index";
+import { AnchorLink } from "../../components/primitives/anchor-links/anhor-link";
+import { VideoItem } from "../../components/faq-content-elements/video-item";
+import { content } from "../../content/index";
 
 export const faq = {
 	sections: [
