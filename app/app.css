@@ -16,6 +16,7 @@
 	--color-hellblau-30: #f5f8fc;
 
 	--breakpoint-1080: 1080px;
+	--breakpoint-1512: 1512px;
 }
 
 @layer utilities {
@@ -27,14 +28,5 @@
 	}
 	.underline-offset-4 {
 		text-underline-offset: 4px;
-	}
-}
-
-@layer utilities {
-	.focus-outline-default {
-		@apply focus-visible:rounded-[3px] focus-visible:outline-3 focus-visible:outline-mittelblau-100 focus-visible:outline-offset-2;
-	}
-	.underline-offset-6 {
-		text-underline-offset: 6px;
 	}
 }
