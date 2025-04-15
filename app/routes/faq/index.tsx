@@ -5,7 +5,7 @@ import { faq } from "./faq";
 export default function Index() {
 	return (
 		<div className="flex flex-col justify-center mx-auto mb-[60px] lg:mb-[100px] px-5 lg:px-[50px] max-w-[1412px]">
-			<h1 className="py-10 md:py-[60px]lg:py-20 text-4xl leading-10 font-semibold md:text-6xl md:leading-none">
+			<h1 className="py-10 md:py-[60px] lg:py-20 text-4xl leading-10 font-semibold md:text-6xl md:leading-none">
 				{content["faq.title"]}
 			</h1>
 			<div className="flex flex-col gap-10 lg:gap-16">
