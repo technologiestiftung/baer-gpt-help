@@ -415,4 +415,150 @@ export const content = {
 			},
 		],
 	},
+	/* -------------------- Prompts PAGE -------------------- */
+	"prompts.title": "Prompts",
+	/* -------------------- Section 1 - Einstieg -------------------- */
+	"prompts.section1.title": "Einstieg",
+	//Question 1
+	"prompts.section1.q1": "Was ist ein Prompt?",
+	"prompts.section1.a1":
+		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll – zum Beispiel eine Frage, eine Aufgabe oder eine Anweisung. Je klarer und konkreter ein Prompt formuliert ist, desto besser kann BärGPT reagieren.",
+	"prompts.section1.a1.video1.title": "Starke Anfragen formulieren mit BärGPT",
+	"prompts.section1.a1.video1.link": "/", //TODO add link
+	//Question 2
+	"prompts.section1.q2":
+		"Welche Fragen oder Anfragen (Prompts) kann ich stellen?",
+	"prompts.section1.a2.p1":
+		"Sie können in natürlicher Sprache allgemeine Fragen stellen oder Fragen zum Inhalt der Dokumente, z.B.:",
+	"prompts.section1.a2.li1": "„Was steht im Abschnitt zur Projektplanung?“",
+	"prompts.section1.a2.li2": "„Nenne mir alle Budgetzahlen aus der Datei.“",
+	"prompts.section1.a2.li3":
+		"„Welche Aufgaben sind im Maßnahmenplan vorgesehen?“",
+	"prompts.section1.a2.p2":
+		"Oder nutzen Sie gezielt Anfragen (Prompts). In der nächsten Frage finden Sie auch unsere Promptdatenbank.",
+
+	/* -------------------- Section 2 - Master-Prompt -------------------- */
+	"prompts.section2.title": "Master-Prompt",
+	//Question 1
+	"prompts.section2.q1": "Wie erstelle ich einen Master-Prompt mit BärGPT?",
+	"prompts.section2.a1.p1":
+		"Erstellen Sie einen Masterprompt, der Ihnen hilft, den bestmöglichen Prompt zu entwickeln, indem Sie den Prozess der kontinuierlichen Verbesserung durchlaufen. Nutzen Sie Feedback-Schleifen, um den Prompt iterativ zu verfeinern. Bei jedem Start eines neuen Chats können Sie den folgenden Prompt als Unterstützung des Prompt-Designs nutzen. Damit können Sie die Qualität Ihrer Prompts signifikant steigern:",
+	"prompts.section2.a1.p2":
+		'"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:',
+	"prompts.section2.a1.li1":
+		"Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen. ",
+	"prompts.section2.a1.li2":
+		"Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern). ",
+	"prompts.section2.a1.li3":
+		"Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.",
+	"prompts.section2.a1.li4":
+		'Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."',
+	"prompts.section2.a1.h4": "Weitere Links, Tutorials und Downloads",
+	"prompts.section2.a1.link1.title":
+		"Link zum Dokument “Leitfaden für effektives Prompting”",
+	"prompts.section2.a1.link1.link":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
+	"prompts.section2.a1.video1.title":
+		"Video: Starke Anfragen formulieren mit BärGPT",
+	"prompts.section2.a1.video1.link": "", //TODO: add link
+	//Question 2
+	"prompts.section2.q2": "Wie erstelle ich einen guten Prompt?",
+
+	"prompts.section2.a2.subsection1.title": "Rolle definieren",
+	"prompts.section2.a2.subsection1.text":
+		"Geben Sie an, in welcher Rolle BärGPT antworten soll – und wer die Zielgruppe ist. Beispiele:",
+	"prompts.section2.a2.subsection1.li1":
+		"„Du bist ein Experte für Verwaltungsrecht.“",
+	"prompts.section2.a2.subsection1.li2":
+		"„Adressaten sind Bürger:innen des Landes Berlin.“",
+	"prompts.section2.a2.subsection1.li3":
+		"„Der Text richtet sich an ein Fachpublikum – setze kein Vorwissen voraus.“",
+
+	"prompts.section2.a2.subsection2.title": "Aufgabenstellung beschreiben",
+	"prompts.section2.a2.subsection2.text":
+		"Was soll BärGPT konkret tun? Beispiele:",
+	"prompts.section2.a2.subsection2.li1":
+		"„Erstelle eine Zusammenfassung des Dokuments.“",
+	"prompts.section2.a2.subsection2.li2":
+		"„Entwirf ein Einladungsschreiben für eine Sitzung.“",
+	"prompts.section2.a2.subsection2.li3":
+		"„Beantworte eine Bürgeranfrage in verständlicher Sprache.“",
+
+	"prompts.section2.a2.subsection3.title": "Kontext angeben",
+	"prompts.section2.a2.subsection3.text":
+		"Die KI kennt Ihre Situation nicht. Geben Sie Hintergründe, Ziele oder Regelwerke an. Beispiele:",
+	"prompts.section2.a2.subsection3.li1":
+		"„Die Anfrage bezieht sich auf die neue Rahmenvereinbarung.“",
+	"prompts.section2.a2.subsection3.li2":
+		"„Vor dem Hintergrund steigender Energiekosten …“",
+
+	"prompts.section2.a2.subsection4.title": "Ausgabeformat festlegen",
+	"prompts.section2.a2.subsection4.text":
+		"Wie soll das Ergebnis aussehen? Kurz oder lang? Liste oder Text? Beispiele:",
+	"prompts.section2.a2.subsection4.li1":
+		"„Fasse den Text in 5 Stichpunkten zusammen.“",
+	"prompts.section2.a2.subsection4.li2":
+		"„Erstelle eine Tabelle mit zwei Spalten.“",
+	"prompts.section2.a2.subsection4.li3":
+		"„Verfasse einen Social Media-Beitrag mit max. 280 Zeichen.“",
+
+	"prompts.section2.a2.subsection5.title": "Hinweise & Beispiele geben",
+	"prompts.section2.a2.subsection5.text":
+		"Nutzen Sie Formulierungswünsche oder Beispieltexte, um den Ton oder Stil zu steuern. Beispiele:",
+	"prompts.section2.a2.subsection5.li1":
+		"„Vermeide den Begriff ‚Bürgerpflicht‘ und nutze stattdessen ‚Mitwirkung‘.“",
+	"prompts.section2.a2.subsection5.li2":
+		"„Verwende eine formelle, sachliche Sprache.“",
+	"prompts.section2.a2.subsection5.li3":
+		"„Orientiere dich am Stil dieses Beispiels: [Text einfügen]“",
+	"prompts.section2.a2.tip":
+		"Tipp: Je konkreter Ihr Prompt ist, desto besser wird das Ergebnis.",
+	"prompts.section2.a2.h4": "Weitere Links, Tutorials und Downloads",
+	"prompts.section2.a2.link1.title":
+		"Link zum Dokument “Leitfaden für effektives Prompting”",
+	"prompts.section2.a2.link1.link":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
+	"prompts.section2.a2.video1.title": "Starke Anfragen formulieren mit BärGPT",
+	"prompts.section2.a2.video1.link": "", //TODO add link
+
+	/* -------------------- Section 3 - Prompt-Vorlagen -------------------- */
+	"prompts.section3.title": "Prompt-Vorlagen",
+	//Question 1
+	"prompts.section3.q1": "Beispiel: Dokument übersetzen",
+	"prompts.section3.a1.p1":
+		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, Verwaltungsinhalte in andere Sprachen zu übertragen – z. B. für mehrsprachige Kommunikation mit Bürger:innen oder internationalen Kontakten.",
+	"prompts.section3.a1.p2":
+		"<strong>Prompt in den Chat einfügen: </strong>„Übersetze den folgenden Text ins Englische und achte auf eine sachliche, gut verständliche Sprache.“",
+	"prompts.section3.a1.video1.title": "Dokumente direkt im Chat übersetzen",
+	"prompts.section3.a1.video1.link": "", //TODO: add link
+	//Question 2
+	"prompts.section3.q2": "Beispiel: Dokument zusammenfassen",
+	"prompts.section3.a2.p1":
+		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, umfangreiche Dokumente schnell zu erfassen und die wesentlichen Informationen herauszufiltern, was Zeit spart und die Effizienz erhöht.",
+	"prompts.section3.a2.p2":
+		'<strong>Prompt in den Chat einfügen: </strong>„Fasse den folgenden Text in wenigen, klaren Sätzen zusammen. Achte darauf, dass die wichtigsten Informationen für die weitere interne Bearbeitung erhalten bleiben. Ziel ist eine kurze Übersicht für Kolleg:innen in der Berliner Verwaltung."',
+	"prompts.section3.a2.video1.title": "Dokumente präzise zusammenfassen",
+	"prompts.section3.a2.video1.link": "", //TODO: add link
+	//Question 3
+	"prompts.section3.q3": "Beispiel: Antwortentwurf auf Bürgeranfrage",
+	"prompts.section3.a3.p1":
+		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, Antworten auf Anfragen schnell zu verfassen.",
+	"prompts.section3.a3.p2":
+		"<strong>Prompt in den Chat einfügen: </strong>„Formuliere einen höflichen, sachlichen Antwortentwurf auf die folgende Bürgeranfrage. Achte auf einen verständlichen Ton und klare Informationen. Der Text soll für die schriftliche Kommunikation im Berliner Verwaltungsumfeld geeignet sein.“",
+	//Question 4
+	"prompts.section3.q4": "Beispiel: Prüfung von Dokumenteninhalten",
+	"prompts.section3.a4.p1":
+		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, die Qualität von schriftlichen Dokumenten zu sichern, bevor sie veröffentlicht oder versendet werden.",
+	"prompts.section3.a4.p2":
+		"<strong>Prompt in den Chat einfügen: </strong>„Überprüfe bitte den folgenden Text auf Rechtschreib- und Grammatikfehler: [Dokument hochladen oder Text einfügen].“",
+	//Question 5
+	"prompts.section3.q5":
+		"Beispiel: Texterstellung für eine Veranstaltungseinladung",
+	"prompts.section3.a5.p1":
+		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, offizielle Einladungstexten für Veranstaltungen oder Informationsformate zu erstellen.",
+	"prompts.section3.a5.p2":
+		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger:innen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger:innen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
+	"prompts.section3.a5.video1.title":
+		"Texte schreiben und bearbeiten mit BärGPT",
+	"prompts.section3.a5.video1.link": "", //TODO: add link
 } as const;
