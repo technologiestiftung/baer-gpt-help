@@ -18,6 +18,7 @@ export const prompts = {
 								<VideoItem
 									title={content["prompts.section1.a1.video1.title"]}
 									href={content["prompts.section1.a1.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -69,6 +70,7 @@ export const prompts = {
 								<VideoItem
 									title={content["prompts.section2.a1.video1.title"]}
 									href={content["prompts.section2.a1.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -138,6 +140,7 @@ export const prompts = {
 								<VideoItem
 									title={content["prompts.section2.a2.video1.title"]}
 									href={content["prompts.section2.a2.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -165,6 +168,7 @@ export const prompts = {
 							<VideoItem
 								title={content["prompts.section3.a1.video1.title"]}
 								href={content["prompts.section3.a1.video1.link"]}
+								hasBorder={false}
 							/>
 						</div>
 					),
@@ -186,6 +190,7 @@ export const prompts = {
 							<VideoItem
 								title={content["prompts.section3.a2.video1.title"]}
 								href={content["prompts.section3.a2.video1.link"]}
+								hasBorder={false}
 							/>
 						</div>
 					),
@@ -241,6 +246,7 @@ export const prompts = {
 							<VideoItem
 								title={content["prompts.section3.a5.video1.title"]}
 								href={content["prompts.section3.a5.video1.link"]}
+								hasBorder={false}
 							/>
 						</div>
 					),

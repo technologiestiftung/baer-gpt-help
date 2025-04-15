@@ -46,6 +46,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section1.a2.video3.title"]}
 									href={content["faq.section1.a2.video3.link"]}
+									hasBorder={false}
 								/>
 								<p className="mt-3 italic">{content["faq.section1.a2.tip"]}</p>
 							</div>
@@ -179,6 +180,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section3.a1.video1.title"]}
 									href={content["faq.section3.a1.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -234,6 +236,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section3.a5.video1.title"]}
 									href={content["faq.section3.a5.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -251,6 +254,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section3.a6.video1.title"]}
 									href={content["faq.section3.a6.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -298,6 +302,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section4.a2.video1.title"]}
 									href={content["faq.section4.a2.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -320,6 +325,7 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section5.a1.video1.title"]}
 									href={content["faq.section5.a1.video1.link"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>

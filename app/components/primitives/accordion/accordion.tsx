@@ -15,7 +15,7 @@ export const Accordion: React.FC<AccordionProps> = ({
 	const [isExpanded, setIsExpanded] = useState(openByDefault);
 
 	return (
-		<div className="w-full p-4 bg-hellblau-50 rounded-[3px]">
+		<div className="w-full p-4 bg-hellblau-50 rounded-[3px] hover:bg-hellblau-60">
 			<button
 				onClick={() => setIsExpanded(!isExpanded)}
 				className="w-full flex justify-between items-center text-left cursor-pointer focus-outline-default"
