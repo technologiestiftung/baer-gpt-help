@@ -2,20 +2,21 @@ import { useParams } from "react-router";
 import { content } from "~/content";
 import { Feedback } from "~/components/feedback/feedback";
 import { Link } from "react-router";
+import { createSlug } from "~/utils/create-slug";
 
-function extractIdFromSlug(fullSlug: string): {
-	sectionId: number;
-	videoId: number;
-} {
-	const [sectionId, videoId] = fullSlug.split("-").slice(0, 2).map(Number);
-	return { sectionId, videoId };
-}
+const tutorialVideoElements = content["tutorials.sections"].flatMap((section) =>
+	section.videos.map((video) => ({
+		videoTitle: video.videoTitle,
+		videoLink: video.videoLink,
+	})),
+);
 
 export function VideoDetail() {
 	const { "video-slug": slug } = useParams();
-	const { sectionId, videoId } = extractIdFromSlug(slug || "");
 
-	const video = content["tutorials.sections"][sectionId].videos[videoId];
+	const videoElement = tutorialVideoElements.find(
+		(video) => createSlug(video.videoTitle) === slug,
+	);
 
 	return (
 		<>
@@ -29,16 +30,16 @@ export function VideoDetail() {
 					</Link>
 					<span className="text-base">/</span>
 					<div className="font-bold text-sm lg:text-base">
-						{video.videoTitle}
+						{videoElement?.videoTitle}
 					</div>
 				</div>
 				<h1 className="text-lg leading-7 lg:text-5xl lg:leading-none font-bold mt-10 md:mt-[60px] mb-3 lg:mt-20 lg:mb-7">
-					{video.videoTitle}
+					{videoElement?.videoTitle}
 				</h1>
 				<iframe
 					className="w-full aspect-video rounded-[3px] mb-[60px] md:mb-20 lg:mb-[100px]"
-					title={`Video: ${video.videoTitle}`}
-					src={`${video.videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
+					title={`Video: ${videoElement?.videoTitle}`}
+					src={`${videoElement?.videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 					allowFullScreen={true}
 					referrerPolicy="strict-origin-when-cross-origin"
 				/>

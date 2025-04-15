@@ -4,7 +4,6 @@ import { createSlug } from "~/utils/create-slug";
 
 interface VideoSectionProps {
 	sectionTitle: string;
-	sectionIndex: number;
 	sectionElements: ReadonlyArray<{
 		videoTitle: string;
 		videoLink: string;
@@ -13,7 +12,6 @@ interface VideoSectionProps {
 
 export const VideoSection: React.FC<VideoSectionProps> = ({
 	sectionTitle,
-	sectionIndex,
 	sectionElements,
 }) => {
 	return (
@@ -34,7 +32,7 @@ export const VideoSection: React.FC<VideoSectionProps> = ({
 								referrerPolicy="strict-origin-when-cross-origin"
 							/>
 							<Link
-								to={`/tutorials/${sectionIndex}-${videoIndex}-${videoSlug}`}
+								to={`/tutorials/${videoSlug}`}
 								className="md:text-lg md:leading-7 font-semibold text-base leading-6 hover:underline"
 							>
 								{videoTitle}

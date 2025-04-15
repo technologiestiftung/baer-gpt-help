@@ -39,7 +39,6 @@ export default function Index() {
 					<VideoSection
 						key={index}
 						sectionTitle={title}
-						sectionIndex={index}
 						sectionElements={videos}
 					/>
 				))}
