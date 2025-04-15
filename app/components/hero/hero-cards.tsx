@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export function HeroCards() {
 	return (
-		<div className="w-full my-[60px] md:mb-[80px] md:mt-[52px] lg:my-[100px] flex flex-col md:flex-row gap-5 md:gap-4 lg:gap-[46px] px-5 lg:max-w-[1411px]">
+		<div className="z-10 w-full my-[60px] md:mb-[80px] md:mt-[52px] lg:my-[100px] flex flex-col md:flex-row gap-5 md:gap-4 lg:gap-[46px] px-5 lg:max-w-[1411px]">
 			{content.hero.cards.map(({ title, description, link }, index) => (
 				<Link
 					to={link}

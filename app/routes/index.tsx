@@ -10,7 +10,7 @@ export function meta(_: Route.MetaArgs) {
 
 export default function Index() {
 	return (
-		<div className="">
+		<>
 			<Hero />
 			<div className="p-20 flex flex-col items-center justify-center gap-8">
 				<h2 className="text-4xl leading-10 font-semibold text-center text-dunkelblau-200">
@@ -23,6 +23,6 @@ export default function Index() {
 			</div>
 
 			<Feedback />
-		</div>
+		</>
 	);
 }

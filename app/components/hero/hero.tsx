@@ -1,10 +1,12 @@
 import { content } from "../../content";
 import { HeroCards } from "./hero-cards";
+import { HeroParallaxBackground } from "./hero-parallax-background";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export function Hero() {
 	return (
-		<div className="bg-dunkelblau-100 text-white flex flex-col items-center justify-center">
-			<div className="flex flex-col max-w-[623px] lg:max-w-[942px] px-5 md:px-0 text-center lg:gap-4 md:gap-2 my-[60px] md:my-20 lg:my-[150px]">
+		<div className="bg-dunkelblau-100 text-white flex flex-col items-center justify-center relative">
+			<div className="z-10 flex flex-col max-w-[623px] lg:max-w-[942px] px-5 md:px-0 text-center lg:gap-4 md:gap-2 my-[60px] md:my-20 lg:my-[150px]">
 				<p className="lg:text-2xl md:text-lg text-sm">
 					{content["hero.welcome"]}
 				</p>
@@ -12,7 +14,7 @@ export function Hero() {
 					{content["hero.title"]}
 				</h1>
 			</div>
-			<div className="w-full flex flex-col gap-2 lg:gap-3 lg:max-w-[942px] px-5 lg:px-0">
+			<div className="z-10 w-full flex flex-col gap-2 lg:gap-3 lg:max-w-[942px] px-5 lg:px-0">
 				<div className="flex flex-row justify-between items-center text-sm md:text-base leading-5 md-leading-6 font-semibold">
 					<p>{content["hero.video.title"]}</p>
 					<div className="bg-white font-semibold text-dunkelblau-200 rounded-full px-2">
@@ -28,6 +30,9 @@ export function Hero() {
 				/>
 			</div>
 			<HeroCards />
+			<ParallaxProvider>
+				<HeroParallaxBackground />
+			</ParallaxProvider>
 		</div>
 	);
 }
