@@ -10,13 +10,15 @@ export default function Index() {
 			</h1>
 			<div className="flex flex-col gap-10 lg:gap-16">
 				{prompts.sections.map((section, index) => (
-					<div key={index} className="flex flex-col gap-2.5">
+					<div key={index}>
 						<h2 className="mb-5 md:mb-6 text-xl leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10">
 							{section.title}
 						</h2>
-						{section.questions.map(({ question, answer }, qIndex) => (
-							<Accordion key={qIndex} question={question} answer={answer} />
-						))}
+						<div className="flex flex-col gap-2.5">
+							{section.questions.map(({ question, answer }, qIndex) => (
+								<Accordion key={qIndex} question={question} answer={answer} />
+							))}
+						</div>
 					</div>
 				))}
 			</div>
