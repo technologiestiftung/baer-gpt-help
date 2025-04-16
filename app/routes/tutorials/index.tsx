@@ -1,12 +1,12 @@
 import { content } from "~/content";
-import { VideoSection } from "./video-section";
+import { VideoSection } from "../../components/video-section/video-section";
 import { Feedback } from "~/components/feedback/feedback";
 
 export default function Index() {
 	return (
 		<>
 			<div className="max-w-[1512px] mx-auto flex flex-col items-start">
-				<div className="md:max-w-[603px] lg:max-w-[815px] px-5 lg:px-[50px] 1512:px-0 py-10 md:py-[60px] lg:py-20 gap-3 flex flex-col text-schwarz-80">
+				<div className="md:max-w-[603px] lg:max-w-[815px] px-5 lg:px-[50px] 1512:px-0 py-10 md:py-[60px] lg:py-20 gap-3 flex flex-col text-dunkelblau-200">
 					<h1 className="lg:text-6xl lg:leading-none font-semibold md:text-4xl md:leading-10 text-2xl leading-8">
 						{content["tutorials.title"]}
 					</h1>
@@ -35,15 +35,13 @@ export default function Index() {
 			</div>
 
 			<div className="max-w-[1512px] mx-auto flex flex-col py-10 md:py-[60px] lg:py-[100px] px-5 lg:px-[50px] 1512:px-0 gap-10 md:gap-[80px] lg:gap-[100px]">
-				<VideoSection
-					sectionTitle={content["tutorials.sectionDocuments"]}
-					sectionElements={content.tutorials.sectionDocuments}
-				/>
-
-				<VideoSection
-					sectionTitle={content["tutorials.sectionPrompts"]}
-					sectionElements={content.tutorials.sectionPrompts}
-				/>
+				{content["tutorials.sections"].map(({ title, videos }, index) => (
+					<VideoSection
+						key={index}
+						sectionTitle={title}
+						sectionElements={videos}
+					/>
+				))}
 			</div>
 			<Feedback />
 		</>
