@@ -591,5 +591,6 @@ BärGPT setzt auf Open-Source-Technologie und wird transparent,
 		"... DSGVO-Konformität",
 	],
 	"about.chat.p1": "Hey BärGPT, wer bist du?",
+	"about.chat.loadingText": "BärGPT überlegt...",
 	"about.chat.p2": `Ich bin ein KI-Assistent, der speziell für die Berliner Verwaltung entwickelt wurde. Mein Ziel ist es, Verwaltungsmitarbeitende im Arbeitsalltag zu entlasten und Prozesse effizienter zu gestalten – etwa beim Erstellen, Zusammenfassen oder Übersetzen von Texten.`,
 } as const;
