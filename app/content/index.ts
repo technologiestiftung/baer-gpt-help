@@ -133,11 +133,12 @@ export const content = {
 		"BärGPT liest Ihre Datei und liefert Ihnen passende Antworten.",
 	"faq.section1.a2.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section1.a2.video1.title": "Erste Schritte mit BärGPT",
-	"faq.section1.a2.video1.link": "", //TODO: add the correct link
+	"faq.section1.a2.video1.linkName": "Erste Schritte mit BärGPT",
 	"faq.section1.a2.video2.title": "Dokumente einfach hochladen",
-	"faq.section1.a2.video2.link": "", //TODO: add the correct link
+	"faq.section1.a2.video2.linkName": "Dokumente hochladen leicht gemacht",
 	"faq.section1.a2.video3.title": "Effektive Fragen stellen mit BärGPT",
-	"faq.section1.a2.video3.link": "", //TODO: add the correct link
+	"faq.section1.a2.video3.linkName":
+		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 	"faq.section1.a2.tip":
 		"Tipp: Sie müssen keine formellen Sätze formulieren – schreiben Sie Ihre Fragen einfach so, wie Sie sie einem Kollegen oder einer Kollegin stellen würden.",
 
@@ -218,7 +219,7 @@ export const content = {
 		"Hinweis: BärGPT unterstützt derzeit nur PDF-Dateien. Achten Sie darauf, dass die Datei unbeschädigt ist und die maximale Dateigröße nicht überschreitet.",
 	"faq.section3.a1.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section3.a1.video1.title": "Dokumente hochladen leicht gemacht",
-	"faq.section3.a1.video1.link": "/", //TODO: add the correct link
+	"faq.section3.a1.video1.linkName": "Dokumente hochladen leicht gemacht",
 
 	//Section 3 - Question 2
 	"faq.section3.q2": "Welche Dateiformate unterstützt BärGPT?",
@@ -249,13 +250,13 @@ export const content = {
 		"Tipp: Wenn das Problem weiterhin besteht, laden Sie eine andere Testdatei hoch – so können Sie eingrenzen, ob es am Dokument selbst liegt.",
 	"faq.section3.a5.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section3.a5.video1.title": "Dokumente hochladen leicht gemacht",
-	"faq.section3.a5.video1.link": "/", //TODO: add the correct link
+	"faq.section3.a5.video1.linkName": "Dokumente hochladen leicht gemacht",
 	//Section 3 - Question 6
 	"faq.section3.q6": "Wie lege ich einen Ordner an?",
 	"faq.section3.a6.p1":
 		"Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
 	"faq.section3.a6.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section3.a6.video1.link": "/", //TODO: add the correct link
+	"faq.section3.a6.video1.linkName": "Ordner erstellen und Dateien sortieren",
 	"faq.section3.a6.video1.title": "Ordner erstellen und Dateien sortieren",
 	//Section 3 - Question 7
 	"faq.section3.q7": "Wie lösche ich einen Ordner?",
@@ -286,7 +287,8 @@ export const content = {
 	"faq.section4.a2.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section4.a2.video1.title":
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
-	"faq.section4.a2.video1.link": "/", //TODO: add the correct link
+	"faq.section4.a2.video1.linkName":
+		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 
 	/* -------------------- Section 5 - Konto & Anmeldung -------------------- */
 	"faq.section5.title": "Konto & Anmeldung",
@@ -296,7 +298,7 @@ export const content = {
 		"Sie können Ihr Konto direkt auf der Startseite erstellen, indem Sie ein Konto erstellen, indem Sie Ihre E-Mail-Adresse und ein Passwort eingeben. Im Anschluss klicken Sie auf den Link in der Bestätigungs-E-Mail.",
 	"faq.section5.a1.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section5.a1.video1.title": "Erste Schritte mit BärGPT",
-	"faq.section5.a1.video1.link": "/", //TODO: add link
+	"faq.section5.a1.video1.linkName": "Erste Schritte mit BärGPT",
 	//Section 5 - Question 2
 	"faq.section5.q2": "Warum kann ich mich nicht einloggen?",
 	"faq.section5.a2.p1":
@@ -350,7 +352,8 @@ export const content = {
 	"faq.top5.a5.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.top5.a5.video1.title":
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
-	"faq.top5.a5.video1.link": "/", //TODO: add the correct link
+	"faq.top5.a5.video1.linkName":
+		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Hast du Feedback zu BärGPT?",
@@ -369,6 +372,15 @@ export const content = {
 	"tutorials.video.link": "https://player.vimeo.com/video/1038180636?",
 
 	"tutorials.sections": [
+		{
+			title: "Erste Schritte mit BärGPT",
+			videos: [
+				{
+					videoTitle: "Erste Schritte mit BärGPT",
+					videoLink: "https://player.vimeo.com/video/1038180636?",
+				},
+			],
+		},
 		{
 			title: "Mit Dokumenten und Ordnern arbeiten",
 			videos: [
@@ -425,7 +437,8 @@ export const content = {
 	"prompts.section1.a1":
 		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll – zum Beispiel eine Frage, eine Aufgabe oder eine Anweisung. Je klarer und konkreter ein Prompt formuliert ist, desto besser kann BärGPT reagieren.",
 	"prompts.section1.a1.video1.title": "Starke Anfragen formulieren mit BärGPT",
-	"prompts.section1.a1.video1.link": "/", //TODO add link
+	"prompts.section1.a1.video1.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
 	//Question 2
 	"prompts.section1.q2":
 		"Welche Fragen oder Anfragen (Prompts) kann ich stellen?",
@@ -461,7 +474,8 @@ export const content = {
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
 	"prompts.section2.a1.video1.title":
 		"Video: Starke Anfragen formulieren mit BärGPT",
-	"prompts.section2.a1.video1.link": "", //TODO: add link
+	"prompts.section2.a1.video1.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
 	//Question 2
 	"prompts.section2.q2": "Wie erstelle ich einen guten Prompt?",
 
@@ -520,7 +534,8 @@ export const content = {
 	"prompts.section2.a2.link1.link":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
 	"prompts.section2.a2.video1.title": "Starke Anfragen formulieren mit BärGPT",
-	"prompts.section2.a2.video1.link": "", //TODO add link
+	"prompts.section2.a2.video1.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
 
 	/* -------------------- Section 3 - Prompt-Vorlagen -------------------- */
 	"prompts.section3.title": "Prompt-Vorlagen",
@@ -531,7 +546,7 @@ export const content = {
 	"prompts.section3.a1.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Übersetze den folgenden Text ins Englische und achte auf eine sachliche, gut verständliche Sprache.“",
 	"prompts.section3.a1.video1.title": "Dokumente direkt im Chat übersetzen",
-	"prompts.section3.a1.video1.link": "", //TODO: add link
+	"prompts.section3.a1.video1.linkName": "Dokumente direkt im Chat übersetzen",
 	//Question 2
 	"prompts.section3.q2": "Beispiel: Dokument zusammenfassen",
 	"prompts.section3.a2.p1":
@@ -539,7 +554,7 @@ export const content = {
 	"prompts.section3.a2.p2":
 		'<strong>Prompt in den Chat einfügen: </strong>„Fasse den folgenden Text in wenigen, klaren Sätzen zusammen. Achte darauf, dass die wichtigsten Informationen für die weitere interne Bearbeitung erhalten bleiben. Ziel ist eine kurze Übersicht für Kolleg:innen in der Berliner Verwaltung."',
 	"prompts.section3.a2.video1.title": "Dokumente präzise zusammenfassen",
-	"prompts.section3.a2.video1.link": "", //TODO: add link
+	"prompts.section3.a2.video1.linkName": "Dokumente präzise zusammenfassen",
 	//Question 3
 	"prompts.section3.q3": "Beispiel: Antwortentwurf auf Bürgeranfrage",
 	"prompts.section3.a3.p1":
@@ -561,5 +576,6 @@ export const content = {
 		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger:innen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger:innen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
 	"prompts.section3.a5.video1.title":
 		"Texte schreiben und bearbeiten mit BärGPT",
-	"prompts.section3.a5.video1.link": "", //TODO: add link
+	"prompts.section3.a5.video1.linkName":
+		"Texte schreiben und bearbeiten mit BärGPT",
 } as const;

@@ -35,13 +35,15 @@ export default function Index() {
 			</div>
 
 			<div className="max-w-[1512px] mx-auto flex flex-col py-10 md:py-[60px] lg:py-[100px] px-5 lg:px-[50px] 1512:px-0 gap-10 md:gap-[80px] lg:gap-[100px]">
-				{content["tutorials.sections"].map(({ title, videos }, index) => (
-					<VideoSection
-						key={index}
-						sectionTitle={title}
-						sectionElements={videos}
-					/>
-				))}
+				{content["tutorials.sections"]
+					.slice(1)
+					.map(({ title, videos }, index) => (
+						<VideoSection
+							key={index}
+							sectionTitle={title}
+							sectionElements={videos}
+						/>
+					))}
 			</div>
 			<Feedback />
 		</>
