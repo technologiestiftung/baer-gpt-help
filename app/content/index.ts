@@ -579,12 +579,12 @@ export const content = {
 		"Texte schreiben und bearbeiten mit BärGPT",
 
 	/* -------------------- About -------------------- */
-	"about.p1.text": `BärGPT wurde vom <a class="underline"
+	"about.p1.text": `BärGPT wurde vom <a class="underline underline-offset-6"
 							href="https://citylab-berlin.org/de/start/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>CityLAB Berlin</a> ins Leben gerufen und in enger
-					Zusammenarbeit mit der <a class="underline"
+					Zusammenarbeit mit der <a class="underline underline-offset-6"
 							href="https://www.berlin.de/senatskanzlei/"
 							target="_blank"
 							rel="noopener noreferrer"

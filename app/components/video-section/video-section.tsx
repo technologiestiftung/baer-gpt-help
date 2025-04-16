@@ -33,7 +33,7 @@ export const VideoSection: React.FC<VideoSectionProps> = ({
 							/>
 							<Link
 								to={`/tutorials/${videoSlug}`}
-								className="md:text-lg md:leading-7 font-semibold text-base leading-6 hover:underline"
+								className="md:text-lg md:leading-7 font-semibold text-base leading-6 hover:underline hover:underline-offset-6"
 							>
 								{videoTitle}
 							</Link>
