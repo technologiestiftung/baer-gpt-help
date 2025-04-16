@@ -17,6 +17,31 @@
 
 	--breakpoint-1080: 1080px;
 	--breakpoint-1512: 1512px;
+
+	@keyframes shrink-grow {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.6);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	--animate-fade-in: fadeIn 0.5s ease-in-out forwards;
+
+	--animate-shrink-grow: shrink-grow 1s ease-in-out infinite;
 }
 
 @layer utilities {

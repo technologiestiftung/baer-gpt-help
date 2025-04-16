@@ -576,6 +576,40 @@ export const content = {
 		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger:innen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger:innen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
 	"prompts.section3.a5.video1.title":
 		"Texte schreiben und bearbeiten mit BärGPT",
+	"prompts.section3.a5.video1.link": "",
 	"prompts.section3.a5.video1.linkName":
 		"Texte schreiben und bearbeiten mit BärGPT",
+
+	/* -------------------- About -------------------- */
+	"about.p1.text": `BärGPT wurde vom <a class="underline underline-offset-6"
+							href="https://citylab-berlin.org/de/start/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>CityLAB Berlin</a> ins Leben gerufen und in enger
+					Zusammenarbeit mit der <a class="underline underline-offset-6"
+							href="https://www.berlin.de/senatskanzlei/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>Berliner Senatskanzlei</a> umgesetzt. Gemeinsam mit
+					Mitarbeitenden aus der Verwaltung wurden in einem agilen Prozess
+					Prototypen entwickelt, getestet und verbessert.
+					
+
+BärGPT setzt auf Open-Source-Technologie und wird transparent,
+					datenschutzkonform und nutzerzentriert weiterentwickelt – für eine
+					moderne, souveräne Verwaltungsdigitalisierung.`,
+	"about.p2.title": "So unterstützt BärGPT die Berliner Verwaltung",
+	"about.p2.text": `BärGPT unterstützt mit einem freien Chat, der flexibel einsetzbar ist – ähnlich wie bekannte KI-Systeme. So lassen sich Texte schnell erstellen, überarbeiten, übersetzen oder zusammenfassen. Auch allgemeine Fragen beantwortet das System zuverlässig. Ein weiteres zentrales Feature ist die intelligente  Dokumenten-verwaltung: Nutzer:innen können Dateien hochladen, automatisch analysieren lassen und mithilfe der integrierten RAG-Suche gezielt nach Inhalten suchen – auch in mehreren Dokumenten gleichzeitig.`,
+	"about.p3.title": "BärGPT bietet zudem eine...",
+	"about.bulletpoints": [
+		"... einfache Bedienung der Dokumente per Drag & Drop",
+		"... strukturierte Ordnerverwaltung",
+		"... Open-Source Anwendung ",
+		"... barrierearme Nutzung",
+		"... mobile sowie Desktop-Nutzung",
+		"... DSGVO-Konformität",
+	],
+	"about.chat.p1": "Hey BärGPT, wer bist du?",
+	"about.chat.loadingText": "BärGPT überlegt...",
+	"about.chat.p2": `Ich bin ein KI-Assistent, der speziell für die Berliner Verwaltung entwickelt wurde. Mein Ziel ist es, Verwaltungsmitarbeitende im Arbeitsalltag zu entlasten und Prozesse effizienter zu gestalten – etwa beim Erstellen, Zusammenfassen oder Übersetzen von Texten.`,
 } as const;

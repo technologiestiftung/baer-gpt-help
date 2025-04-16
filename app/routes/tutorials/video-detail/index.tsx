@@ -24,7 +24,7 @@ export function VideoDetail() {
 				<div className="text-base text-dunkelblau-200 flex flex-row gap-1 items-baseline md:items-end">
 					<Link
 						to={`/tutorials/`}
-						className="flex-shrink-0 text-sm lg:text-base hover:underline"
+						className="flex-shrink-0 text-sm lg:text-base hover:underline hover:underline-offset-6"
 					>
 						{content["tutorials.title"]}
 					</Link>
