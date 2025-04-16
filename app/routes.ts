@@ -6,4 +6,5 @@ export default [
 	route("/faq/", "./routes/faq/index.tsx"),
 	route("/prompts/", "./routes/prompts/index.tsx"),
 	route("/tutorials/", "./routes/tutorials/index.tsx"),
+	route("/tutorials/:video-slug/", "./routes/tutorials/video-detail/index.tsx"),
 ] satisfies RouteConfig;
