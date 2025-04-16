@@ -25,7 +25,7 @@ export function AboutHero() {
 						alt="speech bubble"
 					/>
 				</div>
-				<div className="md:pl-[122px] lg:pl-[111px] self-end w-full">
+				<div className="flex md:pl-[122px] lg:pl-[111px] justify-end w-full">
 					<div className="rounded-xs z-10 p-3 md:p-4.5 lg:p-[22px] relative bg-hellblau-30 w-[270px] md:w-full text-base leading-6 md:text-lg md:leading-7 lg:text-2xl lg:leading-8 font-normal">
 						{isCompletionLoading ? (
 							<div className="text-dunkelblau-80 flex gap-2 w-full items-center">
