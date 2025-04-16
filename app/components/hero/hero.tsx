@@ -2,15 +2,17 @@ import { content } from "../../content";
 import { HeroCards } from "./hero-cards";
 import { HeroParallaxBackground } from "./hero-parallax-background";
 import { ParallaxProvider } from "react-scroll-parallax";
+import { useMenuStore } from "../../store/use-menu-store";
 
 export function Hero() {
+	const { isMobileMenuOpen } = useMenuStore();
 	return (
 		<div className="bg-dunkelblau-100 text-white flex flex-col items-center justify-center relative">
 			<div className="z-10 flex flex-col max-w-[623px] lg:max-w-[942px] px-5 md:px-0 text-center lg:gap-4 md:gap-2 my-[60px] md:my-20 lg:my-[150px]">
 				<p className="lg:text-2xl md:text-lg text-sm">
 					{content["hero.welcome"]}
 				</p>
-				<h1 className="font-bold lg:text-5xl md:text-3xl text-[20px]">
+				<h1 className="font-bold lg:text-5xl md:text-3xl text-[20px] leading-snug">
 					{content["hero.title"]}
 				</h1>
 			</div>
@@ -30,9 +32,11 @@ export function Hero() {
 				/>
 			</div>
 			<HeroCards />
-			<ParallaxProvider>
-				<HeroParallaxBackground />
-			</ParallaxProvider>
+			{!isMobileMenuOpen && (
+				<ParallaxProvider>
+					<HeroParallaxBackground />
+				</ParallaxProvider>
+			)}
 		</div>
 	);
 }
