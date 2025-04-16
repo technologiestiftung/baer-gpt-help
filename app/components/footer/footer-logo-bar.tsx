@@ -1,7 +1,7 @@
 import { content } from "../../content";
 
 export const FooterLogoBar = () => (
-	<div className="w-full flex flex-col justify-center items-center lg:items-start lg:flex-row lg:py-6 gap-12 text-center lg:text-start text-schwarz-80">
+	<div className="w-full flex flex-col justify-center items-center lg:items-start lg:flex-row lg:py-6 gap-12 text-center lg:text-start mb-6 text-schwarz-80">
 		{content.footer.logoLinks.map(({ href, src, alt, width, text }) => (
 			<div key={href} className="flex flex-col gap-y-5">
 				{text ? (

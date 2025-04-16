@@ -21,10 +21,10 @@ export function VideoDetail() {
 	return (
 		<>
 			<div className="2xl:max-w-[1174px] xl:max-w-[964px] mx-auto flex flex-col xl:pt-6 p-5">
-				<div className="text-base text-dunkelblau-200 flex flex-row gap-1 items-end">
+				<div className="text-base text-dunkelblau-200 flex flex-row gap-1 items-baseline md:items-end">
 					<Link
 						to={`/tutorials/`}
-						className="text-sm lg:text-base hover:underline"
+						className="flex-shrink-0 text-sm lg:text-base hover:underline"
 					>
 						{content["tutorials.title"]}
 					</Link>
