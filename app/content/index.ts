@@ -107,6 +107,8 @@ export const content = {
 			},
 		],
 	},
+	/* -------------------- Icons -------------------- */
+	"icon.arrowRight.alt": "Icon Pfeil nach rechts",
 	/* -------------------- FAQ Hompage -------------------- */
 	"faq.button": "Alle Fragen anzeigen",
 
