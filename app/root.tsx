@@ -48,7 +48,7 @@ export function Layout({ children }: { children: ReactNode }) {
 				{/* <!-- End Matomo Code --> */}
 			</head>
 			<body
-				className={`${isMobileMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
+				className={`bg-white ${isMobileMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
 				<main>{children}</main>
