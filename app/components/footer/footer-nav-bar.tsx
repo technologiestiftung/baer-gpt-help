@@ -18,7 +18,7 @@ export const FooterNavBar = () => (
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<div className="flex items-center gap-0.5 border-b border-b-dunkelblau-100 hover:border-b-white">
+						<div className="flex items-center gap-0.5 w-fit border-b border-b-dunkelblau-100 hover:border-b-white">
 							<span>{name}</span>
 							{index === 0 && (
 								<img
