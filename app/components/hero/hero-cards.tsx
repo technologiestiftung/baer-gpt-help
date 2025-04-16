@@ -15,9 +15,9 @@ export function HeroCards() {
 						{content["hero.pill.videoTutorial"]}
 					</div>
 					<div className="flex flex-col gap-1 lg:gap-3">
-						<h3 className="text-xl leading-7 lg:text-3xl lg:leading-9 font-semibold">
+						<h2 className="text-xl leading-7 lg:text-3xl lg:leading-9 font-semibold">
 							{title}
-						</h3>
+						</h2>
 						<p className="text-base leading-6 lg:text-xl lg:leading-7 font-normal">
 							{description}
 						</p>
@@ -34,7 +34,10 @@ export function HeroCards() {
 					</h3>
 					<div className="flex rounded-[2px] w-fit items-center gap-2 px-3 py-2 bg-dunkelblau-100 hover:bg-dunkelblau-80 text-white text-base leading-6 lg:text-lg lg:leading-7">
 						{content["hero.card.allTutorials.button"]}
-						<img src="/icons/arrow-right-icon-light.svg" />
+						<img
+							src="/icons/arrow-right-icon-light.svg"
+							alt={content["icon.arrowRight.alt"]}
+						/>
 					</div>
 				</div>
 			</Link>
