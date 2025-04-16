@@ -367,9 +367,7 @@ export const content = {
 	"tutorials.title": "Video-Tutorials",
 	"tutorials.description":
 		"Unsere kurzen Videoanleitungen helfen Ihnen, schnell und sicher mit BärGPT durchzustarten. Vom ersten Überblick über die Benutzeroberfläche bis hin zur Arbeit mit Dokumenten und der gezielten Nutzung von Anfragen – hier finden Sie praxisnahe Tipps für Ihren Arbeitsalltag in der Verwaltung.",
-	"tutorials.video.title": "Erste Schritte mit BärGPT",
 	"tutorials.pill.videoTutorial": "Video Tutorial",
-	"tutorials.video.link": "https://player.vimeo.com/video/1038180636?",
 
 	"tutorials.sections": [
 		{

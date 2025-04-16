@@ -19,15 +19,15 @@ export default function Index() {
 			<div className="w-full flex flex-col items-center bg-dunkelblau-100 text-white py-10 md:py-[60px] lg:py-20">
 				<div className="w-full flex flex-col gap-2 lg:gap-3 lg:max-w-[935px] px-5 lg:px-0">
 					<div className="flex flex-row justify-between items-center text-sm md:text-base leading-5 md-leading-6 font-semibold">
-						<p>{content["tutorials.video.title"]}</p>
+						<p>{content["tutorials.sections"][0].title}</p>
 						<div className="bg-white font-semibold text-dunkelblau-200 rounded-full px-2">
 							{content["tutorials.pill.videoTutorial"]}
 						</div>
 					</div>
 					<iframe
 						className="w-full aspect-video rounded-[3px]"
-						title={`Video: ${content["tutorials.video.title"]}`}
-						src={`${content["tutorials.video.link"]}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
+						title={`Video: ${content["tutorials.sections"][0].videos[0].videoTitle}`}
+						src={`${content["tutorials.sections"][0].videos[0].videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 						allowFullScreen={true}
 						referrerPolicy="strict-origin-when-cross-origin"
 					/>
