@@ -9,10 +9,10 @@ export function meta(_: Route.MetaArgs) {
 
 export default function Index() {
 	return (
-		<div className="">
+		<>
 			<Hero />
 			<TopFaq />
 			<Feedback />
-		</div>
+		</>
 	);
 }
