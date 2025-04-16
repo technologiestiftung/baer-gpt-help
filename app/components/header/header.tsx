@@ -2,6 +2,7 @@ import { content } from "../../content";
 import { MobileNavigation } from "./mobile-navigation";
 import { useMenuStore } from "../../store/use-menu-store";
 import { DesktopNavigation } from "./desktop-navigation";
+import { HeaderIconButton } from "./header-icon-button";
 
 export function Header() {
 	const { isMobileMenuOpen, toggleMobileMenu } = useMenuStore();
@@ -16,22 +17,26 @@ export function Header() {
 				<DesktopNavigation />
 
 				{/* Mobile hamburger */}
-				<button
-					onClick={toggleMobileMenu}
-					className={`1080:hidden flex items-center ${isMobileMenuOpen ? "hidden" : "block"}`}
-					aria-label="Toggle menu"
-				>
-					<img src="/icons/menu-icon.svg" alt="Menu" />
-				</button>
+				{!isMobileMenuOpen && (
+					<HeaderIconButton
+						onClick={toggleMobileMenu}
+						ariaLabel={content["header.button.hamburger.ariaLabel"]}
+						defaultIconSrc="/icons/menu-icon.svg"
+						hoverIconSrc="/icons/menu-bold-icon.svg"
+						className="1080:hidden"
+					/>
+				)}
 
 				{/* close button */}
-				<button
-					onClick={toggleMobileMenu}
-					aria-label="Close menu"
-					className={`1080:hidden flex items-center ${isMobileMenuOpen ? "block" : "hidden"}`}
-				>
-					<img src="/icons/close-icon.svg" alt="Close" />
-				</button>
+				{isMobileMenuOpen && (
+					<HeaderIconButton
+						onClick={toggleMobileMenu}
+						ariaLabel={content["header.button.close.ariaLabel"]}
+						defaultIconSrc="/icons/close-icon.svg"
+						hoverIconSrc="/icons/close-bold-icon.svg"
+						className="1080:hidden"
+					/>
+				)}
 			</div>
 
 			{isMobileMenuOpen && <MobileNavigation />}
