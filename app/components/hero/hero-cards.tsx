@@ -1,5 +1,4 @@
 import { content } from "../../content";
-import { PrimaryAnchorLink } from "../primitives/anchor-links/primary-anchor-link";
 import { Link } from "react-router";
 import { createSlug } from "~/utils/create-slug";
 
@@ -33,10 +32,10 @@ export function HeroCards() {
 					<h3 className="text-xl leading-7 lg:text-3xl lg:leading-9 font-semibold">
 						{content["hero.card.allTutorials.title"]}
 					</h3>
-					<PrimaryAnchorLink href={content["hero.card.allTutorials.link"]}>
+					<div className="flex rounded-[2px] w-fit items-center gap-2 px-3 py-2 bg-dunkelblau-100 hover:bg-dunkelblau-80 text-white text-base leading-6 lg:text-lg lg:leading-7">
 						{content["hero.card.allTutorials.button"]}
 						<img src="/icons/arrow-right-icon-light.svg" />
-					</PrimaryAnchorLink>
+					</div>
 				</div>
 			</Link>
 		</div>

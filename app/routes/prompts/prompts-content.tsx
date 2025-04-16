@@ -1,6 +1,7 @@
 import { VideoItem } from "~/components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
 import { DownloadItem } from "~/components/accordion-content-elements/download-item";
+import { createSlug } from "~/utils/create-slug";
 
 export const prompts = {
 	sections: [
@@ -17,7 +18,7 @@ export const prompts = {
 							<div>
 								<VideoItem
 									title={content["prompts.section1.a1.video1.title"]}
-									href={content["prompts.section1.a1.video1.link"]}
+									href={`/tutorials/${createSlug(content["prompts.section1.a1.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -69,7 +70,7 @@ export const prompts = {
 								/>
 								<VideoItem
 									title={content["prompts.section2.a1.video1.title"]}
-									href={content["prompts.section2.a1.video1.link"]}
+									href={`/tutorials/${createSlug(content["prompts.section2.a1.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -139,7 +140,7 @@ export const prompts = {
 								/>
 								<VideoItem
 									title={content["prompts.section2.a2.video1.title"]}
-									href={content["prompts.section2.a2.video1.link"]}
+									href={`/tutorials/${createSlug(content["prompts.section2.a2.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -167,7 +168,7 @@ export const prompts = {
 							/>
 							<VideoItem
 								title={content["prompts.section3.a1.video1.title"]}
-								href={content["prompts.section3.a1.video1.link"]}
+								href={`/tutorials/${createSlug(content["prompts.section3.a1.video1.linkName"])}`}
 								hasBorder={false}
 							/>
 						</div>
@@ -189,7 +190,7 @@ export const prompts = {
 							/>
 							<VideoItem
 								title={content["prompts.section3.a2.video1.title"]}
-								href={content["prompts.section3.a2.video1.link"]}
+								href={`/tutorials/${createSlug(content["prompts.section3.a2.video1.linkName"])}`}
 								hasBorder={false}
 							/>
 						</div>
@@ -245,7 +246,7 @@ export const prompts = {
 							/>
 							<VideoItem
 								title={content["prompts.section3.a5.video1.title"]}
-								href={content["prompts.section3.a5.video1.link"]}
+								href={`/tutorials/${createSlug(content["prompts.section3.a5.video1.linkName"])}`}
 								hasBorder={false}
 							/>
 						</div>

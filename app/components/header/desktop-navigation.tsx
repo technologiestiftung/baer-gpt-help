@@ -26,6 +26,7 @@ export const DesktopNavigation = () => {
 					href={content.header.nav.external.url}
 					target="_blank"
 					rel="noopener noreferrer"
+					className="pr-2"
 				>
 					{content.header.nav.external.name}
 					<img
