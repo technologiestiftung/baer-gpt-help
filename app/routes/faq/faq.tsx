@@ -1,6 +1,7 @@
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
 import { VideoItem } from "../../components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
+import { createSlug } from "~/utils/create-slug";
 
 export const faq = {
 	sections: [
@@ -37,15 +38,15 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section1.a2.video1.title"]}
-									href={content["faq.section1.a2.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a2.video1.linkName"])}`}
 								/>
 								<VideoItem
 									title={content["faq.section1.a2.video2.title"]}
-									href={content["faq.section1.a2.video2.link"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a2.video2.linkName"])}`}
 								/>
 								<VideoItem
 									title={content["faq.section1.a2.video3.title"]}
-									href={content["faq.section1.a2.video3.link"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a2.video3.linkName"])}`}
 									hasBorder={false}
 								/>
 								<p className="mt-3 italic">{content["faq.section1.a2.tip"]}</p>
@@ -179,7 +180,7 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section3.a1.video1.title"]}
-									href={content["faq.section3.a1.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section3.a1.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -235,7 +236,7 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section3.a5.video1.title"]}
-									href={content["faq.section3.a5.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section3.a5.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -253,7 +254,7 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section3.a6.video1.title"]}
-									href={content["faq.section3.a6.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section3.a6.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -301,7 +302,7 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section4.a2.video1.title"]}
-									href={content["faq.section4.a2.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section4.a2.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
@@ -324,7 +325,7 @@ export const faq = {
 								</h4>
 								<VideoItem
 									title={content["faq.section5.a1.video1.title"]}
-									href={content["faq.section5.a1.video1.link"]}
+									href={`/tutorials/${createSlug(content["faq.section5.a1.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>

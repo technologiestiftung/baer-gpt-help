@@ -1,5 +1,6 @@
 import { VideoItem } from "../accordion-content-elements/video-item";
 import { content } from "../../content/index";
+import { createSlug } from "~/utils/create-slug";
 
 export const topFaq = {
 	questions: [
@@ -37,15 +38,15 @@ export const topFaq = {
 						</h4>
 						<VideoItem
 							title={content["faq.section1.a2.video1.title"]}
-							href={content["faq.section1.a2.video1.link"]}
+							href={`/tutorials/${createSlug(content["faq.section1.a2.video1.linkName"])}`}
 						/>
 						<VideoItem
 							title={content["faq.section1.a2.video2.title"]}
-							href={content["faq.section1.a2.video2.link"]}
+							href={`/tutorials/${createSlug(content["faq.section1.a2.video2.linkName"])}`}
 						/>
 						<VideoItem
 							title={content["faq.section1.a2.video3.title"]}
-							href={content["faq.section1.a2.video3.link"]}
+							href={`/tutorials/${createSlug(content["faq.section1.a2.video3.linkName"])}`}
 							hasBorder={false}
 						/>
 						<p className="mt-3 italic">{content["faq.section1.a2.tip"]}</p>
@@ -79,7 +80,7 @@ export const topFaq = {
 						</h4>
 						<VideoItem
 							title={content["faq.section3.a1.video1.title"]}
-							href={content["faq.section3.a1.video1.link"]}
+							href={`/tutorials/${createSlug(content["faq.section3.a1.video1.linkName"])}`}
 							hasBorder={false}
 						/>
 					</div>
@@ -99,7 +100,7 @@ export const topFaq = {
 						</h4>
 						<VideoItem
 							title={content["faq.top5.a5.video1.title"]}
-							href={content["faq.top5.a5.video1.link"]}
+							href={`/tutorials/${createSlug(content["faq.top5.a5.video1.linkName"])}`}
 							hasBorder={false}
 						/>
 					</div>
