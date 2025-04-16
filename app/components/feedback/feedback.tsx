@@ -31,7 +31,7 @@ export function Feedback() {
 					rel="noopener noreferrer"
 				>
 					{content["feedback.button"]}
-					<img src="/icons/arrow-icon-light.svg" />
+					<img src="/icons/arrow-icon-light.svg" alt="" />
 				</PrimaryAnchorLink>
 			</div>
 		</div>

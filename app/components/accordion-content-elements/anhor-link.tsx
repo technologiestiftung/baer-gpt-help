@@ -21,7 +21,7 @@ export const AnchorLink: React.FC<AnchorLinkProps> = ({
             ${className}`}
 		>
 			<span>{title}</span>
-			<img src="/icons/arrow-icon-dark.svg" />
+			<img src="/icons/arrow-icon-dark.svg" alt="" />
 		</TrackedAnchorLink>
 	);
 };

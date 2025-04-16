@@ -18,7 +18,7 @@ export const TopFaq = () => {
 			</div>
 			<PrimaryAnchorLink href="/faq">
 				{content["faq.button"]}
-				<img src="/icons/arrow-right-icon-light.svg" />
+				<img src="/icons/arrow-right-icon-light.svg" alt="" />
 			</PrimaryAnchorLink>
 		</div>
 	);
