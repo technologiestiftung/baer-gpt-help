@@ -32,6 +32,8 @@ export const content = {
 
 	/* -------------------- Header -------------------- */
 	"header.logoAlt": "Zur Startseite",
+	"header.button.hamburger.ariaLabel": "Menü öffnen",
+	"header.button.close.ariaLabel": "Menü schließen",
 	header: {
 		nav: {
 			internal: [
