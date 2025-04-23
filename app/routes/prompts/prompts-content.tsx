@@ -60,7 +60,7 @@ export const prompts = {
 								</ul>
 							</div>
 							<div>
-								<h4 className="px-1 lg:px-3 text-base leading-6 font-semibold">
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["prompts.section2.a1.h4"]}
 								</h4>
 								<DownloadItem
@@ -130,7 +130,7 @@ export const prompts = {
 								<p className="mt-3">{content["prompts.section2.a2.tip"]}</p>
 							</div>
 							<div>
-								<h4 className="px-1 lg:px-3 text-base leading-6 font-semibold">
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["prompts.section2.a2.h4"]}
 								</h4>
 								<DownloadItem

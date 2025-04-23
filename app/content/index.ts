@@ -10,7 +10,7 @@ export const content = {
 		cards: [
 			{
 				title: "Starke Anfragen formulieren mit BärGPT",
-				description: "So erstellen Sie effektive Master-Prompts",
+				description: "So erstellen Sie effektive Master-Prompts.",
 				videoTitle: "Starke Anfragen formulieren mit BärGPT",
 			},
 			{
@@ -103,7 +103,7 @@ export const content = {
 				src: "https://logos.citylab-berlin.org/logo-senatskanzlei-buergermeister-horizontal.svg",
 				alt: "Logo Senatskanzlei",
 				width: "w-[230px]",
-				text: "Geförder durch",
+				text: "Gefördert durch",
 			},
 		],
 	},
@@ -136,11 +136,10 @@ export const content = {
 	"faq.section1.a2.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section1.a2.video1.title": "Erste Schritte mit BärGPT",
 	"faq.section1.a2.video1.linkName": "Erste Schritte mit BärGPT",
-	"faq.section1.a2.video2.title": "Dokumente einfach hochladen",
+	"faq.section1.a2.video2.title": "Dokumente hochladen leicht gemacht",
 	"faq.section1.a2.video2.linkName": "Dokumente hochladen leicht gemacht",
-	"faq.section1.a2.video3.title": "Effektive Fragen stellen mit BärGPT",
-	"faq.section1.a2.video3.linkName":
-		"Fragen zu Ordnern und Dokumenten im Chat stellen",
+	"faq.section1.a2.video3.title": "Starke Anfragen formulieren mit BärGPT",
+	"faq.section1.a2.video3.linkName": "Starke Anfragen formulieren mit BärGPT",
 	"faq.section1.a2.tip":
 		"Tipp: Sie müssen keine formellen Sätze formulieren – schreiben Sie Ihre Fragen einfach so, wie Sie sie einem Kollegen oder einer Kollegin stellen würden.",
 

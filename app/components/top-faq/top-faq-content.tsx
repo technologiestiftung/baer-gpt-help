@@ -33,7 +33,7 @@ export const topFaq = {
 						<p className="mt-3">{content["faq.section1.a2.p2"]}</p>
 					</div>
 					<div>
-						<h4 className="px-1 lg:px-3 text-base leading-6 font-semibold">
+						<h4 className="lg:px-3 text-base leading-6 font-semibold">
 							{content["faq.section1.a2.h4"]}
 						</h4>
 						<VideoItem
@@ -75,7 +75,7 @@ export const topFaq = {
 						<p className="mt-3 italic">{content["faq.section3.a1.p2"]}</p>
 					</div>
 					<div>
-						<h4 className="px-1 lg:px-3 text-base leading-6 font-semibold">
+						<h4 className="lg:px-3 text-base leading-6 font-semibold">
 							{content["faq.section3.a1.h4"]}
 						</h4>
 						<VideoItem
@@ -95,7 +95,7 @@ export const topFaq = {
 						<p className="mb-3">{content["faq.top5.a5.p1"]}</p>
 					</div>
 					<div>
-						<h4 className="px-1 lg:px-3 text-base leading-6 font-semibold">
+						<h4 className="lg:px-3 text-base leading-6 font-semibold">
 							{content["faq.top5.a5.h4"]}
 						</h4>
 						<VideoItem
