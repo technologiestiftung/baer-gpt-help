@@ -151,7 +151,7 @@ export const content = {
 	"faq.section2.a1":
 		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
 	"faq.section2.a1.link1.title":
-		'Link zum Rundschreiben „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin"',
+		"Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin",
 	"faq.section2.a1.link1.link":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 	//Section 2 - Question 2
@@ -278,7 +278,7 @@ export const content = {
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
 	//Section 4 - Question 1
-	"faq.section4.q1": "wie chatte ich mit meinen Dateien?",
+	"faq.section4.q1": "Wie chatte ich mit meinen Dateien?",
 	"faq.section4.a1":
 		"Sobald Sie eine Datei hochgeladen haben, können Sie Fragen zu deren Inhalt stellen. Beispiel: „Was steht im Abschnitt zur Budgetplanung?“ BärGPT analysiert die Datei und liefert relevante Antworten aus dem Text. Auch mehrere Dateien können gleichzeitig durchsucht werden",
 	//Section 4 - Question 2

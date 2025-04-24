@@ -1,3 +1,4 @@
+import { DownloadItem } from "../../components/accordion-content-elements/download-item";
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
 import { VideoItem } from "../../components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
@@ -65,9 +66,9 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							{content["faq.section2.a1"]}
 							<div>
-								<AnchorLink
-									href={content["faq.section2.a8.link1.link"]}
-									rel="noopener noreferrer"
+								<DownloadItem
+									href={content["faq.section2.a1.link1.link"]}
+									subtitle="PDF"
 									title={content["faq.section2.a1.link1.title"]}
 								/>
 							</div>
@@ -385,9 +386,9 @@ export const faq = {
 									{content["faq.section6.a2.h4"]}
 								</h4>
 								<div className="lg:px-3 py-3">
-									<AnchorLink
+									<DownloadItem
 										href={content["faq.section6.a2.link1.href"]}
-										rel="noopener noreferrer"
+										subtitle="PDF"
 										title={content["faq.section6.a2.link1.title"]}
 									/>
 								</div>
