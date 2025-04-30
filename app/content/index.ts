@@ -60,7 +60,7 @@ export const content = {
 			],
 			external: {
 				name: "zu BärGPT",
-				url: "https://baer-gpt-staging.vercel.app/",
+				url: "https://www.baergpt.berlin/",
 				altText: "zur BärGPT Webseite",
 			},
 		},
@@ -72,7 +72,7 @@ export const content = {
 		navbar: [
 			{
 				name: "BärGPT",
-				url: "https://baer-gpt-staging.vercel.app/",
+				url: "https://www.baergpt.berlin/",
 			},
 			{
 				name: "Impressum",
