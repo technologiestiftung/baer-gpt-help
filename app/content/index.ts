@@ -357,9 +357,9 @@ export const content = {
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 
 	/* -------------------- Feedback -------------------- */
-	"feedback.title": "Hast du Feedback zu BärGPT?",
+	"feedback.title": "Haben Sie Feedback zu BärGPT?",
 	"feedback.description":
-		"Fülle die Umfrage aus und hilf uns, BärGPT noch besser zu machen.",
+		"Füllen Sie die Umfrage aus und helfen Sie uns, BärGPT noch besser zu machen.",
 	"feedback.button": "Zur Umfrage",
 	"feedback.link":
 		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
