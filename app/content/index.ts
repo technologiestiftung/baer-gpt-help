@@ -318,8 +318,8 @@ export const content = {
 	//Section 6 - Question 1
 	"faq.section6.q1": "Wo finde ich weitere Unterstützung?",
 	"faq.section6.a1.p1":
-		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über.",
-	"faq.section6.a1.email": " .", //TODO add email
+		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
+	"faq.section6.a1.email": "support@baergpt.berlin",
 	"faq.section6.a1.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.section6.a1.link1.title": "Link zur Video-Tutorials Seite",
 	"faq.section6.a1.link1.href": "/tutorials",

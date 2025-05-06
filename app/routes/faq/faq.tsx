@@ -356,11 +356,21 @@ export const faq = {
 					question: content["faq.section6.q1"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
-							<p>{content["faq.section6.a1.p1"]}</p>
+							<span>
+								{content["faq.section6.a1.p1"]}
+								<a
+									href={`mailto:${content["faq.section6.a1.email"]}`}
+									rel="noopener noreferrer"
+									title={content["faq.section6.a1.email"]}
+									className="underline decoration-1 underline-offset-4 focus-outline-default"
+								>
+									{content["faq.section6.a1.email"]}
+								</a>
+							</span>
+
 							<div>
 								<h4 className="lg:px-3 pt-3 text-base leading-6 font-semibold">
 									{content["faq.section6.a1.h4"]}{" "}
-									{content["faq.section6.a1.email"]}
 								</h4>
 								<div className="lg:px-3 py-3">
 									<AnchorLink
