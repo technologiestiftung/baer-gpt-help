@@ -4,8 +4,8 @@ export const content = {
 	"hero.title":
 		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
-	"hero.video.title": "Erste Schritte mit BärGPT",
-	"hero.video.link": "https://player.vimeo.com/video/1038180636?",
+	"hero.video.title": "Dokumente präzise zusammenfassen",
+	"hero.video.link": "https://player.vimeo.com/video/1081777564?",
 	hero: {
 		cards: [
 			{
@@ -376,7 +376,7 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Erste Schritte mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081777564?",
 				},
 			],
 		},
@@ -385,19 +385,20 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Dokumente hochladen leicht gemacht",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081777564?",
 				},
 				{
-					videoTitle: "Dokument anzeigen, löschen und herunterladen",
-					videoLink: "https://player.vimeo.com/video/1038255491?",
+					videoTitle:
+						"Dokumente verwalten, anzeigen, herunterladen und löschen",
+					videoLink: "https://player.vimeo.com/video/1081772308?",
 				},
 				{
 					videoTitle: "Ordner erstellen und Dateien sortieren",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081774063?",
 				},
 				{
 					videoTitle: "Fragen zu Ordnern und Dokumenten im Chat stellen",
-					videoLink: "https://player.vimeo.com/video/1038255491?",
+					videoLink: "https://player.vimeo.com/video/1081777564?",
 				},
 			],
 		},
@@ -406,19 +407,19 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Starke Anfragen formulieren mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081772308?",
 				},
 				{
 					videoTitle: "Dokumente präzise zusammenfassen",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081777564?",
 				},
 				{
 					videoTitle: "Dokumente direkt im Chat übersetzen",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081777564?",
 				},
 				{
 					videoTitle: "Texte schreiben und bearbeiten mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1038180636?",
+					videoLink: "https://player.vimeo.com/video/1081774063?",
 				},
 			],
 		},
