@@ -4,8 +4,8 @@ export const content = {
 	"hero.title":
 		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
-	"hero.video.title": "Dokumente präzise zusammenfassen",
-	"hero.video.link": "https://player.vimeo.com/video/1081777564?",
+	"hero.video.title": "Erste Schritte mit BärGPT",
+	"hero.video.link": "https://player.vimeo.com/video/1082110109?",
 	hero: {
 		cards: [
 			{
@@ -16,7 +16,7 @@ export const content = {
 			{
 				title: "Texte schreiben und bearbeiten mit KI",
 				description: "BärGPT als kreatives Schreibwerkzeug nutzen.",
-				videoTitle: "Texte schreiben und bearbeiten mit BärGPT",
+				videoTitle: "Texte mit BärGPT schreiben und bearbeiten",
 			},
 		],
 	},
@@ -376,7 +376,7 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Erste Schritte mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1081777564?",
+					videoLink: "https://player.vimeo.com/video/1082110109?",
 				},
 			],
 		},
@@ -385,7 +385,7 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Dokumente hochladen leicht gemacht",
-					videoLink: "https://player.vimeo.com/video/1081777564?",
+					videoLink: "https://player.vimeo.com/video/1082104093?",
 				},
 				{
 					videoTitle:
@@ -397,8 +397,8 @@ export const content = {
 					videoLink: "https://player.vimeo.com/video/1081774063?",
 				},
 				{
-					videoTitle: "Fragen zu Ordnern und Dokumenten im Chat stellen",
-					videoLink: "https://player.vimeo.com/video/1081777564?",
+					videoTitle: "Fragen zu Dokumenten und Ordnern im Chat stellen",
+					videoLink: "https://player.vimeo.com/video/1082105161?",
 				},
 			],
 		},
@@ -407,7 +407,7 @@ export const content = {
 			videos: [
 				{
 					videoTitle: "Starke Anfragen formulieren mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1081772308?",
+					videoLink: "https://player.vimeo.com/video/1082099572?",
 				},
 				{
 					videoTitle: "Dokumente präzise zusammenfassen",
@@ -415,11 +415,11 @@ export const content = {
 				},
 				{
 					videoTitle: "Dokumente direkt im Chat übersetzen",
-					videoLink: "https://player.vimeo.com/video/1081777564?",
+					videoLink: "https://player.vimeo.com/video/1082096498?",
 				},
 				{
-					videoTitle: "Texte schreiben und bearbeiten mit BärGPT",
-					videoLink: "https://player.vimeo.com/video/1081774063?",
+					videoTitle: "Texte mit BärGPT schreiben und bearbeiten",
+					videoLink: "https://player.vimeo.com/video/1082098263?",
 				},
 			],
 		},
