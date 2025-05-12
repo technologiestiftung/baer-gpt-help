@@ -362,7 +362,7 @@ export const content = {
 		"Füllen Sie die Umfrage aus und helfen Sie uns, BärGPT noch besser zu machen.",
 	"feedback.button": "Zur Umfrage",
 	"feedback.link":
-		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt-hilfe",
+		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt",
 
 	/* -------------------- Tutorials -------------------- */
 	"tutorials.title": "Video-Tutorials",
