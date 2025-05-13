@@ -11,7 +11,7 @@ export function Feedback() {
 			className={`flex flex-col items-center justify-center gap-3 px-5 py-[60px] lg:py-20 bg-hellblau-100 ${isNotIndexPage && "lg:px-[50px] lg:py-[40px]"}`}
 		>
 			<div
-				className={`flex items-center gap-6 md:gap-8 flex-col md:max-w-[463px] lg:max-w-[580px]
+				className={`flex items-center gap-6 md:gap-8 flex-col md:max-w-[463px] lg:max-w-[580px] z-10
 				${isNotIndexPage && "lg:flex-row lg:w-full lg:justify-between lg:max-w-[1412px]"}`}
 			>
 				<div
