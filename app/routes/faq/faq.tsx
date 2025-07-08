@@ -126,27 +126,6 @@ export const faq = {
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p>{content["faq.section2.a8.p1"]}</p>
-							<div>
-								<h4 className="lg:px-3 pt-3 text-base leading-6 font-semibold">
-									{content["faq.section2.a8.h4"]}
-								</h4>
-
-								<div className="lg:px-3 py-3 border-b-[0.5px] border-dunkelblau-200">
-									<AnchorLink
-										href={content["faq.section2.a8.link1.link"]}
-										rel="noopener noreferrer"
-										title={content["faq.section2.a8.link1.title"]}
-									/>
-								</div>
-
-								<div className="lg:px-3 py-3">
-									<AnchorLink
-										href={content["faq.section2.a8.link2.link"]}
-										rel="noopener noreferrer"
-										title={content["faq.section2.a8.link2.title"]}
-									/>
-								</div>
-							</div>
 						</div>
 					),
 				},

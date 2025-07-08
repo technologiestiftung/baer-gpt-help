@@ -197,14 +197,7 @@ export const content = {
 	//Section 2 - Question 8
 	"faq.section2.q8": "Ist BärGPT Open Source und kann frei genutzt werden?",
 	"faq.section2.a8.p1":
-		"Ja. BärGPT ist ein Open Source-Projekt, das von der Technologiestiftung Berlin entwickelt wurde. Der Quellcode ist öffentlich zugänglich und kann transparent eingesehen, weiterentwickelt oder angepasst werden.",
-	"faq.section2.a8.h4": "Hier finden Sie die Repositories:",
-	"faq.section2.a8.link1.title": "BärGPT Backend (API & Datenbank)",
-	"faq.section2.a8.link1.link":
-		"https://github.com/technologiestiftung/baer-gpt-v2-api-database",
-	"faq.section2.a8.link2.title": "BärGPT Frontend (Weboberfläche)",
-	"faq.section2.a8.link2.link":
-		"https://github.com/technologiestiftung/baer-gpt-v2-frontend",
+		"Ja, BärGPT ist ein Open Source-Projekt, das von der Technologiestiftung Berlin entwickelt wurde. Der Quellcode wird nach Abschluss der internen Betaphase veröffentlicht und kann dann öffentlich eingesehen, weiterentwickelt oder angepasst werden.",
 
 	/* -------------------- Section 3 - Arbeiten mit Dateien -------------------- */
 
@@ -485,7 +478,7 @@ export const content = {
 	"prompts.section2.a2.subsection1.li1":
 		"„Du bist ein Experte für Verwaltungsrecht.“",
 	"prompts.section2.a2.subsection1.li2":
-		"„Adressaten sind Bürger:innen des Landes Berlin.“",
+		"„Adressaten sind Bürger und Bürgerinnen des Landes Berlin.“",
 	"prompts.section2.a2.subsection1.li3":
 		"„Der Text richtet sich an ein Fachpublikum – setze kein Vorwissen voraus.“",
 
@@ -542,7 +535,7 @@ export const content = {
 	//Question 1
 	"prompts.section3.q1": "Beispiel: Dokument übersetzen",
 	"prompts.section3.a1.p1":
-		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, Verwaltungsinhalte in andere Sprachen zu übertragen – z. B. für mehrsprachige Kommunikation mit Bürger:innen oder internationalen Kontakten.",
+		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, Verwaltungsinhalte in andere Sprachen zu übertragen – z. B. für mehrsprachige Kommunikation mit Bürger und Bürgerinnen oder internationalen Kontakten.",
 	"prompts.section3.a1.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Übersetze den folgenden Text ins Englische und achte auf eine sachliche, gut verständliche Sprache.“",
 	"prompts.section3.a1.video1.title": "Dokumente direkt im Chat übersetzen",
@@ -552,7 +545,7 @@ export const content = {
 	"prompts.section3.a2.p1":
 		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, umfangreiche Dokumente schnell zu erfassen und die wesentlichen Informationen herauszufiltern, was Zeit spart und die Effizienz erhöht.",
 	"prompts.section3.a2.p2":
-		'<strong>Prompt in den Chat einfügen: </strong>„Fasse den folgenden Text in wenigen, klaren Sätzen zusammen. Achte darauf, dass die wichtigsten Informationen für die weitere interne Bearbeitung erhalten bleiben. Ziel ist eine kurze Übersicht für Kolleg:innen in der Berliner Verwaltung."',
+		'<strong>Prompt in den Chat einfügen: </strong>„Fasse den folgenden Text in wenigen, klaren Sätzen zusammen. Achte darauf, dass die wichtigsten Informationen für die weitere interne Bearbeitung erhalten bleiben. Ziel ist eine kurze Übersicht für Kollegen und Kolleginnen in der Berliner Verwaltung."',
 	"prompts.section3.a2.video1.title": "Dokumente präzise zusammenfassen",
 	"prompts.section3.a2.video1.linkName": "Dokumente präzise zusammenfassen",
 	//Question 3
@@ -573,7 +566,7 @@ export const content = {
 	"prompts.section3.a5.p1":
 		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, offizielle Einladungstexten für Veranstaltungen oder Informationsformate zu erstellen.",
 	"prompts.section3.a5.p2":
-		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger:innen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger:innen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
+		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger und Bürgerinnen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger und Bürgerinnen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
 	"prompts.section3.a5.video1.title":
 		"Texte schreiben und bearbeiten mit BärGPT",
 	"prompts.section3.a5.video1.link": "",
