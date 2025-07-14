@@ -9,9 +9,13 @@ export function Header() {
 
 	return (
 		<header className="relative z-50">
-			<div className="flex justify-between items-center px-5 1080:px-[50px] py-4 bg-white border-b border-schwarz-100">
+			<div className="flex justify-between items-center p-5 bg-white border-b border-schwarz-100 h-[50px] lg:h-[80px]">
 				<a href="/" className="focus-outline-default">
-					<img src="/logo/logo.svg" alt={content["header.logoAlt"]} />
+					<img
+						className="h-7 lg:h-fit"
+						src="/logo/logo.svg"
+						alt={content["header.logoAlt"]}
+					/>
 				</a>
 
 				<DesktopNavigation />
