@@ -568,10 +568,10 @@ export const content = {
 	"prompts.section3.a5.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger und Bürgerinnen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger und Bürgerinnen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
 	"prompts.section3.a5.video1.title":
-		"Texte schreiben und bearbeiten mit BärGPT",
+		"Texte mit BärGPT schreiben und bearbeiten",
 	"prompts.section3.a5.video1.link": "",
 	"prompts.section3.a5.video1.linkName":
-		"Texte schreiben und bearbeiten mit BärGPT",
+		"Texte mit BärGPT schreiben und bearbeiten",
 
 	/* -------------------- About -------------------- */
 	"about.p1.text": `BärGPT wurde vom <a class="underline underline-offset-6"
