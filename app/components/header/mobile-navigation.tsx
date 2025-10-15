@@ -4,7 +4,7 @@ import { content } from "../../content";
 
 export const MobileNavigation = () => {
 	const location = useLocation();
-	const mainPath = "/" + location.pathname.split("/")[1];
+	const mainPath = `/${location.pathname.split("/")[1]}`;
 
 	return (
 		<nav className="z-20 flex 1080:hidden justify-left items-center bg-white h-svh px-5 text-dunkelblau-100 text-3xl leading-9 font-semibold">

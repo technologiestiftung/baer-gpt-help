@@ -4,7 +4,7 @@ import { content } from "../../content";
 
 export const DesktopNavigation = () => {
 	const location = useLocation();
-	const mainPath = "/" + location.pathname.split("/")[1];
+	const mainPath = `/${location.pathname.split("/")[1]}`;
 
 	return (
 		<nav className="hidden 1080:flex justify-end items-center text-dunkelblau-100">
