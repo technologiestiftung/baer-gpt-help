@@ -52,6 +52,7 @@ export function Layout({ children }: { children: ReactNode }) {
 				className={`bg-white ${isMobileMenuOpen ? "overflow-hidden lg:overflow-auto" : ""}`}
 			>
 				<Header />
+				<div className="flex z-100 h-[50px] lg:h-[80px] w-full" />
 				<main>{children}</main>
 				<Footer />
 				<ScrollRestoration />
