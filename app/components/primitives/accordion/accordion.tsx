@@ -15,10 +15,10 @@ export const Accordion: React.FC<AccordionProps> = ({
 	const [isExpanded, setIsExpanded] = useState(openByDefault);
 
 	return (
-		<div className="w-full p-4 bg-hellblau-50 rounded-[3px] hover:bg-hellblau-60">
+		<div className="w-full bg-hellblau-50 rounded-[3px] hover:bg-hellblau-60">
 			<button
 				onClick={() => setIsExpanded(!isExpanded)}
-				className="w-full flex justify-between items-center text-left cursor-pointer focus-outline-default"
+				className="p-4 w-full flex justify-between items-center text-left cursor-pointer focus-outline-default"
 			>
 				<h3 className="text-base leading-6 font-semibold md:text-xl md:leading-7">
 					{question}
@@ -38,7 +38,7 @@ export const Accordion: React.FC<AccordionProps> = ({
 				</span>
 			</button>
 			{isExpanded && (
-				<div className="max-w-[679px] mt-5 lg:mt-8 text-base leading-6 font-normal">
+				<div className="max-w-[679px] pl-4 pb-4 mt-1 lg:mt-8 text-base leading-6 font-normal">
 					{answer}
 				</div>
 			)}
