@@ -354,8 +354,7 @@ export const content = {
 	"feedback.description":
 		"Füllen Sie die Umfrage aus und helfen Sie uns, BärGPT noch besser zu machen.",
 	"feedback.button": "Zur Umfrage",
-	"feedback.link":
-		"https://citylabberlin.typeform.com/to/kCdnCgvC?product_id=baergpt",
+	"feedback.link": "https://citylabberlin.typeform.com/to/GhoCHw0J",
 
 	/* -------------------- Tutorials -------------------- */
 	"tutorials.title": "Video-Tutorials",
@@ -592,7 +591,7 @@ BärGPT setzt auf Open-Source-Technologie und wird transparent,
 					datenschutzkonform und nutzerzentriert weiterentwickelt – für eine
 					moderne, souveräne Verwaltungsdigitalisierung.`,
 	"about.p2.title": "So unterstützt BärGPT die Berliner Verwaltung",
-	"about.p2.text": `BärGPT unterstützt mit einem freien Chat, der flexibel einsetzbar ist – ähnlich wie bekannte KI-Systeme. So lassen sich Texte schnell erstellen, überarbeiten, übersetzen oder zusammenfassen. Auch allgemeine Fragen beantwortet das System zuverlässig. Ein weiteres zentrales Feature ist die intelligente  Dokumenten-verwaltung: Nutzer:innen können Dateien hochladen, automatisch analysieren lassen und mithilfe der integrierten RAG-Suche gezielt nach Inhalten suchen – auch in mehreren Dokumenten gleichzeitig.`,
+	"about.p2.text": `BärGPT unterstützt mit einem freien Chat, der flexibel einsetzbar ist – ähnlich wie bekannte KI-Systeme. So lassen sich Texte schnell erstellen, überarbeiten, übersetzen oder zusammenfassen. Auch allgemeine Fragen beantwortet das System zuverlässig. Ein weiteres zentrales Feature ist die intelligente  Dokumenten-Verwaltung: Nutzer:innen können Dateien hochladen, automatisch analysieren lassen und mithilfe der integrierten RAG-Suche gezielt nach Inhalten suchen – auch in mehreren Dokumenten gleichzeitig.`,
 	"about.p3.title": "BärGPT bietet zudem eine...",
 	"about.bulletpoints": [
 		"... einfache Bedienung der Dokumente per Drag & Drop",

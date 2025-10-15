@@ -5,7 +5,7 @@ export default function Index() {
 	return (
 		<div className="text-dunkelblau-200">
 			<AboutHero />
-			<div className="flex flex-col px-5 lg:px-[50px] lg:py-20 md:py-[60px] py-10 gap-[60px] lg:gap-20">
+			<div className="flex flex-col px-5 lg:px-[50px] lg:py-20 md:py-[60px] py-10 gap-[60px] lg:gap-20 max-w-[1412px] mx-auto">
 				<p
 					className="lg:text-3xl lg:leading-9 font-normal md:text-xl md:leading-7 text-lg lg:max-w-8/12"
 					dangerouslySetInnerHTML={{ __html: content["about.p1.text"] }}
