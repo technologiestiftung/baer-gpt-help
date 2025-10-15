@@ -387,5 +387,183 @@ export const faq = {
 				},
 			],
 		},
+		{
+			title: content["faq.section7.title"],
+			questions: [
+				{
+					question: content["faq.section7.q1"],
+					answer: (
+						<div className="flex flex-col gap-3">
+							<p className="mb-3">{content["faq.section7.a1.p1"]}</p>
+
+							<h4 className="text-base leading-6 font-semibold">
+								{content["faq.section7.a1.p2.h4"]}
+							</h4>
+							<p className="mb-3">{content["faq.section7.a1.p2"]}</p>
+
+							<h4 className="text-base leading-6 font-semibold">
+								{content["faq.section7.a1.p3.h4"]}
+							</h4>
+							<p className="mb-3">{content["faq.section7.a1.p3"]}</p>
+
+							<h4 className="text-base leading-6 font-semibold">
+								{content["faq.section7.a1.p4.h4"]}
+							</h4>
+							<p className="mb-3">{content["faq.section7.a1.p4"]}</p>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q2"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p>{content["faq.section7.a2.p1"]}</p>
+								<p>{content["faq.section7.a2.p2"]}</p>
+								<p>{content["faq.section7.a2.p3"]}</p>
+							</div>
+							<div>
+								<h4 className="text-base leading-6 font-semibold mb-3">
+									{content["faq.section7.a2.h4"]}
+								</h4>
+								<ul className="list-disc ml-6 text-base leading-6 font-normal">
+									<li>{content["faq.section7.a2.li1"]}</li>
+									<li>{content["faq.section7.a2.li2"]}</li>
+									<li>{content["faq.section7.a2.li3"]}</li>
+									<li>{content["faq.section7.a2.li4"]}</li>
+									<li>{content["faq.section7.a2.li5"]}</li>
+									<li>{content["faq.section7.a2.li6"]}</li>
+								</ul>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q3"],
+				},
+				{
+					question: content["faq.section7.q4"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<h4 className="lg:px-3 text-base leading-6 font-semibold mb-3">
+									{content["faq.section7.a4.h4"]}
+								</h4>
+
+								<p className="lg:px-3">{content["faq.section7.a4.p1"]}</p>
+								<p className="lg:px-3 mt-3">{content["faq.section7.a4.p2"]}</p>
+							</div>
+							<div>
+								<p className="lg:px-3 mt-3">
+									<span className="font-bold">
+										{content["faq.section7.a4.p3"]}
+									</span>{" "}
+									{content["faq.section7.a4.p4"]}
+								</p>
+								<div className="lg:px-3 py-3">
+									<AnchorLink
+										href={content["faq.section7.a4.link1.href"]}
+										rel="noopener noreferrer"
+										title={content["faq.section7.a4.link1.title"]}
+									/>
+								</div>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q5"],
+					answer: content["faq.section7.a5.p1"],
+				},
+				{
+					question: content["faq.section7.q6"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section7.a6.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section7.a6.li1"]}</li>
+								<li>{content["faq.section7.a6.li2"]}</li>
+							</ul>
+							<p className="mt-3">{content["faq.section7.a6.p2"]}</p>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q7"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section7.a7.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a7.li1.p1"]}
+									</span>{" "}
+									{content["faq.section7.a7.li1.p2"]}
+								</li>
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a7.li2.p1"]}
+									</span>{" "}
+									{content["faq.section7.a7.li2.p2"]}
+								</li>
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a7.li3.p1"]}
+									</span>{" "}
+									{content["faq.section7.a7.li3.p2"]}
+								</li>
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a7.li4.p1"]}
+									</span>{" "}
+									{content["faq.section7.a7.li4.p2"]}
+								</li>
+							</ul>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q8"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section7.a8.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a8.li1.p1"]}
+									</span>{" "}
+									{content["faq.section7.a8.li1.p2"]}
+								</li>
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a8.li2.p1"]}
+									</span>{" "}
+									{content["faq.section7.a8.li2.p2"]}
+								</li>
+								<li>
+									<span className="font-bold">
+										{content["faq.section7.a8.li3.p1"]}
+									</span>{" "}
+									{content["faq.section7.a8.li3.p2"]}
+								</li>
+							</ul>
+							<p className="lg:px-3 mt-3">
+								<span className="font-bold">
+									{content["faq.section7.a8.p2"]}
+								</span>{" "}
+								{content["faq.section7.a8.p3"]}
+							</p>
+							<div className="lg:px-3 py-3">
+								<AnchorLink
+									href={content["faq.section7.a8.link1.url"]}
+									rel="noopener noreferrer"
+									title={content["faq.section7.a8.link1.title"]}
+								/>
+							</div>
+						</div>
+					),
+				},
+			],
+		},
 	],
 };
