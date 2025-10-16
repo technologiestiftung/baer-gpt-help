@@ -477,12 +477,12 @@ export const faq = {
 								<p className="lg:px-3 mt-3">{content["faq.section7.a4.p2"]}</p>
 							</div>
 							<div>
-								<p className="lg:px-3 mt-3">
-									<span className="font-bold">
-										{content["faq.section7.a4.p3"]}
-									</span>{" "}
-									{content["faq.section7.a4.p4"]}
-								</p>
+								<p
+									className="lg:px-3 mt-3"
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a4.p3"],
+									}}
+								/>
 								<div className="lg:px-3 py-3">
 									<AnchorLink
 										href={content["faq.section7.a4.link1.href"]}
@@ -517,30 +517,26 @@ export const faq = {
 						<div>
 							<p className="mb-3">{content["faq.section7.a7.p1"]}</p>
 							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a7.li1.p1"]}
-									</span>{" "}
-									{content["faq.section7.a7.li1.p2"]}
-								</li>
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a7.li2.p1"]}
-									</span>{" "}
-									{content["faq.section7.a7.li2.p2"]}
-								</li>
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a7.li3.p1"]}
-									</span>{" "}
-									{content["faq.section7.a7.li3.p2"]}
-								</li>
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a7.li4.p1"]}
-									</span>{" "}
-									{content["faq.section7.a7.li4.p2"]}
-								</li>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a7.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a7.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a7.li3"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a7.li4"],
+									}}
+								/>
 							</ul>
 						</div>
 					),
@@ -551,31 +547,28 @@ export const faq = {
 						<div>
 							<p className="mb-3">{content["faq.section7.a8.p1"]}</p>
 							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a8.li1.p1"]}
-									</span>{" "}
-									{content["faq.section7.a8.li1.p2"]}
-								</li>
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a8.li2.p1"]}
-									</span>{" "}
-									{content["faq.section7.a8.li2.p2"]}
-								</li>
-								<li>
-									<span className="font-bold">
-										{content["faq.section7.a8.li3.p1"]}
-									</span>{" "}
-									{content["faq.section7.a8.li3.p2"]}
-								</li>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a8.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a8.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a8.li3"],
+									}}
+								/>
 							</ul>
-							<p className="lg:px-3 mt-3">
-								<span className="font-bold">
-									{content["faq.section7.a8.p2"]}
-								</span>{" "}
-								{content["faq.section7.a8.p3"]}
-							</p>
+							<p
+								className="lg:px-3 mt-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section7.a8.p2"],
+								}}
+							/>
 							<div className="lg:px-3 py-3">
 								<AnchorLink
 									href={content["faq.section7.a8.link1.url"]}
