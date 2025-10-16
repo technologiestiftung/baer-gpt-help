@@ -440,6 +440,29 @@ export const faq = {
 				},
 				{
 					question: content["faq.section7.q3"],
+					answer: (
+						<div>
+							<h4 className="lg:px-3 pt-3 text-base leading-6 font-semibold">
+								{content["faq.section7.a3.h4"]}
+							</h4>
+							<div className="py-3">
+								<div className="lg:px-3">
+									<DownloadItem
+										href={content["faq.section7.a3.link1.href"]}
+										subtitle="PDF"
+										title={content["faq.section7.a3.link1.title"]}
+									/>
+								</div>
+								<div className="lg:px-3">
+									<DownloadItem
+										href={content["faq.section7.a3.link2.href"]}
+										subtitle="PDF"
+										title={content["faq.section7.a3.link2.title"]}
+									/>
+								</div>
+							</div>
+						</div>
+					),
 				},
 				{
 					question: content["faq.section7.q4"],

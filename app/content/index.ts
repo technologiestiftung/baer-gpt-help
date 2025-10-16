@@ -355,6 +355,11 @@ export const content = {
 
 	//Section 7 - Question 3
 	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
+	"faq.section7.a3.h4": "Folgende Dokumente sind im Verwaltungswissen hinterlegt:",
+	"faq.section7.a3.link1.title": "GGO 1",
+	"faq.section7.a3.link1.href": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-i/ggo_eins.pdf?ts=1752674583",
+	"faq.section7.a3.link2.title": "GGO 2",
+	"faq.section7.a3.link2.href": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
 
 	//Section 7 - Question 4
 	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
