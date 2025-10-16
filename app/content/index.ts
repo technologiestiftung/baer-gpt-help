@@ -221,7 +221,6 @@ export const content = {
 	"faq.section3.a2.li4":
 		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
 
-	
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
 	//Section 4 - Question 1
@@ -289,93 +288,133 @@ export const content = {
 	"faq.section6.title": "Dokumentenverwaltung",
 	//Section 6 - Question 1
 	"faq.section6.q1": "Was passiert, wenn ich eine Datei lösche?",
-	"faq.section6.a1": "Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wieder herzustellen.",
+	"faq.section6.a1":
+		"Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wieder herzustellen.",
 	//Section 6 - Question 2
 	"faq.section6.q2": "Wie lege ich einen Ordner an?",
-	"faq.section6.a2": "Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
+	"faq.section6.a2":
+		"Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
 	"faq.section6.a2.video1.title": "Ordner erstellen und Dateien sortieren",
 	"faq.section6.a2.video1.linkName": "Ordner erstellen und Dateien sortieren",
 	//Section 6 - Question 3
 	"faq.section6.q3": "Wie lösche ich einen Ordner?",
 	"faq.section6.a3": "Um einen Ordner zu löschen, gehen Sie wie folgt vor:",
-	"faq.section6.a3.li1": "Wählen Sie den Ordner aus, den Sie entfernen möchten.",
+	"faq.section6.a3.li1":
+		"Wählen Sie den Ordner aus, den Sie entfernen möchten.",
 	"faq.section6.a3.li2": "Klicken Sie auf das Papierkorb-Symbol oben rechts.",
 	"faq.section6.a3.li3": "Bestätigen Sie die Löschung im angezeigten Dialog.",
 	//Section 6 - Question 4
 	"faq.section6.q4": "Kann ich Dateien und Ordner umbenennen?",
-	"faq.section6.a4": "Derzeit ist das Umbenennen von Dateien und Ordnern leider nicht möglich. Wir arbeiten daran, diese Funktion in einer zukünftigen Version bereitzustellen. Bis dahin empfehlen wir, Dateien bereits vor dem Hochladen sinnvoll zu benennen, um die Übersicht zu behalten.",
+	"faq.section6.a4":
+		"Derzeit ist das Umbenennen von Dateien und Ordnern leider nicht möglich. Wir arbeiten daran, diese Funktion in einer zukünftigen Version bereitzustellen. Bis dahin empfehlen wir, Dateien bereits vor dem Hochladen sinnvoll zu benennen, um die Übersicht zu behalten.",
 	//Section 6 - Question 5
 	"faq.section6.q5": "Wie verschiebe ich eine Datei in einen anderen Ordner?",
-	"faq.section6.a5": "Ziehen Sie die Datei einfach per Drag & Drop in den gewünschten Ordner.",
+	"faq.section6.a5":
+		"Ziehen Sie die Datei einfach per Drag & Drop in den gewünschten Ordner.",
 
 	/* -------------------- Section 7 - KI Wissen & Antworten -------------------- */
 	"faq.section7.title": "KI Wissen & Antworten",
 	//Section 7 - Question 1
 	"faq.section7.q1": "Woher stammen die Informationen die BärGPT nutzt?",
-	"faq.section7.a1.p1":"BärGPT arbeitet mit drei Arten von Wissen:",
-		"faq.section7.a1.p2.h4": "Allgemeines Sprach- und Sachwissen der KI",
-		"faq.section7.a1.p2": "Das KI-Modell von Mistral wurde mit großen Mengen öffentlich zugänglicher Texte, wie z.B. Artikeln, Webseiten und Lehrbüchern, trainiert. Dadurch versteht BärGPT Sprache und allgemeine Zusammenhänge. Dieses Wissen ist nicht mit dem Internet verbunden. BärGPT ruft also keine aktuellen Webseiten oder Datenbanken ab, sondern nutzt das vorhandene Sprachverständnis, um Antworten zu formulieren.",
-		"faq.section7.a1.p3.h4": "Spezifisches Verwaltungswissen Berlin",
-		"faq.section7.a1.p3": "Zusätzlich kann BärGPT auf Dokumente aus der Berliner Verwaltung zugreifen. Diese Informationen wurden geprüft und in einem eigenen Wissensspeicher hinterlegt, der regelmäßig aktualisiert wird. Wenn BärGPT auf dieses Wissen zurückgreift, zeigt er automatisch Quellenangaben an. So können Sie nachvollziehen, aus welchem Dokument oder Abschnitt die Information stammt.",
-		"faq.section7.a1.p4.h4": "Eigene Dokumente",
-		"faq.section7.a1.p4": "Sie können auch eigene Dokumente (PDF, Word oder Excel Dateien) hochladen. Diese werden nur vorübergehend verarbeitet, um Fragen zu beantworten oder Inhalte zusammenzufassen.",
+	"faq.section7.a1.p1": "BärGPT arbeitet mit drei Arten von Wissen:",
+	"faq.section7.a1.p2.h4": "Allgemeines Sprach- und Sachwissen der KI",
+	"faq.section7.a1.p2":
+		"Das KI-Modell von Mistral wurde mit großen Mengen öffentlich zugänglicher Texte, wie z.B. Artikeln, Webseiten und Lehrbüchern, trainiert. Dadurch versteht BärGPT Sprache und allgemeine Zusammenhänge. Dieses Wissen ist nicht mit dem Internet verbunden. BärGPT ruft also keine aktuellen Webseiten oder Datenbanken ab, sondern nutzt das vorhandene Sprachverständnis, um Antworten zu formulieren.",
+	"faq.section7.a1.p3.h4": "Spezifisches Verwaltungswissen Berlin",
+	"faq.section7.a1.p3":
+		"Zusätzlich kann BärGPT auf Dokumente aus der Berliner Verwaltung zugreifen. Diese Informationen wurden geprüft und in einem eigenen Wissensspeicher hinterlegt, der regelmäßig aktualisiert wird. Wenn BärGPT auf dieses Wissen zurückgreift, zeigt er automatisch Quellenangaben an. So können Sie nachvollziehen, aus welchem Dokument oder Abschnitt die Information stammt.",
+	"faq.section7.a1.p4.h4": "Eigene Dokumente",
+	"faq.section7.a1.p4":
+		"Sie können auch eigene Dokumente (PDF, Word oder Excel Dateien) hochladen. Diese werden nur vorübergehend verarbeitet, um Fragen zu beantworten oder Inhalte zusammenzufassen.",
 
 	//Section 7 - Question 2
 	"faq.section7.q2": "Wie funktioniert Verwaltungswissen?",
-	"faq.section7.a2.p1": "Das Verwaltungswissen ist eine Sammlung allgemeiner Dokumente für die Berliner Verwaltung. Es umfasst offizielle Texte wie zum Beispiel die Gemeinsame Geschäftsordnung der Berliner Verwaltung (GGO 1 und 2), Landesorganisationsgesetz, Verfassung von Berlin und weitere Gesetze, Verordnungen und Handbücher.",
-	"faq.section7.a2.p2": "Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
-	"faq.section7.a2.p3": "Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
+	"faq.section7.a2.p1":
+		"Das Verwaltungswissen ist eine Sammlung allgemeiner Dokumente für die Berliner Verwaltung. Es umfasst offizielle Texte wie zum Beispiel die Gemeinsame Geschäftsordnung der Berliner Verwaltung (GGO 1 und 2), Landesorganisationsgesetz, Verfassung von Berlin und weitere Gesetze, Verordnungen und Handbücher.",
+	"faq.section7.a2.p2":
+		"Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
+	"faq.section7.a2.p3":
+		"Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
 	"faq.section7.a2.h4": "So funktioniert es im Hintergrund:",
-	"faq.section7.a2.li1": "Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",
-	"faq.section7.a2.li2": "Die Inhalte werden in kleinere Textabschnitte zerlegt und in einer Datenbank gespeichert.",
-	"faq.section7.a2.li3": "Wenn Sie eine Frage stellen, prüft BärGPT, ob dafür das Verwaltungswissen relevant ist.",
-	"faq.section7.a2.li4": "Falls ja, werden die passenden Dokumentenabschnitte gesucht und in die Antwort eingebunden.",
-	"faq.section7.a2.li5": "Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
-	"faq.section7.a2.li6": "Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
+	"faq.section7.a2.li1":
+		"Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",
+	"faq.section7.a2.li2":
+		"Die Inhalte werden in kleinere Textabschnitte zerlegt und in einer Datenbank gespeichert.",
+	"faq.section7.a2.li3":
+		"Wenn Sie eine Frage stellen, prüft BärGPT, ob dafür das Verwaltungswissen relevant ist.",
+	"faq.section7.a2.li4":
+		"Falls ja, werden die passenden Dokumentenabschnitte gesucht und in die Antwort eingebunden.",
+	"faq.section7.a2.li5":
+		"Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
+	"faq.section7.a2.li6":
+		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
 
 	//Section 7 - Question 3
 	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
-	"faq.section7.a3.h4": "Folgende Dokumente sind im Verwaltungswissen hinterlegt:",
+	"faq.section7.a3.h4":
+		"Folgende Dokumente sind im Verwaltungswissen hinterlegt:",
 	"faq.section7.a3.link1.title": "GGO 1",
-	"faq.section7.a3.link1.href": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-i/ggo_eins.pdf?ts=1752674583",
+	"faq.section7.a3.link1.href":
+		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-i/ggo_eins.pdf?ts=1752674583",
 	"faq.section7.a3.link2.title": "GGO 2",
-	"faq.section7.a3.link2.href": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
+	"faq.section7.a3.link2.href":
+		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
 
 	//Section 7 - Question 4
 	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
-	"faq.section7.a4.h4": "Kann ich nachvollziehen, woher eine Information stammt?",
-	"faq.section7.a4.p1": "Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
-	"faq.section7.a4.p2": "Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
-	"faq.section7.a4.p3": "<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
+	"faq.section7.a4.h4":
+		"Kann ich nachvollziehen, woher eine Information stammt?",
+	"faq.section7.a4.p1":
+		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
+	"faq.section7.a4.p2":
+		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
+	"faq.section7.a4.p3":
+		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
 	"faq.section7.a4.link1.title": "Link zur Prompt Seite",
 	"faq.section7.a4.link1.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 5
 	"faq.section7.q5": "Wie aktuell ist das Wissen von BärGPT?",
-	"faq.section7.a5.p1": "Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert, wenn neue Versionen bereitgestellt werden. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
+	"faq.section7.a5.p1":
+		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert, wenn neue Versionen bereitgestellt werden. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
 
 	//Section 7 - Question 6
 	"faq.section7.q6": "Wie zuverlässig sind die Antworten von BärGPT?",
-	"faq.section7.a6.p1": "BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
-	"faq.section7.a6.li1": "Antworten aus dem Verwaltungswissen beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
-	"faq.section7.a6.li2": "Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
-	"faq.section7.a6.p2": "Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
+	"faq.section7.a6.p1":
+		"BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
+	"faq.section7.a6.li1":
+		"Antworten aus dem Verwaltungswissen beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
+	"faq.section7.a6.li2":
+		"Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
+	"faq.section7.a6.p2":
+		"Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
 
 	//Section 7 - Question 7
 	"faq.section7.q7": "Warum kann BärGPT Fehler machen?",
-	"faq.section7.a7.p1": "BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
-	"faq.section7.a7.li1": "<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
-	"faq.section7.a7.li2": "<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
-	"faq.section7.a7.li3": "<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
-	"faq.section7.a7.li4": "<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
+	"faq.section7.a7.p1":
+		"BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
+	"faq.section7.a7.li1":
+		"<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
+	"faq.section7.a7.li2":
+		"<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
+	"faq.section7.a7.li3":
+		"<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
+	"faq.section7.a7.li4":
+		"<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
 
-	//Section 7 - Question 8	
-	"faq.section7.q8": "Wie kann ich sicherstellen, dass die Informationen richtig sind?",
-	"faq.section7.a8.p1": "Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
-	"faq.section7.a8.li1": "<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
-	"faq.section7.a8.li2": "<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder Kolleg:innen aus dem Fachbereich gegenprüfen.",
-	"faq.section7.a8.li3": "<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
-	"faq.section7.a8.p2": "<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
+	//Section 7 - Question 8
+	"faq.section7.q8":
+		"Wie kann ich sicherstellen, dass die Informationen richtig sind?",
+	"faq.section7.a8.p1":
+		"Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
+	"faq.section7.a8.li1":
+		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
+	"faq.section7.a8.li2":
+		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder Kolleg:innen aus dem Fachbereich gegenprüfen.",
+	"faq.section7.a8.li3":
+		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
+	"faq.section7.a8.p2":
+		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
 	"faq.section7.a8.link1.title": "Link zur Prompt Seite",
 	"faq.section7.a8.link1.url": "https://hilfe.baergpt.berlin/prompts",
 
@@ -400,7 +439,6 @@ export const content = {
 		"Rundschreiben zum Umgang mit generativen KI-Anwendungen in der Berliner Verwaltung",
 	"faq.section8.a2.link1.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
-
 
 	/* -------------------- TOP 5 FAQ -------------------- */
 	//Question 1
