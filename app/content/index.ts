@@ -199,75 +199,29 @@ export const content = {
 	"faq.section2.a8.p1":
 		"Ja, BärGPT ist ein Open Source-Projekt, das von der Technologiestiftung Berlin entwickelt wurde. Der Quellcode wird nach Abschluss der internen Betaphase veröffentlicht und kann dann öffentlich eingesehen, weiterentwickelt oder angepasst werden.",
 
-	/* -------------------- Section 3 - Arbeiten mit Dateien -------------------- */
-
-	"faq.section3.title": "Arbeiten mit Dateien",
+	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
+	"faq.section3.title": "Konto & Anmeldung",
 	//Section 3 - Question 1
-	"faq.section3.q1": "Wie lade ich eine Datei hoch?",
-	"faq.section3.a1.p1": "Sie haben zwei einfache Möglichkeiten:",
-	"faq.section3.a1.li1":
-		"<strong>Über die Schaltfläche:</strong> Klicken Sie auf „Datei hochladen“ und wählen Sie ein PDF-Dokument von Ihrem Computer aus.",
-	"faq.section3.a1.li2":
-		"<strong>Per Drag & Drop:</strong> Ziehen Sie die Datei direkt in das Upload-Feld im oberen Bereich der Anwendung.",
-	"faq.section3.a1.p2":
-		"Hinweis: BärGPT unterstützt derzeit nur PDF-Dateien. Achten Sie darauf, dass die Datei unbeschädigt ist und die maximale Dateigröße nicht überschreitet.",
+	"faq.section3.q1": "Wie erstelle ich ein Benutzerkonto?",
+	"faq.section3.a1.p1":
+		"Sie können Ihr Konto direkt auf der Startseite erstellen, indem Sie ein Konto erstellen, indem Sie Ihre E-Mail-Adresse und ein Passwort eingeben. Im Anschluss klicken Sie auf den Link in der Bestätigungs-E-Mail.",
 	"faq.section3.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section3.a1.video1.title": "Dokumente hochladen leicht gemacht",
-	"faq.section3.a1.video1.linkName": "Dokumente hochladen leicht gemacht",
-
+	"faq.section3.a1.video1.title": "Erste Schritte mit BärGPT",
+	"faq.section3.a1.video1.linkName": "Erste Schritte mit BärGPT",
 	//Section 3 - Question 2
-	"faq.section3.q2": "Welche Dateiformate unterstützt BärGPT?",
-	"faq.section3.a2":
-		"Aktuell unterstützt BärGPT das Hochladen von PDF-Dateien und wird zu einem späteren Zeitpunkt um weitere Dateiformate erweitert.",
-	//Section 3 - Question 3
-	"faq.section3.q3": "Warum dauert der Dateiupload so lange?",
-	"faq.section3.a3":
-		"Nach dem Hochladen wird Ihre Datei nicht nur gespeichert, sondern auch im Hintergrund verarbeitet – z. B. analysiert, in lesbare Textformate umgewandelt und für den Chat vorbereitet. Je nach Größe und Inhalt der Datei kann das einige Sekunden dauern.",
-	//Section 3 - Question 4
-	"faq.section3.q4": "Was passiert, wenn ich eine Datei lösche?",
-	"faq.section3.a4":
-		"Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wiederherstellbar.",
-	//Section 3 - Question 5
-	"faq.section3.q5": "Warum kann ich mein Dokument nicht hochladen?",
-	"faq.section3.a5.p1":
-		"Wenn der Upload nicht funktioniert, kann das verschiedene Gründe haben.",
-	"faq.section3.a5.p2": "Häufige Ursachen:",
-	"faq.section3.a5.li1":
-		"<strong>Die Datei ist zu groß:</strong> BärGPT unterstützt Dateien bis maximal 50 MB.",
-	"faq.section3.a5.li2":
-		"<strong>Falsches Dateiformat:</strong> Aktuell werden nur PDF-Dateien akzeptiert.",
-	"faq.section3.a5.li3":
-		"<strong>Technisches Problem beim Upload:</strong> Die Verbindung war möglicherweise instabil oder der Server vorübergehend nicht erreichbar. Versuchen Sie es bitte nach kurzer Zeit erneut.",
-	"faq.section3.a5.li4":
-		"<strong>Datei mit gleichem Namen existiert bereits:</strong> In diesem Fall können Sie entweder die bestehende Datei löschen und dann neu hochladen oder die neue Datei unter einem leicht veränderten Namen abspeichern.",
-	"faq.section3.a5.p3":
-		"Tipp: Wenn das Problem weiterhin besteht, laden Sie eine andere Testdatei hoch – so können Sie eingrenzen, ob es am Dokument selbst liegt.",
-	"faq.section3.a5.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section3.a5.video1.title": "Dokumente hochladen leicht gemacht",
-	"faq.section3.a5.video1.linkName": "Dokumente hochladen leicht gemacht",
-	//Section 3 - Question 6
-	"faq.section3.q6": "Wie lege ich einen Ordner an?",
-	"faq.section3.a6.p1":
-		"Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
-	"faq.section3.a6.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section3.a6.video1.linkName": "Ordner erstellen und Dateien sortieren",
-	"faq.section3.a6.video1.title": "Ordner erstellen und Dateien sortieren",
-	//Section 3 - Question 7
-	"faq.section3.q7": "Wie lösche ich einen Ordner?",
-	"faq.section3.a7.p1": "Um einen Ordner zu löschen, gehen Sie wie folgt vor:",
-	"faq.section3.a7.li1":
-		"Wählen Sie den Ordner aus, den Sie entfernen möchten.",
-	"faq.section3.a7.li2": "Klicken Sie auf das Papierkorb-Symbol oben rechts.",
-	"faq.section3.a7.li3": "Bestätigen Sie die Löschung im angezeigten Dialog.",
-	//Section 3 - Question 8
-	"faq.section3.q8": "Kann ich Dateien und Ordner umbenennen?",
-	"faq.section3.a8":
-		"Derzeit ist das Umbenennen von Dateien und Ordnern leider nicht möglich. Wir arbeiten daran, diese Funktion in einer zukünftigen Version bereitzustellen. Bis dahin empfehlen wir, Dateien bereits vor dem Hochladen sinnvoll zu benennen, um die Übersicht zu behalten.",
-	//Section 3 - Question 9
-	"faq.section3.q9": "Wie verschiebe ich eine Datei in einen anderen Ordner?",
-	"faq.section3.a9":
-		"Ziehen Sie die Datei einfach per Drag & Drop in den gewünschten Ordner.",
+	"faq.section3.q2": "Warum kann ich mich nicht einloggen?",
+	"faq.section3.a2.p1":
+		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
+	"faq.section3.a2.li1":
+		"Falsche E-Mail-Adresse oder Passwort: Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
+	"faq.section3.a2.li2":
+		"Passwort vergessen: Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
+	"faq.section3.a2.li3":
+		"Konto noch nicht erstellt: Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
+	"faq.section3.a2.li4":
+		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
 
+	
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
 	//Section 4 - Question 1
@@ -284,49 +238,75 @@ export const content = {
 	"faq.section4.a2.video1.linkName":
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 
-	/* -------------------- Section 5 - Konto & Anmeldung -------------------- */
-	"faq.section5.title": "Konto & Anmeldung",
-	//Section 5 - Question 1
-	"faq.section5.q1": "Wie erstelle ich ein Benutzerkonto?",
-	"faq.section5.a1.p1":
-		"Sie können Ihr Konto direkt auf der Startseite erstellen, indem Sie ein Konto erstellen, indem Sie Ihre E-Mail-Adresse und ein Passwort eingeben. Im Anschluss klicken Sie auf den Link in der Bestätigungs-E-Mail.",
-	"faq.section5.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section5.a1.video1.title": "Erste Schritte mit BärGPT",
-	"faq.section5.a1.video1.linkName": "Erste Schritte mit BärGPT",
-	//Section 5 - Question 2
-	"faq.section5.q2": "Warum kann ich mich nicht einloggen?",
-	"faq.section5.a2.p1":
-		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
-	"faq.section5.a2.li1":
-		"Falsche E-Mail-Adresse oder Passwort: Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
-	"faq.section5.a2.li2":
-		"Passwort vergessen: Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
-	"faq.section5.a2.li3":
-		"Konto noch nicht erstellt: Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
-	"faq.section5.a2.li4":
-		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
+	/* -------------------- Section 5 - Arbeiten mit Dokumenten -------------------- */
 
-	/* -------------------- Section 6 - Weitere Hilfe-------------------- */
-	"faq.section6.title": "Weitere Hilfe",
+	"faq.section5.title": "Arbeiten mit Dokumenten",
+	//Section 5 - Question 1
+	"faq.section5.q1": "Wie lade ich eine Datei hoch?",
+	"faq.section5.a1.p1": "Sie haben zwei einfache Möglichkeiten:",
+	"faq.section5.a1.li1":
+		"<strong>Über die Schaltfläche:</strong> Klicken Sie auf „Datei hochladen“ und wählen Sie ein PDF-Dokument von Ihrem Computer aus.",
+	"faq.section5.a1.li2":
+		"<strong>Per Drag & Drop:</strong> Ziehen Sie die Datei direkt in das Upload-Feld im oberen Bereich der Anwendung.",
+	"faq.section5.a1.p2":
+		"Hinweis: BärGPT unterstützt derzeit nur PDF-Dateien. Achten Sie darauf, dass die Datei unbeschädigt ist und die maximale Dateigröße nicht überschreitet.",
+	"faq.section5.a1.h4": "Weitere Links, Tutorials und Downloads",
+	"faq.section5.a1.video1.title": "Dokumente hochladen leicht gemacht",
+	"faq.section5.a1.video1.linkName": "Dokumente hochladen leicht gemacht",
+
+	//Section 5 - Question 2
+	"faq.section5.q2": "Welche Dateiformate unterstützt BärGPT?",
+	"faq.section5.a2":
+		"Aktuell unterstützt BärGPT das Hochladen von PDF-Dateien und wird zu einem späteren Zeitpunkt um weitere Dateiformate erweitert.",
+	//Section 5 - Question 3
+	"faq.section5.q3": "Warum dauert der Dateiupload so lange?",
+	"faq.section5.a3":
+		"Nach dem Hochladen wird Ihre Datei nicht nur gespeichert, sondern auch im Hintergrund verarbeitet – z. B. analysiert, in lesbare Textformate umgewandelt und für den Chat vorbereitet. Je nach Größe und Inhalt der Datei kann das einige Sekunden dauern.",
+	//Section 5 - Question 4
+	"faq.section5.q4": "Was passiert, wenn ich eine Datei lösche?",
+	"faq.section5.a4":
+		"Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wiederherstellbar.",
+	//Section 5 - Question 5
+	"faq.section5.q5": "Warum kann ich mein Dokument nicht hochladen?",
+	"faq.section5.a5.p1":
+		"Wenn der Upload nicht funktioniert, kann das verschiedene Gründe haben.",
+	"faq.section5.a5.p2": "Häufige Ursachen:",
+	"faq.section5.a5.li1":
+		"<strong>Die Datei ist zu groß:</strong> BärGPT unterstützt Dateien bis maximal 50 MB.",
+	"faq.section5.a5.li2":
+		"<strong>Falsches Dateiformat:</strong> Aktuell werden nur PDF-Dateien akzeptiert.",
+	"faq.section5.a5.li3":
+		"<strong>Technisches Problem beim Upload:</strong> Die Verbindung war möglicherweise instabil oder der Server vorübergehend nicht erreichbar. Versuchen Sie es bitte nach kurzer Zeit erneut.",
+	"faq.section5.a5.li4":
+		"<strong>Datei mit gleichem Namen existiert bereits:</strong> In diesem Fall können Sie entweder die bestehende Datei löschen und dann neu hochladen oder die neue Datei unter einem leicht veränderten Namen abspeichern.",
+	"faq.section5.a5.p3":
+		"Tipp: Wenn das Problem weiterhin besteht, laden Sie eine andere Testdatei hoch – so können Sie eingrenzen, ob es am Dokument selbst liegt.",
+	"faq.section5.a5.h4": "Weitere Links, Tutorials und Downloads",
+	"faq.section5.a5.video1.title": "Dokumente hochladen leicht gemacht",
+	"faq.section5.a5.video1.linkName": "Dokumente hochladen leicht gemacht",
+
+	/* -------------------- Section 6 - Dokumentenverwaltung -------------------- */
+	"faq.section6.title": "Dokumentenverwaltung",
 	//Section 6 - Question 1
-	"faq.section6.q1": "Wo finde ich weitere Unterstützung?",
-	"faq.section6.a1.p1":
-		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
-	"faq.section6.a1.email": "support@baergpt.berlin",
-	"faq.section6.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section6.a1.link1.title": "Link zur Video-Tutorials Seite",
-	"faq.section6.a1.link1.href": "/tutorials",
+	"faq.section6.q1": "Was passiert, wenn ich eine Datei lösche?",
+	"faq.section6.a1": "Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wieder herzustellen.",
 	//Section 6 - Question 2
-	"faq.section6.q2": "Kann ich BärGPT für meinen Bereich anpassen lassen?",
-	"faq.section6.a2.p1":
-		"BärGPT ist eine flexible KI-Infrastruktur, die für unterschiedliche Anwendungsfälle und Kontexte angepasst werden kann – speziell für die Anforderungen in der Berliner Verwaltung.",
-	"faq.section6.a2.p2":
-		"Hinweise und Empfehlungen zum Umgang mit generativen KI-Anwendungen finden Sie in dem Rundschreiben des Landes Berlin. Dort erhalten Sie offizielle Informationen zu Einsatzgrenzen, Datenschutz und Nutzungsempfehlungen.",
-	"faq.section6.a2.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section6.a2.link1.title":
-		"Rundschreiben zum Umgang mit generativen KI-Anwendungen in der Berliner Verwaltung",
-	"faq.section6.a2.link1.href":
-		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
+	"faq.section6.q2": "Wie lege ich einen Ordner an?",
+	"faq.section6.a2": "Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
+	"faq.section6.a2.video1.title": "Ordner erstellen und Dateien sortieren",
+	"faq.section6.a2.video1.linkName": "Ordner erstellen und Dateien sortieren",
+	//Section 6 - Question 3
+	"faq.section6.q3": "Wie lösche ich einen Ordner?",
+	"faq.section6.a3": "Um einen Ordner zu löschen, gehen Sie wie folgt vor:",
+	"faq.section6.a3.li1": "Wählen Sie den Ordner aus, den Sie entfernen möchten.",
+	"faq.section6.a3.li2": "Klicken Sie auf das Papierkorb-Symbol oben rechts.",
+	"faq.section6.a3.li3": "Bestätigen Sie die Löschung im angezeigten Dialog.",
+	//Section 6 - Question 4
+	"faq.section6.q4": "Kann ich Dateien und Ordner umbenennen?",
+	"faq.section6.a4": "Derzeit ist das Umbenennen von Dateien und Ordnern leider nicht möglich. Wir arbeiten daran, diese Funktion in einer zukünftigen Version bereitzustellen. Bis dahin empfehlen wir, Dateien bereits vor dem Hochladen sinnvoll zu benennen, um die Übersicht zu behalten.",
+	//Section 6 - Question 5
+	"faq.section6.q5": "Wie verschiebe ich eine Datei in einen anderen Ordner?",
+	"faq.section6.a5": "Ziehen Sie die Datei einfach per Drag & Drop in den gewünschten Ordner.",
 
 	/* -------------------- Section 7 - KI Wissen & Antworten -------------------- */
 	"faq.section7.title": "KI Wissen & Antworten",
@@ -398,6 +378,29 @@ export const content = {
 	"faq.section7.a8.p2": "<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
 	"faq.section7.a8.link1.title": "Link zur Prompt Seite",
 	"faq.section7.a8.link1.url": "https://hilfe.baergpt.berlin/prompts",
+
+	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
+	"faq.section8.title": "Weitere Hilfe",
+	//Section 8 - Question 1
+	"faq.section8.q1": "Wo finde ich weitere Unterstützung?",
+	"faq.section8.a1.p1":
+		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
+	"faq.section8.a1.email": "support@baergpt.berlin",
+	"faq.section8.a1.h4": "Weitere Links, Tutorials und Downloads",
+	"faq.section8.a1.link1.title": "Link zur Video-Tutorials Seite",
+	"faq.section8.a1.link1.href": "/tutorials",
+	//Section 8 - Question 2
+	"faq.section8.q2": "Kann ich BärGPT für meinen Bereich anpassen lassen?",
+	"faq.section8.a2.p1":
+		"BärGPT ist eine flexible KI-Infrastruktur, die für unterschiedliche Anwendungsfälle und Kontexte angepasst werden kann – speziell für die Anforderungen in der Berliner Verwaltung.",
+	"faq.section8.a2.p2":
+		"Hinweise und Empfehlungen zum Umgang mit generativen KI-Anwendungen finden Sie in dem Rundschreiben des Landes Berlin. Dort erhalten Sie offizielle Informationen zu Einsatzgrenzen, Datenschutz und Nutzungsempfehlungen.",
+	"faq.section8.a2.h4": "Weitere Links, Tutorials und Downloads",
+	"faq.section8.a2.link1.title":
+		"Rundschreiben zum Umgang mit generativen KI-Anwendungen in der Berliner Verwaltung",
+	"faq.section8.a2.link1.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
+
 
 	/* -------------------- TOP 5 FAQ -------------------- */
 	//Question 1
