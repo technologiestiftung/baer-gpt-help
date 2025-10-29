@@ -11,7 +11,10 @@ export default function Index() {
 			<div className="flex flex-col gap-10 lg:gap-16">
 				{faq.sections.map((section, index) => (
 					<div key={index}>
-						<h2 className="mb-5 md:mb-6 text-xl leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10">
+						<h2
+							id={section.title.toLowerCase().replace(/\s+/g, "-")}
+							className="mb-5 md:mb-6 text-xl leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10"
+						>
 							{section.title}
 						</h2>
 						<div className="flex flex-col gap-2.5">

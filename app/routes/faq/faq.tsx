@@ -11,7 +11,15 @@ export const faq = {
 			questions: [
 				{
 					question: content["faq.section1.q1"],
-					answer: content["faq.section1.a1"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							{content["faq.section1.a1"]}
+							<VideoItem
+								title={content["faq.section1.a1.video1.title"]}
+								href={`/tutorials/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
+							/>
+						</div>
+					),
 				},
 				{
 					question: content["faq.section1.q2"],
@@ -19,24 +27,164 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
 								<p className="mb-3">{content["faq.section1.a2.p1"]}</p>
+								<p className="mb-3">{content["faq.section1.a2.p2"]}</p>
 								<ul className="list-disc ml-6 text-base leading-6 font-normal">
+									<li>{content["faq.section1.a2.li1"]}</li>
+									<li>{content["faq.section1.a2.li2"]}</li>
+									<li>{content["faq.section1.a2.li3"]}</li>
 									<li
 										dangerouslySetInnerHTML={{
-											__html: content["faq.section1.a2.li1"],
-										}}
-									/>
-									<li
-										dangerouslySetInnerHTML={{
-											__html: content["faq.section1.a2.li2"],
+											__html: content["faq.section1.a2.li4"],
 										}}
 									/>
 								</ul>
-								<p className="mt-3">{content["faq.section1.a2.p2"]}</p>
 							</div>
 							<div>
-								<h4 className="lg:px-3 text-base leading-6 font-semibold">
-									{content["faq.section1.a2.h4"]}
-								</h4>
+								<DownloadItem
+									href={content["faq.section1.a2.link1.link"]}
+									subtitle="PDF"
+									title={content["faq.section1.a2.link1.title"]}
+								/>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q3"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p className="mb-3">{content["faq.section1.a3.p1"]}</p>
+								<ul className="list-disc ml-6 mb-3 text-base leading-6 font-normal">
+									<li>{content["faq.section1.a3.li1"]}</li>
+									<li>{content["faq.section1.a3.li2"]}</li>
+									<li>{content["faq.section1.a3.li3"]}</li>
+									<li>{content["faq.section1.a3.li4"]}</li>
+								</ul>
+							</div>
+							<div>
+								<p
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section1.a3.p2"],
+									}}
+								/>
+								<div className="lg:px-3 py-3">
+									<AnchorLink
+										href={`#${content["faq.section1.a3.link1.title"].toLowerCase().replace(/\s+/g, "-")}`}
+										title={content["faq.section1.a3.link1.title"]}
+									/>
+								</div>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q4"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section1.a4"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section1.a4.li1"]}</li>
+								<li>{content["faq.section1.a4.li2"]}</li>
+								<li>{content["faq.section1.a4.li3"]}</li>
+							</ul>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q5"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section1.a5.p1"]}</p>
+							<ul className="ml-6 text-base leading-6 font-normal list-decimal">
+								<li>{content["faq.section1.a5.li1"]}</li>
+								<li>{content["faq.section1.a5.li2"]}</li>
+							</ul>
+
+							<p className="mt-3">{content["faq.section1.a5.p2"]}</p>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q6"],
+					answer: content["faq.section1.a6"],
+				},
+				{
+					question: content["faq.section1.q7"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section1.a7"]}</p>
+							<div className="lg:px-3 py-3">
+								<AnchorLink
+									href={content["faq.section1.a7.link.link"]}
+									title={content["faq.section1.a7.link.title"]}
+								/>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q8"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p
+									className="mb-3"
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section1.a8.p1"],
+									}}
+								/>
+								<ul className="list-disc ml-6 text-base leading-6 font-normal">
+									<li>{content["faq.section1.a8.li1"]}</li>
+									<li>{content["faq.section1.a8.li2"]}</li>
+									<li>{content["faq.section1.a8.li3"]}</li>
+									<li>{content["faq.section1.a8.li4"]}</li>
+								</ul>
+							</div>
+							<p
+								className="mb-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section1.a8.p2"],
+								}}
+							/>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section1.q9"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<ul className="list-decimal ml-6 text-base leading-6 font-normal flex gap- flex-col">
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section1.a9.li1"],
+									}}
+								/>
+								<li>{content["faq.section1.a9.li2"]}</li>
+								<li>
+									{content["faq.section1.a9.li3"]}
+									<ul className="list-disc ml-6 text-base leading-6 font-normal">
+										<li>{content["faq.section1.a9.li3.p1"]}</li>
+										<li>{content["faq.section1.a9.li3.p2"]}</li>
+									</ul>
+								</li>
+
+								<li>{content["faq.section1.a9.li4"]}</li>
+							</ul>
+							<div>
+								<p
+									className="mb-3"
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section1.a9.p2"],
+									}}
+								/>
+
+								<AnchorLink
+									href={content["faq.section1.a9.link1.href"]}
+									title={content["faq.section1.a9.link1.title"]}
+								/>
+							</div>
+							<div>
 								<VideoItem
 									title={content["faq.section1.a2.video1.title"]}
 									href={`/tutorials/${createSlug(content["faq.section1.a2.video1.linkName"])}`}
@@ -50,7 +198,6 @@ export const faq = {
 									href={`/tutorials/${createSlug(content["faq.section1.a2.video3.linkName"])}`}
 									hasBorder={false}
 								/>
-								<p className="mt-3 italic">{content["faq.section1.a2.tip"]}</p>
 							</div>
 						</div>
 					),
