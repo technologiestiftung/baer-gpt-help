@@ -287,18 +287,14 @@ export const faq = {
 				{
 					question: content["faq.section3.q1"],
 					answer: (
-						<div className="flex flex-col gap-5 lg:gap-9">
-							<p>{content["faq.section3.a1.p1"]}</p>
-							<div>
-								<h4 className="lg:px-3 pt-3 text-base leading-6 font-semibold">
-									{content["faq.section3.a1.h4"]}
-								</h4>
-								<VideoItem
-									title={content["faq.section3.a1.video1.title"]}
-									href={`/tutorials/${createSlug(content["faq.section3.a1.video1.linkName"])}`}
-									hasBorder={false}
-								/>
-							</div>
+						<div>
+							<p className="mb-3">{content["faq.section3.a1.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section3.a1.li1"]}</li>
+								<li>{content["faq.section3.a1.li2"]}</li>
+								<li>{content["faq.section3.a1.li3"]}</li>
+								<li>{content["faq.section3.a1.li4"]}</li>
+							</ul>
 						</div>
 					),
 				},
@@ -307,12 +303,59 @@ export const faq = {
 					answer: (
 						<div>
 							<p className="mb-3">{content["faq.section3.a2.p1"]}</p>
-							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+							<ul className="list-decimal ml-6 text-base leading-6 font-normal">
 								<li>{content["faq.section3.a2.li1"]}</li>
 								<li>{content["faq.section3.a2.li2"]}</li>
 								<li>{content["faq.section3.a2.li3"]}</li>
 								<li>{content["faq.section3.a2.li4"]}</li>
 							</ul>
+							<p
+								className="my-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section3.a2.p2"],
+								}}
+							/>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section3.q3"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section3.a3.l1"]}</p>
+							<ul className="list-decimal ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section3.a3.l2"]}</li>
+								<li>{content["faq.section3.a3.l3"]}</li>
+								<li>{content["faq.section3.a3.l4"]}</li>
+								<li>{content["faq.section3.a3.l5"]}</li>
+							</ul>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section3.q4"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section3.a4.p1"]}</p>
+							<ul className="list-decimal ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section3.a4.li1"]}</li>
+								<li>{content["faq.section3.a4.li2"]}</li>
+								<li>{content["faq.section3.a4.li3"]}</li>
+							</ul>
+							<p className="my-3">{content["faq.section3.a4.p2"]}</p>
+							<p
+								className="mb-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section3.a4.p3"],
+								}}
+							/>
+							<p className="mb-3">{content["faq.section3.a4.p4"]}</p>
+							<div className="lg:px-3 pb-3">
+								<AnchorLink
+									href={`#${content["faq.section3.a4.link1.title"].toLowerCase().replace(/\s+/g, "-")}`}
+									title={content["faq.section3.a4.link1.title"]}
+								/>
+							</div>
 						</div>
 					),
 				},

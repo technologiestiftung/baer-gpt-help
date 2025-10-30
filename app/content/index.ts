@@ -162,11 +162,11 @@ export const content = {
 	"faq.section1.a4":
 		"BärGPT ersetzt keine Fachprüfung oder menschliche Entscheidung. Er kann Fehler machen oder unvollständige Antworten liefern. Bitte beachten Sie:",
 	"faq.section1.a4.li1":
-		"- BärGPT unterstützt Sie bei der Recherche und Texterstellung, übernimmt jedoch keine rechtliche oder fachliche Verantwortung für die Ergebnisse.",
+		"BärGPT unterstützt Sie bei der Recherche und Texterstellung, übernimmt jedoch keine rechtliche oder fachliche Verantwortung für die Ergebnisse.",
 	"faq.section1.a4.li2":
-		"- Verwenden Sie BärGPT nicht zur Verarbeitung von personenbezogenen Daten, die nicht erforderlich sind, oder von besonders schützenswerten Daten, wenn dies nicht genehmigt ist.",
+		"Verwenden Sie BärGPT nicht zur Verarbeitung von personenbezogenen Daten, die nicht erforderlich sind, oder von besonders schützenswerten Daten, wenn dies nicht genehmigt ist.",
 	"faq.section1.a4.li3":
-		"- Auf aktuelle Informationen zugreifen, die nicht Verwaltungswissen betreffen, da BärGPT noch keine Internetsuche durchführen kann.",
+		"Auf aktuelle Informationen zugreifen, die nicht Verwaltungswissen betreffen, da BärGPT noch keine Internetsuche durchführen kann.",
 
 	//Section 1 - Question 5
 	"faq.section1.q5": "Warum ist BärGPT vorübergehend nicht erreichbar?",
@@ -309,24 +309,60 @@ export const content = {
 	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
 	"faq.section3.title": "Konto & Anmeldung",
 	//Section 3 - Question 1
-	"faq.section3.q1": "Wie erstelle ich ein Benutzerkonto?",
+	"faq.section3.q1": "Warum kann ich mich nicht einloggen?",
 	"faq.section3.a1.p1":
-		"Sie können Ihr Konto direkt auf der Startseite erstellen, indem Sie ein Konto erstellen, indem Sie Ihre E-Mail-Adresse und ein Passwort eingeben. Im Anschluss klicken Sie auf den Link in der Bestätigungs-E-Mail.",
-	"faq.section3.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"faq.section3.a1.video1.title": "Erste Schritte mit BärGPT",
-	"faq.section3.a1.video1.linkName": "Erste Schritte mit BärGPT",
-	//Section 3 - Question 2
-	"faq.section3.q2": "Warum kann ich mich nicht einloggen?",
-	"faq.section3.a2.p1":
 		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
-	"faq.section3.a2.li1":
+	"faq.section3.a1.li1":
 		"Falsche E-Mail-Adresse oder Passwort: Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
-	"faq.section3.a2.li2":
+	"faq.section3.a1.li2":
 		"Passwort vergessen: Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
-	"faq.section3.a2.li3":
+	"faq.section3.a1.li3":
 		"Konto noch nicht erstellt: Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
-	"faq.section3.a2.li4":
+	"faq.section3.a1.li4":
 		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
+
+	//Section 3 - Question 2
+	"faq.section3.q2": "Ich habe mein Passwort vergessen?",
+	"faq.section3.a2.p1":
+		"Wenn Sie Ihr Passwort für BärGPT vergessen haben oder ändern möchten, können Sie es selbst zurücksetzen:",
+	"faq.section3.a2.li1": "Gehen Sie auf die Login-Seite von BärGPT.",
+	"faq.section3.a2.li2": "Klicken Sie auf „Passwort vergessen?“.",
+	"faq.section3.a2.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
+	"faq.section3.a2.li4":
+		"Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts. Folgen Sie dem Link und vergeben Sie ein neues Passwort.",
+	"faq.section3.a2.p2": `Falls Sie keine E-Mail erhalten, prüfen Sie bitte Ihren Spam-Ordner oder wenden Sie sich an 
+		<a class="underline underline-offset-6"
+							href="mailto:hilfe@baergpt.berlin"
+							target="_blank"
+							rel="noopener noreferrer"
+						>hilfe@baergpt.berlin</a>.`,
+
+	//Section 3 - Question 3
+	"faq.section3.q3": "Wie ändere ich meine Nutzerdaten?",
+	"faq.section3.a3.l1":
+		"Sie können Ihre persönlichen Daten jederzeit anpassen – dazu gehören Name, E-Mail-Adresse und Passwort.",
+	"faq.section3.a3.l2":
+		" Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
+	"faq.section3.a3.l3": " Wählen Sie „Profil“ aus.",
+	"faq.section3.a3.l4":
+		" In der Eingabemaske können Sie Ihre Angaben ändern und anschließend speichern.",
+	"faq.section3.a3.l5":
+		" Zusätzlich können Sie einstellen, wie Sie von BärGPT angesprochen werden möchten: Bevorzugen Sie ein freundliches „Du“, verschieben Sie den Schieberegler entsprechend.",
+
+	//Section 3 - Question 4
+	"faq.section3.q4": "Wie lösche ich mein Benutzerkonto?",
+	"faq.section3.a4.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
+	"faq.section3.a4.li1":
+		"Öffnen Sie Ihren Nutzeraccount (oben rechts auf der Startseite).",
+	"faq.section3.a4.li2": "Klicken Sie auf „Konto löschen“.",
+	"faq.section3.a4.li3":
+		"Bestätigen Sie die Löschung im anschließenden Hinweisfenster.",
+	"faq.section3.a4.p2":
+		"Nach Ihrer Bestätigung werden alle personenbezogenen Daten und gespeicherten Chatverläufe gemäß den Datenschutzbestimmungen dauerhaft gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
+	"faq.section3.a4.p3":
+		"<strong>Hinweis:</strong> Nach der Löschung ist eine erneute Nutzung von BärGPT nur durch eine neue Registrierung möglich.",
+	"faq.section3.a4.p4": "Siehe auch dazu die Hinweise unter der Rubrik:",
+	"faq.section3.a4.link1.title": "Datenschutz & Datensicherheit",
 
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
