@@ -209,18 +209,7 @@ export const faq = {
 			questions: [
 				{
 					question: content["faq.section2.q1"],
-					answer: (
-						<div className="flex flex-col gap-5 lg:gap-9">
-							{content["faq.section2.a1"]}
-							<div>
-								<DownloadItem
-									href={content["faq.section2.a1.link1.link"]}
-									subtitle="PDF"
-									title={content["faq.section2.a1.link1.title"]}
-								/>
-							</div>
-						</div>
-					),
+					answer: content["faq.section2.a1"],
 				},
 				{
 					question: content["faq.section2.q2"],
@@ -237,32 +226,38 @@ export const faq = {
 				{
 					question: content["faq.section2.q5"],
 					answer: (
-						<div className="flex flex-col gap-5 lg:gap-9">
-							<div>
-								<p>{content["faq.section2.a5.p1"]}</p>
-								<p className="my-3">{content["faq.section2.a5.p2"]}</p>
-								<ul className="list-disc ml-6 text-base leading-6 font-normal">
-									<li>{content["faq.section2.a5.li1"]}</li>
-									<li>{content["faq.section2.a5.li2"]}</li>
-									<li>{content["faq.section2.a5.li3"]}</li>
-								</ul>
-								<p className="mt-3">{content["faq.section2.a5.p3"]}</p>
-							</div>
+						<div>
+							<p className="mb-3">{content["faq.section2.a5.p1"]}</p>
+							<p className="mb-3">{content["faq.section2.a5.p2"]}</p>
+							<p className="mb-3">{content["faq.section2.a5.p3"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section2.a5.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section2.a5.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section2.a5.li3"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section2.a5.li4"],
+									}}
+								/>
+							</ul>
 						</div>
 					),
 				},
 				{
 					question: content["faq.section2.q6"],
-					answer: (
-						<div>
-							<p className="mb-3">{content["faq.section2.a6.p1"]}</p>
-							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li>{content["faq.section2.a6.li1"]}</li>
-								<li>{content["faq.section2.a6.li2"]}</li>
-								<li>{content["faq.section2.a6.li3"]}</li>
-							</ul>
-						</div>
-					),
+					answer: content["faq.section2.a6"],
 				},
 				{
 					question: content["faq.section2.q7"],
@@ -271,8 +266,16 @@ export const faq = {
 				{
 					question: content["faq.section2.q8"],
 					answer: (
-						<div className="flex flex-col gap-5 lg:gap-9">
-							<p>{content["faq.section2.a8.p1"]}</p>
+						<div className="flex flex-col gap-5">
+							<div>
+								<p className="mb-3">{content["faq.section2.a8.p1"]}</p>
+								<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
+									<li>{content["faq.section2.a8.li1"]}</li>
+									<li>{content["faq.section2.a8.li2"]}</li>
+									<li>{content["faq.section2.a8.li3"]}</li>
+								</ul>
+							</div>
+							<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
 						</div>
 					),
 				},

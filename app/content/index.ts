@@ -241,61 +241,70 @@ export const content = {
 	"faq.section1.a2.video3.title": "Starke Anfragen formulieren mit BärGPT",
 	"faq.section1.a2.video3.linkName": "Starke Anfragen formulieren mit BärGPT",
 
-	/* -------------------- Section 2 - Datenschutz & Sicherheit -------------------- */
-	"faq.section2.title": "Datenschutz & Sicherheit",
+	/* -------------------- Section 2 - Datenschutz & Datensicherheit -------------------- */
+	"faq.section2.title": "Datenschutz & Datensicherheit",
 	//Section 2 - Question 1
-	"faq.section2.q1":
-		"Gibt es eine offizielle Orientierungshilfe zur Nutzung von KI-Chatbots in der Berliner Verwaltung?",
+	"faq.section2.q1": "Ist BärGPT DSGVO-konform?",
 	"faq.section2.a1":
-		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
-	"faq.section2.a1.link1.title":
-		"Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin",
-	"faq.section2.a1.link1.link":
-		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
+		"BärGPT ist gemäß den Anforderungen der Datenschutz-Grundverordnung (DSGVO) konzipiert und betrieben. Alle personenbezogenen Daten werden ausschließlich auf Servern innerhalb der Europäischen Union verarbeitet. Die Anwendung verwendet ausschließlich Open-Source-Komponenten, die so integriert sind, dass eine datenschutzkonforme Verarbeitung gewährleistet ist. Alle Eingaben werden vertraulich behandelt und nicht zur Weiterentwicklung des Modells verwendet.",
+
 	//Section 2 - Question 2
-	"faq.section2.q2": "Darf ich vertrauliche Dokumente hochladen?",
+	"faq.section2.q2": "Wer ist verantwortlich für den Datenschutz bei BärGPT?",
 	"faq.section2.a2":
-		"Nein. BärGPT ist nicht für die Verarbeitung von personenbezogenen, vertraulichen oder schutzwürdigen Informationen geeignet. Bitte laden Sie ausschließlich allgemeine und unkritische Inhalte hoch – z.B. öffentlich zugängliche Berichte, Informationsmaterial oder neutralisierte Arbeitsdokumente.",
+		"Verantwortlich im Sinne des Datenschutzes ist die Technologiestiftung Berlin, Grunewaldstrasse 61-62, 10825 Berlin, vertreten durch Michael Scherer (datenschutz@ts.berlin), im Auftrag der Senatskanzlei Berlin.",
+
 	//Section 2 - Question 3
-	"faq.section2.q3":
-		"Werden meine Daten zum Training des KI-Modells verwendet?",
+	"faq.section2.q3": "Was passiert mit meinen Eingaben?",
 	"faq.section2.a3":
-		"Nein. Die Inhalte, die Sie in BärGPT eingeben oder hochladen, werden nicht zur Weiterentwicklung oder zum Training des zugrunde liegenden Sprachmodells verwendet. Das Modell greift nicht auf Ihre Inhalte zurück, um andere Nutzende zu bedienen. Ihre Daten bleiben isoliert und kontrolliert.",
+		"Ihre Eingaben werden ausschließlich für die Verarbeitung Ihrer Anfrage genutzt. Sie fließen nicht in das Training des Modells ein und werden nicht an externe Anbieter weitergegeben. Personenbezogene Daten werden nur so lange gespeichert, wie es für die Erfüllung des Zwecks erforderlich ist.",
+
 	//Section 2 - Question 4
 	"faq.section2.q4": "Wo und wie werden meine Daten gespeichert?",
 	"faq.section2.a4":
-		"Die Speicherung erfolgt DSGVO-konform auf Servern innerhalb der Europäischen Union. Zugriff haben ausschließlich autorisierte Systeme innerhalb der BärGPT-Infrastruktur. Es erfolgt keine Verarbeitung außerhalb der EU.",
+		"Persönliche Daten werden ausschließlich in deutschen Rechenzentren gemäß dem BSI C5-Standard gespeichert. Sie sind während Übertragung und Speicherung verschlüsselt und werden nach Zweckerfüllung ordnungsgemäß gelöscht.",
+
 	//Section 2 - Question 5
 	"faq.section2.q5":
-		"Welche Risiken bestehen bei der Nutzung von KI-Chatbots wie BärGPT?",
+		"Was passiert bei längerer Inaktivität oder Accountlöschung?",
 	"faq.section2.a5.p1":
-		"KI-Chatbots arbeiten probabilistisch – sie „vermuten“ Antworten auf Basis von Wahrscheinlichkeiten.",
-	"faq.section2.a5.p2": "Auch wenn BärGPT sehr präzise arbeitet, kann es:",
-	"faq.section2.a5.li1": "zu falschen oder unvollständigen Antworten kommen",
-	"faq.section2.a5.li2":
-		"Kontext falsch interpretieren, wenn Informationen fehlen",
-	"faq.section2.a5.li3": "keine jurisch verbindlichen Aussagen treffen",
+		"Wenn Sie sich über einen längeren Zeitraum von zwölf Monaten nicht bei BärGPT angemeldet haben, erhalten Sie eine E-Mail mit der Bitte, sich innerhalb von 14 Tagen anzumelden. Erfolgt dies nicht, wird der Account als inaktiv bewertet und inklusive aller persönlichen Daten und Einstellungen, Chats und Dateien gelöscht – vollständig und unwiderruflich.",
+	"faq.section2.a5.p2":
+		"Sie können Ihren Account jederzeit selbst löschen, die Funktion dazu finden Sie in Ihrem Nutzendenprofil.",
 	"faq.section2.a5.p3":
-		"Verwenden Sie BärGPT zur Unterstützung – nicht zur finalen Bewertung oder Entscheidung",
+		"Auch bei automatischer oder administrativer Löschung gilt:",
+	"faq.section2.a5.li1":
+		"<strong>Chats und Dokumente:</strong> können jederzeit manuell gelöscht werden; die Löschung erfolgt sofort und endgültig.",
+	"faq.section2.a5.li2":
+		"<strong>Deaktivierte Accounts:</strong> werden unmittelbar endgültig gelöscht.",
+	"faq.section2.a5.li3":
+		"<strong>Backups:</strong> werden nach einem festgelegten Rotationsplan (z. B. täglich, wöchentlich, monatlich) überschrieben und damit gelöscht.",
+	"faq.section2.a5.li4":
+		"<strong>Support- und Diagnosedaten:</strong> werden nach Abschluss der Fehleranalyse gelöscht oder anonymisiert.",
+
 	//Section 2 - Question 6
 	"faq.section2.q6":
-		"Was kann ich tun, wenn ich unsicher bin, ob ein Dokument geeignet ist?",
-	"faq.section2.a6.p1":
-		"Wenn Sie Zweifel haben, ob ein Dokument datenschutzkonform hochgeladen werden kann:",
-	"faq.section2.a6.li1":
-		"Prüfen Sie, ob personenbezogene Daten enthalten sind.",
-	"faq.section2.a6.li2":
-		"Klären Sie bei Bedarf mit Ihrer Datenschutzbeauftragten Stelle, ob eine Nutzung erlaubt ist.",
-	"faq.section2.a6.li3":
-		"Alternativ: Anonymisieren oder abstrahieren Sie die Inhalte vor dem Upload.",
+		"Wird die Nutzung von BärGPT protokolliert oder ausgewertet?",
+	"faq.section2.a6":
+		"Ja, die Nutzung von BärGPT wird technisch protokolliert, um den Betrieb, die Sicherheit und die Weiterentwicklung der Anwendung zu gewährleisten. Dabei werden ausschließlich anonymisierte Metadaten erfasst – zum Beispiel, wann ein Chat gestartet wurde oder welche Funktionen genutzt wurden. Diese Daten enthalten keine Inhalte von Chats oder Dokumenten und lassen keine Rückschlüsse auf einzelne Personen zu. Eine personenbezogene Auswertung der Nutzung findet grundsätzlich nicht statt. Die erhobenen technischen Protokolle werden regelmäßig gelöscht, sobald sie für den genannten Zweck nicht mehr erforderlich sind.",
+
 	//Section 2 - Question 7
-	"faq.section2.q7": "Welches Modell wird aktuell verwendet für BärGPT?",
+	"faq.section2.q7": "Wer hat Zugriff auf meine Daten?",
 	"faq.section2.a7":
-		"BärGPT nutzt derzeit das Modell mistral-small-latest, das vom Unternehmen Mistral entwickelt und gehostet wird. Es handelt sich um ein Open-Source-Modell des Unternehmens Mistral, das datenschutzkonform auf Servern in Frankreich betrieben wird. Das Modell erfüllt die Anforderungen der Datenschutz-Grundverordnung (DSGVO) und wurde so in BärGPT eingebunden, dass Ihre Daten nicht für Trainingszwecke verwendet werden. Alle Inhalte, die Sie in den Chat eingeben oder hochladen, werden lediglich zur direkten Beantwortung Ihrer Anfrage genutzt und verlassen nicht die gesicherte Umgebung.",
+		"Der Zugriff auf Daten in BärGPT ist streng reglementiert. Nur Sie haben Zugriff auf Ihre persönliche Chats und Dokumente. Es gibt keine manuelle Einsicht durch Mitarbeitende, keine Weitergabe an Dritte und keine Nutzung zu anderen Zwecken.",
+
 	//Section 2 - Question 8
-	"faq.section2.q8": "Ist BärGPT Open Source und kann frei genutzt werden?",
+	"faq.section2.q8":
+		"Darf ich personenbezogene und sensible Daten mit BärGPT verarbeiten?",
 	"faq.section2.a8.p1":
-		"Ja, BärGPT ist ein Open Source-Projekt, das von der Technologiestiftung Berlin entwickelt wurde. Der Quellcode wird nach Abschluss der internen Betaphase veröffentlicht und kann dann öffentlich eingesehen, weiterentwickelt oder angepasst werden.",
+		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken oder durch Dritte eingesehen werden. Dennoch gilt:",
+
+	"faq.section2.a8.li1": "Gehen Sie mit sensiblen Informationen umsichtig um.",
+	"faq.section2.a8.li2":
+		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.*",
+	"faq.section2.a8.li3":
+		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
+	"faq.section2.a8.p2":
+		"* Zum Zeitpunkt des Rollouts von BärGPT gibt es keine geltende Rechtsgrundlage zur Verarbeitung von personenbezogenen Daten mit BärGPT (bspw. Dokumentenuploads, die Personenbezüge beinhalten), entsprechend dürfen Nutzer:innen keine personenbezogenen Daten verarbeiten. Die entsprechende Rechtsgrundlage ist jedoch in den finalen Schritten der Erarbeitung (Novellierung des Berliner E-Government-Gesetzes) und soll zu Beginn 2026 in Kraft treten.",
 
 	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
 	"faq.section3.title": "Konto & Anmeldung",
