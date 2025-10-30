@@ -606,6 +606,7 @@ export const content = {
 	"faq.section7.a3.link2.title": "GGO 2",
 	"faq.section7.a3.link2.href":
 		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
+
 	"faq.section7.a3.link3.title":
 		"Allgemeine Nebenbestimmungen für Zuwendungen zur institutionellen Förderung (ANBest-I)",
 	"faq.section7.a3.link3.href": "/base-knowledge/ANBest-I.pdf",
