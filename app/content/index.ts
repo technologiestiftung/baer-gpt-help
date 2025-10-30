@@ -606,6 +606,46 @@ export const content = {
 	"faq.section7.a3.link2.title": "GGO 2",
 	"faq.section7.a3.link2.href":
 		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
+	"faq.section7.a3.link3.title":
+		"Allgemeine Nebenbestimmungen für Zuwendungen zur institutionellen Förderung (ANBest-I)",
+	"faq.section7.a3.link3.href": "/base-knowledge/ANBest-I.pdf",
+	"faq.section7.a3.link4.title":
+		"Allgemeine Nebenbestimmungen für Zuwendungen zur Projektförderung (ANBest-P)",
+	"faq.section7.a3.link4.href": "/base-knowledge/ANBest-P.pdf",
+	"faq.section7.a3.link5.title": "Bezirksverwaltungsgesetz Berlin",
+	"faq.section7.a3.link5.href":
+		"/base-knowledge/Bezirksverwaltungsgesetz-berlin.pdf",
+	"faq.section7.a3.link6.title": "Gesetz gegen Wettbewerbsbeschränkungen (GWB)",
+	"faq.section7.a3.link6.href":
+		"/base-knowledge/Gesetz-gegen-Wettbewerbsbeschränkungen-(GWB).pdf",
+	"faq.section7.a3.link7.title": "IKT Rollenkonzept",
+	"faq.section7.a3.link7.href": "/base-knowledge/ikt-rollenkonzept.pdf",
+	"faq.section7.a3.link8.title": "Landesbeamtengesetz",
+	"faq.section7.a3.link8.href": "/base-knowledge/Landesbeamtengesetz.pdf",
+	"faq.section7.a3.link9.title": "Landeshaushaltsordnung (LHO)",
+	"faq.section7.a3.link9.href":
+		"/base-knowledge/Landeshaushaltsordnung-(LHO).pdf",
+	"faq.section7.a3.link10.title": "Landesorganisationsgesetz",
+	"faq.section7.a3.link10.href":
+		"/base-knowledge/Landesorganisationsgesetz.pdf",
+	"faq.section7.a3.link11.title": "LHO AV",
+	"faq.section7.a3.link11.href": "/base-knowledge/LHO_AV.pdf",
+	"faq.section7.a3.link12.title": "Projektmanagementhandbuch Berlin",
+	"faq.section7.a3.link12.href":
+		"/base-knowledge/Projektmanagementhandbuch_berlin.pdf",
+	"faq.section7.a3.link13.title": "Verfassung von Berlin",
+	"faq.section7.a3.link13.href": "/base-knowledge/Verfassung-von-Berlin.pdf",
+	"faq.section7.a3.link14.title":
+		"Verordnung über die Vergabe öffentlicher Aufträge",
+	"faq.section7.a3.link14.href":
+		"/base-knowledge/Verordnung-über-die-Vergabe-öffentlicher-Aufträge.pdf",
+	"faq.section7.a3.link15.title": "VwVfG Bund",
+	"faq.section7.a3.link15.href": "/base-knowledge/VwVfG_Bund.pdf",
+	"faq.section7.a3.link16.title": "VwVfG BE 2016",
+	"faq.section7.a3.link16.href": "/base-knowledge/VwVfG_BE_2016.pdf",
+	"faq.section7.a3.link17.title": "Whitepaper zu IKT Rollenkonzept",
+	"faq.section7.a3.link17.href":
+		"/base-knowledge/whitepaper-zu-ikt-rollenkonzept.pdf",
 
 	//Section 7 - Question 4
 	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
