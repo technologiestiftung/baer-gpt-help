@@ -493,7 +493,7 @@ export const faq = {
 					question: content["faq.section6.q2"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
-							<p>{content["faq.section6.a1"]}</p>
+							<p>{content["faq.section6.a2"]}</p>
 							<VideoItem
 								title={content["faq.section6.a2.video1.title"]}
 								href={`/tutorials/${createSlug(content["faq.section6.a2.video1.linkName"])}`}
