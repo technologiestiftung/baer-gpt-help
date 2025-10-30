@@ -41,9 +41,9 @@ export const faq = {
 							</div>
 							<div>
 								<DownloadItem
-									href={content["faq.section1.a2.link1.link"]}
+									href={content["faq.section1.a2.link.href"]}
 									subtitle="PDF"
-									title={content["faq.section1.a2.link1.title"]}
+									title={content["faq.section1.a2.link.title"]}
 								/>
 							</div>
 						</div>
@@ -70,8 +70,8 @@ export const faq = {
 								/>
 								<div className="lg:px-3 py-3">
 									<AnchorLink
-										href={`#${content["faq.section1.a3.link1.title"].toLowerCase().replace(/\s+/g, "-")}`}
-										title={content["faq.section1.a3.link1.title"]}
+										href={`#${createSlug(content["faq.section1.a3.link.title"])}`}
+										title={content["faq.section1.a3.link.title"]}
 									/>
 								</div>
 							</div>
@@ -116,7 +116,7 @@ export const faq = {
 							<p className="mb-3">{content["faq.section1.a7"]}</p>
 							<div className="lg:px-3 py-3">
 								<AnchorLink
-									href={content["faq.section1.a7.link.link"]}
+									href={content["faq.section1.a7.link.href"]}
 									title={content["faq.section1.a7.link.title"]}
 								/>
 							</div>
@@ -180,8 +180,8 @@ export const faq = {
 								/>
 
 								<AnchorLink
-									href={content["faq.section1.a9.link1.href"]}
-									title={content["faq.section1.a9.link1.title"]}
+									href={content["faq.section1.a9.link.href"]}
+									title={content["faq.section1.a9.link.title"]}
 								/>
 							</div>
 							<div>
@@ -352,8 +352,8 @@ export const faq = {
 							<p className="mb-3">{content["faq.section3.a4.p4"]}</p>
 							<div className="lg:px-3 pb-3">
 								<AnchorLink
-									href={`#${content["faq.section3.a4.link1.title"].toLowerCase().replace(/\s+/g, "-")}`}
-									title={content["faq.section3.a4.link1.title"]}
+									href={`#${createSlug(content["faq.section3.a4.link.href"])}`}
+									title={content["faq.section3.a4.link.title"]}
 								/>
 							</div>
 						</div>
@@ -386,7 +386,7 @@ export const faq = {
 							<p className="mb-3">{content["faq.section4.a2.p1"]}</p>
 							<div className="lg:px-3 py-3">
 								<AnchorLink
-									href={`#${content["faq.section4.a2.link.href"].toLowerCase().replace(/\s+/g, "-")}`}
+									href={`#${createSlug(content["faq.section4.a2.link.href"])}`}
 									title={content["faq.section4.a2.link.title"]}
 								/>
 							</div>
@@ -494,7 +494,7 @@ export const faq = {
 							/>
 							<div className="lg:px-3 py-3">
 								<AnchorLink
-									href={`#${content["faq.section4.a9.link.href"].toLowerCase().replace(/\s+/g, "-")}`}
+									href={`#${createSlug(content["faq.section4.a9.link.href"])}`}
 									title={content["faq.section4.a9.link.title"]}
 								/>
 							</div>
@@ -687,7 +687,7 @@ export const faq = {
 							<p className="mb-3">{content["faq.section7.a1.p4"]}</p>
 
 							<AnchorLink
-								href={`#${content["faq.section7.a1.link.href"].toLowerCase().replace(/\s+/g, "-")}`}
+								href={`#${createSlug(content["faq.section7.a1.link.href"])}`}
 								title={content["faq.section7.a1.link.title"]}
 							/>
 						</div>
@@ -761,9 +761,9 @@ export const faq = {
 								/>
 								<div className="lg:px-3 py-3">
 									<AnchorLink
-										href={content["faq.section7.a4.link1.href"]}
+										href={content["faq.section7.a4.link.href"]}
 										rel="noopener noreferrer"
-										title={content["faq.section7.a4.link1.title"]}
+										title={content["faq.section7.a4.link.title"]}
 									/>
 								</div>
 							</div>
@@ -851,9 +851,9 @@ export const faq = {
 							/>
 							<div className="lg:px-3 py-3">
 								<AnchorLink
-									href={content["faq.section7.a8.link1.url"]}
+									href={content["faq.section7.a8.link.href"]}
 									rel="noopener noreferrer"
-									title={content["faq.section7.a8.link1.title"]}
+									title={content["faq.section7.a8.link.title"]}
 								/>
 							</div>
 						</div>
@@ -883,9 +883,9 @@ export const faq = {
 							<div>
 								<div className="lg:px-3 py-3">
 									<AnchorLink
-										href={content["faq.section8.a1.link1.href"]}
+										href={content["faq.section8.a1.link.href"]}
 										rel="noopener noreferrer"
-										title={content["faq.section8.a1.link1.title"]}
+										title={content["faq.section8.a1.link.title"]}
 									/>
 								</div>
 							</div>

@@ -140,8 +140,8 @@ export const content = {
 	"faq.section1.a2.li3": "Eine stabile Internetverbindung",
 	"faq.section1.a2.li4":
 		"Grundkenntnisse im Umgang mit der Benutzung von KI. Besondere technische Kenntnisse sind <strong>nicht</strong> erforderlich.",
-	"faq.section1.a2.link1.title": "Link zu Nutzerhandbuch",
-	"faq.section1.a2.link1.link": "/baergpt-nutzerhandbuch.pdf",
+	"faq.section1.a2.link.title": "Link zu Nutzerhandbuch",
+	"faq.section1.a2.link.href": "/baergpt-nutzerhandbuch.pdf",
 
 	// Section 1 - Question 3
 	"faq.section1.q3": "Wofür kann ich BärGPT nutzen?",
@@ -155,7 +155,8 @@ export const content = {
 		"Spezifisches Wissen aus der Berliner Verwaltung abrufen, durch Zugriff auf relevante Dokumente der Berliner Verwaltung wie z.B. GGO , GGO 2 oder die  Landeshaushaltsordnung.",
 	"faq.section1.a3.p2":
 		"<strong>Hinweis</strong>: Mehr Informationen zum Verwaltungswissen und relevanten Dokumenten finden Sie hier:",
-	"faq.section1.a3.link1.title": "KI Wissen & Antworten",
+	"faq.section1.a3.link.title": "KI Wissen & Antworten",
+	"faq.section1.a3.link.href": "KI Wissen & Antworten",
 
 	// Section 1 - Question 4
 	"faq.section1.q4": "Was kann BärGPT nicht?",
@@ -189,7 +190,7 @@ export const content = {
 		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
 	"faq.section1.a7.link.title":
 		"Link zum Rundschreiben „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“",
-	"faq.section1.a7.link.link":
+	"faq.section1.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 
 	//Section 1 - Question 8
@@ -230,8 +231,8 @@ export const content = {
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
 	"faq.section1.a9.p2":
 		"<strong>Hinweis</strong>: Schauen Sie sich auch unseren Hilfestellungen zum Arbeiten mit KI an:",
-	"faq.section1.a9.link1.title": "Link zur Prompt Seite",
-	"faq.section1.a9.link1.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section1.a9.link.title": "Link zur Prompt Seite",
+	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
 	"faq.section1.a2.video1.title": "Erste Schritte mit BärGPT",
@@ -362,7 +363,8 @@ export const content = {
 	"faq.section3.a4.p3":
 		"<strong>Hinweis:</strong> Nach der Löschung ist eine erneute Nutzung von BärGPT nur durch eine neue Registrierung möglich.",
 	"faq.section3.a4.p4": "Siehe auch dazu die Hinweise unter der Rubrik:",
-	"faq.section3.a4.link1.title": "Datenschutz & Datensicherheit",
+	"faq.section3.a4.link.title": "Datenschutz & Datensicherheit",
+	"faq.section3.a4.link.href": "Datenschutz & Datensicherheit",
 
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
@@ -612,8 +614,8 @@ export const content = {
 		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
 	"faq.section7.a4.p3":
 		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a4.link1.title": "Link zur Prompt Seite",
-	"faq.section7.a4.link1.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section7.a4.link.title": "Link zur Prompt Seite",
+	"faq.section7.a4.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 5
 	"faq.section7.q5": "Wie aktuell ist das Wissen von BärGPT?",
@@ -656,8 +658,8 @@ export const content = {
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
 	"faq.section7.a8.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a8.link1.title": "Link zur Prompt Seite",
-	"faq.section7.a8.link1.url": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section7.a8.link.title": "Link zur Prompt Seite",
+	"faq.section7.a8.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
 	"faq.section8.title": "Weitere Hilfe",
@@ -666,8 +668,8 @@ export const content = {
 	"faq.section8.a1.p1":
 		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
 	"faq.section8.a1.email": "support@baergpt.berlin",
-	"faq.section8.a1.link1.title": "Link zur Video-Tutorials Seite",
-	"faq.section8.a1.link1.href": "/tutorials",
+	"faq.section8.a1.link.title": "Link zur Video-Tutorials Seite",
+	"faq.section8.a1.link.href": "/tutorials",
 
 	/* -------------------- TOP 5 FAQ -------------------- */
 	//Question 1
@@ -801,9 +803,9 @@ export const content = {
 	"prompts.section2.a1.li4":
 		'Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."',
 	"prompts.section2.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"prompts.section2.a1.link1.title":
+	"prompts.section2.a1.link.title":
 		"Link zum Dokument “Leitfaden für effektives Prompting”",
-	"prompts.section2.a1.link1.link":
+	"prompts.section2.a1.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
 	"prompts.section2.a1.video1.title":
 		"Video: Starke Anfragen formulieren mit BärGPT",
@@ -862,9 +864,9 @@ export const content = {
 	"prompts.section2.a2.tip":
 		"Tipp: Je konkreter Ihr Prompt ist, desto besser wird das Ergebnis.",
 	"prompts.section2.a2.h4": "Weitere Links, Tutorials und Downloads",
-	"prompts.section2.a2.link1.title":
+	"prompts.section2.a2.link.title":
 		"Link zum Dokument “Leitfaden für effektives Prompting”",
-	"prompts.section2.a2.link1.link":
+	"prompts.section2.a2.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
 	"prompts.section2.a2.video1.title": "Starke Anfragen formulieren mit BärGPT",
 	"prompts.section2.a2.video1.linkName":

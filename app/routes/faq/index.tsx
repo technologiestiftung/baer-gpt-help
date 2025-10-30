@@ -1,6 +1,7 @@
 import { Accordion } from "../../components/primitives/accordion/accordion";
 import { content } from "../../content";
 import { faq } from "./faq";
+import { createSlug } from "~/utils/create-slug";
 
 export default function Index() {
 	return (
@@ -12,7 +13,7 @@ export default function Index() {
 				{faq.sections.map((section, index) => (
 					<div key={index}>
 						<h2
-							id={section.title.toLowerCase().replace(/\s+/g, "-")}
+							id={createSlug(section.title)}
 							className="mb-5 md:mb-6 text-xl leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10"
 						>
 							{section.title}
