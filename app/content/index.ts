@@ -116,6 +116,7 @@ export const content = {
 	"faq.title": "Fragen und Antworten",
 	"faq.accordion.chevronDownAltText": "Antwort zeigen",
 	"faq.accordion.chevronUpAltText": "Antwort verstecken",
+	"faq.furtherLinksVideos.title": "Weitere Links, Tutorials und Downloads",
 
 	/* -------------------- Section 1 - Einstieg in BärGPT -------------------- */
 	"faq.section1.title": "Einstieg in BärGPT",
@@ -189,7 +190,7 @@ export const content = {
 	"faq.section1.a7":
 		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
 	"faq.section1.a7.link.title":
-		"Link zum Rundschreiben „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“",
+		"Rundschreiben „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“",
 	"faq.section1.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 
@@ -581,9 +582,6 @@ export const content = {
 		"Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
 	"faq.section7.a2.p3":
 		"Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
-	"faq.section7.a2.link.title": "Link zu Datenbank mit den Dokumenten:",
-	"faq.section7.a2.link.href":
-		"https://github.com/technologiestiftung/baer-gpt-help/tree/staging/public/base-knowledge",
 	"faq.section7.a2.h4": "So funktioniert es im Hintergrund:",
 	"faq.section7.a2.li1":
 		"Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",
@@ -689,7 +687,6 @@ export const content = {
 	"faq.top5.q5": "Wie stelle ich meinem Dokument eine Frage?",
 	"faq.top5.a5.p1":
 		"Sobald Sie eine Datei hochgeladen haben, können Sie direkt im Chat Fragen zum Inhalt stellen. BärGPT analysiert Ihre Datei und liefert relevante Antworten – direkt aus dem Text. Auch mehrere hochgeladene Dokumente können gleichzeitig durchsucht werden.",
-	"faq.top5.a5.h4": "Weitere Links, Tutorials und Downloads",
 	"faq.top5.a5.video1.title":
 		"Fragen zu Ordnern und Dokumenten im Chat stellen",
 	"faq.top5.a5.video1.linkName":

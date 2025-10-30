@@ -21,7 +21,7 @@ export const topFaq = {
 					</div>
 					<div>
 						<h4 className="lg:px-3 text-base leading-6 font-semibold">
-							{content["faq.top5.a5.h4"]}
+							{content["faq.furtherLinksVideos.title"]}
 						</h4>
 						<VideoItem
 							title={content["faq.top5.a5.video1.title"]}
