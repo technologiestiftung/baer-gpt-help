@@ -524,9 +524,9 @@ export const content = {
 		"Alternativ können Sie auch einen <strong>ganzen Ordner</strong> auswählen.",
 
 	"faq.section5.a5.video1.title":
-		"Fragen zu Ordnern und Dokumenten im Chat stellen",
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
 	"faq.section5.a5.video1.linkName":
-		"Fragen zu Ordnern und Dokumenten im Chat stellen",
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
 
 	/* -------------------- Section 6 - Dokumentenverwaltung -------------------- */
 	"faq.section6.title": "Dokumentenverwaltung",
@@ -581,6 +581,9 @@ export const content = {
 		"Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
 	"faq.section7.a2.p3":
 		"Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
+	"faq.section7.a2.link.title": "Link zu Datenbank mit den Dokumenten:",
+	"faq.section7.a2.link.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/tree/staging/public/base-knowledge",
 	"faq.section7.a2.h4": "So funktioniert es im Hintergrund:",
 	"faq.section7.a2.li1":
 		"Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",

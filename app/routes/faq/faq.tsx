@@ -702,6 +702,12 @@ export const faq = {
 								<p>{content["faq.section7.a2.p2"]}</p>
 								<p>{content["faq.section7.a2.p3"]}</p>
 							</div>
+							<AnchorLink
+								href={content["faq.section7.a2.link.href"]}
+								title={content["faq.section7.a2.link.title"]}
+								target="_blank"
+								rel="noopener noreferrer"
+							/>
 							<div>
 								<h4 className="text-base leading-6 font-semibold mb-3">
 									{content["faq.section7.a2.h4"]}
