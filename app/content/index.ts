@@ -59,7 +59,7 @@ export const content = {
 				},
 			],
 			external: {
-				name: "zu BärGPT",
+				name: "BärGPT",
 				url: "https://www.baergpt.berlin/",
 				altText: "zur BärGPT Webseite",
 			},
