@@ -9,10 +9,10 @@ export function Header() {
 
 	return (
 		<header className="fixed top-0 left-0 right-0 z-50">
-			<div className="flex justify-between items-center p-5 bg-white border-b border-schwarz-100 h-[50px] lg:h-[80px]">
+			<div className="flex justify-between items-center px-5 py-4 bg-white border-b border-schwarz-100 lg:h-[80px]">
 				<a href="/" className="focus-outline-default">
 					<img
-						className="h-7 lg:h-fit"
+						className="h-9"
 						src="/logo/logo.svg"
 						alt={content["header.logoAlt"]}
 					/>
