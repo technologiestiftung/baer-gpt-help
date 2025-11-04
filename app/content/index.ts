@@ -2,7 +2,7 @@ export const content = {
 	/* -------------------- Hero -------------------- */
 	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
 	"hero.title":
-		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
+		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenten für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
 	"hero.video.title": "Erste Schritte mit BärGPT",
 	"hero.video.link": "https://player.vimeo.com/video/1082110109?",
