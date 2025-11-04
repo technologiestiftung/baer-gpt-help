@@ -64,9 +64,9 @@ export const prompts = {
 									{content["prompts.section2.a1.h4"]}
 								</h4>
 								<DownloadItem
-									title={content["prompts.section2.a1.link1.title"]}
+									title={content["prompts.section2.a1.link.title"]}
 									subtitle="PDF" //TODO add file size
-									href={content["prompts.section2.a1.link1.link"]}
+									href={content["prompts.section2.a1.link.href"]}
 								/>
 								<VideoItem
 									title={content["prompts.section2.a1.video1.title"]}
@@ -134,9 +134,9 @@ export const prompts = {
 									{content["prompts.section2.a2.h4"]}
 								</h4>
 								<DownloadItem
-									title={content["prompts.section2.a2.link1.title"]}
+									title={content["prompts.section2.a2.link.title"]}
 									subtitle="PDF" //TODO add file size
-									href={content["prompts.section2.a2.link1.link"]}
+									href={content["prompts.section2.a2.link.href"]}
 								/>
 								<VideoItem
 									title={content["prompts.section2.a2.video1.title"]}
