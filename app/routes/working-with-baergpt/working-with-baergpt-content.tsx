@@ -66,9 +66,9 @@ export const accordionContent = {
 									{content["workingWithBearGPT.section2.a1.h4"]}
 								</h4>
 								<DownloadItem
-									title={content["workingWithBearGPT.section2.a1.link1.title"]}
+									title={content["workingWithBearGPT.section2.a1.link.title"]}
 									subtitle="PDF" //TODO add file size
-									href={content["workingWithBearGPT.section2.a1.link1.link"]}
+									href={content["workingWithBearGPT.section2.a1.link.href"]}
 								/>
 								<VideoItem
 									title={content["workingWithBearGPT.section2.a1.video1.title"]}
@@ -244,9 +244,9 @@ export const accordionContent = {
 									{content["workingWithBearGPT.section2.a2.h4"]}
 								</h4>
 								<DownloadItem
-									title={content["workingWithBearGPT.section2.a2.link1.title"]}
+									title={content["workingWithBearGPT.section2.a2.link.title"]}
 									subtitle="PDF" //TODO add file size
-									href={content["workingWithBearGPT.section2.a2.link1.link"]}
+									href={content["workingWithBearGPT.section2.a2.link.href"]}
 								/>
 								<VideoItem
 									title={content["workingWithBearGPT.section2.a2.video1.title"]}
