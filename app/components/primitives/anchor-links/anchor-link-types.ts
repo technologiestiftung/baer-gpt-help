@@ -8,4 +8,5 @@ export interface AnchorLinkProps {
 	title?: string;
 	className?: string;
 	children?: ReactNode;
+	hasBorder?: boolean;
 }

@@ -13,81 +13,6 @@ export const topFaq = {
 			answer: content["faq.top5.a2"],
 		},
 		{
-			question: content["faq.section1.q2"],
-			answer: (
-				<div className="flex flex-col gap-5 lg:gap-9">
-					<div>
-						<p className="mb-3">{content["faq.section1.a2.p1"]}</p>
-						<ul className="list-disc ml-6 text-base leading-6 font-normal">
-							<li
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section1.a2.li1"],
-								}}
-							/>
-							<li
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section1.a2.li2"],
-								}}
-							/>
-						</ul>
-						<p className="mt-3">{content["faq.section1.a2.p2"]}</p>
-					</div>
-					<div>
-						<h4 className="lg:px-3 text-base leading-6 font-semibold">
-							{content["faq.section1.a2.h4"]}
-						</h4>
-						<VideoItem
-							title={content["faq.section1.a2.video1.title"]}
-							href={`/tutorials/${createSlug(content["faq.section1.a2.video1.linkName"])}`}
-						/>
-						<VideoItem
-							title={content["faq.section1.a2.video2.title"]}
-							href={`/tutorials/${createSlug(content["faq.section1.a2.video2.linkName"])}`}
-						/>
-						<VideoItem
-							title={content["faq.section1.a2.video3.title"]}
-							href={`/tutorials/${createSlug(content["faq.section1.a2.video3.linkName"])}`}
-							hasBorder={false}
-						/>
-						<p className="mt-3 italic">{content["faq.section1.a2.tip"]}</p>
-					</div>
-				</div>
-			),
-		},
-		{
-			question: content["faq.section3.q1"],
-			answer: (
-				<div className="flex flex-col gap-5 lg:gap-9">
-					<div>
-						<p className="mb-3">{content["faq.section3.a1.p1"]}</p>
-						<ul className="list-disc ml-6 text-base leading-6 font-normal">
-							<li
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section3.a1.li1"],
-								}}
-							/>
-							<li
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section3.a1.li2"],
-								}}
-							/>
-						</ul>
-						<p className="mt-3 italic">{content["faq.section3.a1.p2"]}</p>
-					</div>
-					<div>
-						<h4 className="lg:px-3 text-base leading-6 font-semibold">
-							{content["faq.section3.a1.h4"]}
-						</h4>
-						<VideoItem
-							title={content["faq.section3.a1.video1.title"]}
-							href={`/tutorials/${createSlug(content["faq.section3.a1.video1.linkName"])}`}
-							hasBorder={false}
-						/>
-					</div>
-				</div>
-			),
-		},
-		{
 			question: content["faq.top5.q5"],
 			answer: (
 				<div className="flex flex-col gap-5 lg:gap-9">
@@ -96,7 +21,7 @@ export const topFaq = {
 					</div>
 					<div>
 						<h4 className="lg:px-3 text-base leading-6 font-semibold">
-							{content["faq.top5.a5.h4"]}
+							{content["faq.furtherLinksVideos.title"]}
 						</h4>
 						<VideoItem
 							title={content["faq.top5.a5.video1.title"]}
