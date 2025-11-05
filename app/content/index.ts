@@ -2,7 +2,7 @@ export const content = {
 	/* -------------------- Hero -------------------- */
 	"hero.welcome": "Willkommen im BärGPT Hilfecenter",
 	"hero.title":
-		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenen für die Verwaltung",
+		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenten für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
 	"hero.video.title": "Erste Schritte mit BärGPT",
 	"hero.video.link": "https://player.vimeo.com/video/1082110109?",
@@ -48,9 +48,9 @@ export const content = {
 					ariaLabel: "zu Video-Tutorials Seite",
 				},
 				{
-					name: "Prompts",
-					url: "/prompts",
-					ariaLabel: "zu Prompts Seite",
+					name: "Arbeiten mit BärGPT",
+					url: "/arbeiten-mit-baergpt",
+					ariaLabel: "zur Arbeiten mit BärGPT Seite",
 				},
 				{
 					name: "Über BärGPT",
@@ -59,7 +59,7 @@ export const content = {
 				},
 			],
 			external: {
-				name: "zu BärGPT",
+				name: "BärGPT",
 				url: "https://www.baergpt.berlin/",
 				altText: "zur BärGPT Webseite",
 			},
@@ -176,8 +176,11 @@ export const content = {
 		"BärGPT kann vorübergehend nicht erreichbar sein, wenn Wartungsarbeiten durchgeführt werden, Systemupdates durchgeführt werden oder das System überlastet ist. In diesem Fall können Sie folgende Schritte unternehmen:",
 	"faq.section1.a5.li1": "Versuchen Sie es nach kurzer Zeit erneut.",
 	"faq.section1.a5.li2": "Aktualisieren Sie die Seite.",
-	"faq.section1.a5.p2":
-		"Wir arbeiten in solchen Fällen umgehend daran, den Dienst wieder bereitzustellen und danken für Ihr Verständnis. Wenn das Problem länger anhält, melden Sie sich bitte bei ",
+	"faq.section1.a5.p2": `Wir arbeiten in solchen Fällen umgehend daran, den Dienst wieder bereitzustellen und danken für Ihr Verständnis. Wenn das Problem länger anhält, melden Sie sich bitte bei 
+			<a class="underline underline-offset-6"
+				href="mailto:support@baergpt.berlin">
+				support@baergpt.berlin
+			</a>.`,
 
 	//Section 1 - Question 6
 	"faq.section1.q6": "Welche Sprachen unterstützt BärGPT?",
@@ -225,14 +228,12 @@ export const content = {
 		"Klicken Sie auf “Anmelden” im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
 	"faq.section1.a9.li3": "Nach der Anmeldung können Sie direkt loslegen:",
 	"faq.section1.a9.li3.p1":
-		"Datei hochladen: Klicken Sie auf die Schaltfläche „Datei hochladen“ oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
+		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche „Datei hochladen“ oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
 	"faq.section1.a9.li3.p2":
-		"Frage stellen: Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
+		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
 	"faq.section1.a9.li4":
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
-	"faq.section1.a9.p2":
-		"<strong>Hinweis</strong>: Schauen Sie sich auch unseren Hilfestellungen zum Arbeiten mit KI an:",
-	"faq.section1.a9.link.title": "Link zur Prompt Seite",
+	"faq.section1.a9.link.title": "Link zu Arbeiten mit BärGPT",
 	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
@@ -298,11 +299,11 @@ export const content = {
 	"faq.section2.q8":
 		"Darf ich personenbezogene und sensible Daten mit BärGPT verarbeiten?",
 	"faq.section2.a8.p1":
-		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken oder durch Dritte eingesehen werden. Dennoch gilt:",
+		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist.* BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken oder durch Dritte eingesehen werden. Dennoch gilt:",
 
 	"faq.section2.a8.li1": "Gehen Sie mit sensiblen Informationen umsichtig um.",
 	"faq.section2.a8.li2":
-		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.*",
+		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.",
 	"faq.section2.a8.li3":
 		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
 	"faq.section2.a8.p2":
@@ -315,13 +316,13 @@ export const content = {
 	"faq.section3.a1.p1":
 		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
 	"faq.section3.a1.li1":
-		"Falsche E-Mail-Adresse oder Passwort: Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
+		"<strong>Falsche E-Mail-Adresse oder Passwort:</strong> Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
 	"faq.section3.a1.li2":
-		"Passwort vergessen: Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
+		"<strong>Passwort vergessen:</strong> Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
 	"faq.section3.a1.li3":
-		"Konto noch nicht erstellt: Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
+		"<strong>Konto noch nicht erstellt:</strong> Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
 	"faq.section3.a1.li4":
-		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
+		"<strong>Technisches Problem:</strong> Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
 
 	//Section 3 - Question 2
 	"faq.section3.q2": "Ich habe mein Passwort vergessen?",
@@ -334,10 +335,10 @@ export const content = {
 		"Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts. Folgen Sie dem Link und vergeben Sie ein neues Passwort.",
 	"faq.section3.a2.p2": `Falls Sie keine E-Mail erhalten, prüfen Sie bitte Ihren Spam-Ordner oder wenden Sie sich an 
 		<a class="underline underline-offset-6"
-							href="mailto:hilfe@baergpt.berlin"
+							href="mailto:support@baergpt.berlin"
 							target="_blank"
 							rel="noopener noreferrer"
-						>hilfe@baergpt.berlin</a>.`,
+						>support@baergpt.berlin</a>.`,
 
 	//Section 3 - Question 3
 	"faq.section3.q3": "Wie ändere ich meine Nutzerdaten?",
@@ -363,7 +364,8 @@ export const content = {
 		"Nach Ihrer Bestätigung werden alle personenbezogenen Daten und gespeicherten Chatverläufe gemäß den Datenschutzbestimmungen dauerhaft gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
 	"faq.section3.a4.p3":
 		"<strong>Hinweis:</strong> Nach der Löschung ist eine erneute Nutzung von BärGPT nur durch eine neue Registrierung möglich.",
-	"faq.section3.a4.p4": "Siehe auch dazu die Hinweise unter der Rubrik:",
+	"faq.section3.a4.p4":
+		"Weitere Informationen zur Verwendung Ihrer Daten finden Sie hier:",
 	"faq.section3.a4.link.title": "Datenschutz & Datensicherheit",
 	"faq.section3.a4.link.href": "Datenschutz & Datensicherheit",
 
@@ -485,7 +487,7 @@ export const content = {
 	"faq.section5.a1.li3":
 		"Ziehen Sie die Datei direkt in den Dateibereich der Anwendung.",
 	"faq.section5.a1.p4":
-		"<strong>Hinweis:</strong> Achten Sie auf die maximale Dateigröße. BärGPT unterstützt Dateien bis maximal 20 MB. Bei größeren Dateien könnten Sie die Datei auch teilen und somit das Dokument geteilt hochladen.",
+		"<strong>Hinweis:</strong> Achten Sie auf die maximale Dateigröße. BärGPT unterstützt Dateien bis maximal 10 MB. Bei größeren Dateien könnten Sie die Datei auch teilen und somit das Dokument geteilt hochladen.",
 
 	//Section 5 - Question 2
 	"faq.section5.q2": "Welche Dateiformate kann ich hochladen?",
@@ -577,7 +579,7 @@ export const content = {
 	//Section 7 - Question 2
 	"faq.section7.q2": "Wie funktioniert Verwaltungswissen?",
 	"faq.section7.a2.p1":
-		"Das Verwaltungswissen ist eine Sammlung allgemeiner Dokumente für die Berliner Verwaltung. Es umfasst offizielle Texte wie zum Beispiel die Gemeinsame Geschäftsordnung der Berliner Verwaltung (GGO 1 und 2), Landesorganisationsgesetz, Verfassung von Berlin und weitere Gesetze, Verordnungen und Handbücher.",
+		"Das Verwaltungswissen ist eine Sammlung allgemeiner Dokumente für die Berliner Verwaltung. Es umfasst offizielle Texte wie zum Beispiel die Gemeinsame Geschäftsordnung der Berliner Verwaltung (GGO 1 und 2), Landesorganisationsgesetz, Verfassung von Berlin und weitere Gesetze, Verordnungen und Handbücher. Eine vollständige Liste der hinterlegten Dokumente mit Links zum Herunterladen finden Sie in Ihrem Benutzerprofil.",
 	"faq.section7.a2.p2":
 		"Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
 	"faq.section7.a2.p3":
@@ -597,111 +599,60 @@ export const content = {
 		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
 
 	//Section 7 - Question 3
-	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
-	"faq.section7.a3.h4":
-		"Folgende Dokumente sind im Verwaltungswissen hinterlegt:",
-	"faq.section7.a3.link1.title": "GGO 1",
-	"faq.section7.a3.link1.href":
-		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-i/ggo_eins.pdf?ts=1752674583",
-	"faq.section7.a3.link2.title": "GGO 2",
-	"faq.section7.a3.link2.href":
-		"https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/geschaeftsordnung-der-berliner-verwaltung/ggo-ii/250311-internetveroeffentlichung-ggo-ii.pdf?ts=1759393353",
-
-	"faq.section7.a3.link3.title":
-		"Allgemeine Nebenbestimmungen für Zuwendungen zur institutionellen Förderung (ANBest-I)",
-	"faq.section7.a3.link3.href": "/base-knowledge/ANBest-I.pdf",
-	"faq.section7.a3.link4.title":
-		"Allgemeine Nebenbestimmungen für Zuwendungen zur Projektförderung (ANBest-P)",
-	"faq.section7.a3.link4.href": "/base-knowledge/ANBest-P.pdf",
-	"faq.section7.a3.link5.title": "Bezirksverwaltungsgesetz Berlin",
-	"faq.section7.a3.link5.href":
-		"/base-knowledge/Bezirksverwaltungsgesetz-berlin.pdf",
-	"faq.section7.a3.link6.title": "Gesetz gegen Wettbewerbsbeschränkungen (GWB)",
-	"faq.section7.a3.link6.href":
-		"/base-knowledge/Gesetz-gegen-Wettbewerbsbeschränkungen-(GWB).pdf",
-	"faq.section7.a3.link7.title": "IKT Rollenkonzept",
-	"faq.section7.a3.link7.href": "/base-knowledge/ikt-rollenkonzept.pdf",
-	"faq.section7.a3.link8.title": "Landesbeamtengesetz",
-	"faq.section7.a3.link8.href": "/base-knowledge/Landesbeamtengesetz.pdf",
-	"faq.section7.a3.link9.title": "Landeshaushaltsordnung (LHO)",
-	"faq.section7.a3.link9.href":
-		"/base-knowledge/Landeshaushaltsordnung-(LHO).pdf",
-	"faq.section7.a3.link10.title": "Landesorganisationsgesetz",
-	"faq.section7.a3.link10.href":
-		"/base-knowledge/Landesorganisationsgesetz.pdf",
-	"faq.section7.a3.link11.title": "LHO AV",
-	"faq.section7.a3.link11.href": "/base-knowledge/LHO_AV.pdf",
-	"faq.section7.a3.link12.title": "Projektmanagementhandbuch Berlin",
-	"faq.section7.a3.link12.href":
-		"/base-knowledge/Projektmanagementhandbuch_berlin.pdf",
-	"faq.section7.a3.link13.title": "Verfassung von Berlin",
-	"faq.section7.a3.link13.href": "/base-knowledge/Verfassung-von-Berlin.pdf",
-	"faq.section7.a3.link14.title":
-		"Verordnung über die Vergabe öffentlicher Aufträge",
-	"faq.section7.a3.link14.href":
-		"/base-knowledge/Verordnung-über-die-Vergabe-öffentlicher-Aufträge.pdf",
-	"faq.section7.a3.link15.title": "VwVfG Bund",
-	"faq.section7.a3.link15.href": "/base-knowledge/VwVfG_Bund.pdf",
-	"faq.section7.a3.link16.title": "VwVfG BE 2016",
-	"faq.section7.a3.link16.href": "/base-knowledge/VwVfG_BE_2016.pdf",
-	"faq.section7.a3.link17.title": "Whitepaper zu IKT Rollenkonzept",
-	"faq.section7.a3.link17.href":
-		"/base-knowledge/whitepaper-zu-ikt-rollenkonzept.pdf",
+	"faq.section7.q3": "Kann ich nachvollziehen, woher eine Information stammt?",
+	"faq.section7.a3.p1":
+		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
+	"faq.section7.a3.p2":
+		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
+	"faq.section7.a3.p3":
+		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
+	"faq.section7.a3.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a3.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 4
-	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
+	"faq.section7.q4": "Wie aktuell ist das Wissen von BärGPT?",
 	"faq.section7.a4.p1":
-		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
-	"faq.section7.a4.p2":
-		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
-	"faq.section7.a4.p3":
-		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a4.link.title": "Link zur Prompt Seite",
-	"faq.section7.a4.link.href": "https://hilfe.baergpt.berlin/prompts",
+		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
 
 	//Section 7 - Question 5
-	"faq.section7.q5": "Wie aktuell ist das Wissen von BärGPT?",
+	"faq.section7.q5": "Wie zuverlässig sind die Antworten von BärGPT?",
 	"faq.section7.a5.p1":
-		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
-	//Section 7 - Question 6
-	"faq.section7.q6": "Wie zuverlässig sind die Antworten von BärGPT?",
-	"faq.section7.a6.p1":
 		"BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
-	"faq.section7.a6.li1":
+	"faq.section7.a5.li1":
 		"Antworten aus dem <strong>Verwaltungswissen</strong> beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
-	"faq.section7.a6.li2":
+	"faq.section7.a5.li2":
 		"Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
-	"faq.section7.a6.p2":
+	"faq.section7.a5.p2":
 		"Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
 
-	//Section 7 - Question 7
-	"faq.section7.q7": "Warum kann BärGPT Fehler machen?",
-	"faq.section7.a7.p1":
+	//Section 7 - Question 6
+	"faq.section7.q6": "Warum kann BärGPT Fehler machen?",
+	"faq.section7.a6.p1":
 		"BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
-	"faq.section7.a7.li1":
+	"faq.section7.a6.li1":
 		"<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
-	"faq.section7.a7.li2":
+	"faq.section7.a6.li2":
 		"<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
-	"faq.section7.a7.li3":
+	"faq.section7.a6.li3":
 		"<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
-	"faq.section7.a7.li4":
+	"faq.section7.a6.li4":
 		"<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
 
-	//Section 7 - Question 8
-	"faq.section7.q8":
+	//Section 7 - Question 7
+	"faq.section7.q7":
 		"Wie kann ich sicherstellen, dass die Informationen richtig sind?",
-	"faq.section7.a8.p1":
+	"faq.section7.a7.p1":
 		"Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
-	"faq.section7.a8.li1":
+	"faq.section7.a7.li1":
 		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
-	"faq.section7.a8.li2":
+	"faq.section7.a7.li2":
 		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder Kolleg:innen aus dem Fachbereich gegenprüfen.",
-	"faq.section7.a8.li3":
+	"faq.section7.a7.li3":
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
-	"faq.section7.a8.p2":
+	"faq.section7.a7.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a8.link.title": "Link zur Prompt Seite",
-	"faq.section7.a8.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section7.a7.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a7.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
 	"faq.section8.title": "Weitere Hilfe",
@@ -804,156 +755,170 @@ export const content = {
 	"tutorials.sectionPrompts":
 		"Was sind Anfragen (Prompts) und wie nutze ich sie richtig?",
 
-	/* -------------------- Prompts PAGE -------------------- */
-	"prompts.title": "Prompts",
+	/* -------------------- Working with BärGPT PAGE -------------------- */
+	"workingWithBearGPT.title": "Arbeiten mit BärGPT",
 	/* -------------------- Section 1 - Einstieg -------------------- */
-	"prompts.section1.title": "Einstieg",
+	"workingWithBearGPT.section1.title": "Einstieg",
 	//Question 1
-	"prompts.section1.q1": "Was ist ein Prompt?",
-	"prompts.section1.a1":
+	"workingWithBearGPT.section1.q1": "Was ist ein Prompt?",
+	"workingWithBearGPT.section1.a1":
 		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll – zum Beispiel eine Frage, eine Aufgabe oder eine Anweisung. Je klarer und konkreter ein Prompt formuliert ist, desto besser kann BärGPT reagieren.",
-	"prompts.section1.a1.video1.title": "Starke Anfragen formulieren mit BärGPT",
-	"prompts.section1.a1.video1.linkName":
+	"workingWithBearGPT.section1.a1.video1.title":
+		"Starke Anfragen formulieren mit BärGPT",
+	"workingWithBearGPT.section1.a1.video1.linkName":
 		"Starke Anfragen formulieren mit BärGPT",
 	//Question 2
-	"prompts.section1.q2":
+	"workingWithBearGPT.section1.q2":
 		"Welche Fragen oder Anfragen (Prompts) kann ich stellen?",
-	"prompts.section1.a2.p1":
+	"workingWithBearGPT.section1.a2.p1":
 		"Sie können in natürlicher Sprache allgemeine Fragen stellen oder Fragen zum Inhalt der Dokumente, z.B.:",
-	"prompts.section1.a2.li1": "„Was steht im Abschnitt zur Projektplanung?“",
-	"prompts.section1.a2.li2": "„Nenne mir alle Budgetzahlen aus der Datei.“",
-	"prompts.section1.a2.li3":
+	"workingWithBearGPT.section1.a2.li1":
+		"„Was steht im Abschnitt zur Projektplanung?“",
+	"workingWithBearGPT.section1.a2.li2":
+		"„Nenne mir alle Budgetzahlen aus der Datei.“",
+	"workingWithBearGPT.section1.a2.li3":
 		"„Welche Aufgaben sind im Maßnahmenplan vorgesehen?“",
-	"prompts.section1.a2.p2":
+	"workingWithBearGPT.section1.a2.p2":
 		"Oder nutzen Sie gezielt Anfragen (Prompts). In der nächsten Frage finden Sie auch unsere Promptdatenbank.",
 
 	/* -------------------- Section 2 - Master-Prompt -------------------- */
-	"prompts.section2.title": "Master-Prompt",
+	"workingWithBearGPT.section2.title": "Master-Prompt",
 	//Question 1
-	"prompts.section2.q1": "Wie erstelle ich einen Master-Prompt mit BärGPT?",
-	"prompts.section2.a1.p1":
+	"workingWithBearGPT.section2.q1":
+		"Wie erstelle ich einen Master-Prompt mit BärGPT?",
+	"workingWithBearGPT.section2.a1.p1":
 		"Erstellen Sie einen Masterprompt, der Ihnen hilft, den bestmöglichen Prompt zu entwickeln, indem Sie den Prozess der kontinuierlichen Verbesserung durchlaufen. Nutzen Sie Feedback-Schleifen, um den Prompt iterativ zu verfeinern. Bei jedem Start eines neuen Chats können Sie den folgenden Prompt als Unterstützung des Prompt-Designs nutzen. Damit können Sie die Qualität Ihrer Prompts signifikant steigern:",
-	"prompts.section2.a1.p2":
+	"workingWithBearGPT.section2.a1.p2":
 		'"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:',
-	"prompts.section2.a1.li1":
+	"workingWithBearGPT.section2.a1.li1":
 		"Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen. ",
-	"prompts.section2.a1.li2":
+	"workingWithBearGPT.section2.a1.li2":
 		"Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern). ",
-	"prompts.section2.a1.li3":
+	"workingWithBearGPT.section2.a1.li3":
 		"Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.",
-	"prompts.section2.a1.li4":
+	"workingWithBearGPT.section2.a1.li4":
 		'Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."',
-	"prompts.section2.a1.h4": "Weitere Links, Tutorials und Downloads",
-	"prompts.section2.a1.link.title":
+	"workingWithBearGPT.section2.a1.h4": "Weitere Links, Tutorials und Downloads",
+	"workingWithBearGPT.section2.a1.link.title":
 		"Link zum Dokument “Leitfaden für effektives Prompting”",
-	"prompts.section2.a1.link.href":
+	"workingWithBearGPT.section2.a1.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
-	"prompts.section2.a1.video1.title":
+	"workingWithBearGPT.section2.a1.video1.title":
 		"Video: Starke Anfragen formulieren mit BärGPT",
-	"prompts.section2.a1.video1.linkName":
+	"workingWithBearGPT.section2.a1.video1.linkName":
 		"Starke Anfragen formulieren mit BärGPT",
 	//Question 2
-	"prompts.section2.q2": "Wie erstelle ich einen guten Prompt?",
+	"workingWithBearGPT.section2.q2": "Wie erstelle ich einen guten Prompt?",
 
-	"prompts.section2.a2.subsection1.title": "Rolle definieren",
-	"prompts.section2.a2.subsection1.text":
+	"workingWithBearGPT.section2.a2.subsection1.title": "Rolle definieren",
+	"workingWithBearGPT.section2.a2.subsection1.text":
 		"Geben Sie an, in welcher Rolle BärGPT antworten soll – und wer die Zielgruppe ist. Beispiele:",
-	"prompts.section2.a2.subsection1.li1":
+	"workingWithBearGPT.section2.a2.subsection1.li1":
 		"„Du bist ein Experte für Verwaltungsrecht.“",
-	"prompts.section2.a2.subsection1.li2":
+	"workingWithBearGPT.section2.a2.subsection1.li2":
 		"„Adressaten sind Bürger und Bürgerinnen des Landes Berlin.“",
-	"prompts.section2.a2.subsection1.li3":
+	"workingWithBearGPT.section2.a2.subsection1.li3":
 		"„Der Text richtet sich an ein Fachpublikum – setze kein Vorwissen voraus.“",
 
-	"prompts.section2.a2.subsection2.title": "Aufgabenstellung beschreiben",
-	"prompts.section2.a2.subsection2.text":
+	"workingWithBearGPT.section2.a2.subsection2.title":
+		"Aufgabenstellung beschreiben",
+	"workingWithBearGPT.section2.a2.subsection2.text":
 		"Was soll BärGPT konkret tun? Beispiele:",
-	"prompts.section2.a2.subsection2.li1":
+	"workingWithBearGPT.section2.a2.subsection2.li1":
 		"„Erstelle eine Zusammenfassung des Dokuments.“",
-	"prompts.section2.a2.subsection2.li2":
+	"workingWithBearGPT.section2.a2.subsection2.li2":
 		"„Entwirf ein Einladungsschreiben für eine Sitzung.“",
-	"prompts.section2.a2.subsection2.li3":
+	"workingWithBearGPT.section2.a2.subsection2.li3":
 		"„Beantworte eine Bürgeranfrage in verständlicher Sprache.“",
 
-	"prompts.section2.a2.subsection3.title": "Kontext angeben",
-	"prompts.section2.a2.subsection3.text":
+	"workingWithBearGPT.section2.a2.subsection3.title": "Kontext angeben",
+	"workingWithBearGPT.section2.a2.subsection3.text":
 		"Die KI kennt Ihre Situation nicht. Geben Sie Hintergründe, Ziele oder Regelwerke an. Beispiele:",
-	"prompts.section2.a2.subsection3.li1":
+	"workingWithBearGPT.section2.a2.subsection3.li1":
 		"„Die Anfrage bezieht sich auf die neue Rahmenvereinbarung.“",
-	"prompts.section2.a2.subsection3.li2":
+	"workingWithBearGPT.section2.a2.subsection3.li2":
 		"„Vor dem Hintergrund steigender Energiekosten …“",
 
-	"prompts.section2.a2.subsection4.title": "Ausgabeformat festlegen",
-	"prompts.section2.a2.subsection4.text":
+	"workingWithBearGPT.section2.a2.subsection4.title": "Ausgabeformat festlegen",
+	"workingWithBearGPT.section2.a2.subsection4.text":
 		"Wie soll das Ergebnis aussehen? Kurz oder lang? Liste oder Text? Beispiele:",
-	"prompts.section2.a2.subsection4.li1":
+	"workingWithBearGPT.section2.a2.subsection4.li1":
 		"„Fasse den Text in 5 Stichpunkten zusammen.“",
-	"prompts.section2.a2.subsection4.li2":
+	"workingWithBearGPT.section2.a2.subsection4.li2":
 		"„Erstelle eine Tabelle mit zwei Spalten.“",
-	"prompts.section2.a2.subsection4.li3":
+	"workingWithBearGPT.section2.a2.subsection4.li3":
 		"„Verfasse einen Social Media-Beitrag mit max. 280 Zeichen.“",
 
-	"prompts.section2.a2.subsection5.title": "Hinweise & Beispiele geben",
-	"prompts.section2.a2.subsection5.text":
+	"workingWithBearGPT.section2.a2.subsection5.title":
+		"Hinweise & Beispiele geben",
+	"workingWithBearGPT.section2.a2.subsection5.text":
 		"Nutzen Sie Formulierungswünsche oder Beispieltexte, um den Ton oder Stil zu steuern. Beispiele:",
-	"prompts.section2.a2.subsection5.li1":
+	"workingWithBearGPT.section2.a2.subsection5.li1":
 		"„Vermeide den Begriff ‚Bürgerpflicht‘ und nutze stattdessen ‚Mitwirkung‘.“",
-	"prompts.section2.a2.subsection5.li2":
+	"workingWithBearGPT.section2.a2.subsection5.li2":
 		"„Verwende eine formelle, sachliche Sprache.“",
-	"prompts.section2.a2.subsection5.li3":
+	"workingWithBearGPT.section2.a2.subsection5.li3":
 		"„Orientiere dich am Stil dieses Beispiels: [Text einfügen]“",
-	"prompts.section2.a2.tip":
+	"workingWithBearGPT.section2.a2.tip":
 		"Tipp: Je konkreter Ihr Prompt ist, desto besser wird das Ergebnis.",
-	"prompts.section2.a2.h4": "Weitere Links, Tutorials und Downloads",
-	"prompts.section2.a2.link.title":
+	"workingWithBearGPT.section2.a2.h4": "Weitere Links, Tutorials und Downloads",
+
+	"workingWithBearGPT.section2.a2.link.title":
 		"Link zum Dokument “Leitfaden für effektives Prompting”",
-	"prompts.section2.a2.link.href":
+	"workingWithBearGPT.section2.a2.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
-	"prompts.section2.a2.video1.title": "Starke Anfragen formulieren mit BärGPT",
-	"prompts.section2.a2.video1.linkName":
+
+	"workingWithBearGPT.section2.a2.video1.title":
+		"Starke Anfragen formulieren mit BärGPT",
+	"workingWithBearGPT.section2.a2.video1.linkName":
 		"Starke Anfragen formulieren mit BärGPT",
 
 	/* -------------------- Section 3 - Prompt-Vorlagen -------------------- */
-	"prompts.section3.title": "Prompt-Vorlagen",
+	"workingWithBearGPT.section3.title": "Prompt-Vorlagen",
 	//Question 1
-	"prompts.section3.q1": "Beispiel: Dokument übersetzen",
-	"prompts.section3.a1.p1":
+	"workingWithBearGPT.section3.q1": "Beispiel: Dokument übersetzen",
+	"workingWithBearGPT.section3.a1.p1":
 		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, Verwaltungsinhalte in andere Sprachen zu übertragen – z. B. für mehrsprachige Kommunikation mit Bürger und Bürgerinnen oder internationalen Kontakten.",
-	"prompts.section3.a1.p2":
+	"workingWithBearGPT.section3.a1.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Übersetze den folgenden Text ins Englische und achte auf eine sachliche, gut verständliche Sprache.“",
-	"prompts.section3.a1.video1.title": "Dokumente direkt im Chat übersetzen",
-	"prompts.section3.a1.video1.linkName": "Dokumente direkt im Chat übersetzen",
+	"workingWithBearGPT.section3.a1.video1.title":
+		"Dokumente direkt im Chat übersetzen",
+	"workingWithBearGPT.section3.a1.video1.linkName":
+		"Dokumente direkt im Chat übersetzen",
 	//Question 2
-	"prompts.section3.q2": "Beispiel: Dokument zusammenfassen",
-	"prompts.section3.a2.p1":
+	"workingWithBearGPT.section3.q2": "Beispiel: Dokument zusammenfassen",
+	"workingWithBearGPT.section3.a2.p1":
 		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, umfangreiche Dokumente schnell zu erfassen und die wesentlichen Informationen herauszufiltern, was Zeit spart und die Effizienz erhöht.",
-	"prompts.section3.a2.p2":
+	"workingWithBearGPT.section3.a2.p2":
 		'<strong>Prompt in den Chat einfügen: </strong>„Fasse den folgenden Text in wenigen, klaren Sätzen zusammen. Achte darauf, dass die wichtigsten Informationen für die weitere interne Bearbeitung erhalten bleiben. Ziel ist eine kurze Übersicht für Kollegen und Kolleginnen in der Berliner Verwaltung."',
-	"prompts.section3.a2.video1.title": "Dokumente präzise zusammenfassen",
-	"prompts.section3.a2.video1.linkName": "Dokumente präzise zusammenfassen",
+	"workingWithBearGPT.section3.a2.video1.title":
+		"Dokumente präzise zusammenfassen",
+	"workingWithBearGPT.section3.a2.video1.linkName":
+		"Dokumente präzise zusammenfassen",
 	//Question 3
-	"prompts.section3.q3": "Beispiel: Antwortentwurf auf Bürgeranfrage",
-	"prompts.section3.a3.p1":
+	"workingWithBearGPT.section3.q3":
+		"Beispiel: Antwortentwurf auf Bürgeranfrage",
+	"workingWithBearGPT.section3.a3.p1":
 		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, Antworten auf Anfragen schnell zu verfassen.",
-	"prompts.section3.a3.p2":
+	"workingWithBearGPT.section3.a3.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Formuliere einen höflichen, sachlichen Antwortentwurf auf die folgende Bürgeranfrage. Achte auf einen verständlichen Ton und klare Informationen. Der Text soll für die schriftliche Kommunikation im Berliner Verwaltungsumfeld geeignet sein.“",
 	//Question 4
-	"prompts.section3.q4": "Beispiel: Prüfung von Dokumenteninhalten",
-	"prompts.section3.a4.p1":
+	"workingWithBearGPT.section3.q4": "Beispiel: Prüfung von Dokumenteninhalten",
+	"workingWithBearGPT.section3.a4.p1":
 		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, die Qualität von schriftlichen Dokumenten zu sichern, bevor sie veröffentlicht oder versendet werden.",
-	"prompts.section3.a4.p2":
+	"workingWithBearGPT.section3.a4.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Überprüfe bitte den folgenden Text auf Rechtschreib- und Grammatikfehler: [Dokument hochladen oder Text einfügen].“",
 	//Question 5
-	"prompts.section3.q5":
+	"workingWithBearGPT.section3.q5":
 		"Beispiel: Texterstellung für eine Veranstaltungseinladung",
-	"prompts.section3.a5.p1":
+	"workingWithBearGPT.section3.a5.p1":
 		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, offizielle Einladungstexten für Veranstaltungen oder Informationsformate zu erstellen.",
-	"prompts.section3.a5.p2":
+	"workingWithBearGPT.section3.a5.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Du bist eine erfahrene Kommunikationsfachkraft in der Berliner Verwaltung. Verfasse eine Einladung zu einer Informationsveranstaltung für Bürger und Bürgerinnen zum Thema [Thema einfügen]. Die Veranstaltung wird von der Senatsverwaltung für [Platzhalter] organisiert und findet am [xx. Juli 2025] im [Ort] statt. Die Bürger und Bürgerinnen sollen sich vorab über Änderungen und Fristen informieren können. Die Einladung soll als Fließtext für einen Aushang und eine E-Mail verwendet werden. Verwende eine sachliche, aber bürgerfreundliche Sprache. Halte dich an maximal 180 Wörter.”",
-	"prompts.section3.a5.video1.title":
+	"workingWithBearGPT.section3.a5.video1.title":
 		"Texte mit BärGPT schreiben und bearbeiten",
-	"prompts.section3.a5.video1.link": "",
-	"prompts.section3.a5.video1.linkName":
+	"workingWithBearGPT.section3.a5.video1.link": "",
+	"workingWithBearGPT.section3.a5.video1.linkName":
 		"Texte mit BärGPT schreiben und bearbeiten",
 
 	/* -------------------- About -------------------- */
