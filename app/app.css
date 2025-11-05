@@ -55,3 +55,7 @@
 		text-underline-offset: 4px;
 	}
 }
+
+html {
+	scroll-behavior: smooth;
+}
