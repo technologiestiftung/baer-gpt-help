@@ -179,8 +179,16 @@ export const faq = {
 								<li>
 									{content["faq.section1.a9.li3"]}
 									<ul className="list-disc ml-6 text-base leading-6 font-normal">
-										<li>{content["faq.section1.a9.li3.p1"]}</li>
-										<li>{content["faq.section1.a9.li3.p2"]}</li>
+										<li
+											dangerouslySetInnerHTML={{
+												__html: content["faq.section1.a9.li3.p1"],
+											}}
+										/>
+										<li
+											dangerouslySetInnerHTML={{
+												__html: content["faq.section1.a9.li3.p2"],
+											}}
+										/>
 									</ul>
 								</li>
 
@@ -302,10 +310,26 @@ export const faq = {
 						<div>
 							<p className="mb-3">{content["faq.section3.a1.p1"]}</p>
 							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li>{content["faq.section3.a1.li1"]}</li>
-								<li>{content["faq.section3.a1.li2"]}</li>
-								<li>{content["faq.section3.a1.li3"]}</li>
-								<li>{content["faq.section3.a1.li4"]}</li>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a1.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a1.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a1.li3"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a1.li4"],
+									}}
+								/>
 							</ul>
 						</div>
 					),

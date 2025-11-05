@@ -225,14 +225,14 @@ export const content = {
 		"Klicken Sie auf “Anmelden” im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
 	"faq.section1.a9.li3": "Nach der Anmeldung können Sie direkt loslegen:",
 	"faq.section1.a9.li3.p1":
-		"Datei hochladen: Klicken Sie auf die Schaltfläche „Datei hochladen“ oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
+		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche „Datei hochladen“ oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
 	"faq.section1.a9.li3.p2":
-		"Frage stellen: Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
+		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
 	"faq.section1.a9.li4":
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
 	"faq.section1.a9.p2":
 		"<strong>Hinweis</strong>: Schauen Sie sich auch unseren Hilfestellungen zum Arbeiten mit KI an:",
-	"faq.section1.a9.link.title": "Link zur Prompt Seite",
+	"faq.section1.a9.link.title": "Link zu Arbeiten mit BärGPT",
 	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
@@ -315,13 +315,13 @@ export const content = {
 	"faq.section3.a1.p1":
 		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
 	"faq.section3.a1.li1":
-		"Falsche E-Mail-Adresse oder Passwort: Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
+		"<strong>Falsche E-Mail-Adresse oder Passwort:</strong> Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
 	"faq.section3.a1.li2":
-		"Passwort vergessen: Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
+		"<strong>Passwort vergessen:</strong> Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
 	"faq.section3.a1.li3":
-		"Konto noch nicht erstellt: Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
+		"<strong>Konto noch nicht erstellt:</strong> Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
 	"faq.section3.a1.li4":
-		"Technisches Problem: Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
+		"<strong>Technisches Problem:</strong> Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
 
 	//Section 3 - Question 2
 	"faq.section3.q2": "Ich habe mein Passwort vergessen?",
@@ -485,7 +485,7 @@ export const content = {
 	"faq.section5.a1.li3":
 		"Ziehen Sie die Datei direkt in den Dateibereich der Anwendung.",
 	"faq.section5.a1.p4":
-		"<strong>Hinweis:</strong> Achten Sie auf die maximale Dateigröße. BärGPT unterstützt Dateien bis maximal 20 MB. Bei größeren Dateien könnten Sie die Datei auch teilen und somit das Dokument geteilt hochladen.",
+		"<strong>Hinweis:</strong> Achten Sie auf die maximale Dateigröße. BärGPT unterstützt Dateien bis maximal 10 MB. Bei größeren Dateien könnten Sie die Datei auch teilen und somit das Dokument geteilt hochladen.",
 
 	//Section 5 - Question 2
 	"faq.section5.q2": "Welche Dateiformate kann ich hochladen?",
@@ -656,7 +656,7 @@ export const content = {
 		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
 	"faq.section7.a4.p3":
 		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a4.link.title": "Link zur Prompt Seite",
+	"faq.section7.a4.link.title": "Link zu Arbeiten mit BärGPT",
 	"faq.section7.a4.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 5
@@ -700,7 +700,7 @@ export const content = {
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
 	"faq.section7.a8.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a8.link.title": "Link zur Prompt Seite",
+	"faq.section7.a8.link.title": "Link zu Arbeiten mit BärGPT",
 	"faq.section7.a8.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
