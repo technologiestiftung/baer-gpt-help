@@ -1,6 +1,7 @@
 import { content } from "~/content";
 import { VideoSection } from "../../components/video-section/video-section";
 import { Feedback } from "~/components/feedback/feedback";
+import { VimeoPlayer } from "~/components/primitives/video-players/vimeo-player";
 
 export default function Index() {
 	return (
@@ -24,12 +25,9 @@ export default function Index() {
 							{content["tutorials.pill.videoTutorial"]}
 						</div>
 					</div>
-					<iframe
-						className="w-full aspect-video rounded-[3px]"
+					<VimeoPlayer
+						srcUrl={`${content["tutorials.sections"][0].videos[0].videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 						title={`Video: ${content["tutorials.sections"][0].videos[0].videoTitle}`}
-						src={`${content["tutorials.sections"][0].videos[0].videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
-						allowFullScreen={true}
-						referrerPolicy="strict-origin-when-cross-origin"
 					/>
 				</div>
 			</div>
