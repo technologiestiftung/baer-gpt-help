@@ -14,7 +14,7 @@ export default function Index() {
 					<div key={index}>
 						<h2
 							id={createSlug(section.title)}
-							className="mb-5 md:mb-6 text-xl leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10"
+							className="mb-5 md:mb-6 text-xl scroll-mt-[85px] leading-7 font-semibold md:text-3xl md:leading-9 lg:text-4xl lg:leading-10"
 						>
 							{section.title}
 						</h2>
