@@ -420,26 +420,6 @@ export const accordionContent = {
 						</div>
 					),
 				},
-				// // Question 7
-				// "workingWithBearGPT.section2.q7":
-				// 	"Profi-Tipp: Arbeiten Sie mit einem Masterprompt",
-				// "workingWithBearGPT.section2.a7.p1":
-				// 	"Ein Masterprompt ist eine Grundanweisung, mit der Sie BärGPT bitten, Ihnen beim Formulieren besserer Prompts zu helfen. Er funktioniert wie ein persönlicher Coach für Ihre Eingaben. Sie beginnen mit einer ersten Formulierung, die KI gibt Ihnen Feedback und macht Verbesserungsvorschläge, und Sie verfeinern Ihre Eingabe iterativ weiter.",
-				// "workingWithBearGPT.section2.a7.p2":
-				// 	"Setzen Sie diesen Masterprompt zu Beginn eines neuen Chats ein, damit er Sie dabei unterstützt, Ihre Fragen strukturiert zu stellen:",
-				// "workingWithBearGPT.section2.a7.p3": `"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:"`,
-				// "workingWithBearGPT.section2.a7.li1": `"Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen.",`,
-				// "workingWithBearGPT.section2.a7.li2": `"Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern).",`,
-				// "workingWithBearGPT.section2.a7.li3": `"Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.",`,
-				// "workingWithBearGPT.section2.a7.li4": `"Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."`,
-				// "workingWithBearGPT.section2.a7.link.title":
-				// 	"Leitfaden für effektives Prompting",
-				// "workingWithBearGPT.section2.a7.link.href":
-				// 	"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
-				// "workingWithBearGPT.section2.a7.video.title":
-				// 	"Starke Anfragen formulieren mit BärGPT",
-				// "workingWithBearGPT.section2.a7.video.linkName":
-				// 	"Starke Anfragen formulieren mit BärGPT",
 			],
 		},
 		{
