@@ -686,9 +686,9 @@ export const content = {
 	"faq.top5.a5.p1":
 		"Sobald Sie eine Datei hochgeladen haben, können Sie direkt im Chat Fragen zum Inhalt stellen. BärGPT analysiert Ihre Datei und liefert relevante Antworten – direkt aus dem Text. Auch mehrere hochgeladene Dokumente können gleichzeitig durchsucht werden.",
 	"faq.top5.a5.video1.title":
-		"Fragen zu Ordnern und Dokumenten im Chat stellen",
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
 	"faq.top5.a5.video1.linkName":
-		"Fragen zu Ordnern und Dokumenten im Chat stellen",
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Haben Sie Feedback zu BärGPT?",
@@ -763,124 +763,240 @@ export const content = {
 
 	/* -------------------- Working with BärGPT PAGE -------------------- */
 	"workingWithBearGPT.title": "Arbeiten mit BärGPT",
+	"workingWithBearGPT.furtherLinks.title":
+		"Weitere Links, Tutorials und Downloads",
 	/* -------------------- Section 1 - Einstieg -------------------- */
 	"workingWithBearGPT.section1.title": "Einstieg",
-	//Question 1
-	"workingWithBearGPT.section1.q1": "Was ist ein Prompt?",
-	"workingWithBearGPT.section1.a1":
-		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll – zum Beispiel eine Frage, eine Aufgabe oder eine Anweisung. Je klarer und konkreter ein Prompt formuliert ist, desto besser kann BärGPT reagieren.",
-	"workingWithBearGPT.section1.a1.video1.title":
-		"Starke Anfragen formulieren mit BärGPT",
-	"workingWithBearGPT.section1.a1.video1.linkName":
-		"Starke Anfragen formulieren mit BärGPT",
-	//Question 2
-	"workingWithBearGPT.section1.q2":
-		"Welche Fragen oder Anfragen (Prompts) kann ich stellen?",
-	"workingWithBearGPT.section1.a2.p1":
-		"Sie können in natürlicher Sprache allgemeine Fragen stellen oder Fragen zum Inhalt der Dokumente, z.B.:",
-	"workingWithBearGPT.section1.a2.li1":
-		"„Was steht im Abschnitt zur Projektplanung?“",
-	"workingWithBearGPT.section1.a2.li2":
-		"„Nenne mir alle Budgetzahlen aus der Datei.“",
-	"workingWithBearGPT.section1.a2.li3":
-		"„Welche Aufgaben sind im Maßnahmenplan vorgesehen?“",
-	"workingWithBearGPT.section1.a2.p2":
-		"Oder nutzen Sie gezielt Anfragen (Prompts). In der nächsten Frage finden Sie auch unsere Promptdatenbank.",
 
-	/* -------------------- Section 2 - Master-Prompt -------------------- */
-	"workingWithBearGPT.section2.title": "Master-Prompt",
 	//Question 1
+	"workingWithBearGPT.section1.q1":
+		"Wie benutze ich einen KI basierten Chatbots?",
+	"workingWithBearGPT.section1.a1.p1":
+		"BärGPT funktioniert wie ein Gespräch mit einer Kollegin oder einem Kollegen. Sie schreiben in Alltagssprache, was Sie wissen oder erledigen möchten. BärGPT analysiert Ihre Anfrage und erstellt daraufhin passende Antworten oder Textvorschläge.",
+	"workingWithBearGPT.section1.a1.video.title": "Arbeiten mit BärGPT",
+	"workingWithBearGPT.section1.a1.video.linkName": "Arbeiten mit BärGPT",
+
+	//Question 2
+	"workingWithBearGPT.section1.q2": "Was ist ein Prompt?",
+	"workingWithBearGPT.section1.a2.p1":
+		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll. Sie können eine Frage stellen, eine Aufgabe formulieren oder eine Anweisung geben in natürlicher Sprache. Je klarer und konkreter Ihr Prompt ist, desto passender fällt die Antwort aus.",
+	"workingWithBearGPT.section1.a2.p2":
+		"Hier finden Sie bewährte Vorlagen, die Sie direkt einsetzen können:",
+	"workingWithBearGPT.section1.a2.link.title":
+		"Anwendungsbeispiele mit Prompt-Vorlagen",
+	"workingWithBearGPT.section1.a2.link.href":
+		"Anwendungsbeispiele mit Prompt-Vorlagen",
+	"workingWithBearGPT.section1.a2.video1.title":
+		"Starke Anfragen formulieren mit BärGPT",
+	"workingWithBearGPT.section1.a2.video1.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
+
+	// Question 3
+	"workingWithBearGPT.section1.q3":
+		"Wie kann ich KI in meine Arbeitsprozesse einbauen?",
+	"workingWithBearGPT.section1.a3.p1":
+		"BärGPT kann Sie in vielen Phasen Ihrer Arbeit unterstützen:",
+	"workingWithBearGPT.section1.a3.p2":
+		"<strong>In der Vorbereitung:</strong> BärGPT hilft, Aufgaben schneller zu starten und Informationen zu strukturieren.",
+	"workingWithBearGPT.section1.a3.li1":
+		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen",
+	"workingWithBearGPT.section1.a3.li2":
+		"<strong>Ideensammlung und Planung:</strong> Themenvorschläge, Gliederungen oder Argumentationshilfen generieren.",
+	"workingWithBearGPT.section1.a3.li3":
+		"<strong>Recherchen und Überblick:</strong> Definitionen erfragen, Dokumente zusammenfassen oder vergleichen.",
+	"workingWithBearGPT.section1.a3.p3":
+		"<strong>In der Umsetzung:</strong> Hier unterstützt BärGPT bei der sprachlichen und inhaltlichen Feinarbeit.",
+	"workingWithBearGPT.section1.a3.li4":
+		"<strong>Texte überarbeiten:</strong> Texte kürzen, umformulieren oder in klare Verwaltungssprache bringen.",
+	"workingWithBearGPT.section1.a3.li5":
+		"<strong>Übersetzen und anpassen:</strong> Texte ins Englische übertragen oder für unterschiedliche Zielgruppen verständlich machen.",
+	"workingWithBearGPT.section1.a3.li6":
+		"<strong>Dokumente prüfen:</strong> Logik, Struktur und Vollständigkeit eines Textes überprüfen oder alternative Formulierungen vorschlagen lassen.",
+	"workingWithBearGPT.section1.a3.p4":
+		"<strong>In der Nachbereitung:</strong> BärGPT hilft, Ergebnisse zu dokumentieren und Erkenntnisse festzuhalten.",
+	"workingWithBearGPT.section1.a3.li7":
+		"<strong>Protokolle und Zusammenfassungen:</strong> Längere Texte oder Dokumente auf die Kernaussagen reduzieren",
+	"workingWithBearGPT.section1.a3.li8":
+		"<strong>Berichtsvorbereitung:</strong> Rohtexte in strukturierte Berichte umwandeln",
+	"workingWithBearGPT.section1.a3.li9":
+		"<strong>Dokumente verstehen:</strong> Inhalte aus Anhängen, Richtlinien oder Berichten gezielt herausfiltern.",
+
+	// Question 4
+	"workingWithBearGPT.section1.q4": "Einfach ausprobieren!",
+	"workingWithBearGPT.section1.a4.li1": "Öffnen Sie den Chat mit BärGPT.",
+	"workingWithBearGPT.section1.a4.li2":
+		"Formulieren Sie Ihre Anfrage in Alltagssprache.",
+	"workingWithBearGPT.section1.a4.li3":
+		"Lesen Sie die Antwort und wenn sie nicht ganz passt,",
+	"workingWithBearGPT.section1.a4.li3.p1": "fragen Sie nach,",
+	"workingWithBearGPT.section1.a4.li3.p2": "formulieren Sie präziser oder",
+	"workingWithBearGPT.section1.a4.li3.p3":
+		"bitten Sie um eine andere Variante.",
+	"workingWithBearGPT.section1.a4.p2":
+		"<strong>Hinweis:</strong> Sie können nichts kaputt machen. Probieren Sie einfach aus, formulieren Sie um oder bitten Sie um Beispiele. Mit wenigen Versuchen finden Sie schnell heraus, wie Sie die besten Ergebnisse erzielen.",
+
+	/* -------------------- Section 2 - Tipps & Tricks für gutes Prompting -------------------- */
+	"workingWithBearGPT.section2.title": "Tipps & Tricks für gutes Prompting",
+
+	// Question 1
 	"workingWithBearGPT.section2.q1":
-		"Wie erstelle ich einen Master-Prompt mit BärGPT?",
+		"Definieren Sie Ihre Aufgabe klar und präzise",
 	"workingWithBearGPT.section2.a1.p1":
-		"Erstellen Sie einen Masterprompt, der Ihnen hilft, den bestmöglichen Prompt zu entwickeln, indem Sie den Prozess der kontinuierlichen Verbesserung durchlaufen. Nutzen Sie Feedback-Schleifen, um den Prompt iterativ zu verfeinern. Bei jedem Start eines neuen Chats können Sie den folgenden Prompt als Unterstützung des Prompt-Designs nutzen. Damit können Sie die Qualität Ihrer Prompts signifikant steigern:",
+		"Ein guter Prompt ist wie eine präzise Arbeitsanweisung: klar, vollständig und mit Ziel. Je besser Sie Ihre Anfrage formulieren, desto hilfreicher antwortet BärGPT.",
 	"workingWithBearGPT.section2.a1.p2":
-		'"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:',
+		"Die folgenden Hinweise unterstützen Sie dabei, schnell zu besseren Ergebnissen zu kommen.",
+	"workingWithBearGPT.section2.a1.h4.p1": "Rolle definieren",
+	"workingWithBearGPT.section2.a1.p3":
+		"Sagen Sie BärGPT, in welcher Funktion es antworten soll, so wählt die KI die passende Perspektive.",
+	"workingWithBearGPT.section2.a1.p4": "Beispiele:",
 	"workingWithBearGPT.section2.a1.li1":
-		"Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen. ",
+		"„Du bist ein Experte für Verwaltungsrecht.“",
 	"workingWithBearGPT.section2.a1.li2":
-		"Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern). ",
+		"„Adressaten sind Bürger:innen des Landes Berlin.“",
+	"workingWithBearGPT.section2.a1.h4.p2": "Aufgabenstellung beschreiben",
+	"workingWithBearGPT.section2.a1.p5":
+		"Beschreiben Sie, was konkret passieren soll:",
+	"workingWithBearGPT.section2.a1.p6": "Beispiele:",
 	"workingWithBearGPT.section2.a1.li3":
-		"Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.",
+		"„Erstelle eine Zusammenfassung des Dokuments.“",
 	"workingWithBearGPT.section2.a1.li4":
-		'Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."',
-	"workingWithBearGPT.section2.a1.h4": "Weitere Links, Tutorials und Downloads",
+		"„Entwirf ein Einladungsschreiben für eine Sitzung.“",
+	"workingWithBearGPT.section2.a1.li5":
+		"„Beantworte eine Bürgeranfrage in verständlicher Sprache.“",
+	"workingWithBearGPT.section2.a1.h4.p3": "Ziel benennen",
+	"workingWithBearGPT.section2.a1.p7":
+		"Überlegen Sie: <i>Was will ich am Ende wirklich haben?</i>",
+	"workingWithBearGPT.section2.a1.li6":
+		"„Ich brauche eine stichpunktartige Zusammenfassung für ein Protokoll.“",
+	"workingWithBearGPT.section2.a1.li7":
+		"„Ich möchte eine Textvorlage, die ich in Word übernehmen kann.“",
 	"workingWithBearGPT.section2.a1.link.title":
-		"Link zum Dokument “Leitfaden für effektives Prompting”",
+		"Leitfaden für effektives Prompting",
 	"workingWithBearGPT.section2.a1.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
-	"workingWithBearGPT.section2.a1.video1.title":
-		"Video: Starke Anfragen formulieren mit BärGPT",
-	"workingWithBearGPT.section2.a1.video1.linkName":
+	"workingWithBearGPT.section2.a1.video.title":
 		"Starke Anfragen formulieren mit BärGPT",
-	//Question 2
-	"workingWithBearGPT.section2.q2": "Wie erstelle ich einen guten Prompt?",
+	"workingWithBearGPT.section2.a1.video.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
 
-	"workingWithBearGPT.section2.a2.subsection1.title": "Rolle definieren",
-	"workingWithBearGPT.section2.a2.subsection1.text":
-		"Geben Sie an, in welcher Rolle BärGPT antworten soll – und wer die Zielgruppe ist. Beispiele:",
-	"workingWithBearGPT.section2.a2.subsection1.li1":
-		"„Du bist ein Experte für Verwaltungsrecht.“",
-	"workingWithBearGPT.section2.a2.subsection1.li2":
-		"„Adressaten sind Bürger und Bürgerinnen des Landes Berlin.“",
-	"workingWithBearGPT.section2.a2.subsection1.li3":
-		"„Der Text richtet sich an ein Fachpublikum – setze kein Vorwissen voraus.“",
-
-	"workingWithBearGPT.section2.a2.subsection2.title":
-		"Aufgabenstellung beschreiben",
-	"workingWithBearGPT.section2.a2.subsection2.text":
-		"Was soll BärGPT konkret tun? Beispiele:",
-	"workingWithBearGPT.section2.a2.subsection2.li1":
-		"„Erstelle eine Zusammenfassung des Dokuments.“",
-	"workingWithBearGPT.section2.a2.subsection2.li2":
-		"„Entwirf ein Einladungsschreiben für eine Sitzung.“",
-	"workingWithBearGPT.section2.a2.subsection2.li3":
-		"„Beantworte eine Bürgeranfrage in verständlicher Sprache.“",
-
-	"workingWithBearGPT.section2.a2.subsection3.title": "Kontext angeben",
-	"workingWithBearGPT.section2.a2.subsection3.text":
-		"Die KI kennt Ihre Situation nicht. Geben Sie Hintergründe, Ziele oder Regelwerke an. Beispiele:",
-	"workingWithBearGPT.section2.a2.subsection3.li1":
+	// Question 2
+	"workingWithBearGPT.section2.q2": "Geben Sie Kontext mit",
+	"workingWithBearGPT.section2.a2.h4.p1": "Hintergrundinformationen mitgeben",
+	"workingWithBearGPT.section2.a2.p1":
+		"Die KI kennt Ihre Situation nicht. Erklären Sie kurz den Hintergrund oder relevante Rahmenbedingungen.",
+	"workingWithBearGPT.section2.a2.li1":
 		"„Die Anfrage bezieht sich auf die neue Rahmenvereinbarung.“",
-	"workingWithBearGPT.section2.a2.subsection3.li2":
+	"workingWithBearGPT.section2.a2.li2":
 		"„Vor dem Hintergrund steigender Energiekosten …“",
-
-	"workingWithBearGPT.section2.a2.subsection4.title": "Ausgabeformat festlegen",
-	"workingWithBearGPT.section2.a2.subsection4.text":
-		"Wie soll das Ergebnis aussehen? Kurz oder lang? Liste oder Text? Beispiele:",
-	"workingWithBearGPT.section2.a2.subsection4.li1":
+	"workingWithBearGPT.section2.a2.h4.p2": "Ausgabeformat festlegen",
+	"workingWithBearGPT.section2.a2.p2":
+		"Wie soll das Ergebnis aussehen? Kurz oder lang? Liste oder Text? Welche Struktur soll die Antwort haben?",
+	"workingWithBearGPT.section2.a2.li3":
 		"„Fasse den Text in 5 Stichpunkten zusammen.“",
-	"workingWithBearGPT.section2.a2.subsection4.li2":
+	"workingWithBearGPT.section2.a2.li4":
 		"„Erstelle eine Tabelle mit zwei Spalten.“",
-	"workingWithBearGPT.section2.a2.subsection4.li3":
-		"„Verfasse einen Social Media-Beitrag mit max. 280 Zeichen.“",
-
-	"workingWithBearGPT.section2.a2.subsection5.title":
-		"Hinweise & Beispiele geben",
-	"workingWithBearGPT.section2.a2.subsection5.text":
-		"Nutzen Sie Formulierungswünsche oder Beispieltexte, um den Ton oder Stil zu steuern. Beispiele:",
-	"workingWithBearGPT.section2.a2.subsection5.li1":
-		"„Vermeide den Begriff ‚Bürgerpflicht‘ und nutze stattdessen ‚Mitwirkung‘.“",
-	"workingWithBearGPT.section2.a2.subsection5.li2":
-		"„Verwende eine formelle, sachliche Sprache.“",
-	"workingWithBearGPT.section2.a2.subsection5.li3":
+	"workingWithBearGPT.section2.a2.h4.p3": "Stil oder Ton festlegen",
+	"workingWithBearGPT.section2.a2.p3":
+		"Sie können angeben, in welchem Ton die Antwort formuliert sein soll.",
+	"workingWithBearGPT.section2.a2.li5":
+		"„Formulieren Sie den Text wie ein offizielles Verwaltungsschreiben, sachlich und neutral.“",
+	"workingWithBearGPT.section2.a2.li6":
+		"„Schreiben Sie in leichter Sprache, mit kurzen Sätzen.“",
+	"workingWithBearGPT.section2.a2.p4":
+		"<strong>Tipp:</strong> Nutzen Sie Formulierungswünsche oder Beispieltexte, um den Stil zu steuern.",
+	"workingWithBearGPT.section2.a2.li7":
 		"„Orientiere dich am Stil dieses Beispiels: [Text einfügen]“",
-	"workingWithBearGPT.section2.a2.tip":
-		"Tipp: Je konkreter Ihr Prompt ist, desto besser wird das Ergebnis.",
-	"workingWithBearGPT.section2.a2.h4": "Weitere Links, Tutorials und Downloads",
 
-	"workingWithBearGPT.section2.a2.link.title":
-		"Link zum Dokument “Leitfaden für effektives Prompting”",
-	"workingWithBearGPT.section2.a2.link.href":
+	// Question 3
+	"workingWithBearGPT.section2.q3": "Arbeiten Sie Schrittweise und im Dialog",
+	"workingWithBearGPT.section2.a3.p1":
+		"Gute Ergebnisse entstehen im Austausch. Starten Sie mit einer groben Anfrage und verfeinern Sie Schritt für Schritt.",
+	"workingWithBearGPT.section2.a3.li1": "„Gib mir eine Rohfassung.“",
+	"workingWithBearGPT.section2.a3.p2":
+		"Prüfen Sie die Antwort und verfeinern Sie gezielt mit Nachfragen.",
+	"workingWithBearGPT.section2.a3.li2": "„Kürze Abschnitt 2 auf zwei Sätze.“",
+	"workingWithBearGPT.section2.a3.li3": "„Formuliere Variante B bürgernäher.“",
+	"workingWithBearGPT.section2.a3.p3":
+		"<strong>Tipp:</strong> Bitten Sie nach Anpassungen um ein <i>Änderungslog,</i> so behalten Sie den Überblick.",
+	"workingWithBearGPT.section2.a3.li4": "„Zeige mir, was du geändert hast.“",
+	"workingWithBearGPT.section2.a3.h4": "Aufgabe strukturieren",
+	"workingWithBearGPT.section2.a3.p4":
+		"Große Aufgaben sollten Sie in kleinere Schritte zerlegen. Das sorgt für präzisere Ergebnisse.",
+	"workingWithBearGPT.section2.a3.li5":
+		"„Fasse dieses Schreiben zunächst in Stichpunkten zusammen.“",
+	"workingWithBearGPT.section2.a3.li6":
+		"„Formuliere daraus eine kurze Bürger-E-Mail.“",
+
+	// Question 4
+	"workingWithBearGPT.section2.q4": "Nutzen Sie Vorlagen",
+	"workingWithBearGPT.section2.a4.p1":
+		"Strukturierte Prompts sparen Zeit und machen Ergebnisse vergleichbarer. Speichern Sie sich gute Prompts als Vorlage ab, um sie beim nächsten Mal wieder zu verwenden.",
+	"workingWithBearGPT.section2.a4.li1":
+		"Schnell-Vorlage: „Fasse kurz zusammen: [Thema]. Ziel: [Ziel]. Format: [z. B. 5 Bulletpoints].“",
+	"workingWithBearGPT.section2.a4.li2":
+		"Detaillierte Vorlage: „Du bist [Rolle]. Aufgabe: [Beschreibung]. Zielgruppe: [Personenkreis]. Ausgabeformat: [Text/Liste/Tabelle].“",
+	"workingWithBearGPT.section2.a4.p2":
+		"Fordern Sie mehrere Varianten an, um zu vergleichen.",
+	"workingWithBearGPT.section2.a4.li3":
+		"„Gib mir bitte 3 Versionen, jeweils kurz, mittel, ausführlich.“",
+
+	// Question 5
+	"workingWithBearGPT.section2.q5":
+		"Prüfen Sie Ihre Ergebnisse und passen Sie Ihre Anfrage an",
+	"workingWithBearGPT.section2.a5.p1":
+		"BärGPT ist kein Wissensspeicher, sondern ein Sprachmodell: Es sagt das <i>Wahrscheinlichste</i> vorher. Dabei kann es sogenannte Halluzinationen geben, also erfundene Informationen, die plausibel klingen, aber faktisch falsch oder unbelegt sind.",
+	"workingWithBearGPT.section2.a5.p2": `Warum KI Fehler machen kann, erfahren Sie ausführlicher in den 
+						<a class="underline underline-offset-6"
+							href="/faq#ki-wissen-antworten"
+							target="_blank"
+							rel="noopener noreferrer">
+							FAQ: KI-Wissen & Antworten
+						</a>.`,
+
+	"workingWithBearGPT.section2.a5.h4.p1": "Fehler vorbeugen – schon im Prompt:",
+	"workingWithBearGPT.section2.a5.li1":
+		"Kennzeichne unsichere Stellen mit [unsicher] und begründe kurz.",
+	"workingWithBearGPT.section2.a5.h4.p2":
+		"Wenn Sie unsicher sind, fragen Sie gezielt nach:",
+	"workingWithBearGPT.section2.a5.li2":
+		"Bitte belege genau diese Aussage. Wenn die Quelle das nicht hergibt: korrigieren.",
+	"workingWithBearGPT.section2.a5.h4.p3":
+		"Bei widersprüchlichen Informationen hilft:",
+	"workingWithBearGPT.section2.a5.li3":
+		"Erstelle eine Gegenüberstellung als Tabelle mit Quelle, Datum, Geltungsbereich, Kernaussage und vermutlicher Priorität.",
+
+	// Question 6
+	"workingWithBearGPT.section2.q6": "Organisieren Sie Ihre Chats",
+	"workingWithBearGPT.section2.a6.p1":
+		"Jeder Chat speichert seinen bisherigen Kontext. Wenn Sie ein neues Thema im alten Chat beginnen, kann BärGPT Inhalte verwechseln. Behandeln Sie daher jeden Chat wie einen Projektordner: Führen Sie darin nur ein Thema, so bleiben die Ergebnisse übersichtlich und konsistent.",
+	"workingWithBearGPT.section2.a6.p2":
+		"Für neue Themen: einfach ein neues Chatfenster öffnen.",
+
+	// Question 7
+	"workingWithBearGPT.section2.q7":
+		"Profi-Tipp: Arbeiten Sie mit einem Masterprompt",
+	"workingWithBearGPT.section2.a7.p1":
+		"Ein Masterprompt ist eine Grundanweisung, mit der Sie BärGPT bitten, Ihnen beim Formulieren besserer Prompts zu helfen. Er funktioniert wie ein persönlicher Coach für Ihre Eingaben. Sie beginnen mit einer ersten Formulierung, die KI gibt Ihnen Feedback und macht Verbesserungsvorschläge, und Sie verfeinern Ihre Eingabe iterativ weiter.",
+	"workingWithBearGPT.section2.a7.h4":
+		"Setzen Sie diesen Masterprompt zu Beginn eines neuen Chats ein, damit er Sie dabei unterstützt, Ihre Fragen strukturiert zu stellen:",
+	"workingWithBearGPT.section2.a7.p2": `"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:`,
+	"workingWithBearGPT.section2.a7.li1": `Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen.,`,
+	"workingWithBearGPT.section2.a7.li2": `Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern).,`,
+	"workingWithBearGPT.section2.a7.li3": `Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.,`,
+	"workingWithBearGPT.section2.a7.li4": `Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."`,
+	"workingWithBearGPT.section2.a7.link.title":
+		"Leitfaden für effektives Prompting",
+	"workingWithBearGPT.section2.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
-
-	"workingWithBearGPT.section2.a2.video1.title":
+	"workingWithBearGPT.section2.a7.video.title":
 		"Starke Anfragen formulieren mit BärGPT",
-	"workingWithBearGPT.section2.a2.video1.linkName":
+	"workingWithBearGPT.section2.a7.video.linkName":
 		"Starke Anfragen formulieren mit BärGPT",
 
-	/* -------------------- Section 3 - Prompt-Vorlagen -------------------- */
-	"workingWithBearGPT.section3.title": "Prompt-Vorlagen",
+	/* -------------------- Section 3 - Anwendungsbeispiele mit Prompt-Vorlagen -------------------- */
+	"workingWithBearGPT.section3.title":
+		"Anwendungsbeispiele mit Prompt-Vorlagen",
+
 	//Question 1
 	"workingWithBearGPT.section3.q1": "Beispiel: Dokument übersetzen",
 	"workingWithBearGPT.section3.a1.p1":
@@ -891,6 +1007,7 @@ export const content = {
 		"Dokumente direkt im Chat übersetzen",
 	"workingWithBearGPT.section3.a1.video1.linkName":
 		"Dokumente direkt im Chat übersetzen",
+
 	//Question 2
 	"workingWithBearGPT.section3.q2": "Beispiel: Dokument zusammenfassen",
 	"workingWithBearGPT.section3.a2.p1":
@@ -901,6 +1018,7 @@ export const content = {
 		"Dokumente präzise zusammenfassen",
 	"workingWithBearGPT.section3.a2.video1.linkName":
 		"Dokumente präzise zusammenfassen",
+
 	//Question 3
 	"workingWithBearGPT.section3.q3":
 		"Beispiel: Antwortentwurf auf Bürgeranfrage",
@@ -908,12 +1026,14 @@ export const content = {
 		"<strong>Zweck:</strong> Dieser Prompt ermöglicht es, Antworten auf Anfragen schnell zu verfassen.",
 	"workingWithBearGPT.section3.a3.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Formuliere einen höflichen, sachlichen Antwortentwurf auf die folgende Bürgeranfrage. Achte auf einen verständlichen Ton und klare Informationen. Der Text soll für die schriftliche Kommunikation im Berliner Verwaltungsumfeld geeignet sein.“",
+
 	//Question 4
 	"workingWithBearGPT.section3.q4": "Beispiel: Prüfung von Dokumenteninhalten",
 	"workingWithBearGPT.section3.a4.p1":
 		"<strong>Zweck:</strong> Dieser Prompt hilft dabei, die Qualität von schriftlichen Dokumenten zu sichern, bevor sie veröffentlicht oder versendet werden.",
 	"workingWithBearGPT.section3.a4.p2":
 		"<strong>Prompt in den Chat einfügen: </strong>„Überprüfe bitte den folgenden Text auf Rechtschreib- und Grammatikfehler: [Dokument hochladen oder Text einfügen].“",
+
 	//Question 5
 	"workingWithBearGPT.section3.q5":
 		"Beispiel: Texterstellung für eine Veranstaltungseinladung",
