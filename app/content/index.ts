@@ -71,11 +71,13 @@ export const content = {
 	"footer.cookieSettings": "Cookie-Einstellungen",
 	"footer.cookieSettings.ariaLabel": "Cookie-Einstellungen öffnen",
 	footer: {
-		navbar: [
+		navbarSection1: [
 			{
 				name: "BärGPT",
 				url: "https://www.baergpt.berlin/",
 			},
+		],
+		navbarSection2: [
 			{
 				name: "Impressum",
 				url: "https://www.technologiestiftung-berlin.de/impressum",
@@ -83,6 +85,10 @@ export const content = {
 			{
 				name: "Datenschutz",
 				url: "https://www.technologiestiftung-berlin.de/datenschutz",
+			},
+			{
+				name: "Nutzungsbedingungen",
+				url: "https://www.baergpt.berlin/terms-of-use/",
 			},
 			{
 				name: "Cookie-Einstellungen",
