@@ -4,8 +4,8 @@ import { TrackedAnchorLink } from "../primitives/anchor-links/tracked-anchor-lin
 
 export const AnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
-	target = "_self",
-	rel,
+	target = "_blank",
+	rel = "noopener noreferrer",
 	ariaLabel,
 	title,
 	className,
