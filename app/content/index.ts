@@ -782,64 +782,68 @@ export const content = {
 	"workingWithBearGPT.section1.a1.video.title": "Arbeiten mit BärGPT",
 	"workingWithBearGPT.section1.a1.video.linkName": "Arbeiten mit BärGPT",
 
-	//Question 2
-	"workingWithBearGPT.section1.q2": "Was ist ein Prompt?",
-	"workingWithBearGPT.section1.a2.p1":
-		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll. Sie können eine Frage stellen, eine Aufgabe formulieren oder eine Anweisung geben in natürlicher Sprache. Je klarer und konkreter Ihr Prompt ist, desto passender fällt die Antwort aus.",
+	// Question 2
+	"workingWithBearGPT.section1.q2": "Wie nutze ich BärGPT?",
+	"workingWithBearGPT.section1.a2.li1": "Öffnen Sie den Chat mit BärGPT.",
+	"workingWithBearGPT.section1.a2.li2":
+		"Formulieren Sie Ihre Anfrage in Alltagssprache.",
+	"workingWithBearGPT.section1.a2.li3":
+		"Lesen Sie die Antwort und wenn sie nicht ganz passt,",
+	"workingWithBearGPT.section1.a2.li3.p1": "fragen Sie nach,",
+	"workingWithBearGPT.section1.a2.li3.p2": "formulieren Sie präziser oder",
+	"workingWithBearGPT.section1.a2.li3.p3":
+		"bitten Sie um eine andere Variante.",
 	"workingWithBearGPT.section1.a2.p2":
-		"Hier finden Sie bewährte Vorlagen, die Sie direkt einsetzen können:",
-	"workingWithBearGPT.section1.a2.link.title":
-		"Anwendungsbeispiele mit Prompt-Vorlagen",
-	"workingWithBearGPT.section1.a2.link.href":
-		"Anwendungsbeispiele mit Prompt-Vorlagen",
-	"workingWithBearGPT.section1.a2.video1.title":
-		"Starke Anfragen formulieren mit BärGPT",
-	"workingWithBearGPT.section1.a2.video1.linkName":
-		"Starke Anfragen formulieren mit BärGPT",
+		"<strong>Hinweis:</strong> Sie können nichts kaputt machen. Probieren Sie einfach aus, formulieren Sie um oder bitten Sie um Beispiele. Mit wenigen Versuchen finden Sie schnell heraus, wie Sie die besten Ergebnisse erzielen.",
 
-	// Question 3
-	"workingWithBearGPT.section1.q3":
-		"Wie kann ich KI in meine Arbeitsprozesse einbauen?",
+	//Question 3
+	"workingWithBearGPT.section1.q3": "Was ist ein Prompt?",
 	"workingWithBearGPT.section1.a3.p1":
-		"BärGPT kann Sie in vielen Phasen Ihrer Arbeit unterstützen:",
+		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll. Sie können eine Frage stellen, eine Aufgabe formulieren oder eine Anweisung geben in natürlicher Sprache. Je klarer und konkreter Ihr Prompt ist, desto passender fällt die Antwort aus.",
 	"workingWithBearGPT.section1.a3.p2":
-		"<strong>In der Vorbereitung:</strong> BärGPT hilft, Aufgaben schneller zu starten und Informationen zu strukturieren.",
-	"workingWithBearGPT.section1.a3.li1":
-		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen",
-	"workingWithBearGPT.section1.a3.li2":
-		"<strong>Ideensammlung und Planung:</strong> Themenvorschläge, Gliederungen oder Argumentationshilfen generieren.",
-	"workingWithBearGPT.section1.a3.li3":
-		"<strong>Recherchen und Überblick:</strong> Definitionen erfragen, Dokumente zusammenfassen oder vergleichen.",
-	"workingWithBearGPT.section1.a3.p3":
-		"<strong>In der Umsetzung:</strong> Hier unterstützt BärGPT bei der sprachlichen und inhaltlichen Feinarbeit.",
-	"workingWithBearGPT.section1.a3.li4":
-		"<strong>Texte überarbeiten:</strong> Texte kürzen, umformulieren oder in klare Verwaltungssprache bringen.",
-	"workingWithBearGPT.section1.a3.li5":
-		"<strong>Übersetzen und anpassen:</strong> Texte ins Englische übertragen oder für unterschiedliche Zielgruppen verständlich machen.",
-	"workingWithBearGPT.section1.a3.li6":
-		"<strong>Dokumente prüfen:</strong> Logik, Struktur und Vollständigkeit eines Textes überprüfen oder alternative Formulierungen vorschlagen lassen.",
-	"workingWithBearGPT.section1.a3.p4":
-		"<strong>In der Nachbereitung:</strong> BärGPT hilft, Ergebnisse zu dokumentieren und Erkenntnisse festzuhalten.",
-	"workingWithBearGPT.section1.a3.li7":
-		"<strong>Protokolle und Zusammenfassungen:</strong> Längere Texte oder Dokumente auf die Kernaussagen reduzieren",
-	"workingWithBearGPT.section1.a3.li8":
-		"<strong>Berichtsvorbereitung:</strong> Rohtexte in strukturierte Berichte umwandeln",
-	"workingWithBearGPT.section1.a3.li9":
-		"<strong>Dokumente verstehen:</strong> Inhalte aus Anhängen, Richtlinien oder Berichten gezielt herausfiltern.",
+		"Hier finden Sie bewährte Vorlagen, die Sie direkt einsetzen können:",
+	"workingWithBearGPT.section1.a3.link1.title":
+		"Leitfaden für effektives Prompting",
+	"workingWithBearGPT.section1.a3.link1.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329264",
+	"workingWithBearGPT.section1.a3.link2.title":
+		"Anwendungsbeispiele mit Prompt-Vorlagen",
+	"workingWithBearGPT.section1.a3.link2.href":
+		"Anwendungsbeispiele mit Prompt-Vorlagen",
+	"workingWithBearGPT.section1.a3.video1.title":
+		"Starke Anfragen formulieren mit BärGPT",
+	"workingWithBearGPT.section1.a3.video1.linkName":
+		"Starke Anfragen formulieren mit BärGPT",
 
 	// Question 4
-	"workingWithBearGPT.section1.q4": "Einfach ausprobieren!",
-	"workingWithBearGPT.section1.a4.li1": "Öffnen Sie den Chat mit BärGPT.",
-	"workingWithBearGPT.section1.a4.li2":
-		"Formulieren Sie Ihre Anfrage in Alltagssprache.",
-	"workingWithBearGPT.section1.a4.li3":
-		"Lesen Sie die Antwort und wenn sie nicht ganz passt,",
-	"workingWithBearGPT.section1.a4.li3.p1": "fragen Sie nach,",
-	"workingWithBearGPT.section1.a4.li3.p2": "formulieren Sie präziser oder",
-	"workingWithBearGPT.section1.a4.li3.p3":
-		"bitten Sie um eine andere Variante.",
+	"workingWithBearGPT.section1.q4":
+		"Wie kann ich KI in meine Arbeitsprozesse einbauen?",
+	"workingWithBearGPT.section1.a4.p1":
+		"BärGPT kann Sie in vielen Phasen Ihrer Arbeit unterstützen:",
 	"workingWithBearGPT.section1.a4.p2":
-		"<strong>Hinweis:</strong> Sie können nichts kaputt machen. Probieren Sie einfach aus, formulieren Sie um oder bitten Sie um Beispiele. Mit wenigen Versuchen finden Sie schnell heraus, wie Sie die besten Ergebnisse erzielen.",
+		"<strong>In der Vorbereitung:</strong> BärGPT hilft, Aufgaben schneller zu starten und Informationen zu strukturieren.",
+	"workingWithBearGPT.section1.a4.li1":
+		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen",
+	"workingWithBearGPT.section1.a4.li2":
+		"<strong>Ideensammlung und Planung:</strong> Themenvorschläge, Gliederungen oder Argumentationshilfen generieren.",
+	"workingWithBearGPT.section1.a4.li3":
+		"<strong>Recherchen und Überblick:</strong> Definitionen erfragen, Dokumente zusammenfassen oder vergleichen.",
+	"workingWithBearGPT.section1.a4.p3":
+		"<strong>In der Umsetzung:</strong> Hier unterstützt BärGPT bei der sprachlichen und inhaltlichen Feinarbeit.",
+	"workingWithBearGPT.section1.a4.li4":
+		"<strong>Texte überarbeiten:</strong> Texte kürzen, umformulieren oder in klare Verwaltungssprache bringen.",
+	"workingWithBearGPT.section1.a4.li5":
+		"<strong>Übersetzen und anpassen:</strong> Texte ins Englische übertragen oder für unterschiedliche Zielgruppen verständlich machen.",
+	"workingWithBearGPT.section1.a4.li6":
+		"<strong>Dokumente prüfen:</strong> Logik, Struktur und Vollständigkeit eines Textes überprüfen oder alternative Formulierungen vorschlagen lassen.",
+	"workingWithBearGPT.section1.a4.p4":
+		"<strong>In der Nachbereitung:</strong> BärGPT hilft, Ergebnisse zu dokumentieren und Erkenntnisse festzuhalten.",
+	"workingWithBearGPT.section1.a4.li7":
+		"<strong>Protokolle und Zusammenfassungen:</strong> Längere Texte oder Dokumente auf die Kernaussagen reduzieren",
+	"workingWithBearGPT.section1.a4.li8":
+		"<strong>Berichtsvorbereitung:</strong> Rohtexte in strukturierte Berichte umwandeln",
+	"workingWithBearGPT.section1.a4.li9":
+		"<strong>Dokumente verstehen:</strong> Inhalte aus Anhängen, Richtlinien oder Berichten gezielt herausfiltern.",
 
 	/* -------------------- Section 2 - Tipps & Tricks für gutes Prompting -------------------- */
 	"workingWithBearGPT.section2.title": "Tipps & Tricks für gutes Prompting",
