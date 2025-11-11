@@ -21,7 +21,11 @@ export const VideoItem: React.FC<VideoItemProps> = ({
 				<p className="text-base leading-6 font-semibold">{title}</p>
 				<p className="text-xs leading-4 font-normal">Video-Tutorial</p>
 			</div>
-			<TertiaryTrackedAnchorLink href={href}>
+			<TertiaryTrackedAnchorLink
+				href={href}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{content["anchor.toVideo.label"]}
 				<img
 					src="/icons/arrow-right-icon.svg"
