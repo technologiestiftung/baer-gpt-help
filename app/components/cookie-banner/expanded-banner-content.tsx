@@ -28,7 +28,7 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 					<p className="w-full lg:max-w-3xl text-base leading-6 text-dunkelblau-100">
 						{content["cookiesBanner.message.long"]}
 						<a
-							href="/privacy-policy/"
+							href="https://www.baergpt.berlin/privacy-policy/"
 							target="_blank"
 							rel="noopener noreferrer"
 							aria-label="Zum Hilfecenter von BärGPT"
