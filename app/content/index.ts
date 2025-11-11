@@ -142,7 +142,7 @@ export const content = {
 
 	//Section 1 - Question 2
 	"faq.section1.q2":
-		"Wer kann Bär GPT nutzen und welche Vorraussetzungen brauche ich?",
+		"Wer kann BärGPT nutzen und welche Vorraussetzungen brauche ich?",
 	"faq.section1.a2.p1":
 		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung und Partnerinstitutionen. Der Zugang erfolgt über einen gesicherten Login.",
 	"faq.section1.a2.p2": "Sie benötigen:",
@@ -384,7 +384,7 @@ export const content = {
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
 	//Section 4 - Question 1
-	"faq.section4.q1": "Wie kommuniziere ich mit Bär GPT?",
+	"faq.section4.q1": "Wie kommuniziere ich mit BärGPT?",
 	"faq.section4.a1.p1":
 		"Rechts befindet sich der Chatbereich. Dort können Sie Ihre Anfrage direkt in das Chatfenster eingeben. Schreiben Sie einfach in Alltagssprache so, als würden Sie einer Kollegin oder einem Kollegen eine Aufgabe erklären.",
 	"faq.section4.a1.p2":
@@ -472,7 +472,7 @@ export const content = {
 	"faq.section4.a9.p3":
 		"<strong>Tipp:</strong> Versuchen Sie, die Anfrage mit synonymen Begriffen oder einer genaueren Beschreibung zu stellen.",
 	"faq.section4.a9.link.title":
-		"Im Abschnitt KI Wissen erhalten Sie ausführliche Informationen darüber, woher Bär GPT sein Wissen nimmt.",
+		"Im Abschnitt KI Wissen erhalten Sie ausführliche Informationen darüber, woher BärGPT sein Wissen nimmt.",
 	"faq.section4.a9.link.href": "KI Wissen & Antworten",
 
 	//Section 4 - Question 10
