@@ -87,7 +87,7 @@ export const content = {
 				url: "https://www.technologiestiftung-berlin.de/datenschutz",
 			},
 			{
-				name: "Nutzungsbedingungen",
+				name: "Nutzungsbedingungen BärGPT",
 				url: "https://www.baergpt.berlin/terms-of-use/",
 			},
 			{
