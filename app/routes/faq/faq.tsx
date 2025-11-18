@@ -1,4 +1,5 @@
 // import { DownloadItem } from "../../components/accordion-content-elements/download-item";
+import { DownloadItem } from "~/components/accordion-content-elements/download-item";
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
 import { VideoItem } from "../../components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
@@ -134,9 +135,10 @@ export const faq = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<AnchorLink
+								<DownloadItem
 									href={content["faq.section1.a7.link.href"]}
 									title={content["faq.section1.a7.link.title"]}
+									subtitle="PDF"
 									hasBorder={false}
 								/>
 							</div>
