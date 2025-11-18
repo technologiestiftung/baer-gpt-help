@@ -1,4 +1,5 @@
 // import { DownloadItem } from "../../components/accordion-content-elements/download-item";
+import { DownloadItem } from "~/components/accordion-content-elements/download-item";
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
 import { VideoItem } from "../../components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
@@ -14,16 +15,22 @@ export const faq = {
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							{content["faq.section1.a1"]}
-							{/* <div>
+							<div>
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<VideoItem
+								<DownloadItem
+									href={content["faq.section1.a1.link1.href"]}
+									subtitle="PDF"
+									title={content["faq.section1.a1.link1.title"]}
+									hasBorder={false}
+								/>
+								{/* <VideoItem
 									title={content["faq.section1.a1.video1.title"]}
 									href={`/tutorials/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
 									hasBorder={false}
-								/>
-							</div> */}
+								/> */}
+							</div>
 						</div>
 					),
 				},
@@ -385,34 +392,6 @@ export const faq = {
 							/>
 						</div>
 					),
-
-					// 					//Section 3 - Question 2
-					// "faq.section3.q2": "Warum kann ich mich nicht registrieren?",
-					// "faq.section3.a2.p1":
-					// 	"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
-					// "faq.section3.a2.h4.p1": "Die E-Mail-Adresse ist bereits vergeben.",
-					// "faq.section3.a2.p2":
-					// 	"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
-					// "faq.section3.a2.h4.p2": "Ihre Domäne ist nicht freigeschaltet.",
-					// "faq.section3.a2.p3":
-					// 	"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
-					// "faq.section3.a2.li1": "Generell erlaubt: @subdomain.berlin.de",
-					// "faq.section3.a2.li2": "Generell nicht erlaubt: @berlin.de",
-					// "faq.section3.a2.li3": `Weitere Domains erlaubt:,
-					// 						@charlottenburg-wilmersdorf.de",
-					// 						@bezirksamt-neukoelln.de,
-					// 						@parlament-berlin.de,
-					// 						@berliner-feuerwehr.de,
-					// 						@statistik-bbb.de`,
-					// "faq.section3.a2.h4.p3": "Die Bestätigungsmail ist nicht angekommen.",
-					// "faq.section3.a2.p4":
-					// 	"Schauen Sie im Spam-/Junk-Ordner nach und prüfen Sie ggf. Firmenfilter. Sie können den Bestätigungslink auch neu senden.",
-					// "faq.section3.a2.h4.p4": "Das Passwort erfüllt die Anforderungen nicht.",
-					// "faq.section3.a2.p5":
-					// 	"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
-					// "faq.section3.a2.h4.p5": "Ihre IT blockiert die Bestätigungsmail.",
-					// "faq.section3.a2.p6":
-					// 	"Bitten Sie Ihre IT, die Absenderadresse @baergpt.berlin zuzulassen, damit die Mail zugestellt werden kann.",
 				},
 				{
 					question: content["faq.section3.q3"],
@@ -1033,9 +1012,15 @@ export const faq = {
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
 								<AnchorLink
-									href={content["faq.section8.a1.link.href"]}
+									href={content["faq.section8.a1.link1.href"]}
 									rel="noopener noreferrer"
-									title={content["faq.section8.a1.link.title"]}
+									title={content["faq.section8.a1.link1.title"]}
+									hasBorder={false}
+								/>
+								<DownloadItem
+									title={content["faq.section8.a1.link2.title"]}
+									href={content["faq.section8.a1.link2.href"]}
+									subtitle="PDF"
 									hasBorder={false}
 								/>
 							</div>

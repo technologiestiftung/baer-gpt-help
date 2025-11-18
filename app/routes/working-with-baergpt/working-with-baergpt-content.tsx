@@ -66,7 +66,7 @@ export const accordionContent = {
 									{content["workingWithBearGPT.section1.a3.p2"]}
 								</h4>
 								<DownloadItem
-									href={`#${createSlug(content["workingWithBearGPT.section1.a3.link1.title"])}`}
+									href={`${content["workingWithBearGPT.section1.a3.link1.href"]}`}
 									title={content["workingWithBearGPT.section1.a3.link1.title"]}
 									subtitle="PDF"
 								/>

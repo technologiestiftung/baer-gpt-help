@@ -139,6 +139,11 @@ export const content = {
 		"BärGPT ist ein KI-Assistent für die Berliner Verwaltung mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
 	"faq.section1.a1.video1.title": "Arbeiten mit KI",
 	"faq.section1.a1.video1.linkName": "Arbeiten mit KI",
+	"faq.section1.a1.link1.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section1.a1.link1.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
+	"faq.section1.a1.link2.title": "Hilfestellungen zur Arbeiten mit Bär GPT",
+	"faq.section1.a1.link2.href": "/arbeiten-mit-baergpt/",
 
 	//Section 1 - Question 2
 	"faq.section1.q2":
@@ -707,28 +712,11 @@ export const content = {
 	"faq.section8.a1.p1":
 		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
 	"faq.section8.a1.email": "support@baergpt.berlin",
-	"faq.section8.a1.link.title": "Link zur Video-Tutorials Seite",
-	"faq.section8.a1.link.href": "/tutorials",
-
-	/* -------------------- TOP 5 FAQ -------------------- */
-	//Question 1
-	"faq.top5.q1": "Was ist BärGPT und wofür kann ich es nutzen?",
-	"faq.top5.a1":
-		"BärGPT ist ein KI-Assistent mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
-	//Question 2
-	"faq.top5.q2": "Darf ich vertrauliche Dokumente hochladen?",
-	"faq.top5.a2":
-		"Nein. Bitte laden Sie keine sensiblen oder vertraulichen Daten hoch. BärGPT ist nicht für die Verarbeitung personenbezogener oder schutzwürdiger Informationen vorgesehen. Achten Sie darauf, nur allgemeine oder unkritische Inhalte zu verwenden.",
-	//Question 3 = Faq section 1 question 2
-	//Question 4 = Faq section 3 question 1
-	//Question 5
-	"faq.top5.q5": "Wie stelle ich meinem Dokument eine Frage?",
-	"faq.top5.a5.p1":
-		"Sobald Sie eine Datei hochgeladen haben, können Sie direkt im Chat Fragen zum Inhalt stellen. BärGPT analysiert Ihre Datei und liefert relevante Antworten – direkt aus dem Text. Auch mehrere hochgeladene Dokumente können gleichzeitig durchsucht werden.",
-	"faq.top5.a5.video1.title":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
-	"faq.top5.a5.video1.linkName":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
+	"faq.section8.a1.link1.title": "Link zur Video-Tutorials Seite",
+	"faq.section8.a1.link1.href": "/tutorials",
+	"faq.section8.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section8.a1.link2.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Haben Sie Feedback zu BärGPT?",
