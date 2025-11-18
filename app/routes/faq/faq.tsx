@@ -341,61 +341,139 @@ export const faq = {
 					answer: (
 						<div>
 							<p className="mb-3">{content["faq.section3.a2.p1"]}</p>
+							<h4 className="text-base leading-6 font-semibold mb-2">
+								{content["faq.section3.a2.h4.p1"]}
+							</h4>
+							<p className="mb-3">{content["faq.section3.a2.p2"]}</p>
+							<h4 className="text-base leading-6 font-semibold mb-2">
+								{content["faq.section3.a2.h4.p2"]}
+							</h4>
+							<p className="mb-3">{content["faq.section3.a2.p3"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a2.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a2.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section3.a2.li3"],
+									}}
+								/>
+							</ul>
+							<h4 className="text-base leading-6 font-semibold mb-2">
+								{content["faq.section3.a2.h4.p3"]}
+							</h4>
+							<p className="mb-3">{content["faq.section3.a2.p4"]}</p>
+							<h4 className="text-base leading-6 font-semibold mb-2">
+								{content["faq.section3.a2.h4.p4"]}
+							</h4>
+							<p className="mb-3">{content["faq.section3.a2.p5"]}</p>
+							<h4 className="text-base leading-6 font-semibold mb-2">
+								{content["faq.section3.a2.h4.p5"]}
+							</h4>
+							<p
+								className="mb-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section3.a2.p6"],
+								}}
+							/>
+						</div>
+					),
+
+					// 					//Section 3 - Question 2
+					// "faq.section3.q2": "Warum kann ich mich nicht registrieren?",
+					// "faq.section3.a2.p1":
+					// 	"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
+					// "faq.section3.a2.h4.p1": "Die E-Mail-Adresse ist bereits vergeben.",
+					// "faq.section3.a2.p2":
+					// 	"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
+					// "faq.section3.a2.h4.p2": "Ihre Domäne ist nicht freigeschaltet.",
+					// "faq.section3.a2.p3":
+					// 	"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
+					// "faq.section3.a2.li1": "Generell erlaubt: @subdomain.berlin.de",
+					// "faq.section3.a2.li2": "Generell nicht erlaubt: @berlin.de",
+					// "faq.section3.a2.li3": `Weitere Domains erlaubt:,
+					// 						@charlottenburg-wilmersdorf.de",
+					// 						@bezirksamt-neukoelln.de,
+					// 						@parlament-berlin.de,
+					// 						@berliner-feuerwehr.de,
+					// 						@statistik-bbb.de`,
+					// "faq.section3.a2.h4.p3": "Die Bestätigungsmail ist nicht angekommen.",
+					// "faq.section3.a2.p4":
+					// 	"Schauen Sie im Spam-/Junk-Ordner nach und prüfen Sie ggf. Firmenfilter. Sie können den Bestätigungslink auch neu senden.",
+					// "faq.section3.a2.h4.p4": "Das Passwort erfüllt die Anforderungen nicht.",
+					// "faq.section3.a2.p5":
+					// 	"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
+					// "faq.section3.a2.h4.p5": "Ihre IT blockiert die Bestätigungsmail.",
+					// "faq.section3.a2.p6":
+					// 	"Bitten Sie Ihre IT, die Absenderadresse @baergpt.berlin zuzulassen, damit die Mail zugestellt werden kann.",
+				},
+				{
+					question: content["faq.section3.q3"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section3.a3.p1"]}</p>
 							<ul className="list-decimal ml-6 text-base leading-6 font-normal">
-								<li>{content["faq.section3.a2.li1"]}</li>
-								<li>{content["faq.section3.a2.li2"]}</li>
-								<li>{content["faq.section3.a2.li3"]}</li>
-								<li>{content["faq.section3.a2.li4"]}</li>
+								<li>{content["faq.section3.a3.li1"]}</li>
+								<li>{content["faq.section3.a3.li2"]}</li>
+								<li>{content["faq.section3.a3.li3"]}</li>
+								<li>{content["faq.section3.a3.li4"]}</li>
 							</ul>
 							<p
 								className="my-3"
 								dangerouslySetInnerHTML={{
-									__html: content["faq.section3.a2.p2"],
+									__html: content["faq.section3.a3.p2"],
 								}}
 							/>
 						</div>
 					),
 				},
 				{
-					question: content["faq.section3.q3"],
+					question: content["faq.section3.q4"],
 					answer: (
 						<div>
-							<p className="mb-3">{content["faq.section3.a3.l1"]}</p>
+							<p className="mb-3">{content["faq.section3.a4.l1"]}</p>
 							<ul className="list-decimal ml-6 text-base leading-6 font-normal">
-								<li>{content["faq.section3.a3.l2"]}</li>
-								<li>{content["faq.section3.a3.l3"]}</li>
-								<li>{content["faq.section3.a3.l4"]}</li>
-								<li>{content["faq.section3.a3.l5"]}</li>
+								<li>{content["faq.section3.a4.l2"]}</li>
+								<li>{content["faq.section3.a4.l3"]}</li>
+								<li>{content["faq.section3.a4.l4"]}</li>
+								<li>{content["faq.section3.a4.l5"]}</li>
 							</ul>
 						</div>
 					),
 				},
 				{
-					question: content["faq.section3.q4"],
+					question: content["faq.section3.q5"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
-								<p className="mb-3">{content["faq.section3.a4.p1"]}</p>
+								<p className="mb-3">{content["faq.section3.a5.p1"]}</p>
 								<ul className="list-decimal ml-6 text-base leading-6 font-normal">
-									<li>{content["faq.section3.a4.li1"]}</li>
-									<li>{content["faq.section3.a4.li2"]}</li>
-									<li>{content["faq.section3.a4.li3"]}</li>
+									<li>{content["faq.section3.a5.li1"]}</li>
+									<li>{content["faq.section3.a5.li2"]}</li>
+									<li>{content["faq.section3.a5.li3"]}</li>
 								</ul>
-								<p className="my-3">{content["faq.section3.a4.p2"]}</p>
+								<p className="my-3">{content["faq.section3.a5.p2"]}</p>
 								<p
 									className="mb-3"
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section3.a4.p3"],
+										__html: content["faq.section3.a5.p3"],
 									}}
 								/>
 							</div>
 							<div>
 								<p className="lg:px-3 text-base leading-6 font-semibold">
-									{content["faq.section3.a4.p4"]}
+									{content["faq.section3.a5.p4"]}
 								</p>
 								<AnchorLink
-									href={`#${createSlug(content["faq.section3.a4.link.href"])}`}
-									title={content["faq.section3.a4.link.title"]}
+									href={`#${createSlug(content["faq.section3.a5.link.href"])}`}
+									title={content["faq.section3.a5.link.title"]}
 									hasBorder={false}
 								/>
 							</div>
@@ -589,16 +667,21 @@ export const faq = {
 						<div className="flex flex-col gap-3">
 							<div>
 								<p className="mb-3">{content["faq.section5.a1.p1"]}</p>
-								<p className="mb-3">{content["faq.section5.a1.p2"]}</p>
+								<p className="mb-3 font-semibold">
+									{content["faq.section5.a1.p2"]}
+								</p>
 								<ul className="list-disc ml-6 text-base leading-6 font-normal">
 									<li> {content["faq.section5.a1.li1"]}</li>
 									<li> {content["faq.section5.a1.li2"]}</li>
+									<li> {content["faq.section5.a1.li3"]}</li>
 								</ul>
 							</div>
 							<div>
-								<p className="mb-3">{content["faq.section5.a1.p3"]}</p>
+								<p className="mb-3 font-semibold">
+									{content["faq.section5.a1.p3"]}
+								</p>
 								<ul className="list-disc ml-6 text-base leading-6 font-normal">
-									<li> {content["faq.section5.a1.li3"]}</li>
+									<li> {content["faq.section5.a1.li4"]}</li>
 								</ul>
 							</div>
 							<p
@@ -607,6 +690,11 @@ export const faq = {
 									__html: content["faq.section5.a1.p4"],
 								}}
 							/>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li> {content["faq.section5.a1.li5"]}</li>
+								<li> {content["faq.section5.a1.li6"]}</li>
+								<li> {content["faq.section5.a1.li7"]}</li>
+							</ul>
 						</div>
 					),
 				},

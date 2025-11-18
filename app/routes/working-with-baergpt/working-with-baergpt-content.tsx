@@ -413,9 +413,10 @@ export const accordionContent = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<AnchorLink
+								<DownloadItem
 									href={content["workingWithBearGPT.section2.a7.link.href"]}
 									title={content["workingWithBearGPT.section2.a7.link.title"]}
+									subtitle="PDF"
 								/>
 								<VideoItem
 									title={content["workingWithBearGPT.section2.a7.video.title"]}
