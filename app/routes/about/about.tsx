@@ -1,9 +1,5 @@
-// import { DownloadItem } from "../../components/accordion-content-elements/download-item";
-import { DownloadItem } from "~/components/accordion-content-elements/download-item";
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
-import { VideoItem } from "../../components/accordion-content-elements/video-item";
 import { content } from "../../content/index";
-import { createSlug } from "~/utils/create-slug";
 
 export const about = {
 	sections: [
