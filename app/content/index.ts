@@ -134,11 +134,17 @@ export const content = {
 	"faq.section1.title": "Einstieg in BärGPT",
 
 	//Section 1 - Question 1
-	"faq.section1.q1": "Was ist BärGPT und wofür kann ich es nutzen?",
+	"faq.section1.q1": "Was ist BärGPT?",
+	"faq.section1.q1.landingPage": "Was ist BärGPT und wofür kann ich es nutzen?",
 	"faq.section1.a1":
 		"BärGPT ist ein KI-Assistent für die Berliner Verwaltung mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
 	"faq.section1.a1.video1.title": "Arbeiten mit KI",
 	"faq.section1.a1.video1.linkName": "Arbeiten mit KI",
+	"faq.section1.a1.link1.title": "Arbeiten mit BärGPT",
+	"faq.section1.a1.link1.href": "/arbeiten-mit-baergpt/",
+	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section1.a1.link2.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
 
 	//Section 1 - Question 2
 	"faq.section1.q2":
@@ -153,7 +159,7 @@ export const content = {
 	"faq.section1.a2.li3": "Eine stabile Internetverbindung",
 	"faq.section1.a2.li4":
 		"Grundkenntnisse im Umgang mit der Benutzung von KI. Besondere technische Kenntnisse sind <strong>nicht</strong> erforderlich.",
-	"faq.section1.a2.link.title": "Link zu Nutzerhandbuch",
+	"faq.section1.a2.link.title": "Nutzerhandbuch",
 	"faq.section1.a2.link.href": "/baergpt-nutzerhandbuch.pdf",
 
 	// Section 1 - Question 3
@@ -245,7 +251,7 @@ export const content = {
 		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
 	"faq.section1.a9.li4":
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
-	"faq.section1.a9.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section1.a9.link.title": "Arbeiten mit BärGPT",
 	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
@@ -337,49 +343,78 @@ export const content = {
 		"<strong>Technisches Problem:</strong> Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
 
 	//Section 3 - Question 2
-	"faq.section3.q2": "Ich habe mein Passwort vergessen?",
+	"faq.section3.q2": "Warum kann ich mich nicht registrieren?",
 	"faq.section3.a2.p1":
+		"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
+	"faq.section3.a2.h4.p1": "Die E-Mail-Adresse ist bereits vergeben.",
+	"faq.section3.a2.p2":
+		"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
+	"faq.section3.a2.h4.p2": "Ihre Domäne ist nicht freigeschaltet.",
+	"faq.section3.a2.p3":
+		"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
+	"faq.section3.a2.li1":
+		"<strong>Generell erlaubt:</strong> @subdomain.berlin.de",
+	"faq.section3.a2.li2": "<strong>Generell nicht erlaubt:</strong> @berlin.de",
+	"faq.section3.a2.li3": `<strong>Weitere Domains erlaubt:</strong><br />
+							@charlottenburg-wilmersdorf.de<br />
+							@bezirksamt-neukoelln.de<br />
+							@parlament-berlin.de<br />
+							@berliner-feuerwehr.de<br />
+							@statistik-bbb.de`,
+	"faq.section3.a2.h4.p3": "Die Bestätigungsmail ist nicht angekommen.",
+	"faq.section3.a2.p4":
+		"Schauen Sie im Spam-/Junk-Ordner nach und prüfen Sie ggf. Firmenfilter. Sie können den Bestätigungslink auch neu senden.",
+	"faq.section3.a2.h4.p4": "Das Passwort erfüllt die Anforderungen nicht.",
+	"faq.section3.a2.p5":
+		"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
+	"faq.section3.a2.h4.p5": "Ihre IT blockiert die Bestätigungsmail.",
+	"faq.section3.a2.p6":
+		"Bitten Sie Ihre IT, die Absenderadresse <strong>@baergpt.berlin</strong> zuzulassen, damit die Mail zugestellt werden kann.",
+
+	//Section 3 - Question 3
+	"faq.section3.q3": "Ich habe mein Passwort vergessen?",
+	"faq.section3.a3.p1":
 		"Wenn Sie Ihr Passwort für BärGPT vergessen haben oder ändern möchten, können Sie es selbst zurücksetzen:",
-	"faq.section3.a2.li1": "Gehen Sie auf die Login-Seite von BärGPT.",
-	"faq.section3.a2.li2": "Klicken Sie auf „Passwort vergessen?“.",
-	"faq.section3.a2.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
-	"faq.section3.a2.li4":
+	"faq.section3.a3.li1": "Gehen Sie auf die Login-Seite von BärGPT.",
+	"faq.section3.a3.li2": "Klicken Sie auf „Passwort vergessen?“.",
+	"faq.section3.a3.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
+	"faq.section3.a3.li4":
 		"Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts. Folgen Sie dem Link und vergeben Sie ein neues Passwort.",
-	"faq.section3.a2.p2": `Falls Sie keine E-Mail erhalten, prüfen Sie bitte Ihren Spam-Ordner oder wenden Sie sich an 
+	"faq.section3.a3.p2": `Falls Sie keine E-Mail erhalten, prüfen Sie bitte Ihren Spam-Ordner oder wenden Sie sich an 
 		<a class="underline underline-offset-6"
 							href="mailto:support@baergpt.berlin"
 							target="_blank"
 							rel="noopener noreferrer"
 						>support@baergpt.berlin</a>.`,
 
-	//Section 3 - Question 3
-	"faq.section3.q3": "Wie ändere ich meine Nutzerdaten?",
-	"faq.section3.a3.l1":
+	//Section 3 - Question 4
+	"faq.section3.q4": "Wie ändere ich meine Nutzerdaten?",
+	"faq.section3.a4.l1":
 		"Sie können Ihre persönlichen Daten jederzeit anpassen – dazu gehören Name, E-Mail-Adresse und Passwort.",
-	"faq.section3.a3.l2":
+	"faq.section3.a4.l2":
 		" Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
-	"faq.section3.a3.l3": " Wählen Sie „Profil“ aus.",
-	"faq.section3.a3.l4":
+	"faq.section3.a4.l3": " Wählen Sie „Profil“ aus.",
+	"faq.section3.a4.l4":
 		" In der Eingabemaske können Sie Ihre Angaben ändern und anschließend speichern.",
-	"faq.section3.a3.l5":
+	"faq.section3.a4.l5":
 		" Zusätzlich können Sie einstellen, wie Sie von BärGPT angesprochen werden möchten: Bevorzugen Sie ein freundliches „Du“, verschieben Sie den Schieberegler entsprechend.",
 
-	//Section 3 - Question 4
-	"faq.section3.q4": "Wie lösche ich mein Benutzerkonto?",
-	"faq.section3.a4.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
-	"faq.section3.a4.li1":
+	//Section 3 - Question 5
+	"faq.section3.q5": "Wie lösche ich mein Benutzerkonto?",
+	"faq.section3.a5.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
+	"faq.section3.a5.li1":
 		"Öffnen Sie Ihren Nutzeraccount (oben rechts auf der Startseite).",
-	"faq.section3.a4.li2": "Klicken Sie auf „Konto löschen“.",
-	"faq.section3.a4.li3":
+	"faq.section3.a5.li2": "Klicken Sie auf „Konto löschen“.",
+	"faq.section3.a5.li3":
 		"Bestätigen Sie die Löschung im anschließenden Hinweisfenster.",
-	"faq.section3.a4.p2":
+	"faq.section3.a5.p2":
 		"Nach Ihrer Bestätigung werden alle personenbezogenen Daten und gespeicherten Chatverläufe gemäß den Datenschutzbestimmungen dauerhaft gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
-	"faq.section3.a4.p3":
+	"faq.section3.a5.p3":
 		"<strong>Hinweis:</strong> Nach der Löschung ist eine erneute Nutzung von BärGPT nur durch eine neue Registrierung möglich.",
-	"faq.section3.a4.p4":
+	"faq.section3.a5.p4":
 		"Weitere Informationen zur Verwendung Ihrer Daten finden Sie hier:",
-	"faq.section3.a4.link.title": "Datenschutz & Datensicherheit",
-	"faq.section3.a4.link.href": "Datenschutz & Datensicherheit",
+	"faq.section3.a5.link.title": "Datenschutz & Datensicherheit",
+	"faq.section3.a5.link.href": "Datenschutz & Datensicherheit",
 
 	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
 	"faq.section4.title": "Arbeiten im Chat (Prompting)",
@@ -490,16 +525,21 @@ export const content = {
 	"faq.section5.q1": "Wie lade ich eine Datei hoch?",
 	"faq.section5.a1.p1":
 		"Sie haben zwei einfache Möglichkeiten, eine Datei hochzuladen:",
-	"faq.section5.a1.p2": "Über die Schaltfläche",
+	"faq.section5.a1.p2": 'Über die Schaltfläche "Datei hochladen":',
 	"faq.section5.a1.li1":
 		"Klicken Sie auf die Schaltfläche „Datei hochladen“ im Dateibereich.",
-	"faq.section5.a1.li2":
-		"Wählen Sie ein Dokument von Ihrem Computer aus. Die Datei wird automatisch in Ihrem Dateibereich gespeichert.",
-	"faq.section5.a1.p3": "Per Drag & Drop:",
+	"faq.section5.a1.li2": "Wählen Sie ein Dokument von Ihrem Computer aus.",
 	"faq.section5.a1.li3":
+		"Die Datei wird automatisch in Ihrem Dateibereich gespeichert.",
+	"faq.section5.a1.p3": "Per Drag & Drop:",
+	"faq.section5.a1.li4":
 		"Ziehen Sie die Datei direkt in den Dateibereich der Anwendung.",
-	"faq.section5.a1.p4":
-		"<strong>Hinweis:</strong> Achten Sie auf die maximale Dateigröße. BärGPT unterstützt Dateien bis maximal 10 MB. Bei größeren Dateien könnten Sie die Datei auch teilen und somit das Dokument geteilt hochladen.",
+	"faq.section5.a1.p4": "<strong>Hinweis:</strong>",
+	"faq.section5.a1.li5": "Sie können bis zu 5 Dokumente parallel hochladen.",
+	"faq.section5.a1.li6":
+		"Die Maximale Dateigröße ist 10 MB pro Datei. Teilen Sie größere Dateien in mehrere Abschnitte und laden Sie diese getrennt hoch.",
+	"faq.section5.a1.li7":
+		"Im Dateibereich können insgesamt bis zu 30 Dokumente hinterlegt werden.",
 
 	//Section 5 - Question 2
 	"faq.section5.q2": "Welche Dateiformate kann ich hochladen?",
@@ -585,7 +625,7 @@ export const content = {
 	"faq.section7.a1.p4.h4": "Eigene Dokumente",
 	"faq.section7.a1.p4":
 		"Sie können auch eigene Dokumente (PDF, Word oder Excel Dateien) hochladen. Diese werden nur vorübergehend verarbeitet, um Fragen zu beantworten oder Inhalte zusammenzufassen.",
-	"faq.section7.a1.link.title": "Siehe dazu Arbeiten mit Dokumenten",
+	"faq.section7.a1.link.title": "Arbeiten mit Dokumenten",
 	"faq.section7.a1.link.href": "Arbeiten mit Dokumenten",
 
 	//Section 7 - Question 2
@@ -618,7 +658,7 @@ export const content = {
 		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
 	"faq.section7.a3.p3":
 		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a3.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a3.link.title": "Arbeiten mit BärGPT",
 	"faq.section7.a3.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 4
@@ -663,7 +703,7 @@ export const content = {
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
 	"faq.section7.a7.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a7.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a7.link.title": "Arbeiten mit BärGPT",
 	"faq.section7.a7.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
@@ -673,28 +713,11 @@ export const content = {
 	"faq.section8.a1.p1":
 		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
 	"faq.section8.a1.email": "support@baergpt.berlin",
-	"faq.section8.a1.link.title": "Link zur Video-Tutorials Seite",
-	"faq.section8.a1.link.href": "/tutorials",
-
-	/* -------------------- TOP 5 FAQ -------------------- */
-	//Question 1
-	"faq.top5.q1": "Was ist BärGPT und wofür kann ich es nutzen?",
-	"faq.top5.a1":
-		"BärGPT ist ein KI-Assistent mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
-	//Question 2
-	"faq.top5.q2": "Darf ich vertrauliche Dokumente hochladen?",
-	"faq.top5.a2":
-		"Nein. Bitte laden Sie keine sensiblen oder vertraulichen Daten hoch. BärGPT ist nicht für die Verarbeitung personenbezogener oder schutzwürdiger Informationen vorgesehen. Achten Sie darauf, nur allgemeine oder unkritische Inhalte zu verwenden.",
-	//Question 3 = Faq section 1 question 2
-	//Question 4 = Faq section 3 question 1
-	//Question 5
-	"faq.top5.q5": "Wie stelle ich meinem Dokument eine Frage?",
-	"faq.top5.a5.p1":
-		"Sobald Sie eine Datei hochgeladen haben, können Sie direkt im Chat Fragen zum Inhalt stellen. BärGPT analysiert Ihre Datei und liefert relevante Antworten – direkt aus dem Text. Auch mehrere hochgeladene Dokumente können gleichzeitig durchsucht werden.",
-	"faq.top5.a5.video1.title":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
-	"faq.top5.a5.video1.linkName":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
+	"faq.section8.a1.link1.title": "Video-Tutorials Seite",
+	"faq.section8.a1.link1.href": "/tutorials",
+	"faq.section8.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section8.a1.link2.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Haben Sie Feedback zu BärGPT?",
@@ -800,8 +823,7 @@ export const content = {
 	"workingWithBearGPT.section1.q3": "Was ist ein Prompt?",
 	"workingWithBearGPT.section1.a3.p1":
 		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll. Sie können eine Frage stellen, eine Aufgabe formulieren oder eine Anweisung geben in natürlicher Sprache. Je klarer und konkreter Ihr Prompt ist, desto passender fällt die Antwort aus.",
-	"workingWithBearGPT.section1.a3.p2":
-		"Hier finden Sie bewährte Vorlagen, die Sie direkt einsetzen können:",
+	"workingWithBearGPT.section1.a3.p2": "Weitere Links, Tutorials und Downloads",
 	"workingWithBearGPT.section1.a3.link1.title":
 		"Leitfaden für effektives Prompting",
 	"workingWithBearGPT.section1.a3.link1.href":
@@ -821,7 +843,7 @@ export const content = {
 	"workingWithBearGPT.section1.a4.p1":
 		"BärGPT kann Sie in vielen Phasen Ihrer Arbeit unterstützen:",
 	"workingWithBearGPT.section1.a4.p2":
-		"<strong>In der Vorbereitung:</strong> BärGPT hilft, Aufgaben schneller zu starten und Informationen zu strukturieren.",
+		"<strong>Hinweis:</strong> Sie können nichts kaputt machen. Probieren Sie einfach aus, formulieren Sie um oder bitten Sie um Beispiele. Mit wenigen Versuchen finden Sie schnell heraus, wie Sie die besten Ergebnisse erzielen.",
 	"workingWithBearGPT.section1.a4.li1":
 		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen",
 	"workingWithBearGPT.section1.a4.li2":
