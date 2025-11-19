@@ -252,7 +252,7 @@ export const content = {
 	"faq.section1.a9.li4":
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
 	"faq.section1.a9.link.title": "Arbeiten mit BärGPT",
-	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section1.a9.link.href": "/arbeiten-mit-baergpt",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
 	"faq.section1.a2.video1.title": "Erste Schritte mit BärGPT",
@@ -426,7 +426,7 @@ export const content = {
 		"BärGPT versteht sowohl vollständige Fragen als auch kurze Anweisungen. Je genauer Sie Ihr Anliegen beschreiben, desto passender wird die Antwort. Nennen Sie, wenn möglich Ziel, Kontext und gewünschtes Format, zum Beispiel: „Fasse den Text als Stichpunkte zusammen“ oder „Formuliere eine E-Mail zur Projektabstimmung“.",
 	"faq.section4.a1.link.title":
 		"Hilfestellungen für gutes Prompting finden Sie im Bereich “Arbeiten mit KI“",
-	"faq.section4.a1.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section4.a1.link.href": "/arbeiten-mit-baergpt",
 
 	//Section 4 - Question 2
 	"faq.section4.q2": "Was ist der „Freie Chat“?",
@@ -471,7 +471,7 @@ export const content = {
 		"„Beziehe dich bitte auf das Dokument ‚Förderrichtlinie 2024‘.“",
 	"faq.section4.a5.link.title":
 		"Auf der Seite Prompting finden Sie praxisnahe Hinweise und Beispiele, wie Sie Ihre Anfragen noch gezielter stellen können“",
-	"faq.section4.a5.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section4.a5.link.href": "/arbeiten-mit-baergpt",
 
 	//Section 4 - Question 6
 	"faq.section4.q6":
@@ -659,7 +659,7 @@ export const content = {
 	"faq.section7.a3.p3":
 		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
 	"faq.section7.a3.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a3.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section7.a3.link.href": "/arbeiten-mit-baergpt",
 
 	//Section 7 - Question 4
 	"faq.section7.q4": "Wie aktuell ist das Wissen von BärGPT?",
@@ -704,7 +704,7 @@ export const content = {
 	"faq.section7.a7.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
 	"faq.section7.a7.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a7.link.href": "https://hilfe.baergpt.berlin/prompts",
+	"faq.section7.a7.link.href": "/arbeiten-mit-baergpt",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
 	"faq.section8.title": "Weitere Hilfe",
