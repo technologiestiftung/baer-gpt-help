@@ -141,9 +141,10 @@ export const faq = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<AnchorLink
+								<DownloadItem
 									href={content["faq.section1.a7.link.href"]}
 									title={content["faq.section1.a7.link.title"]}
+									subtitle="PDF"
 									hasBorder={false}
 								/>
 							</div>

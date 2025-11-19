@@ -211,7 +211,7 @@ export const content = {
 	"faq.section1.a7":
 		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
 	"faq.section1.a7.link.title":
-		"Rundschreiben „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“",
+		"Orientierungshilfe: Umgang mit LLM-basierten Chatbots (Berlin)",
 	"faq.section1.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 
@@ -1080,34 +1080,75 @@ export const content = {
 		"Texte mit BärGPT schreiben und bearbeiten",
 
 	/* -------------------- About -------------------- */
-	"about.p1.text": `BärGPT wurde vom <a class="underline underline-offset-6"
-							href="https://citylab-berlin.org/de/start/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>CityLAB Berlin</a> ins Leben gerufen und in enger
-					Zusammenarbeit mit der <a class="underline underline-offset-6"
-							href="https://www.berlin.de/senatskanzlei/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>Berliner Senatskanzlei</a> umgesetzt. Gemeinsam mit
-					Mitarbeitenden aus der Verwaltung wurden in einem agilen Prozess
-					Prototypen entwickelt, getestet und verbessert.
-					
+	// Section 1 - Mehr über BärGPT
+	// Question 1
+	"about.section1.title": "Mehr über BärGPT",
+	"about.section1.q1": "Was ist BärGPT?",
+	"about.section1.a1.p1":
+		"BärGPT ist ein maßgeschneiderter KI-Assistent für die Berliner Landesverwaltung. Bereitgestellt vom CityLAB Berlin und gefördert durch die Senatskanzlei Berlin, erleichtert er den Arbeitsalltag der Beschäftigten, indem er KI-gestützte Funktionen bereitstellt, die Verwaltungsprozesse effizienter, schneller und benutzerfreundlicher machen. Die Applikation BärGPT basiert auf einem generativen Sprachmodell und wurde speziell für die Anforderungen und Rahmenbedingungen des öffentlichen Sektors angepasst.",
+	"about.section1.a1.p2":
+		"Ziel ist es, Mitarbeitende bei der Informationsrecherche, Textgenerierung sowie bei wiederkehrenden Verwaltungsaufgaben zu unterstützen und so Arbeitsabläufe effizienter zu gestalten. Die Anwendung wurde im Rahmen eines Pilotprojekts entwickelt und wird kontinuierlich weiterentwickelt. Datenschutz, Transparenz und Nachvollziehbarkeit der Ergebnisse stehen dabei im Vordergrund. Eine automatisierte Entscheidungsfindung durch die KI ist nicht vorgesehen („human in the lead“-Ansatz).",
 
-BärGPT setzt auf Open-Source-Technologie und wird transparent,
-					datenschutzkonform und nutzerzentriert weiterentwickelt – für eine
-					moderne, souveräne Verwaltungsdigitalisierung.`,
-	"about.p2.title": "So unterstützt BärGPT die Berliner Verwaltung",
-	"about.p2.text": `BärGPT unterstützt mit einem freien Chat, der flexibel einsetzbar ist – ähnlich wie bekannte KI-Systeme. So lassen sich Texte schnell erstellen, überarbeiten, übersetzen oder zusammenfassen. Auch allgemeine Fragen beantwortet das System zuverlässig. Ein weiteres zentrales Feature ist die intelligente  Dokumenten-Verwaltung: Nutzer:innen können Dateien hochladen, automatisch analysieren lassen und mithilfe der integrierten RAG-Suche gezielt nach Inhalten suchen – auch in mehreren Dokumenten gleichzeitig.`,
-	"about.p3.title": "BärGPT bietet zudem eine...",
-	"about.bulletpoints": [
-		"... einfache Bedienung der Dokumente per Drag & Drop",
-		"... strukturierte Ordnerverwaltung",
-		"... Open-Source Anwendung ",
-		"... barrierearme Nutzung",
-		"... mobile sowie Desktop-Nutzung",
-		"... DSGVO-Konformität",
-	],
+	// Question 2
+	"about.section1.q2": "Wie ist BärGPT entstanden?",
+	"about.section1.a2.p1":
+		"Im Frühjahr 2024 hat die Berliner Senatskanzlei die „KI-Taskforce“ ins Leben gerufen und gemeinsam mit dem CityLAB Berlin eine Reihe von Workshops durchgeführt. Ziel war es, Potenziale Künstlicher Intelligenz für die Verwaltungsarbeit zu identifizieren. Dabei wurde deutlich, dass eine praxisnahe Testumgebung erforderlich ist, um innovative KI-gestützte Lösungen in einem geschützten Rahmen zu erproben.",
+	"about.section1.a2.p2":
+		"Das CityLAB Berlin hat daraufhin die Entwicklung von BärGPT initiiert. In einem agilen Prozess wurden gemeinsam mit Verwaltungsmitarbeitenden verschiedene Prototypen konzipiert, getestet und iterativ weiterentwickelt. Dies ermöglichte eine präzise Bedarfsanalyse und den Aufbau der notwendigen technischen sowie fachlichen Expertise für den Betrieb einer modernen KI-Anwendung in der Verwaltung.",
+
+	// Question 3
+	"about.section1.q3": "Ist BärGPT Open Source und kann frei genutzt werden?",
+	"about.section1.a3.p1":
+		"Ja. BärGPT ist ein Open Source-Projekt und vom CityLAB Berlin in Kooperation mit der Senatskanzlei Berlin entwickelt. Der Quellcode ist öffentlich zugänglich und kann transparent eingesehen, weiterentwickelt oder angepasst werden.",
+	"about.section1.a3.p2": "Hier finden Sie das Repository:",
+	"about.section1.a3.link.title": "BärGPT auf GitHub",
+	"about.section1.a3.link.href":
+		"https://github.com/technologiestiftung/baergpt",
+	"about.section1.q4":
+		"Wie wird BärGPT weiterentwickelt – und was ist geplant?",
+	"about.section1.a4":
+		"BärGPT wird derzeit in verschiedenen Berliner Dienststellen erprobt und kontinuierlich weiterentwickelt. Das Feedback der Nutzerinnen und Nutzer fließt direkt in die Verbesserung des Systems ein.",
+	"about.section1.q5": "Wie erfahre ich von neuen Funktionen?",
+	"about.section1.a5.p1": `Alle wichtigen Neuerungen rund um BärGPT werden regelmäßig bekanntgegeben. Geplant ist eine E-Mail-Benachrichtigung, die über aktuelle Entwicklungen informiert und praktische Anwendungstipps enthält. Bis dahin werden neue Funktionen auch im
+						<a class="underline underline-offset-6"
+							href="https://citylab-berlin.org/de/blog/"
+							target="_blank"
+							rel="noopener noreferrer">
+							CityLAB-Blog
+						</a>
+						und auf den Informationsseiten zu BärGPT vorgestellt.`,
+
+	// Section 2 - Technische Details
+	"about.section2.title": "Technische Details",
+	//Question 1
+	"about.section2.q1": "Wie funktioniert BärGPT technisch?",
+	"about.section2.a1.p1":
+		"BärGPT ist eine textbasierte KI-Anwendung, die auf einem Large Language Model (LLM) basiert. BärGPT nutzt dabei die Open-Source-Technologie Mistral, ein leistungsfähiges Modell aus Frankreich, das auf Servern innerhalb der Europäischen Union betrieben wird.",
+	"about.section2.a1.p2":
+		"Das Modell wird für die Berliner Verwaltung bereitgestellt und an deren spezifische Anforderungen angepasst. Die allgemeinen Sprachkenntnisse des Modells stammen aus einem breiten Textkorpus, der zuletzt im Oktober 2023 aktualisiert wurde. Diese Trainingsdaten enthalten somit keine aktuellen oder verwaltungsspezifischen Informationen.",
+	"about.section2.a1.p3":
+		"Damit BärGPT dennoch relevantes, überprüfbares und lokales Verwaltungswissen nutzen kann, wird ein sogenannter RAG-Ansatz (Retrieval-Augmented Generation) eingesetzt.",
+	"about.section2.a1.p4": "Dieser Ansatz verbindet zwei Komponenten:",
+	"about.section2.a1.p5":
+		"<strong>Retrieval (Abruf):</strong> Wenn eine Nutzerin oder ein Nutzer eine Frage stellt, durchsucht BärGPT eine eigene Wissensdatenbank mit geprüften Dokumenten der Berliner Verwaltung – etwa Gesetze, Richtlinien oder interne Leitfäden. Alternativ können Nutzerinnen und Nutzer eigene Dokumente hochladen und für die Anfrage auswählen. Über eine Vektorsuche werden die inhaltlich passenden Textstellen identifiziert.",
+	"about.section2.a1.p6":
+		"<strong>Generation (Texterstellung):</strong> Diese relevanten Textpassagen werden anschließend an das Sprachmodell übergeben. Das Modell formuliert daraus eine verständliche Antwort auf Grundlage des gefundenen Wissens.",
+	"about.section2.a1.p7":
+		"So kann BärGPT Fragen auch fachlich fundiert und nachvollziehbar beantworten – häufig mit Quellenangaben oder Verweisen auf die zugrunde liegenden Dokumente.",
+
+	// Question 2
+	"about.section2.q2": "Wie sieht die Systemarchitektur von BärGPT aus?",
+	"about.section2.a2.p1":
+		"BärGPT basiert auf einem modularen Open-Source-Ansatz, der eine einfache Administration sowie den flexiblen Austausch einzelner Systemkomponenten ermöglicht. Diese Architektur gewährleistet maximale Anpassungsfähigkeit in Bezug auf Skalierbarkeit und Performance. In der ersten Rollout-Phase setzt BärGPT auf eine Cloud-Infrastruktur mit Serverstandorten in Deutschland. Die Infrastruktur für die Speicherung von DSGVO-relevanten Daten wird BSI-konform vom Dienstleister STACKIT über den GovTech Campus bezogen. Dieser Ansatz ermöglicht eine wirtschaftliche Bereitstellung, ohne dabei Kompromisse in Bezug auf Datenschutz, Datensicherheit nach BSI-Standards und DSGVO-Konformität einzugehen.",
+	"about.section2.a2.p2": "Die gewählte Infrastruktur bietet:",
+	"about.section2.a2.li1":
+		"Hohe Flexibilität und Skalierbarkeit für unterschiedliche Lastanforderungen",
+	"about.section2.a2.li2":
+		"Einfache Wartung und Administration durch modulare Open-Source-Komponenten",
+	"about.section2.a2.li3":
+		"DSGVO-konforme Cloud-Umgebung mit deutschen Serverstandorten",
+
+	/* -------------------- Chat bubble -------------------- */
 	"about.chat.p1": "Hey BärGPT, wer bist du?",
 	"about.chat.loadingText": "BärGPT überlegt...",
 	"about.chat.p2": `Ich bin ein KI-Assistent, der speziell für die Berliner Verwaltung entwickelt wurde. Mein Ziel ist es, Verwaltungsmitarbeitende im Arbeitsalltag zu entlasten und Prozesse effizienter zu gestalten – etwa beim Erstellen, Zusammenfassen oder Übersetzen von Texten.`,
