@@ -80,13 +80,12 @@ export const about = {
 									__html: content["about.section2.a1.p5"],
 								}}
 							/>
-							<p>{content["about.section2.a1.p6"]}</p>
 							<p
 								dangerouslySetInnerHTML={{
-									__html: content["about.section2.a1.p7"],
+									__html: content["about.section2.a1.p6"],
 								}}
 							/>
-							<p>{content["about.section2.a1.p8"]}</p>
+							<p>{content["about.section2.a1.p7"]}</p>
 						</div>
 					),
 				},

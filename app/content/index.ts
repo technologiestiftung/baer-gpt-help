@@ -1065,7 +1065,7 @@ export const content = {
 	"about.section1.a1.p1":
 		"BärGPT ist ein maßgeschneiderter KI-Assistent für die Berliner Landesverwaltung. Bereitgestellt vom CityLAB Berlin und gefördert durch die Senatskanzlei Berlin, erleichtert er den Arbeitsalltag der Beschäftigten, indem er KI-gestützte Funktionen bereitstellt, die Verwaltungsprozesse effizienter, schneller und benutzerfreundlicher machen. Die Applikation BärGPT basiert auf einem generativen Sprachmodell und wurde speziell für die Anforderungen und Rahmenbedingungen des öffentlichen Sektors angepasst.",
 	"about.section1.a1.p2":
-		"Ziel ist es, Mitarbeitende bei der Informationsrecherche, Textgenerierung sowie bei wiederkehrenden Verwaltungsaufgaben zu unterstützen und so Arbeitsabläufe effizienter zu gestalten.Die Anwendung wurde im Rahmen eines Pilotprojekts entwickelt und wird kontinuierlich weiterentwickelt. Datenschutz, Transparenz und Nachvollziehbarkeit der Ergebnisse stehen dabei im Vordergrund. Eine automatisierte Entscheidungsfindung durch die KI ist nicht vorgesehen („human in the lead“-Ansatz).",
+		"Ziel ist es, Mitarbeitende bei der Informationsrecherche, Textgenerierung sowie bei wiederkehrenden Verwaltungsaufgaben zu unterstützen und so Arbeitsabläufe effizienter zu gestalten. Die Anwendung wurde im Rahmen eines Pilotprojekts entwickelt und wird kontinuierlich weiterentwickelt. Datenschutz, Transparenz und Nachvollziehbarkeit der Ergebnisse stehen dabei im Vordergrund. Eine automatisierte Entscheidungsfindung durch die KI ist nicht vorgesehen („human in the lead“-Ansatz).",
 
 	// Question 2
 	"about.section1.q2": "Wie ist BärGPT entstanden?",
@@ -1105,15 +1105,13 @@ export const content = {
 	"about.section2.a1.p2":
 		"Das Modell wird für die Berliner Verwaltung bereitgestellt und an deren spezifische Anforderungen angepasst. Die allgemeinen Sprachkenntnisse des Modells stammen aus einem breiten Textkorpus, der zuletzt im Oktober 2023 aktualisiert wurde. Diese Trainingsdaten enthalten somit keine aktuellen oder verwaltungsspezifischen Informationen.",
 	"about.section2.a1.p3":
-		"Damit BärGPT dennoch relevantes, überprüfbares und lokales Verwaltungswissen nutzen kann, wird ein sogenannter RAG-Ansatz (Retrieval-Augmented Generation) eingesetzt. Dieser verbindet zwei Schritte:",
+		"Damit BärGPT dennoch relevantes, überprüfbares und lokales Verwaltungswissen nutzen kann, wird ein sogenannter RAG-Ansatz (Retrieval-Augmented Generation) eingesetzt.",
 	"about.section2.a1.p4": "Dieser Ansatz verbindet zwei Komponenten:",
 	"about.section2.a1.p5":
-		"<strong>Retrieval (Abruf):</strong> Wenn eine Nutzerin oder ein Nutzer eine Frage stellt, durchsucht BärGPT eine eigene Wissensdatenbank mit geprüften Dokumenten der Berliner Verwaltung – etwa Gesetze, Richtlinien oder interne Leitfäden.",
+		"<strong>Retrieval (Abruf):</strong> Wenn eine Nutzerin oder ein Nutzer eine Frage stellt, durchsucht BärGPT eine eigene Wissensdatenbank mit geprüften Dokumenten der Berliner Verwaltung – etwa Gesetze, Richtlinien oder interne Leitfäden. Alternativ können Nutzerinnen und Nutzer eigene Dokumente hochladen und für die Anfrage auswählen. Über eine Vektorsuche werden die inhaltlich passenden Textstellen identifiziert.",
 	"about.section2.a1.p6":
-		"Alternativ können Nutzerinnen und Nutzer eigene Dokumente hochladen und für die Anfrage auswählen. Über eine Vektorsuche werden die inhaltlich passenden Textstellen identifiziert.",
-	"about.section2.a1.p7":
 		"<strong>Generation (Texterstellung):</strong> Diese relevanten Textpassagen werden anschließend an das Sprachmodell übergeben. Das Modell formuliert daraus eine verständliche Antwort auf Grundlage des gefundenen Wissens.",
-	"about.section2.a1.p8":
+	"about.section2.a1.p7":
 		"So kann BärGPT Fragen auch fachlich fundiert und nachvollziehbar beantworten – häufig mit Quellenangaben oder Verweisen auf die zugrunde liegenden Dokumente.",
 
 	// Question 2
