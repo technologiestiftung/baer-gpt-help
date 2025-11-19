@@ -9,9 +9,9 @@ export const content = {
 	hero: {
 		cards: [
 			{
-				title: "Starke Anfragen formulieren mit BärGPT",
-				description: "So erstellen Sie effektive Master-Prompts.",
-				videoTitle: "Starke Anfragen formulieren mit BärGPT",
+				title: "Erste Schritte mit BärGPT",
+				description: "Ihr Einstieg in BärGPT",
+				videoTitle: "Erste Schritte mit BärGPT",
 			},
 			{
 				title: "Texte schreiben und bearbeiten mit KI",
