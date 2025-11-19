@@ -53,7 +53,7 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 					<button
 						onClick={handleAcceptSelection}
 						className="px-3 py-2 text-lg leading-7 font-normal h-11 text-dunkelblau-100
-						rounded-3px border border-dunkelblau-100
+						rounded-3px border border-dunkelblau-100 cursor-pointer
 						hover:bg-hellblau-60 focus-visible:outline-default"
 						aria-label={content["cookiesBanner.button.necessary"]}
 					>
@@ -63,7 +63,7 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 					<button
 						onClick={handleDecline}
 						className="px-3 py-2 text-lg leading-7 font-normal h-11 text-dunkelblau-100
-						rounded-3px border border-dunkelblau-100
+						rounded-3px border border-dunkelblau-100 cursor-pointer
 						hover:bg-hellblau-60 focus-visible:outline-default"
 						aria-label={content["cookiesBanner.button.necessary"]}
 					>
