@@ -15,15 +15,15 @@ export const topFaq = {
 						<h4 className="lg:px-3 text-base leading-6 font-semibold">
 							{content["faq.furtherLinksVideos.title"]}
 						</h4>
-						<DownloadItem
+						<AnchorLink
 							href={content["faq.section1.a1.link1.href"]}
-							subtitle="PDF"
 							title={content["faq.section1.a1.link1.title"]}
 						/>
-						<AnchorLink
+						<DownloadItem
 							href={content["faq.section1.a1.link2.href"]}
 							title={content["faq.section1.a1.link2.title"]}
 							hasBorder={false}
+							subtitle="PDF"
 						/>
 					</div>
 				</div>
@@ -147,7 +147,7 @@ export const topFaq = {
 							{content["faq.furtherLinksVideos.title"]}
 						</h4>
 						<AnchorLink
-							href={`#${createSlug(content["faq.section7.a1.link.href"])}`}
+							href={`/faq/#${createSlug(content["faq.section7.a1.link.href"])}`}
 							title={content["faq.section7.a1.link.title"]}
 							hasBorder={false}
 						/>

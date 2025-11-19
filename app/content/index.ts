@@ -139,11 +139,11 @@ export const content = {
 		"BärGPT ist ein KI-Assistent für die Berliner Verwaltung mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
 	"faq.section1.a1.video1.title": "Arbeiten mit KI",
 	"faq.section1.a1.video1.linkName": "Arbeiten mit KI",
-	"faq.section1.a1.link1.title": "Handbuch zur Nutzung von BärGPT",
-	"faq.section1.a1.link1.href":
+	"faq.section1.a1.link1.title": "Arbeiten mit BärGPT",
+	"faq.section1.a1.link1.href": "/arbeiten-mit-baergpt/",
+	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section1.a1.link2.href":
 		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
-	"faq.section1.a1.link2.title": "Hilfestellungen zur Arbeiten mit Bär GPT",
-	"faq.section1.a1.link2.href": "/arbeiten-mit-baergpt/",
 
 	//Section 1 - Question 2
 	"faq.section1.q2":
@@ -250,7 +250,7 @@ export const content = {
 		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
 	"faq.section1.a9.li4":
 		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
-	"faq.section1.a9.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section1.a9.link.title": "Arbeiten mit BärGPT",
 	"faq.section1.a9.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	"faq.section1.a9.h4": "Weitere Links und Tutorials",
@@ -624,7 +624,7 @@ export const content = {
 	"faq.section7.a1.p4.h4": "Eigene Dokumente",
 	"faq.section7.a1.p4":
 		"Sie können auch eigene Dokumente (PDF, Word oder Excel Dateien) hochladen. Diese werden nur vorübergehend verarbeitet, um Fragen zu beantworten oder Inhalte zusammenzufassen.",
-	"faq.section7.a1.link.title": "Siehe dazu Arbeiten mit Dokumenten",
+	"faq.section7.a1.link.title": "Arbeiten mit Dokumenten",
 	"faq.section7.a1.link.href": "Arbeiten mit Dokumenten",
 
 	//Section 7 - Question 2
