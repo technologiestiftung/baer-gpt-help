@@ -134,7 +134,8 @@ export const content = {
 	"faq.section1.title": "Einstieg in BärGPT",
 
 	//Section 1 - Question 1
-	"faq.section1.q1": "Was ist BärGPT und wofür kann ich es nutzen?",
+	"faq.section1.q1": "Was ist BärGPT?",
+	"faq.section1.q1.landingPage": "Was ist BärGPT und wofür kann ich es nutzen?",
 	"faq.section1.a1":
 		"BärGPT ist ein KI-Assistent für die Berliner Verwaltung mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
 	"faq.section1.a1.video1.title": "Arbeiten mit KI",
@@ -158,7 +159,7 @@ export const content = {
 	"faq.section1.a2.li3": "Eine stabile Internetverbindung",
 	"faq.section1.a2.li4":
 		"Grundkenntnisse im Umgang mit der Benutzung von KI. Besondere technische Kenntnisse sind <strong>nicht</strong> erforderlich.",
-	"faq.section1.a2.link.title": "Link zu Nutzerhandbuch",
+	"faq.section1.a2.link.title": "Nutzerhandbuch",
 	"faq.section1.a2.link.href": "/baergpt-nutzerhandbuch.pdf",
 
 	// Section 1 - Question 3
@@ -657,7 +658,7 @@ export const content = {
 		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
 	"faq.section7.a3.p3":
 		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a3.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a3.link.title": "Arbeiten mit BärGPT",
 	"faq.section7.a3.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	//Section 7 - Question 4
@@ -702,7 +703,7 @@ export const content = {
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
 	"faq.section7.a7.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a7.link.title": "Link zu Arbeiten mit BärGPT",
+	"faq.section7.a7.link.title": "Arbeiten mit BärGPT",
 	"faq.section7.a7.link.href": "https://hilfe.baergpt.berlin/prompts",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
@@ -712,7 +713,7 @@ export const content = {
 	"faq.section8.a1.p1":
 		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
 	"faq.section8.a1.email": "support@baergpt.berlin",
-	"faq.section8.a1.link1.title": "Link zur Video-Tutorials Seite",
+	"faq.section8.a1.link1.title": "Video-Tutorials Seite",
 	"faq.section8.a1.link1.href": "/tutorials",
 	"faq.section8.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
 	"faq.section8.a1.link2.href":
@@ -822,8 +823,7 @@ export const content = {
 	"workingWithBearGPT.section1.q3": "Was ist ein Prompt?",
 	"workingWithBearGPT.section1.a3.p1":
 		"Ein Prompt ist die Eingabe, mit der Sie BärGPT anweisen, was es tun soll. Sie können eine Frage stellen, eine Aufgabe formulieren oder eine Anweisung geben in natürlicher Sprache. Je klarer und konkreter Ihr Prompt ist, desto passender fällt die Antwort aus.",
-	"workingWithBearGPT.section1.a3.p2":
-		"Hier finden Sie bewährte Vorlagen, die Sie direkt einsetzen können:",
+	"workingWithBearGPT.section1.a3.p2": "Weitere Links, Tutorials und Downloads",
 	"workingWithBearGPT.section1.a3.link1.title":
 		"Leitfaden für effektives Prompting",
 	"workingWithBearGPT.section1.a3.link1.href":

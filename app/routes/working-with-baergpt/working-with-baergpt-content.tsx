@@ -65,14 +65,14 @@ export const accordionContent = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["workingWithBearGPT.section1.a3.p2"]}
 								</h4>
+								<AnchorLink
+									href={`#${createSlug(content["workingWithBearGPT.section1.a3.link2.title"])}`}
+									title={content["workingWithBearGPT.section1.a3.link2.title"]}
+								/>
 								<DownloadItem
 									href={`${content["workingWithBearGPT.section1.a3.link1.href"]}`}
 									title={content["workingWithBearGPT.section1.a3.link1.title"]}
 									subtitle="PDF"
-								/>
-								<AnchorLink
-									href={`#${createSlug(content["workingWithBearGPT.section1.a3.link2.title"])}`}
-									title={content["workingWithBearGPT.section1.a3.link2.title"]}
 								/>
 								<VideoItem
 									title={content["workingWithBearGPT.section1.a3.video1.title"]}

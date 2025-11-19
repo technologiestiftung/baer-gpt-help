@@ -7,7 +7,7 @@ import { AnchorLink } from "../../components/accordion-content-elements/anhor-li
 export const topFaq = {
 	questions: [
 		{
-			question: content["faq.section1.q1"],
+			question: content["faq.section1.q1.landingPage"],
 			answer: (
 				<div className="flex flex-col gap-5 lg:gap-9">
 					{content["faq.section1.a1"]}
