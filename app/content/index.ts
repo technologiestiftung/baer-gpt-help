@@ -271,8 +271,19 @@ export const content = {
 
 	//Section 2 - Question 2
 	"faq.section2.q2": "Wer ist verantwortlich für den Datenschutz bei BärGPT?",
-	"faq.section2.a2":
-		"Verantwortlich im Sinne des Datenschutzes ist die Technologiestiftung Berlin, Grunewaldstrasse 61-62, 10825 Berlin, vertreten durch Michael Scherer (datenschutz@ts.berlin), im Auftrag der Senatskanzlei Berlin.",
+	"faq.section2.a2.h4": "Datenschutzbeauftragter",
+	"faq.section2.a2.p1": `Der Regierende Bürgermeister von Berlin - Senatskanzlei <br />
+							Der behördliche Datenschutzbeauftragte <br />
+							Jüdenstr. 1 <br />
+							10178 Berlin <br />
+							E-Mail: 
+							<a class="underline underline-offset-6"
+								href="mailto:behDSB@senatskanzlei.berlin.de"
+								target="_blank"
+								rel="noopener noreferrer">
+								behDSB@senatskanzlei.berlin.de
+							</a>
+	`,
 
 	//Section 2 - Question 3
 	"faq.section2.q3": "Was passiert mit meinen Eingaben?",

@@ -243,7 +243,18 @@ export const faq = {
 				},
 				{
 					question: content["faq.section2.q2"],
-					answer: content["faq.section2.a2"],
+					answer: (
+						<div>
+							<p className="mb-3 font-semibold">
+								{content["faq.section2.a2.h4"]}
+							</p>
+							<p
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section2.a2.p1"],
+								}}
+							/>
+						</div>
+					),
 				},
 				{
 					question: content["faq.section2.q3"],
