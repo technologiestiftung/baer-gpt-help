@@ -29,6 +29,18 @@ export function Layout({ children }: { children: ReactNode }) {
 				<title>BärGPT Hilfecenter</title>
 				<Meta />
 				<Links />
+				{/* <!-- Favicon --> */}
+				<link
+					rel="icon"
+					href="../logo/favicon/favicon.svg"
+					type="image/svg+xml"
+				/>
+				<link
+					rel="icon"
+					href="../logo/favicon/favicon.ico"
+					type="image/x-icon"
+				/>
+				<link rel="manifest" href="../logo/favicon/site.webmanifest" />
 				{/* <!-- Matomo --> */}
 				<script>
 					{`var _paq = (window._paq = window._paq || []);
