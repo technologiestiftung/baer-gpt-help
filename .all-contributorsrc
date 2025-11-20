@@ -1,5 +1,5 @@
 {
-	"projectName": "template-default",
+	"projectName": "baer-gpt-help",
 	"projectOwner": "technologiestiftung",
 	"repoType": "github",
 	"repoHost": "https://github.com",
@@ -7,7 +7,29 @@
 	"imageSize": 64,
 	"commit": true,
 	"commitConvention": "angular",
-	"contributors": [],
+	"contributors": [
+		{
+			"login": "aeschi",
+			"name": "aeschi",
+			"avatar_url": "https://avatars.githubusercontent.com/u/aeschi?v=4",
+			"profile": "https://github.com/aeschi",
+			"contributions": ["code", "design", "a11y"]
+		},
+		{
+			"login": "zainab-tariq",
+			"name": "zainab-tariq",
+			"avatar_url": "https://avatars.githubusercontent.com/u/zainab-tariq?v=4",
+			"profile": "https://github.com/zainab-tariq",
+			"contributions": ["code", "design", "a11y"]
+		},
+		{
+			"login": "raphael-arce",
+			"name": "raphael-arce",
+			"avatar_url": "https://avatars.githubusercontent.com/u/raphael-arce?v=4",
+			"profile": "https://github.com/raphael-arce",
+			"contributions": ["code", "design", "a11y"]
+		}
+	],
 	"contributorsPerLine": 7,
 	"skipCi": true
 }

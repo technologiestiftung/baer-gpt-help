@@ -3,6 +3,7 @@ import { content } from "~/content";
 import { Feedback } from "~/components/feedback/feedback";
 import { Link } from "react-router";
 import { createSlug } from "~/utils/create-slug";
+import { VimeoPlayer } from "~/components/primitives/video-players/vimeo-player";
 
 const tutorialVideoElements = content["tutorials.sections"].flatMap((section) =>
 	section.videos.map((video) => ({
@@ -36,12 +37,9 @@ export function VideoDetail() {
 				<h1 className="text-lg leading-7 lg:text-5xl lg:leading-none font-bold mt-10 md:mt-[60px] mb-3 lg:mt-20 lg:mb-7">
 					{videoElement?.videoTitle}
 				</h1>
-				<iframe
-					className="w-full aspect-video rounded-[3px] mb-[60px] md:mb-20 lg:mb-[100px]"
+				<VimeoPlayer
+					srcUrl={`${videoElement?.videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 					title={`Video: ${videoElement?.videoTitle}`}
-					src={`${videoElement?.videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
-					allowFullScreen={true}
-					referrerPolicy="strict-origin-when-cross-origin"
 				/>
 			</div>
 			<Feedback />

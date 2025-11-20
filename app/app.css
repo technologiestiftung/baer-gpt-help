@@ -3,6 +3,7 @@
 @theme {
 	--color-schwarz-100: #000000;
 	--color-schwarz-80: #333333;
+	--color-schwarz-40: #737373;
 
 	--color-dunkelblau-100: #0c2753;
 	--color-dunkelblau-200: #030812;
@@ -54,4 +55,8 @@
 	.underline-offset-4 {
 		text-underline-offset: 4px;
 	}
+}
+
+html {
+	scroll-behavior: smooth;
 }

@@ -15,13 +15,17 @@ export const VideoItem: React.FC<VideoItemProps> = ({
 }) => {
 	return (
 		<div
-			className={`flex flex-col lg:flex-row gap-3 lg:gap-0 justify-between px-0 lg:px-3 py-3 ${hasBorder && "border-b-[0.5px] border-dunkelblau-200"}`}
+			className={`flex flex-col md:flex-row gap-3 lg:gap-0 md:h-[66px] md:items-center justify-between px-0 lg:px-3 py-3 ${hasBorder && "border-b-[0.5px] border-dunkelblau-200"}`}
 		>
 			<div className="flex flex-col">
 				<p className="text-base leading-6 font-semibold">{title}</p>
 				<p className="text-xs leading-4 font-normal">Video-Tutorial</p>
 			</div>
-			<TertiaryTrackedAnchorLink href={href}>
+			<TertiaryTrackedAnchorLink
+				href={href}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{content["anchor.toVideo.label"]}
 				<img
 					src="/icons/arrow-right-icon.svg"

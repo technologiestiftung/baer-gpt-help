@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import { createSlug } from "~/utils/create-slug";
+import { VimeoPlayer } from "../primitives/video-players/vimeo-player";
 
 interface VideoSectionProps {
 	sectionTitle: string;
@@ -24,12 +25,9 @@ export const VideoSection: React.FC<VideoSectionProps> = ({
 					const videoSlug = createSlug(videoTitle);
 					return (
 						<div className="flex flex-col gap-3 w-full" key={videoIndex}>
-							<iframe
-								className="w-full aspect-video rounded-[3px]"
+							<VimeoPlayer
+								srcUrl={`${videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 								title={`Video: ${videoTitle}`}
-								src={`${videoLink}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
-								allowFullScreen={true}
-								referrerPolicy="strict-origin-when-cross-origin"
 							/>
 							<Link
 								to={`/tutorials/${videoSlug}`}

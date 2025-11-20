@@ -12,6 +12,7 @@ import "./app.css";
 import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "./store/use-menu-store";
+import { CookieBanner } from "~/components/cookie-banner/cookie-banner";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "icon", type: "image/svg+xml", href: "/citylab.png" },
@@ -28,6 +29,18 @@ export function Layout({ children }: { children: ReactNode }) {
 				<title>BärGPT Hilfecenter</title>
 				<Meta />
 				<Links />
+				{/* <!-- Favicon --> */}
+				<link
+					rel="icon"
+					href="../logo/favicon/favicon.svg"
+					type="image/svg+xml"
+				/>
+				<link
+					rel="icon"
+					href="../logo/favicon/favicon.ico"
+					type="image/x-icon"
+				/>
+				<link rel="manifest" href="../logo/favicon/site.webmanifest" />
 				{/* <!-- Matomo --> */}
 				<script>
 					{`var _paq = (window._paq = window._paq || []);
@@ -55,6 +68,7 @@ export function Layout({ children }: { children: ReactNode }) {
 				<div className="flex z-100 h-[50px] lg:h-[80px] w-full" />
 				<main>{children}</main>
 				<Footer />
+				<CookieBanner />
 				<ScrollRestoration />
 				<Scripts />
 			</body>

@@ -4,7 +4,7 @@ import { content } from "../../content";
 
 export const DesktopNavigation = () => {
 	const location = useLocation();
-	const currentPath = location.pathname;
+	const mainPath = `/${location.pathname.split("/")[1]}`;
 
 	return (
 		<nav className="hidden 1080:flex justify-end items-center text-dunkelblau-100">
@@ -14,7 +14,7 @@ export const DesktopNavigation = () => {
 						<a
 							href={url}
 							className={`focus-outline-default border-b hover:border-b-dunkelblau-100 
-                                ${currentPath === url ? "border-b border-b-dunkelblau-100" : "border-b-transparent"}
+                                ${mainPath === url ? "border-b border-b-dunkelblau-100" : "border-b-transparent"}
                             `}
 							aria-label={ariaLabel}
 						>

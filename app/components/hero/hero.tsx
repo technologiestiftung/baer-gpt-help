@@ -3,6 +3,7 @@ import { HeroCards } from "./hero-cards";
 import { HeroParallaxBackground } from "./hero-parallax-background";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { useMenuStore } from "../../store/use-menu-store";
+import { VimeoPlayer } from "../primitives/video-players/vimeo-player";
 
 export function Hero() {
 	const { isMobileMenuOpen } = useMenuStore();
@@ -23,12 +24,9 @@ export function Hero() {
 						{content["hero.pill.videoTutorial"]}
 					</div>
 				</div>
-				<iframe
-					className="w-full aspect-video rounded-[3px]"
+				<VimeoPlayer
+					srcUrl={`${content["hero.video.link"]}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
 					title={`Video: ${content["hero.video.title"]}`}
-					src={`${content["hero.video.link"]}&color=1E3791&title=0&byline=0&portrait=0&texttrack=de`}
-					allowFullScreen={true}
-					referrerPolicy="strict-origin-when-cross-origin"
 				/>
 			</div>
 			<HeroCards />
