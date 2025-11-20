@@ -84,7 +84,7 @@ export const content = {
 			},
 			{
 				name: "Datenschutz",
-				url: "https://www.technologiestiftung-berlin.de/datenschutz",
+				url: "https://www.baergpt.berlin/privacy-policy/",
 			},
 			{
 				name: "Nutzungsbedingungen BärGPT",
@@ -271,8 +271,19 @@ export const content = {
 
 	//Section 2 - Question 2
 	"faq.section2.q2": "Wer ist verantwortlich für den Datenschutz bei BärGPT?",
-	"faq.section2.a2":
-		"Verantwortlich im Sinne des Datenschutzes ist die Technologiestiftung Berlin, Grunewaldstrasse 61-62, 10825 Berlin, vertreten durch Michael Scherer (datenschutz@ts.berlin), im Auftrag der Senatskanzlei Berlin.",
+	"faq.section2.a2.h4": "Datenschutzbeauftragter",
+	"faq.section2.a2.p1": `Der Regierende Bürgermeister von Berlin - Senatskanzlei <br />
+							Der behördliche Datenschutzbeauftragte <br />
+							Jüdenstr. 1 <br />
+							10178 Berlin <br />
+							E-Mail: 
+							<a class="underline underline-offset-6"
+								href="mailto:behDSB@senatskanzlei.berlin.de"
+								target="_blank"
+								rel="noopener noreferrer">
+								behDSB@senatskanzlei.berlin.de
+							</a>
+	`,
 
 	//Section 2 - Question 3
 	"faq.section2.q3": "Was passiert mit meinen Eingaben?",
@@ -799,7 +810,7 @@ export const content = {
 
 	//Question 1
 	"workingWithBearGPT.section1.q1":
-		"Wie benutze ich einen KI basierten Chatbots?",
+		"Wie benutze ich einen KI basierten Chatbot?",
 	"workingWithBearGPT.section1.a1.p1":
 		"BärGPT funktioniert wie ein Gespräch mit einer Kollegin oder einem Kollegen. Sie schreiben in Alltagssprache, was Sie wissen oder erledigen möchten. BärGPT analysiert Ihre Anfrage und erstellt daraufhin passende Antworten oder Textvorschläge.",
 	"workingWithBearGPT.section1.a1.video.title": "Arbeiten mit BärGPT",
@@ -845,7 +856,7 @@ export const content = {
 	"workingWithBearGPT.section1.a4.p2":
 		"<strong>Hinweis:</strong> Sie können nichts kaputt machen. Probieren Sie einfach aus, formulieren Sie um oder bitten Sie um Beispiele. Mit wenigen Versuchen finden Sie schnell heraus, wie Sie die besten Ergebnisse erzielen.",
 	"workingWithBearGPT.section1.a4.li1":
-		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen",
+		"<strong>Textentwürfe:</strong> Anschreiben, Einladungen, Konzepte oder Präsentationen erstellen.",
 	"workingWithBearGPT.section1.a4.li2":
 		"<strong>Ideensammlung und Planung:</strong> Themenvorschläge, Gliederungen oder Argumentationshilfen generieren.",
 	"workingWithBearGPT.section1.a4.li3":
@@ -861,9 +872,9 @@ export const content = {
 	"workingWithBearGPT.section1.a4.p4":
 		"<strong>In der Nachbereitung:</strong> BärGPT hilft, Ergebnisse zu dokumentieren und Erkenntnisse festzuhalten.",
 	"workingWithBearGPT.section1.a4.li7":
-		"<strong>Protokolle und Zusammenfassungen:</strong> Längere Texte oder Dokumente auf die Kernaussagen reduzieren",
+		"<strong>Protokolle und Zusammenfassungen:</strong> Längere Texte oder Dokumente auf die Kernaussagen reduzieren.",
 	"workingWithBearGPT.section1.a4.li8":
-		"<strong>Berichtsvorbereitung:</strong> Rohtexte in strukturierte Berichte umwandeln",
+		"<strong>Berichtsvorbereitung:</strong> Rohtexte in strukturierte Berichte umwandeln.",
 	"workingWithBearGPT.section1.a4.li9":
 		"<strong>Dokumente verstehen:</strong> Inhalte aus Anhängen, Richtlinien oder Berichten gezielt herausfiltern.",
 
@@ -1012,9 +1023,9 @@ export const content = {
 	"workingWithBearGPT.section2.a7.h4":
 		"Setzen Sie diesen Masterprompt zu Beginn eines neuen Chats ein, damit er Sie dabei unterstützt, Ihre Fragen strukturiert zu stellen:",
 	"workingWithBearGPT.section2.a7.p2": `"Ich möchte, dass du mein Prompt Creator wirst. Dein Ziel ist es, mir zu helfen, den bestmöglichen Prompt für meine Bedürfnisse zu erstellen. Der Prompt wird von dir verwendet. Du wirst den folgenden Prozess befolgen:`,
-	"workingWithBearGPT.section2.a7.li1": `Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen.,`,
-	"workingWithBearGPT.section2.a7.li2": `Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern).,`,
-	"workingWithBearGPT.section2.a7.li3": `Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.,`,
+	"workingWithBearGPT.section2.a7.li1": `Als erstes fragst du mich, worum es in dem Prompt gehen soll. Ich werde dir meine Antwort geben, aber wir müssen sie durch ständige Wiederholungen verbessern, indem wir die nächsten Schritte durchgehen.`,
+	"workingWithBearGPT.section2.a7.li2": `Auf der Grundlage meines Inputs erstellst du 3 Abschnitte: a) Überarbeiteter Prompt (du schreibst deinen überarbeiteten Prompt. Er sollte klar, präzise und für dich leicht verständlich sein.) b) Vorschläge (du machst Vorschläge, welche Details du in den Prompt einbauen solltest, um ihn zu verbessern) c) Fragen (du stellst relevante Fragen dazu, welche zusätzlichen Informationen ich brauche, um den Prompt zu verbessern).`,
+	"workingWithBearGPT.section2.a7.li3": `Der Prompt, den du bereitstellst, sollte die Form einer Anfrage von mir haben, die von dir ausgeführt werden soll.`,
 	"workingWithBearGPT.section2.a7.li4": `Wir werden diesen iterativen Prozess fortsetzen, indem ich dir zusätzliche Informationen liefere und du die Aufforderung im Abschnitt "Überarbeitete Aufforderung" aktualisierst, bis sie vollständig ist."`,
 	"workingWithBearGPT.section2.a7.link.title":
 		"Leitfaden für effektives Prompting",
@@ -1135,18 +1146,6 @@ export const content = {
 		"<strong>Generation (Texterstellung):</strong> Diese relevanten Textpassagen werden anschließend an das Sprachmodell übergeben. Das Modell formuliert daraus eine verständliche Antwort auf Grundlage des gefundenen Wissens.",
 	"about.section2.a1.p7":
 		"So kann BärGPT Fragen auch fachlich fundiert und nachvollziehbar beantworten – häufig mit Quellenangaben oder Verweisen auf die zugrunde liegenden Dokumente.",
-
-	// Question 2
-	"about.section2.q2": "Wie sieht die Systemarchitektur von BärGPT aus?",
-	"about.section2.a2.p1":
-		"BärGPT basiert auf einem modularen Open-Source-Ansatz, der eine einfache Administration sowie den flexiblen Austausch einzelner Systemkomponenten ermöglicht. Diese Architektur gewährleistet maximale Anpassungsfähigkeit in Bezug auf Skalierbarkeit und Performance. In der ersten Rollout-Phase setzt BärGPT auf eine Cloud-Infrastruktur mit Serverstandorten in Deutschland. Die Infrastruktur für die Speicherung von DSGVO-relevanten Daten wird BSI-konform vom Dienstleister STACKIT über den GovTech Campus bezogen. Dieser Ansatz ermöglicht eine wirtschaftliche Bereitstellung, ohne dabei Kompromisse in Bezug auf Datenschutz, Datensicherheit nach BSI-Standards und DSGVO-Konformität einzugehen.",
-	"about.section2.a2.p2": "Die gewählte Infrastruktur bietet:",
-	"about.section2.a2.li1":
-		"Hohe Flexibilität und Skalierbarkeit für unterschiedliche Lastanforderungen",
-	"about.section2.a2.li2":
-		"Einfache Wartung und Administration durch modulare Open-Source-Komponenten",
-	"about.section2.a2.li3":
-		"DSGVO-konforme Cloud-Umgebung mit deutschen Serverstandorten",
 
 	/* -------------------- Chat bubble -------------------- */
 	"about.chat.p1": "Hey BärGPT, wer bist du?",

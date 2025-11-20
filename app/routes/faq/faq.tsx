@@ -243,7 +243,18 @@ export const faq = {
 				},
 				{
 					question: content["faq.section2.q2"],
-					answer: content["faq.section2.a2"],
+					answer: (
+						<div>
+							<p className="mb-3 font-semibold">
+								{content["faq.section2.a2.h4"]}
+							</p>
+							<p
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section2.a2.p1"],
+								}}
+							/>
+						</div>
+					),
 				},
 				{
 					question: content["faq.section2.q3"],
@@ -1016,7 +1027,6 @@ export const faq = {
 									href={content["faq.section8.a1.link1.href"]}
 									rel="noopener noreferrer"
 									title={content["faq.section8.a1.link1.title"]}
-									hasBorder={false}
 								/>
 								<DownloadItem
 									title={content["faq.section8.a1.link2.title"]}
