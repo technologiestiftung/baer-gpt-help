@@ -89,39 +89,6 @@ export const about = {
 						</div>
 					),
 				},
-				{
-					question: content["about.section2.q2"],
-					answer: (
-						<div className="flex flex-col gap-5 lg:gap-9">
-							<img
-								src="/images/baergpt_infrastructure.jpg"
-								alt="Team Photo"
-								className="rounded-lg"
-							/>
-							<p>{content["about.section2.a2.p1"]}</p>
-							<div>
-								<p className="mb-3">{content["about.section2.a2.p2"]}</p>
-								<ul className="list-disc ml-6 text-base leading-6 font-normal">
-									<li
-										dangerouslySetInnerHTML={{
-											__html: content["about.section2.a2.li1"],
-										}}
-									/>
-									<li
-										dangerouslySetInnerHTML={{
-											__html: content["about.section2.a2.li2"],
-										}}
-									/>
-									<li
-										dangerouslySetInnerHTML={{
-											__html: content["about.section2.a2.li3"],
-										}}
-									/>
-								</ul>
-							</div>
-						</div>
-					),
-				},
 			],
 		},
 	],

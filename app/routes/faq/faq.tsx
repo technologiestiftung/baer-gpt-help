@@ -1016,7 +1016,6 @@ export const faq = {
 									href={content["faq.section8.a1.link1.href"]}
 									rel="noopener noreferrer"
 									title={content["faq.section8.a1.link1.title"]}
-									hasBorder={false}
 								/>
 								<DownloadItem
 									title={content["faq.section8.a1.link2.title"]}
