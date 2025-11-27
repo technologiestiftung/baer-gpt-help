@@ -649,7 +649,7 @@ export const content = {
 		"Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
 	"faq.section7.a2.h4": "So funktioniert es im Hintergrund:",
 	"faq.section7.a2.li1":
-		"Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",
+		"Bestimmte Dokumente werden als Verwaltungswissen von Administratoren hinterlegt.",
 	"faq.section7.a2.li2":
 		"Die Inhalte werden in kleinere Textabschnitte zerlegt und in einer Datenbank gespeichert.",
 	"faq.section7.a2.li3":
@@ -709,7 +709,7 @@ export const content = {
 	"faq.section7.a7.li1":
 		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
 	"faq.section7.a7.li2":
-		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder Kolleg:innen aus dem Fachbereich gegenprüfen.",
+		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder dem Fachbereich gegenprüfen.",
 	"faq.section7.a7.li3":
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
 	"faq.section7.a7.p2":
@@ -895,7 +895,7 @@ export const content = {
 	"workingWithBearGPT.section2.a1.li1":
 		"„Du bist ein Experte für Verwaltungsrecht.“",
 	"workingWithBearGPT.section2.a1.li2":
-		"„Adressaten sind Bürger:innen des Landes Berlin.“",
+		"„Adressaten sind Bürger und Bürgerinnen des Landes Berlin.“",
 	"workingWithBearGPT.section2.a1.h4.p2": "Aufgabenstellung beschreiben",
 	"workingWithBearGPT.section2.a1.p5":
 		"Beschreiben Sie, was konkret passieren soll:",
