@@ -336,7 +336,7 @@ export const content = {
 	"faq.section2.a8.li3":
 		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
 	"faq.section2.a8.p2":
-		"* Zum Zeitpunkt des Rollouts von BärGPT gibt es keine geltende Rechtsgrundlage zur Verarbeitung von personenbezogenen Daten mit BärGPT (bspw. Dokumentenuploads, die Personenbezüge beinhalten), entsprechend dürfen Nutzer:innen keine personenbezogenen Daten verarbeiten. Die entsprechende Rechtsgrundlage ist jedoch in den finalen Schritten der Erarbeitung (Novellierung des Berliner E-Government-Gesetzes) und soll zu Beginn 2026 in Kraft treten.",
+		"* Zum Zeitpunkt des Rollouts von BärGPT gibt es keine geltende Rechtsgrundlage zur Verarbeitung von personenbezogenen Daten mit BärGPT (bspw. Dokumentenuploads, die Personenbezüge beinhalten), entsprechend dürfen Nutzende keine personenbezogenen Daten verarbeiten. Die entsprechende Rechtsgrundlage ist jedoch in den finalen Schritten der Erarbeitung (Novellierung des Berliner E-Government-Gesetzes) und soll zu Beginn 2026 in Kraft treten.",
 
 	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
 	"faq.section3.title": "Konto & Anmeldung",
@@ -496,7 +496,7 @@ export const content = {
 	//Section 4 - Question 7
 	"faq.section4.q7": "Kann ich meine bisherigen Chats wiedersehen?",
 	"faq.section4.a7":
-		"Ja. Ihre bisherigen Chats werden in Ihrem persönlichen Verlauf gespeichert und bleiben erhalten, bis Sie sie manuell löschen. Sie können diese jederzeit öffnen, bearbeiten oder fortsetzen. Aus Datenschutzgründen sind Chats nur für Sie sichtbar und nicht für andere Nutzer:innen.",
+		"Ja. Ihre bisherigen Chats werden in Ihrem persönlichen Verlauf gespeichert und bleiben erhalten, bis Sie sie manuell löschen. Sie können diese jederzeit öffnen, bearbeiten oder fortsetzen. Aus Datenschutzgründen sind Chats nur für Sie sichtbar und nicht für andere Nutzende.",
 
 	//Section 4 - Question 8
 	"faq.section4.q8": "Erkennt BärGPT Fachbegriffe oder Abkürzungen?",
