@@ -26,7 +26,7 @@ export const InfoBanner: React.FC = () => {
 						<p className="hidden md:block text-base leading-5 md:leading-6 font-normal">
 							{content["info.banner.p2"]}
 						</p>
-						<p className="block md:hidden text-base leading-5 md:leading-6 font-normal">
+						<p className="block md:hidden text-sm leading-5 md:leading-6 font-normal">
 							{content["info.banner.p.mobile"]}
 						</p>
 					</div>
@@ -36,10 +36,10 @@ export const InfoBanner: React.FC = () => {
 					aria-label={content["info.banner.link.ariaLabel"]}
 					className={`
                                 flex items-center h-11 text-white px-3 py-2
-                                text-lg leading-7 font-normal z-10 
+                                text-sm leading-5 md:text-lg md:leading-7 font-normal z-10 
                                 rounded-[3px] bg-dunkelblau-100
                                 hover:bg-dunkelblau-80 focus-outline-default
-                                w-fit self-start lg:self-center`}
+                                w-fit self-start lg:self-center lg:mr-6`}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -47,7 +47,7 @@ export const InfoBanner: React.FC = () => {
 				</a>
 			</div>
 			<button
-				className="flex-shrink-0 focus-outline-default rounded-[3px] self-start lg:self-center cursor-pointer"
+				className="absolute top-4 right-4 lg:top-1/2 lg:-translate-y-1/2 lg:right-12 flex-shrink-0 focus-outline-default rounded-[3px] self-start lg:self-center cursor-pointer"
 				onClick={handleClose}
 				aria-label={content["info.banner.close.ariaLabel"]}
 			>
