@@ -17,7 +17,7 @@ export const VimeoPlayer: React.FC<VimeoPlayerProps> = ({ title, srcUrl }) => {
 
 	if (hasConsent === null) {
 		return (
-			<div className="flex flex-col items-center justify-center bg-hellblau-30 w-full aspect-video p-5 text-center rounded-3px">
+			<div className="flex flex-col items-center justify-center bg-hellblau-30 w-full aspect-video p-5 text-center rounded-[3px]">
 				{content["videoPlayer.loading.message"]}
 			</div>
 		);
@@ -25,7 +25,7 @@ export const VimeoPlayer: React.FC<VimeoPlayerProps> = ({ title, srcUrl }) => {
 
 	if (!hasConsent) {
 		return (
-			<div className="flex flex-col items-center justify-center text-dunkelblau-100 gap-2 bg-hellblau-30 w-full aspect-video p-5 text-center rounded-3px">
+			<div className="flex flex-col items-center justify-center text-dunkelblau-100 gap-2 bg-hellblau-30 w-full aspect-video p-5 text-center rounded-[3px]">
 				<img
 					src="/icons/eye-struck-through-blue-icon.svg"
 					alt=""
@@ -46,7 +46,7 @@ export const VimeoPlayer: React.FC<VimeoPlayerProps> = ({ title, srcUrl }) => {
 						});
 						window.location.reload();
 					}}
-					ariaLabel={content["videoPlayer.cookies.buttonLabel"]}
+					ariaLabel={content["videoPlayer.cookies.buttonAriaLabel"]}
 				>
 					{content["videoPlayer.cookies.buttonLabel"]}
 				</AccentButton>
