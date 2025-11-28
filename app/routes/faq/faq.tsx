@@ -884,22 +884,41 @@ export const faq = {
 				{
 					question: content["faq.section7.q3"],
 					answer: (
+						<div className="flex flex-col gap-3">
+							<p
+								className="lg:px-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section7.a3.p1"],
+								}}
+							/>
+							<p
+								className="lg:px-3"
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section7.a3.p2"],
+								}}
+							/>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q4"],
+					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
-								<p className="lg:px-3">{content["faq.section7.a3.p1"]}</p>
-								<p className="lg:px-3 mt-3">{content["faq.section7.a3.p2"]}</p>
+								<p className="lg:px-3">{content["faq.section7.a4.p1"]}</p>
+								<p className="lg:px-3 mt-3">{content["faq.section7.a4.p2"]}</p>
 							</div>
 							<div>
 								<p
 									className="lg:px-3 mt-3"
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a3.p3"],
+										__html: content["faq.section7.a4.p3"],
 									}}
 								/>
 								<AnchorLink
-									href={content["faq.section7.a3.link.href"]}
+									href={content["faq.section7.a4.link.href"]}
 									rel="noopener noreferrer"
-									title={content["faq.section7.a3.link.title"]}
+									title={content["faq.section7.a4.link.title"]}
 									hasBorder={false}
 								/>
 							</div>
@@ -907,25 +926,8 @@ export const faq = {
 					),
 				},
 				{
-					question: content["faq.section7.q4"],
-					answer: content["faq.section7.a4.p1"],
-				},
-				{
 					question: content["faq.section7.q5"],
-					answer: (
-						<div>
-							<p className="mb-3">{content["faq.section7.a5.p1"]}</p>
-							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li
-									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a5.li1"],
-									}}
-								/>
-								<li>{content["faq.section7.a5.li2"]}</li>
-							</ul>
-							<p className="mt-3">{content["faq.section7.a5.p2"]}</p>
-						</div>
-					),
+					answer: content["faq.section7.a5.p1"],
 				},
 				{
 					question: content["faq.section7.q6"],
@@ -938,19 +940,36 @@ export const faq = {
 										__html: content["faq.section7.a6.li1"],
 									}}
 								/>
+								<li>{content["faq.section7.a6.li2"]}</li>
+							</ul>
+							<p className="mt-3">{content["faq.section7.a6.p2"]}</p>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q7"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section7.a7.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
 								<li
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a6.li2"],
+										__html: content["faq.section7.a7.li1"],
 									}}
 								/>
 								<li
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a6.li3"],
+										__html: content["faq.section7.a7.li2"],
 									}}
 								/>
 								<li
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a6.li4"],
+										__html: content["faq.section7.a7.li3"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section7.a7.li4"],
 									}}
 								/>
 							</ul>
@@ -958,25 +977,25 @@ export const faq = {
 					),
 				},
 				{
-					question: content["faq.section7.q7"],
+					question: content["faq.section7.q8"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
-								<p className="mb-3">{content["faq.section7.a7.p1"]}</p>
+								<p className="mb-3">{content["faq.section7.a8.p1"]}</p>
 								<ul className="list-decimal ml-6 text-base leading-6 font-normal">
 									<li
 										dangerouslySetInnerHTML={{
-											__html: content["faq.section7.a7.li1"],
+											__html: content["faq.section7.a8.li1"],
 										}}
 									/>
 									<li
 										dangerouslySetInnerHTML={{
-											__html: content["faq.section7.a7.li2"],
+											__html: content["faq.section7.a8.li2"],
 										}}
 									/>
 									<li
 										dangerouslySetInnerHTML={{
-											__html: content["faq.section7.a7.li3"],
+											__html: content["faq.section7.a8.li3"],
 										}}
 									/>
 								</ul>
@@ -986,13 +1005,13 @@ export const faq = {
 								<h4
 									className="lg:px-3 text-base leading-6"
 									dangerouslySetInnerHTML={{
-										__html: content["faq.section7.a7.p2"],
+										__html: content["faq.section7.a8.p2"],
 									}}
 								/>
 								<AnchorLink
-									href={content["faq.section7.a7.link.href"]}
+									href={content["faq.section7.a8.link.href"]}
 									rel="noopener noreferrer"
-									title={content["faq.section7.a7.link.title"]}
+									title={content["faq.section7.a8.link.title"]}
 									hasBorder={false}
 								/>
 							</div>
