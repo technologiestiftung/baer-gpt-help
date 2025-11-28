@@ -150,7 +150,7 @@ export const content = {
 	"faq.section1.q2":
 		"Wer kann BärGPT nutzen und welche Vorraussetzungen brauche ich?",
 	"faq.section1.a2.p1":
-		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung und Partnerinstitutionen. Der Zugang erfolgt über einen gesicherten Login.",
+		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung. Der Zugang erfolgt über einen gesicherten Login.",
 	"faq.section1.a2.p2": "Sie benötigen:",
 	"faq.section1.a2.li1":
 		"Eine dienstliche E-Mail-Adresse der Berliner Verwaltung",
