@@ -13,8 +13,8 @@ export const InfoBanner: React.FC = () => {
 	}
 
 	return (
-		<div className="fixed top-[69px] lg:top-[80px] left-0 flex gap-6 justify-between items-center pl-5 py-4 pr-2 lg:py-5 lg:px-12 w-full text-dunkelblau-100 bg-hellblau-50 z-20">
-			<div className="lg:max-w-[934px] mx-auto w-full flex flex-col lg:flex-row lg:justify-between gap-4 items-center">
+		<div className="relative top-4 lg:top-0 left-0 flex gap-6 justify-between items-center pl-5 py-4 pr-2 lg:py-5 lg:px-12 w-full text-dunkelblau-100 bg-hellblau-50 z-20">
+			<div className="lg:max-w-[934px] mx-auto w-full flex flex-col lg:flex-row lg:justify-between gap-4 items-center mr-4 md:mr-auto">
 				<div className="flex flex-col gap-1.5 w-full lg:w-fit">
 					<h2 className="text-sm leading-5 font-semibold md:text-2xl md:leading-8">
 						{content["info.banner.h2"]}
