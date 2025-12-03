@@ -25,7 +25,7 @@ export const CompactBannerContent: React.FC<CompactBannerContentProps> = ({
 						<button
 							onClick={() => setIsExpanded(true)}
 							aria-label={content["cookiesBanner.expandButton.ariaLabel"]}
-							className="underline text-dunkelblau-100 outline-offset-1 focus-visible:outline-default rounded-3px"
+							className="underline text-dunkelblau-100 outline-offset-1 focus-outline-default rounded-[3px]"
 						>
 							{content["cookiesBanner.expandButton"]}
 						</button>
@@ -35,7 +35,7 @@ export const CompactBannerContent: React.FC<CompactBannerContentProps> = ({
 				<div className="flex flex-shrink-0 flex-col w-full md:w-fit md:flex-row gap-2">
 					<button
 						onClick={handleDecline}
-						className="px-3 py-2 text-lg leading-7 font-normal cursor-pointer h-11 text-dunkelblau-100 hover:underline outline-offset-1 focus-visible:outline-default rounded-3px"
+						className="px-3 py-2 text-lg leading-7 font-normal cursor-pointer h-11 text-dunkelblau-100 hover:underline outline-offset-1 focus-outline-default rounded-[3px]"
 						aria-label={content["cookiesBanner.button.deny"]}
 					>
 						{content["cookiesBanner.button.deny"]}
