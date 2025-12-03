@@ -163,7 +163,7 @@ export const content = {
 	"faq.section1.q2":
 		"Wer kann BärGPT nutzen und welche Vorraussetzungen brauche ich?",
 	"faq.section1.a2.p1":
-		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung und Partnerinstitutionen. Der Zugang erfolgt über einen gesicherten Login.",
+		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung. Der Zugang erfolgt über einen gesicherten Login.",
 	"faq.section1.a2.p2": "Sie benötigen:",
 	"faq.section1.a2.li1":
 		"Eine dienstliche E-Mail-Adresse der Berliner Verwaltung",
@@ -673,62 +673,67 @@ export const content = {
 		"Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
 	"faq.section7.a2.li6":
 		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
-
 	//Section 7 - Question 3
-	"faq.section7.q3": "Kann ich nachvollziehen, woher eine Information stammt?",
+	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
 	"faq.section7.a3.p1":
-		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
+		"Alle für Sie hinterlegten Dokumente können Sie in Ihrem Profil einsehen. Klicken Sie dazu in der oberen Menüleiste auf das Icon mit Ihren Initialen (rechts oben) und wählen Sie „<strong>Profil</strong>“ aus.",
 	"faq.section7.a3.p2":
-		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
-	"faq.section7.a3.p3":
-		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a3.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a3.link.href": "/arbeiten-mit-baergpt",
-
+		"Im Profil finden Sie den Bereich „<strong>Verwaltungswissen</strong>“, in dem alle Dokumente aufgelistet sind und zum Download bereitstehen.",
 	//Section 7 - Question 4
-	"faq.section7.q4": "Wie aktuell ist das Wissen von BärGPT?",
+	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
 	"faq.section7.a4.p1":
-		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
+		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
+	"faq.section7.a4.p2":
+		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
+	"faq.section7.a4.p3":
+		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
+	"faq.section7.a4.link.title": "Arbeiten mit BärGPT",
+	"faq.section7.a4.link.href": "/arbeiten-mit-baergpt",
 
 	//Section 7 - Question 5
-	"faq.section7.q5": "Wie zuverlässig sind die Antworten von BärGPT?",
+	"faq.section7.q5": "Wie aktuell ist das Wissen von BärGPT?",
 	"faq.section7.a5.p1":
-		"BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
-	"faq.section7.a5.li1":
-		"Antworten aus dem <strong>Verwaltungswissen</strong> beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
-	"faq.section7.a5.li2":
-		"Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
-	"faq.section7.a5.p2":
-		"Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
+		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
 
 	//Section 7 - Question 6
-	"faq.section7.q6": "Warum kann BärGPT Fehler machen?",
+	"faq.section7.q6": "Wie zuverlässig sind die Antworten von BärGPT?",
 	"faq.section7.a6.p1":
-		"BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
+		"BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
 	"faq.section7.a6.li1":
-		"<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
+		"Antworten aus dem <strong>Verwaltungswissen</strong> beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
 	"faq.section7.a6.li2":
-		"<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
-	"faq.section7.a6.li3":
-		"<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
-	"faq.section7.a6.li4":
-		"<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
+		"Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
+	"faq.section7.a6.p2":
+		"Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
 
 	//Section 7 - Question 7
-	"faq.section7.q7":
-		"Wie kann ich sicherstellen, dass die Informationen richtig sind?",
+	"faq.section7.q7": "Warum kann BärGPT Fehler machen?",
 	"faq.section7.a7.p1":
-		"Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
+		"BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
 	"faq.section7.a7.li1":
-		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
+		"<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
 	"faq.section7.a7.li2":
-		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder dem Fachbereich gegenprüfen.",
+		"<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
 	"faq.section7.a7.li3":
+		"<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
+	"faq.section7.a7.li4":
+		"<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
+
+	//Section 7 - Question 8
+	"faq.section7.q8":
+		"Wie kann ich sicherstellen, dass die Informationen richtig sind?",
+	"faq.section7.a8.p1":
+		"Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
+	"faq.section7.a8.li1":
+		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
+	"faq.section7.a8.li2":
+		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder dem Fachbereich gegenprüfen.",
+	"faq.section7.a8.li3":
 		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
-	"faq.section7.a7.p2":
+	"faq.section7.a8.p2":
 		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a7.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a7.link.href": "/arbeiten-mit-baergpt",
+	"faq.section7.a8.link.title": "Arbeiten mit BärGPT",
+	"faq.section7.a8.link.href": "/arbeiten-mit-baergpt",
 
 	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
 	"faq.section8.title": "Weitere Hilfe",
