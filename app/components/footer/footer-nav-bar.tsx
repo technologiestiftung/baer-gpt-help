@@ -57,7 +57,7 @@ export function FooterNavBar() {
 						<button
 							onClick={() => openBanner(true)}
 							aria-label={content["footer.cookieSettings.ariaLabel"]}
-							className="text-white text-base leading-6 font-normal w-fit rounded-3px focus-visible:outline-default hover:underline hover:underline-offset-4 cursor-pointer"
+							className="text-white text-base leading-6 font-normal w-fit rounded-[3px] focus-outline-default hover:underline hover:underline-offset-4 cursor-pointer"
 						>
 							{content.footer.navbarSection2[3].name}
 						</button>
