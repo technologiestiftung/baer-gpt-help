@@ -32,7 +32,7 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 							target="_blank"
 							rel="noopener noreferrer"
 							aria-label="Zum Hilfecenter von BärGPT"
-							className="underline text-dunkelblau-100 outline-offset-1 focus-visible:outline-default rounded-3px"
+							className="underline text-dunkelblau-100 outline-offset-1 focus-outline-default rounded-[3px]"
 						>
 							{content["cookiesBanner.message.linkText"]}
 						</a>
@@ -53,8 +53,8 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 					<button
 						onClick={handleAcceptSelection}
 						className="px-3 py-2 text-lg leading-7 font-normal h-11 text-dunkelblau-100
-						rounded-3px border border-dunkelblau-100 cursor-pointer
-						hover:bg-hellblau-60 focus-visible:outline-default"
+						rounded-[3px] border border-dunkelblau-100 cursor-pointer
+						hover:bg-hellblau-60 focus-outline-default"
 						aria-label={content["cookiesBanner.button.necessary"]}
 					>
 						{content["cookiesBanner.button.acceptSelection"]}
@@ -63,8 +63,8 @@ export const ExpandedBannerContent: React.FC<ExpandedBannerContentProps> = ({
 					<button
 						onClick={handleDecline}
 						className="px-3 py-2 text-lg leading-7 font-normal h-11 text-dunkelblau-100
-						rounded-3px border border-dunkelblau-100 cursor-pointer
-						hover:bg-hellblau-60 focus-visible:outline-default"
+						rounded-[3px] border border-dunkelblau-100 cursor-pointer
+						hover:bg-hellblau-60 focus-outline-default"
 						aria-label={content["cookiesBanner.button.necessary"]}
 					>
 						{content["cookiesBanner.button.necessary"]}
