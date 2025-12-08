@@ -129,7 +129,7 @@ export const content = {
 	"info.banner.link.label": "Termin im Intranet finden",
 	"info.banner.link.ariaLabel": "Zur Intranet-Seite",
 	"info.banner.link.href":
-		"https://es.sonicurlprotection-fra.com/click?PV=2&MSGID=202511251300261491352&URLID=9&ESV=10.0.33.8195&IV=07D147C51EBF8F731F4A3EE27A9084FA&TT=1764075627318&ESN=Nrn42nPDAWWLC5NgjHDD%2BtagWPjf7KFcKjiNsMGRo1o%3D&KV=1536961729280&B64_ENCODED_URL=aHR0cHM6Ly9iLWludGVybi5kZS90aGVtZW4va3VlbnN0bGljaGUtaW50ZWxsaWdlbnota2kv&HK=360B6E8673B6846B0CD4776B23DF592D7171C1503EF145630EF198D8A4105A09",
+		"https://b-intern.de/themen/kuenstliche-intelligenz-ki/",
 	"info.banner.close.ariaLabel": "Banner schließen",
 	/* -------------------- Icons -------------------- */
 	"icon.arrowRight.alt": "Icon Pfeil nach rechts",
