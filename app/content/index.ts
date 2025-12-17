@@ -161,7 +161,7 @@ export const content = {
 
 	//Section 1 - Question 2
 	"faq.section1.q2":
-		"Wer kann BärGPT nutzen und welche Vorraussetzungen brauche ich?",
+		"Wer kann BärGPT nutzen und welche Voraussetzungen brauche ich?",
 	"faq.section1.a2.p1":
 		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung. Der Zugang erfolgt über einen gesicherten Login.",
 	"faq.section1.a2.p2": "Sie benötigen:",
