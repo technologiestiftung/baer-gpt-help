@@ -384,7 +384,15 @@ export const content = {
 							@bezirksamt-neukoelln.de<br />
 							@parlament-berlin.de<br />
 							@berliner-feuerwehr.de<br />
-							@statistik-bbb.de`,
+							@statistik-bbb.de<br />
+							@lfg-b.de<br />
+							@senbjf-goeurope.de<br />
+							@aufarbeitung-berlin.de<br />
+							@bebuepol-berlin.de<br />
+							@anlaufstelle-buergerbeteiligung.de<br />
+							@itdz-berlin.de<br />
+							@sfbb.berlin-brandenburg.de<br />
+							@lme.berlin-brandenburg.de`,
 	"faq.section3.a2.h4.p3": "Die Bestätigungsmail ist nicht angekommen.",
 	"faq.section3.a2.p4":
 		"Schauen Sie im Spam-/Junk-Ordner nach und prüfen Sie ggf. Firmenfilter. Sie können den Bestätigungslink auch neu senden.",
