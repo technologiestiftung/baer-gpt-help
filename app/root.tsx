@@ -13,6 +13,7 @@ import { Header } from "~/components/header/header";
 import { Footer } from "~/components/footer/footer";
 import { useMenuStore } from "./store/use-menu-store";
 import { CookieBanner } from "~/components/cookie-banner/cookie-banner";
+import { InfoBanner } from "~/components/info-banner/info-banner";
 
 export const links: Route.LinksFunction = () => [
 	{ rel: "icon", type: "image/svg+xml", href: "/citylab.png" },
@@ -66,6 +67,7 @@ export function Layout({ children }: { children: ReactNode }) {
 			>
 				<Header />
 				<div className="flex z-100 h-[50px] lg:h-[80px] w-full" />
+				<InfoBanner />
 				<main>{children}</main>
 				<Footer />
 				<CookieBanner />

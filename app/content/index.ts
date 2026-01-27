@@ -123,9 +123,9 @@ export const content = {
 	"info.banner.h2": "Sie haben noch mehr Fragen zu BärGPT?",
 	"info.banner.p1":
 		"In der Online-Sprechstunde beantworten wir Ihre individuellen Fragen.",
-	"info.banner.p2": "Dienstags und Donnerstags von 11-12 Uhr.",
+	"info.banner.p2": "Donnerstags von 11-12 Uhr.",
 	"info.banner.p.mobile":
-		"Besuchen Sie die Online-Sprechstunde. Dienstags und Donnerstags von 11-12 Uhr.",
+		"Besuchen Sie die Online-Sprechstunde. Donnerstags von 11-12 Uhr.",
 	"info.banner.link.label": "Termin im Intranet finden",
 	"info.banner.link.ariaLabel": "Zur Intranet-Seite",
 	"info.banner.link.href":
