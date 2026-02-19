@@ -681,6 +681,8 @@ export const content = {
 		"Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
 	"faq.section7.a2.li6":
 		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
+	"faq.section7.a2.p4":
+		"Sie können das Verwaltungswissen im Eingabebereich ihres Chatfensters jederzeit ein- oder ausschalten: Deaktivieren Sie dafür den Schalter „Verwaltungswissen“.",
 	//Section 7 - Question 3
 	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
 	"faq.section7.a3.p1":
