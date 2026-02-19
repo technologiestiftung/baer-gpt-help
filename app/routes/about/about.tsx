@@ -29,13 +29,35 @@ export const about = {
 					answer: (
 						<div className="flex flex-col gap-3">
 							<p>{content["about.section1.a3.p1"]}</p>
+							<p className="font-semibold">
+								{content["about.section1.a3.p2.1"]}
+							</p>
+							<p>{content["about.section1.a3.p2.2"]}</p>
+							<p className="font-semibold">
+								{content["about.section1.a3.p3.1"]}
+							</p>
+							<p>{content["about.section1.a3.p3.2"]}</p>
+							<p>{content["about.section1.a3.p3.3"]}</p>
+							<AnchorLink
+								href={content["about.section1.a3.link.href"]}
+								title={content["about.section1.a3.link.title"]}
+								hasBorder={false}
+							/>
+						</div>
+					),
+				},
+				{
+					question: content["about.section1.q4"],
+					answer: (
+						<div className="flex flex-col gap-3">
+							<p>{content["about.section1.a4.p1"]}</p>
 							<div>
 								<p className="font-semibold">
-									{content["about.section1.a3.p2"]}
+									{content["about.section1.a4.p2"]}
 								</p>
 								<AnchorLink
-									href={content["about.section1.a3.link.href"]}
-									title={content["about.section1.a3.link.title"]}
+									href={content["about.section1.a4.link.href"]}
+									title={content["about.section1.a4.link.title"]}
 									hasBorder={false}
 								/>
 							</div>
@@ -43,16 +65,16 @@ export const about = {
 					),
 				},
 				{
-					question: content["about.section1.q4"],
-					answer: content["about.section1.a4"],
+					question: content["about.section1.q5"],
+					answer: content["about.section1.a5.p1"],
 				},
 				{
-					question: content["about.section1.q5"],
+					question: content["about.section1.q6"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<p
 								dangerouslySetInnerHTML={{
-									__html: content["about.section1.a5.p1"],
+									__html: content["about.section1.a6.p1"],
 								}}
 							/>
 						</div>
