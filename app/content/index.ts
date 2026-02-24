@@ -1191,7 +1191,20 @@ export const content = {
 	"about.section2.a1.p6":
 		"<strong>Generation (Texterstellung):</strong> Diese relevanten Textpassagen werden anschließend an das Sprachmodell übergeben. Das Modell formuliert daraus eine verständliche Antwort auf Grundlage des gefundenen Wissens.",
 	"about.section2.a1.p7":
-		"So kann BärGPT Fragen auch fachlich fundiert und nachvollziehbar beantworten – häufig mit Quellenangaben oder Verweisen auf die zugrunde liegenden Dokumente.",
+		"So kann BärGPT Fragen auch fachlich fundiert und nachvollziehbar beantworten - häufig mit Quellenangaben oder Verweisen auf die zugrunde liegenden Dokumente.",
+	"about.section2.q2": "Welches Modell nutzt BärGPT?",
+	"about.section2.a2.p1":
+		"BärGPT nutzt Sprachmodelle von Mistral AI. Aktuell können Nutzende zwischen zwei Modellen wählen:",
+	"about.section2.a2.li1":
+		"<strong>Mistral Small 3.2</strong> (schneller) - geeignet für kurze, klare Fragen und zügige Antworten.",
+	"about.section2.a2.li2":
+		"<strong>Mistral Large 3</strong> (präziser) - geeignet für komplexere Fragen, mehr Kontext, längere Antworten und höhere Detailtiefe (kann etwas länger dauern).",
+	"about.section2.a2.p2":
+		"Um ein Modell auszuwählen, klicken Sie im Chatfenster auf die Modellauswahl und wählen Sie zwischen „Schnell“ und „Präzise“.",
+	"about.section2.a2.p3":
+		"<strong>Faustregel</strong>: Wenn Ihnen Tempo wichtiger ist, wählen Sie Small. Wenn Ihnen Genauigkeit und Detailtiefe wichtiger sind, wählen Sie Large.",
+	"about.section2.a2.p4":
+		"Unabhängig vom Modell gilt: Eine präzise Frage mit Kontext (z. B. Ziel, Rahmen, Beispiele) führt meist zu besseren Antworten. Bitte beachten Sie außerdem: Auch ein „präziseres“ Modell kann Fehler machen. Prüfen Sie wichtige Informationen nach Möglichkeit anhand verlässlicher Quellen.",
 
 	/* -------------------- Chat bubble -------------------- */
 	"about.chat.p1": "Hey BärGPT, wer bist du?",
