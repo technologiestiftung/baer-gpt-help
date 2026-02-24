@@ -878,6 +878,7 @@ export const faq = {
 									<li>{content["faq.section7.a2.li6"]}</li>
 								</ul>
 							</div>
+							<p>{content["faq.section7.a2.p4"]}</p>
 						</div>
 					),
 				},

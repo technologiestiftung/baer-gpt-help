@@ -681,6 +681,8 @@ export const content = {
 		"Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
 	"faq.section7.a2.li6":
 		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
+	"faq.section7.a2.p4":
+		"Sie können das Verwaltungswissen im Eingabebereich ihres Chatfensters jederzeit ein- oder ausschalten: Deaktivieren Sie dafür den Schalter „Verwaltungswissen“.",
 	//Section 7 - Question 3
 	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
 	"faq.section7.a3.p1":
@@ -1132,21 +1134,39 @@ export const content = {
 		"Im Frühjahr 2024 hat die Berliner Senatskanzlei die „KI-Taskforce“ ins Leben gerufen und gemeinsam mit dem CityLAB Berlin eine Reihe von Workshops durchgeführt. Ziel war es, Potenziale Künstlicher Intelligenz für die Verwaltungsarbeit zu identifizieren. Dabei wurde deutlich, dass eine praxisnahe Testumgebung erforderlich ist, um innovative KI-gestützte Lösungen in einem geschützten Rahmen zu erproben.",
 	"about.section1.a2.p2":
 		"Das CityLAB Berlin hat daraufhin die Entwicklung von BärGPT initiiert. In einem agilen Prozess wurden gemeinsam mit Verwaltungsmitarbeitenden verschiedene Prototypen konzipiert, getestet und iterativ weiterentwickelt. Dies ermöglichte eine präzise Bedarfsanalyse und den Aufbau der notwendigen technischen sowie fachlichen Expertise für den Betrieb einer modernen KI-Anwendung in der Verwaltung.",
-
-	// Question 3
-	"about.section1.q3": "Ist BärGPT Open Source und kann frei genutzt werden?",
+	//Question 3
+	"about.section1.q3":
+		"Warum starten wir BärGPT, obwohl es noch nicht perfekt ist?",
 	"about.section1.a3.p1":
-		"Ja. BärGPT ist ein Open Source-Projekt und vom CityLAB Berlin in Kooperation mit der Senatskanzlei Berlin entwickelt. Der Quellcode ist öffentlich zugänglich und kann transparent eingesehen, weiterentwickelt oder angepasst werden.",
-	"about.section1.a3.p2": "Hier finden Sie das Repository:",
-	"about.section1.a3.link.title": "BärGPT auf GitHub",
+		"BärGPT ist bewusst als lernendes System angelegt. Wir starten früh, weil BärGPT nur dann gezielt besser werden kann, wenn es im Arbeitsalltag genutzt wird.",
+	"about.section1.a3.p2.1": "Wir lernen an echten Bedarfen",
+	"about.section1.a3.p2.2":
+		"Viele Fragen und Anwendungsfälle entstehen erst in der Praxis. Erst durch reale Nutzung sehen wir, was wirklich gebraucht wird, wo es hakt und was bereits gut funktioniert. Rückmeldungen aus der Verwaltung – etwa: Was hilft? Was irritiert? Was fehlt? – sind entscheidend, um BärGPT konkret an die Arbeitsrealität der Berliner Verwaltung anzupassen. Ohne diesen Rückkanal würden wir am Bedarf vorbei entwickeln.",
+	"about.section1.a3.p3.1": "Sicherheit und Qualität haben Vorrang",
+	"about.section1.a3.p3.2":
+		"Auch wenn BärGPT noch nicht alles kann, gelten klare Leitplanken: Daten- und Informationssicherheit, transparente Hinweise auf Unsicherheiten sowie klare Verantwortlichkeiten in der Nutzung. Gleichzeitig bietet BärGPT schon heute spürbaren Mehrwert: Es kann Routineaufgaben erleichtern, Orientierung geben und den Aufbau von KI-Kompetenz unterstützen. Viele Mitarbeitende nutzen bereits öffentlich zugängliche KI-Dienste. Mit BärGPT bieten wir ein verwaltungsnahes, gesteuertes Angebot an, das auf die Anforderungen des öffentlichen Dienstes zugeschnitten ist.",
+	"about.section1.a3.p3.3":
+		"Durch unseren agilen Ansatz, setzen wir auf einen frühen, nutzbaren Mehrwert und verbessern BärGPT schrittweise – bei Funktionen, Antwortqualität, Nutzerführung und der Anbindung an Systeme.Bitte nehmen Sie an unserer Umfrage teil, um uns Feedback zu geben. Nehmen Sie gerne an unserer Umfrage teil, um uns Rückmeldung zu geben.",
+	"about.section1.a3.link.title": "Umfrage",
 	"about.section1.a3.link.href":
+		"https://citylabberlin.typeform.com/to/GhoCHw0J",
+	// Question 4
+	"about.section1.q4": "Ist BärGPT Open Source und kann frei genutzt werden?",
+	"about.section1.a4.p1":
+		"Ja. BärGPT ist ein Open Source-Projekt und vom CityLAB Berlin in Kooperation mit der Senatskanzlei Berlin entwickelt. Der Quellcode ist öffentlich zugänglich und kann transparent eingesehen, weiterentwickelt oder angepasst werden.",
+	"about.section1.a4.p2": "Hier finden Sie das Repository:",
+	"about.section1.a4.link.title": "BärGPT auf GitHub",
+	"about.section1.a4.link.href":
 		"https://github.com/technologiestiftung/baergpt",
-	"about.section1.q4":
+	//Question 5
+	"about.section1.q5":
 		"Wie wird BärGPT weiterentwickelt – und was ist geplant?",
-	"about.section1.a4":
+	"about.section1.a5.p1":
 		"BärGPT wird derzeit in verschiedenen Berliner Dienststellen erprobt und kontinuierlich weiterentwickelt. Das Feedback der Nutzerinnen und Nutzer fließt direkt in die Verbesserung des Systems ein.",
-	"about.section1.q5": "Wie erfahre ich von neuen Funktionen?",
-	"about.section1.a5.p1": `Alle wichtigen Neuerungen rund um BärGPT werden regelmäßig bekanntgegeben. Geplant ist eine E-Mail-Benachrichtigung, die über aktuelle Entwicklungen informiert und praktische Anwendungstipps enthält. Bis dahin werden neue Funktionen auch im
+
+	//Question 6
+	"about.section1.q6": "Wie erfahre ich von neuen Funktionen?",
+	"about.section1.a6.p1": `Alle wichtigen Neuerungen rund um BärGPT werden regelmäßig bekanntgegeben. Geplant ist eine E-Mail-Benachrichtigung, die über aktuelle Entwicklungen informiert und praktische Anwendungstipps enthält. Bis dahin werden neue Funktionen auch im
 						<a class="underline underline-offset-6"
 							href="https://citylab-berlin.org/de/blog/"
 							target="_blank"
