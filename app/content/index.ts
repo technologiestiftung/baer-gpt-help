@@ -1146,7 +1146,7 @@ export const content = {
 	"about.section1.a3.p3.2":
 		"Auch wenn BärGPT noch nicht alles kann, gelten klare Leitplanken: Daten- und Informationssicherheit, transparente Hinweise auf Unsicherheiten sowie klare Verantwortlichkeiten in der Nutzung. Gleichzeitig bietet BärGPT schon heute spürbaren Mehrwert: Es kann Routineaufgaben erleichtern, Orientierung geben und den Aufbau von KI-Kompetenz unterstützen. Viele Mitarbeitende nutzen bereits öffentlich zugängliche KI-Dienste. Mit BärGPT bieten wir ein verwaltungsnahes, gesteuertes Angebot an, das auf die Anforderungen des öffentlichen Dienstes zugeschnitten ist.",
 	"about.section1.a3.p3.3":
-		"Durch unseren agilen Ansatz, setzen wir auf einen frühen, nutzbaren Mehrwert und verbessern BärGPT schrittweise – bei Funktionen, Antwortqualität, Nutzerführung und der Anbindung an Systeme.Bitte nehmen Sie an unserer Umfrage teil, um uns Feedback zu geben. Nehmen Sie gerne an unserer Umfrage teil, um uns Rückmeldung zu geben.",
+		"Durch unseren agilen Ansatz, setzen wir auf einen frühen, nutzbaren Mehrwert und verbessern BärGPT schrittweise – bei Funktionen, Antwortqualität, Nutzerführung und der Anbindung an Systeme. Nehmen Sie gerne an unserer Umfrage teil, um uns Rückmeldung zu geben.",
 	"about.section1.a3.link.title": "Umfrage",
 	"about.section1.a3.link.href":
 		"https://citylabberlin.typeform.com/to/GhoCHw0J",
