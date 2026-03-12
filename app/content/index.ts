@@ -341,15 +341,13 @@ export const content = {
 	"faq.section2.q8":
 		"Darf ich personenbezogene und sensible Daten mit BärGPT verarbeiten?",
 	"faq.section2.a8.p1":
-		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist.* BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken oder durch Dritte eingesehen werden. Dennoch gilt:",
+		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) gemäß § 16a EGovG Bln nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken verwendet oder durch Dritte eingesehen werden. Dennoch gilt:",
 
 	"faq.section2.a8.li1": "Gehen Sie mit sensiblen Informationen umsichtig um.",
 	"faq.section2.a8.li2":
 		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.",
 	"faq.section2.a8.li3":
 		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
-	"faq.section2.a8.p2":
-		"* Zum Zeitpunkt des Rollouts von BärGPT gibt es keine geltende Rechtsgrundlage zur Verarbeitung von personenbezogenen Daten mit BärGPT (bspw. Dokumentenuploads, die Personenbezüge beinhalten), entsprechend dürfen Nutzende keine personenbezogenen Daten verarbeiten. Die entsprechende Rechtsgrundlage ist jedoch in den finalen Schritten der Erarbeitung (Novellierung des Berliner E-Government-Gesetzes) und soll zu Beginn 2026 in Kraft treten.",
 
 	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
 	"faq.section3.title": "Konto & Anmeldung",

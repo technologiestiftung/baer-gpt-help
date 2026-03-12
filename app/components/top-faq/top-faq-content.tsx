@@ -96,7 +96,6 @@ export const topFaq = {
 							<li>{content["faq.section2.a8.li3"]}</li>
 						</ul>
 					</div>
-					<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
 				</div>
 			),
 		},
