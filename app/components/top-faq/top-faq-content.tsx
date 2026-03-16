@@ -83,27 +83,7 @@ export const topFaq = {
 				</div>
 			),
 		},
-		{
-			question: content["faq.section4.q1"],
-			answer: (
-				<div className="flex flex-col gap-5 lg:gap-9">
-					<div>
-						<p className="mb-3">{content["faq.section4.a1.p1"]}</p>
-						<p className="mb-3">{content["faq.section4.a1.p2"]}</p>
-					</div>
-					<div>
-						<h4 className="lg:px-3 text-base leading-6 font-semibold">
-							{content["faq.furtherLinksVideos.title"]}
-						</h4>
-						<AnchorLink
-							href={content["faq.section4.a1.link.href"]}
-							title={content["faq.section4.a1.link.title"]}
-							hasBorder={false}
-						/>
-					</div>
-				</div>
-			),
-		},
+
 		{
 			question: content["faq.section2.q8"],
 			answer: (
@@ -116,7 +96,6 @@ export const topFaq = {
 							<li>{content["faq.section2.a8.li3"]}</li>
 						</ul>
 					</div>
-					<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
 				</div>
 			),
 		},
@@ -152,6 +131,33 @@ export const topFaq = {
 							hasBorder={false}
 						/>
 					</div>
+				</div>
+			),
+		},
+		{
+			question: content["about.section2.q2"],
+			answer: (
+				<div className="flex flex-col gap-3">
+					<p>{content["about.section2.a2.p1"]}</p>
+					<ul className="list-disc ml-6 text-base leading-6 font-normal">
+						<li
+							dangerouslySetInnerHTML={{
+								__html: content["about.section2.a2.li1"],
+							}}
+						/>
+						<li
+							dangerouslySetInnerHTML={{
+								__html: content["about.section2.a2.li2"],
+							}}
+						/>
+					</ul>
+					<p>{content["about.section2.a2.p2"]}</p>
+					<p
+						dangerouslySetInnerHTML={{
+							__html: content["about.section2.a2.p3"],
+						}}
+					/>
+					<p>{content["about.section2.a2.p4"]}</p>
 				</div>
 			),
 		},

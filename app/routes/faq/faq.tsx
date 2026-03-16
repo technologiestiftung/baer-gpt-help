@@ -316,7 +316,6 @@ export const faq = {
 									<li>{content["faq.section2.a8.li3"]}</li>
 								</ul>
 							</div>
-							<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
 						</div>
 					),
 				},
@@ -878,6 +877,7 @@ export const faq = {
 									<li>{content["faq.section7.a2.li6"]}</li>
 								</ul>
 							</div>
+							<p>{content["faq.section7.a2.p4"]}</p>
 						</div>
 					),
 				},
