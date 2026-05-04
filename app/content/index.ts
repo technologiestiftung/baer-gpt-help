@@ -936,7 +936,8 @@ export const content = {
 	"training.section1.task3.description.p3.link.label":
 		"Material Aufgabe 3_Protokoll",
 	"training.section1.task3.description.p3.subtitle": "Word Dokument",
-	"training.section1.task3.description.p3.link.href": " ",
+	"training.section1.task3.description.p3.link.href":
+		"/documents/Paket_2_Aufgabe_1_Protokoll.docx",
 	"training.section1.task3.description.p4.link.label":
 		"#8 Ergebnisse überarbeiten",
 	"training.section1.task3.description.p4.link.href":
@@ -955,11 +956,13 @@ export const content = {
 	"training.section1.task4.description.p3.link.label":
 		"Material Aufgabe 4_OrientierungKompetenzdsch_2025",
 	"training.section1.task4.description.p3.subtitle": "PDF",
-	"training.section1.task4.description.p3.link.href": "",
+	"training.section1.task4.description.p3.link.href":
+		"/documents/Paket_2_Aufgabe_2_OrientierungKompetenzdsch_2025.pdf",
 	"training.section1.task4.description.p4.link.label":
 		"Material Aufgabe 4_KI_Verordnung_EU",
 	"training.section1.task4.description.p4.subtitle": "PDF",
-	"training.section1.task4.description.p4.link.href": "",
+	"training.section1.task4.description.p4.link.href":
+		"/documents/Paket_2_Aufgabe_2_KI_Verordnung_EU.pdf",
 	"training.section1.task4.description.p5.link.label":
 		"#9 Zusammenfassen und analysieren von Dokumenten",
 	"training.section1.task4.description.p5.link.href":
