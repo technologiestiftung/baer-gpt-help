@@ -24,7 +24,7 @@ export const DownloadItem: React.FC<DownloadItemProps> = ({
 				<p className="text-xs leading-4 font-normal">{subtitle}</p>
 			</div>
 			<div className="flex items-start flex-shrink-0">
-				<TertiaryTrackedAnchorLink href={href}>
+				<TertiaryTrackedAnchorLink href={href} reloadDocument>
 					{content["anchor.download.label"]}
 					<img
 						src="/icons/download-icon.svg"

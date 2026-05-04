@@ -5,6 +5,7 @@ import { trackInteraction } from "~/analytics/matomo";
 
 export const TrackedAnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
+	reloadDocument,
 	target = "_self",
 	rel,
 	ariaLabel,
@@ -15,6 +16,7 @@ export const TrackedAnchorLink: React.FC<AnchorLinkProps> = ({
 	return (
 		<Link
 			to={href}
+			reloadDocument={reloadDocument}
 			target={target}
 			rel={rel}
 			aria-label={ariaLabel}
