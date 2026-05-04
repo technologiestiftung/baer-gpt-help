@@ -53,6 +53,11 @@ export const content = {
 					ariaLabel: "zur Arbeiten mit BärGPT Seite",
 				},
 				{
+					name: "BärGPT Schulung",
+					url: "/training",
+					ariaLabel: "zu BärGPT Schulung Seite",
+				},
+				{
 					name: "Über BärGPT",
 					url: "/about",
 					ariaLabel: "zu Über BärGPT Seite",
@@ -833,6 +838,154 @@ export const content = {
 	"workingWithBearGPT.title": "Arbeiten mit BärGPT",
 	"workingWithBearGPT.furtherLinks.title":
 		"Weitere Links, Tutorials und Downloads",
+
+	/* -------------------- Training -------------------- */
+	"training.title": "BärGPT Schulung",
+	"training.description":
+		"In diesen Videos lernen Sie Schritt für Schritt, wie Sie BärGPT effektiv in Ihren Arbeitsalltag integrieren.  Schauen Sie sich zunächst die Erklärungsvideos an. Anschließend gehen Sie zu den Aufgaben über und versuchen, diese eigenständig zu lösen. Das verlinkte Lösungsvideo zeigt Ihnen danach einen möglichen Lösungsweg.",
+	"training.pill.videoTutorial": "Video Tutorial",
+	"training.sections": [
+		{
+			title: "#1 Einleitung",
+			videos: [
+				{
+					videoTitle: "#1 Einleitung",
+					videoLink: "https://player.vimeo.com/video/1185855063?",
+				},
+			],
+		},
+		{
+			title: "Schlungsvideos",
+			videos: [
+				{
+					videoTitle: "#2 Mit BärGPT einfacher und effizienter arbeiten",
+					videoLink: "https://player.vimeo.com/video/1185857544?",
+				},
+				{
+					videoTitle: "#3 Anwendungsbeispiele",
+					videoLink: "https://player.vimeo.com/video/1185857632?",
+				},
+				{
+					videoTitle:
+						"#4 Worauf bei der Arbeit mit BärGPT geachtet werden muss ",
+					videoLink: "https://player.vimeo.com/video/1185857714?",
+				},
+				{
+					videoTitle: "#5 Was darf ich, was darf ich nicht",
+					videoLink: "https://player.vimeo.com/video/1185858560?",
+				},
+				{
+					videoTitle: "#6 BärGPT in der Praxis",
+					videoLink: "https://player.vimeo.com/video/1185858645?",
+				},
+			],
+		},
+	],
+	"training.tasks.title": "Übungsaufgaben",
+	"training.videoSection.subtitle": "Lösungsvideo",
+	//Task 1
+	"training.section1.task1":
+		"Aufgabe 1: Verfassen einer E-Mail an Kolleg*innen",
+	"training.section1.task1.description.p1.heading": "Szenario",
+	"training.section1.task1.description.p1":
+		"Sie sind Teil eines Teams, das BärGPT in Ihrer Behörde einführen möchte. Ihre Aufgabe ist es, die Möglichkeiten und Vorteile von BärGPT darzulegen. Nutzen Sie BärGPT, um die Texte zu verfassen und zu optimieren.",
+	"training.section1.task1.description.p2.heading": "Beschreibung",
+	"training.section1.task1.description.p2.1":
+		"Verfassen Sie eine kurze, professionelle E-Mail an Kolleg*innen in der Verwaltung zur Einführung von ",
+	"training.section1.task1.description.p2.link.label": "BärGPT",
+	"training.section1.task1.description.p2.link.href":
+		"https://citylab-berlin.org/de/projects/baergpt/",
+	"training.section1.task1.description.p2.2":
+		". Stellen Sie BärGPT vor, nennen Sie zentrale Funktionen/Vorteile und geben Sie verwaltungsnahe Anwendungsbeispiele.",
+	"training.section1.task1.description.p3.heading": "Inhalte der E-Mail:",
+	"training.section1.task1.description.p3.li1": "Kurze Einführung in BärGPT",
+	"training.section1.task1.description.p3.li2": "Hauptfunktionen und Vorteile",
+	"training.section1.task1.description.p3.li3": "Beispiele für Anwendungen",
+	"training.section1.task1.description.p4.heading": "Lösung",
+	"training.section1.task1.description.p4.link.label":
+		"#7.1 Texte schreiben und überarbeiten I",
+	"training.section1.task1.description.p4.link.href":
+		"https://vimeo.com/1185914393",
+	//Task 2
+	"training.section1.task2": "Aufgabe 2: Erstellen von Übersetzungen",
+	"training.section1.task2.description.p1.heading": "Beschreibung",
+	"training.section1.task2.description.p1":
+		"Ihre Pressestelle hat eine Anfrage erhalten und bittet Sie eine Beschreibung von BärGPT zu schicken. Sie wissen, dass die Kollegen nicht über BärGPT verfügen und wollen Ihnen daher die Texte bereits übersetzt auf Türkisch bereitstellen. Da diese Anfrage eine Ausnahme darstellt, löschen Sie den Chat danach.",
+	"training.section1.task2.description.p2.heading": "Inhalte",
+	"training.section1.task2.description.p2.li1":
+		"Kurze Einführung in BärGPT auf Türkisch",
+	"training.section1.task2.description.p2.li2": "Hauptfunktionen und Vorteile",
+	"training.section1.task2.description.p2.li3": "Beispiele für Anwendungen",
+	"training.section1.task2.description.p3.heading": "Lösung",
+	"training.section1.task2.description.p3.link.label":
+		"#7.2 Texte schreiben und überarbeiten II",
+	"training.section1.task2.description.p3.link.href":
+		"https://vimeo.com/1185916014",
+	//Task 3
+	"training.section1.task3": "Aufgabe 3: Ergebnisse dokumentieren",
+	"training.section1.task3.description.p1.heading": "Beschreibung",
+	"training.section1.task3.description.p1":
+		"Erstellen Sie ein übersichtliches Protokoll einer Sitzungstreffens aus Stichpunkten einer Kollegin. Das Protokoll sollte klar, präzise und informativ sein.",
+	"training.section1.task3.description.p2.heading": "Anforderungen",
+	"training.section1.task3.description.p2.li1":
+		"Kurze Zusammenfassung der Sitzung",
+	"training.section1.task3.description.p2.li2":
+		"Wichtige Punkte und Entscheidungen",
+	"training.section1.task3.description.p2.li3": "Klare Struktur",
+	"training.section1.task3.description.p3.heading": "Lösung",
+	"training.section1.task3.description.p3.link.label":
+		"Material Aufgabe 3_Protokoll",
+	"training.section1.task3.description.p3.subtitle": "Word Dokument",
+	"training.section1.task3.description.p3.link.href": " ",
+	"training.section1.task3.description.p4.link.label":
+		"#8 Ergebnisse überarbeiten",
+	"training.section1.task3.description.p4.link.href":
+		"https://vimeo.com/1185917536",
+	//Task 4
+	"training.section1.task4":
+		"Aufgabe 4: Zusammenfassung der Broschüre mit Fokus auf Kompetenzen für Sachbearbeiterinnen und Führungskräfte",
+	"training.section1.task4.description.p1.heading": "Beschreibung",
+	"training.section1.task4.description.p1":
+		"Sie erhalten von einem Kollegen zwei Dokumente: die Broschüre „Orientierung im Kompetenzdschungel 2.0 …“ und ein Dokument zur KI-Verordnung. Legen Sie beide in Ordnern bei BärGPT ab. Erstellen Sie anschließend eine prägnante Zusammenfassung der Broschüre mit Fokus auf die Kompetenzen für zwei Rollen: Sachbearbeitung und Führungskräfte. Arbeiten Sie die benötigten Kompetenzen je Rolle klar heraus und prüfen Sie alle verwendeten Quellen auf Aktualität und Korrektheit.",
+	"training.section1.task4.description.p2.heading": "Anforderungen",
+	"training.section1.task4.description.p2.li1": "Zusammenfassung des Texts",
+	"training.section1.task4.description.p2.li2":
+		"Fokus auf Kompetenzen von 2 Rollen: Sachbearbeitung und Führungskräfte",
+	"training.section1.task4.description.p3.heading": "Lösung",
+	"training.section1.task4.description.p3.link.label":
+		"Material Aufgabe 4_OrientierungKompetenzdsch_2025",
+	"training.section1.task4.description.p3.subtitle": "PDF",
+	"training.section1.task4.description.p3.link.href": "",
+	"training.section1.task4.description.p4.link.label":
+		"Material Aufgabe 4_KI_Verordnung_EU",
+	"training.section1.task4.description.p4.subtitle": "PDF",
+	"training.section1.task4.description.p4.link.href": "",
+	"training.section1.task4.description.p5.link.label":
+		"#9 Zusammenfassen und analysieren von Dokumenten",
+	"training.section1.task4.description.p5.link.href":
+		"https://vimeo.com/1185918017",
+	"training.section1.task4.description.p5.subtitle": "Lösungsvideo",
+	//Task 5
+	"training.section1.task5": "Aufgabe 5: Entwurf einer Broschüre",
+	"training.section1.task5.description.p1.heading": "Beschreibung",
+	"training.section1.task5.description.p1":
+		"Sie arbeiten in der Sachbearbeitung (Migration und Integration) und möchten eine Broschüre zum Berliner Teilhabegesetz (TeilhabeG) erstellen. Nutzen Sie BärGPT, um einen ersten textlichen Entwurf zu verfassen, der an die Öffentlichkeitsarbeit (ÖA) gesendet werden kann. Der Entwurf soll eine verständliche Zusammenfassung des TeilhabeG enthalten und zentrale Paragraphen benennen. Achten Sie auf neutrale, klare Verwaltungssprache.",
+	"training.section1.task5.description.p2.heading": "Inhalte",
+	"training.section1.task5.description.p2.li1":
+		"Kurz: Ziel und Gegenstand der Broschüre",
+	"training.section1.task5.description.p2.li2":
+		"Zusammenfassung des Berliner Teilhabegesetzes (TeilhabeG)",
+	"training.section1.task5.description.p2.li3":
+		"Benennung zentraler Paragrafen",
+	"training.section1.task5.description.p3.1":
+		"<strong>Hinweise:</strong> Verwenden Sie nicht mehr als 3 Minuten für die Bearbeitung dieser Aufgabe.",
+	"training.section1.task5.description.p4.heading": "Lösung",
+	"training.section1.task5.description.p4.link.label":
+		"#10 Inhalte aufbereiten",
+	"training.section1.task5.description.p4.link.href":
+		"https://vimeo.com/1185918017",
+	"training.section1.task5.description.p4.subtitle": "Lösungsvideo",
+
 	/* -------------------- Section 1 - Einstieg -------------------- */
 	"workingWithBearGPT.section1.title": "Einstieg",
 
