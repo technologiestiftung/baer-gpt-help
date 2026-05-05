@@ -9,7 +9,7 @@ interface VideoSectionProps {
 		videoTitle: string;
 		videoLink: string;
 	}>;
-	videoType: "tutorial" | "training";
+	videoType: "tutorials" | "training";
 }
 
 export const VideoSection: React.FC<VideoSectionProps> = ({
