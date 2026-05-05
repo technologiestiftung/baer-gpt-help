@@ -855,7 +855,7 @@ export const content = {
 			],
 		},
 		{
-			title: "Schlungsvideos",
+			title: "Schulungsvideos",
 			videos: [
 				{
 					videoTitle: "#2 Mit BärGPT einfacher und effizienter arbeiten",
@@ -867,7 +867,7 @@ export const content = {
 				},
 				{
 					videoTitle:
-						"#4 Worauf bei der Arbeit mit BärGPT geachtet werden muss ",
+						"#4 Worauf bei der Arbeit mit BärGPT geachtet werden muss",
 					videoLink: "https://player.vimeo.com/video/1185857714?",
 				},
 				{
