@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 
 export interface AnchorLinkProps {
 	href: string;
+	reloadDocument?: boolean;
 	target?: string;
 	rel?: string;
 	ariaLabel?: string;

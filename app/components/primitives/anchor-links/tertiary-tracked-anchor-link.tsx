@@ -4,6 +4,7 @@ import { TrackedAnchorLink } from "./tracked-anchor-link";
 
 export const TertiaryTrackedAnchorLink: React.FC<AnchorLinkProps> = ({
 	href,
+	reloadDocument,
 	target = "_self",
 	rel,
 	ariaLabel,
@@ -14,6 +15,7 @@ export const TertiaryTrackedAnchorLink: React.FC<AnchorLinkProps> = ({
 	return (
 		<TrackedAnchorLink
 			href={href}
+			reloadDocument={reloadDocument}
 			target={target}
 			rel={rel}
 			aria-label={ariaLabel}

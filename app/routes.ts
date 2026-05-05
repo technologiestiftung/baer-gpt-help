@@ -7,4 +7,6 @@ export default [
 	route("/arbeiten-mit-baergpt/", "./routes/working-with-baergpt/index.tsx"),
 	route("/tutorials/", "./routes/tutorials/index.tsx"),
 	route("/tutorials/:video-slug/", "./routes/tutorials/video-detail/index.tsx"),
+	route("/training/", "./routes/training/index.tsx"),
+	route("/training/:video-slug/", "./routes/training/video-detail/index.tsx"),
 ] satisfies RouteConfig;

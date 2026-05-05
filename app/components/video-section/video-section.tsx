@@ -9,11 +9,13 @@ interface VideoSectionProps {
 		videoTitle: string;
 		videoLink: string;
 	}>;
+	videoType: "tutorials" | "training";
 }
 
 export const VideoSection: React.FC<VideoSectionProps> = ({
 	sectionTitle,
 	sectionElements,
+	videoType,
 }) => {
 	return (
 		<div className="flex flex-col gap-6 lg:gap-9">
@@ -30,7 +32,7 @@ export const VideoSection: React.FC<VideoSectionProps> = ({
 								title={`Video: ${videoTitle}`}
 							/>
 							<Link
-								to={`/tutorials/${videoSlug}`}
+								to={`/${videoType}/${videoSlug}`}
 								className="md:text-lg md:leading-7 font-semibold text-base leading-6 hover:underline hover:underline-offset-6"
 							>
 								{videoTitle}

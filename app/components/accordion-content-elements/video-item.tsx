@@ -5,12 +5,14 @@ import { content } from "../../content";
 interface VideoItemProps {
 	title: string;
 	href: string;
+	subtitle?: string;
 	hasBorder?: boolean;
 }
 
 export const VideoItem: React.FC<VideoItemProps> = ({
 	title,
 	href,
+	subtitle,
 	hasBorder = true,
 }) => {
 	return (
@@ -19,7 +21,9 @@ export const VideoItem: React.FC<VideoItemProps> = ({
 		>
 			<div className="flex flex-col">
 				<p className="text-base leading-6 font-semibold">{title}</p>
-				<p className="text-xs leading-4 font-normal">Video-Tutorial</p>
+				<p className="text-xs leading-4 font-normal">
+					{subtitle || "Video-Tutorial"}
+				</p>
 			</div>
 			<TertiaryTrackedAnchorLink
 				href={href}
