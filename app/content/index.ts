@@ -941,7 +941,7 @@ export const content = {
 	"training.section1.task3.description.p4.link.label":
 		"#8 Ergebnisse überarbeiten",
 	"training.section1.task3.description.p4.link.href":
-		"https://vimeo.com/1185917536",
+		"https://vimeo.com/1185917504",
 	//Task 4
 	"training.section1.task4":
 		"Aufgabe 4: Zusammenfassung der Broschüre mit Fokus auf Kompetenzen für Sachbearbeiterinnen und Führungskräfte",
@@ -966,7 +966,7 @@ export const content = {
 	"training.section1.task4.description.p5.link.label":
 		"#9 Zusammenfassen und analysieren von Dokumenten",
 	"training.section1.task4.description.p5.link.href":
-		"https://vimeo.com/1185918017",
+		"https://vimeo.com/1185917536",
 	"training.section1.task4.description.p5.subtitle": "Lösungsvideo",
 	//Task 5
 	"training.section1.task5": "Aufgabe 5: Entwurf einer Broschüre",
