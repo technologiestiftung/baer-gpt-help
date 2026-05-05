@@ -855,7 +855,7 @@ export const content = {
 			],
 		},
 		{
-			title: "Schlungsvideos",
+			title: "Schulungsvideos",
 			videos: [
 				{
 					videoTitle: "#2 Mit BärGPT einfacher und effizienter arbeiten",
@@ -867,7 +867,7 @@ export const content = {
 				},
 				{
 					videoTitle:
-						"#4 Worauf bei der Arbeit mit BärGPT geachtet werden muss ",
+						"#4 Worauf bei der Arbeit mit BärGPT geachtet werden muss",
 					videoLink: "https://player.vimeo.com/video/1185857714?",
 				},
 				{
@@ -944,7 +944,7 @@ export const content = {
 		"https://vimeo.com/1185917504",
 	//Task 4
 	"training.section1.task4":
-		"Aufgabe 4: Zusammenfassung der Broschüre mit Fokus auf Kompetenzen für Sachbearbeiterinnen und Führungskräfte",
+		"Aufgabe 4: Zusammenfassung der Broschüre mit Fokus auf Kompetenzen für Sachbearbeiter:innen und Führungskräfte",
 	"training.section1.task4.description.p1.heading": "Beschreibung",
 	"training.section1.task4.description.p1":
 		"Sie erhalten von einem Kollegen zwei Dokumente: die Broschüre „Orientierung im Kompetenzdschungel 2.0 …“ und ein Dokument zur KI-Verordnung. Legen Sie beide in Ordnern bei BärGPT ab. Erstellen Sie anschließend eine prägnante Zusammenfassung der Broschüre mit Fokus auf die Kompetenzen für zwei Rollen: Sachbearbeitung und Führungskräfte. Arbeiten Sie die benötigten Kompetenzen je Rolle klar heraus und prüfen Sie alle verwendeten Quellen auf Aktualität und Korrektheit.",
