@@ -37,6 +37,7 @@ export default function Index() {
 					.slice(1)
 					.map(({ title, videos }, index) => (
 						<VideoSection
+							videoType="tutorial"
 							key={index}
 							sectionTitle={title}
 							sectionElements={videos}
