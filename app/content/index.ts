@@ -844,7 +844,10 @@ export const content = {
 	"training.description.p1":
 		"In diesen Videos lernen Sie Schritt für Schritt, wie Sie BärGPT effektiv im Arbeitsalltag nutzen. Sehen Sie sich zuerst die Erklärungsvideos an und bearbeiten Sie anschließend die Aufgaben. Das Lösungsvideo zeigt Ihnen danach einen möglichen Lösungsweg.",
 	"training.description.p2":
-		"Die Schulungsunterlagen wurden freundlicherweise von INIT zur Verfügung gestellt.",
+		"Die Schulungsunterlagen wurden freundlicherweise von",
+	"training.description.p2.link.label": "INIT",
+	"training.description.p2.link.href": "https://www.init.de/",
+	"training.description.p2.2": "zur Verfügung gestellt.",
 	"training.pill.videoTutorial": "Video Tutorial",
 	"training.sections": [
 		{

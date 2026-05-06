@@ -17,7 +17,16 @@ export default function Index() {
 						{content["training.description.p1"]}
 					</p>
 					<p className="lg:text-xl lg:leading-7 text-base leading-6 font-normal">
-						{content["training.description.p2"]}
+						{content["training.description.p2"]}{" "}
+						<a
+							href={content["training.description.p2.link.href"]}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline underline-offset-2"
+						>
+							{content["training.description.p2.link.label"]}
+						</a>{" "}
+						{content["training.description.p2.2"]}
 					</p>
 				</div>
 			</div>
