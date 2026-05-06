@@ -14,7 +14,10 @@ export default function Index() {
 						{content["training.title"]}
 					</h1>
 					<p className="lg:text-xl lg:leading-7 text-base leading-6 font-normal">
-						{content["training.description"]}
+						{content["training.description.p1"]}
+					</p>
+					<p className="lg:text-xl lg:leading-7 text-base leading-6 font-normal">
+						{content["training.description.p2"]}
 					</p>
 				</div>
 			</div>
