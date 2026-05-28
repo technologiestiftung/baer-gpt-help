@@ -316,7 +316,11 @@ export const faq = {
 									<li>{content["faq.section2.a8.li3"]}</li>
 								</ul>
 							</div>
-							<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
+							<DownloadItem
+								href={content["faq.section2.a8.link.href"]}
+								title={content["faq.section2.a8.link.title"]}
+								subtitle={content["faq.section2.a8.link.subtitle"]}
+							/>
 						</div>
 					),
 				},

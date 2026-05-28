@@ -83,7 +83,6 @@ export const topFaq = {
 				</div>
 			),
 		},
-
 		{
 			question: content["faq.section2.q8"],
 			answer: (
@@ -95,8 +94,12 @@ export const topFaq = {
 							<li>{content["faq.section2.a8.li2"]}</li>
 							<li>{content["faq.section2.a8.li3"]}</li>
 						</ul>
+						<DownloadItem
+							href={content["faq.section2.a8.link.href"]}
+							title={content["faq.section2.a8.link.title"]}
+							subtitle={content["faq.section2.a8.link.subtitle"]}
+						/>
 					</div>
-					<p className="text-xs">{content["faq.section2.a8.p2"]}</p>
 				</div>
 			),
 		},
