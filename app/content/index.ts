@@ -349,12 +349,13 @@ export const content = {
 		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) gemäß § 16a EGovG Bln nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken verwendet oder durch Dritte eingesehen werden. Dennoch gilt:",
 
 	"faq.section2.a8.li1": "Gehen Sie mit sensiblen Informationen umsichtig um.",
-	"faq.section2.a8.li2":
-		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.",
+	"faq.section2.a8.li2": "Gehen Sie mit sensiblen Informationen umsichtig um.",
 	"faq.section2.a8.li3":
 		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
-	"faq.section2.a8.p2":
-		"* Zum Zeitpunkt des Rollouts von BärGPT gibt es keine geltende Rechtsgrundlage zur Verarbeitung von personenbezogenen Daten mit BärGPT (bspw. Dokumentenuploads, die Personenbezüge beinhalten), entsprechend dürfen Nutzende keine personenbezogenen Daten verarbeiten. Die entsprechende Rechtsgrundlage ist jedoch in den finalen Schritten der Erarbeitung (Novellierung des Berliner E-Government-Gesetzes) und soll zu Beginn 2026 in Kraft treten.",
+	"faq.section2.a8.link.title": "Rundschreiben zu § 16a E-Government-Gesetz",
+	"faq.section2.a8.link.subtitle": "PDF",
+	"faq.section2.a8.link.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
 
 	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
 	"faq.section3.title": "Konto & Anmeldung",
