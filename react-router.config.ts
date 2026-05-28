@@ -4,6 +4,11 @@ export default {
 	async prerender() {
 		return [
 			"/",
+			"/about/",
+			"/faq/",
+			"/arbeiten-mit-baergpt/",
+			"/tutorials/",
+			"/training/",
 		];
 	},
 } satisfies Config;
