@@ -1,4 +1,3 @@
-// import { DownloadItem } from "../../components/accordion-content-elements/download-item";
 import { DownloadItem } from "~/components/accordion-content-elements/download-item";
 import { AnchorLink } from "../../components/accordion-content-elements/anhor-link";
 import { VideoItem } from "../../components/accordion-content-elements/video-item";
@@ -19,17 +18,16 @@ export const faq = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<DownloadItem
+								<AnchorLink
 									href={content["faq.section1.a1.link1.href"]}
-									subtitle="PDF"
 									title={content["faq.section1.a1.link1.title"]}
-									hasBorder={false}
 								/>
-								{/* <VideoItem
-									title={content["faq.section1.a1.video1.title"]}
-									href={`/tutorials/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
+								<DownloadItem
+									href={content["faq.section1.a1.link2.href"]}
+									title={content["faq.section1.a1.link2.title"]}
 									hasBorder={false}
-								/> */}
+									subtitle="PDF"
+								/>
 							</div>
 						</div>
 					),
