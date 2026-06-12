@@ -162,8 +162,7 @@ export const content = {
 	"faq.section1.a1.link1.href": "/arbeiten-mit-baergpt/",
 	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
 	"faq.section1.a1.link2.href":
-		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
-
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
 	//Section 1 - Question 2
 	"faq.section1.q2":
 		"Wer kann BärGPT nutzen und welche Voraussetzungen brauche ich?",
@@ -766,7 +765,7 @@ export const content = {
 	"faq.section8.a1.link1.href": "/tutorials",
 	"faq.section8.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
 	"faq.section8.a1.link2.href":
-		"https://github.com/technologiestiftung/baer-gpt-help/raw/82d2a9e8b5ff4bf153a6bfd8eb9df84012ed331c/public/documents/BaerGPT-Handbuch-fuer-die-Nutzung-V01-1.pdf",
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Haben Sie Feedback zu BärGPT?",
