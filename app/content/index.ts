@@ -345,14 +345,17 @@ export const content = {
 	//Section 2 - Question 8
 	"faq.section2.q8":
 		"Darf ich personenbezogene und sensible Daten mit BärGPT verarbeiten?",
-	"faq.section2.a8.p1":
-		"Grundsätzlich sollten personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) gemäß § 16a EGovG Bln nur dann in BärGPT verarbeitet werden, wenn dies für die Zweckerfüllung Ihrer dienstlichen Aufgabe zwingend erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden und nicht zu Trainingszwecken verwendet oder durch Dritte eingesehen werden. Dennoch gilt:",
-
-	"faq.section2.a8.li1": "Gehen Sie mit sensiblen Informationen umsichtig um.",
+	"faq.section2.a8.p1.1":
+		"Ja, das dürfen Sie. Dabei gibt es ein paar Dinge zu beachten:",
+	"faq.section2.a8.p1.2":
+		"Personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) dürfen gemäß § 16a EGovG Bln in BärGPT verarbeitet werden, wenn dies für die Erfüllung Ihrer dienstlichen Aufgabe erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden, nicht zu Trainingszwecken verwendet und nicht durch Dritte eingesehen werden.",
+	"faq.section2.a8.p1.3": "Beachten Sie dennoch folgende Grundsätze:",
+	"faq.section2.a8.li1":
+		"Gehen Sie mit sensiblen Informationen stets umsichtig um.",
 	"faq.section2.a8.li2":
-		"Anonymisieren oder abstrahieren Sie Daten, wenn möglich.",
+		"Anonymisieren oder abstrahieren Sie Daten, wann immer dies möglich ist.",
 	"faq.section2.a8.li3":
-		"Löschen Sie Chats oder Dokumente, sobald sie diese nicht mehr benötigen.",
+		"Löschen Sie Chats oder Dokumente, sobald Sie diese nicht mehr benötigen.",
 	"faq.section2.a8.link.title": "Rundschreiben zu § 16a E-Government-Gesetz",
 	"faq.section2.a8.link.subtitle": "PDF",
 	"faq.section2.a8.link.href":
