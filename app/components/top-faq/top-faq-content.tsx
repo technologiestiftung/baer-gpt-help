@@ -88,7 +88,9 @@ export const topFaq = {
 			answer: (
 				<div className="flex flex-col gap-5">
 					<div>
-						<p className="mb-3">{content["faq.section2.a8.p1"]}</p>
+						<p className="mb-3">{content["faq.section2.a8.p1.1"]}</p>
+						<p className="mb-3">{content["faq.section2.a8.p1.2"]}</p>
+						<p className="mb-3">{content["faq.section2.a8.p1.3"]}</p>
 						<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
 							<li>{content["faq.section2.a8.li1"]}</li>
 							<li>{content["faq.section2.a8.li2"]}</li>
