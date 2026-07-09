@@ -105,7 +105,7 @@ export const content = {
 				href: "https://citylab-berlin.org/de/start/",
 				src: "https://logos.citylab-berlin.org/logo-citylab-color.svg",
 				alt: "Logo CityLAB Berlin",
-				width: "w-[174px]",
+				width: "w-[140px]",
 				text: "",
 			},
 			{
@@ -1361,9 +1361,9 @@ export const content = {
 	"about.section2.a2.p1":
 		"BärGPT nutzt Sprachmodelle von Mistral AI. Aktuell können Nutzende zwischen zwei Modellen wählen:",
 	"about.section2.a2.li1":
-		"<strong>Mistral Small 3.2</strong> (schneller) - geeignet für kurze, klare Fragen und zügige Antworten.",
+		"<strong>Mistral Small 4</strong> (schneller) - geeignet für kurze, klare Fragen und zügige Antworten.",
 	"about.section2.a2.li2":
-		"<strong>Mistral Large 3</strong> (präziser) - geeignet für komplexere Fragen, mehr Kontext, längere Antworten und höhere Detailtiefe (kann etwas länger dauern).",
+		"<strong>Mistral Large 3.5</strong> (präziser) - geeignet für komplexere Fragen, mehr Kontext, längere Antworten und höhere Detailtiefe (kann etwas länger dauern).",
 	"about.section2.a2.p2":
 		"Um ein Modell auszuwählen, klicken Sie im Chatfenster auf die Modellauswahl und wählen Sie zwischen „Schnell“ und „Präzise“.",
 	"about.section2.a2.p3":
