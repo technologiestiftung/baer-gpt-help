@@ -105,7 +105,7 @@ export const content = {
 				href: "https://citylab-berlin.org/de/start/",
 				src: "https://logos.citylab-berlin.org/logo-citylab-color.svg",
 				alt: "Logo CityLAB Berlin",
-				width: "w-[174px]",
+				width: "w-[140px]",
 				text: "",
 			},
 			{
