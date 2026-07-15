@@ -6,9 +6,14 @@ import { createSlug } from "~/utils/create-slug";
 export default function Index() {
 	return (
 		<div className="flex flex-col justify-center mx-auto mb-[60px] lg:mb-[100px] px-5 lg:px-[50px] max-w-[1412px]">
-			<h1 className="py-10 md:py-[60px] lg:py-20 text-4xl leading-10 font-semibold md:text-6xl md:leading-none">
-				{content["faq.title"]}
-			</h1>
+			<div className="flex flex-col gap-3 py-10 md:py-[60px] lg:py-20 md:max-w-[603px] lg:max-w-[815px]">
+				<h1 className="text-4xl leading-10 font-semibold md:text-6xl md:leading-none">
+					{content["faq.title"]}
+				</h1>
+				<p className="lg:text-xl lg:leading-7 text-base leading-6 font-normal">
+					{content["faq.description"]}
+				</p>
+			</div>
 			<div className="flex flex-col gap-10 lg:gap-16">
 				{faq.sections.map((section, index) => (
 					<div key={index}>

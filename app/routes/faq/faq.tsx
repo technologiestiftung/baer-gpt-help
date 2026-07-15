@@ -13,20 +13,40 @@ export const faq = {
 					question: content["faq.section1.q1"],
 					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
-							{content["faq.section1.a1"]}
+							<div>
+								<p className="mb-3">{content["faq.section1.a1.p1"]}</p>
+								<p>{content["faq.section1.a1.p2"]}</p>
+							</div>
+							<div>
+								<h4 className="text-base leading-6 font-semibold">
+									{content["faq.section1.a1.h4"]}
+								</h4>
+								<p>{content["faq.section1.a1.p3"]}</p>
+							</div>
 							<div>
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<AnchorLink
-									href={content["faq.section1.a1.link1.href"]}
-									title={content["faq.section1.a1.link1.title"]}
+								<VideoItem
+									title={content["faq.section1.a1.video1.title"]}
+									href={`/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
+									hasBorder={false}
 								/>
 								<DownloadItem
 									href={content["faq.section1.a1.link2.href"]}
 									title={content["faq.section1.a1.link2.title"]}
 									hasBorder={false}
 									subtitle="PDF"
+								/>
+								<DownloadItem
+									href={content["faq.section1.a1.link3.href"]}
+									title={content["faq.section1.a1.link3.title"]}
+									hasBorder={false}
+									subtitle="PDF"
+								/>
+								<AnchorLink
+									href={content["faq.section1.a1.link4.href"]}
+									title={content["faq.section1.a1.link4.title"]}
 								/>
 							</div>
 						</div>
@@ -39,28 +59,8 @@ export const faq = {
 							<div>
 								<p className="mb-3">{content["faq.section1.a2.p1"]}</p>
 								<p className="mb-3">{content["faq.section1.a2.p2"]}</p>
-								<ul className="list-disc ml-6 text-base leading-6 font-normal">
-									<li>{content["faq.section1.a2.li1"]}</li>
-									<li>{content["faq.section1.a2.li2"]}</li>
-									<li>{content["faq.section1.a2.li3"]}</li>
-									<li
-										dangerouslySetInnerHTML={{
-											__html: content["faq.section1.a2.li4"],
-										}}
-									/>
-								</ul>
+								<p className="mb-3">{content["faq.section1.a2.p3"]}</p>
 							</div>
-							{/* <div>
-								<h4 className="lg:px-3 text-base leading-6 font-semibold">
-									{content["faq.furtherLinksVideos.title"]}
-								</h4>
-								<DownloadItem
-									href={content["faq.section1.a2.link.href"]}
-									subtitle="PDF"
-									title={content["faq.section1.a2.link.title"]}
-									hasBorder={false}
-								/>
-							</div> */}
 						</div>
 					),
 				},
@@ -75,6 +75,8 @@ export const faq = {
 									<li>{content["faq.section1.a3.li2"]}</li>
 									<li>{content["faq.section1.a3.li3"]}</li>
 									<li>{content["faq.section1.a3.li4"]}</li>
+									<li>{content["faq.section1.a3.li5"]}</li>
+									<li>{content["faq.section1.a3.li6"]}</li>
 								</ul>
 							</div>
 							<div>
@@ -89,6 +91,21 @@ export const faq = {
 									title={content["faq.section1.a3.link.title"]}
 									hasBorder={false}
 								/>
+								<VideoItem
+									title={content["faq.section1.a3.video1.title"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a3.video1.linkName"])}`}
+									hasBorder={false}
+								/>
+								<VideoItem
+									title={content["faq.section1.a3.video2.title"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a3.video2.linkName"])}`}
+									hasBorder={false}
+								/>
+								<VideoItem
+									title={content["faq.section1.a3.video3.title"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a3.video3.linkName"])}`}
+									hasBorder={false}
+								/>
 							</div>
 						</div>
 					),
@@ -97,12 +114,9 @@ export const faq = {
 					question: content["faq.section1.q4"],
 					answer: (
 						<div>
-							<p className="mb-3">{content["faq.section1.a4"]}</p>
-							<ul className="list-disc ml-6 text-base leading-6 font-normal">
-								<li>{content["faq.section1.a4.li1"]}</li>
-								<li>{content["faq.section1.a4.li2"]}</li>
-								<li>{content["faq.section1.a4.li3"]}</li>
-							</ul>
+							<p className="mb-3">{content["faq.section1.a4.p1"]}</p>
+							<p className="mb-3">{content["faq.section1.a4.p2"]}</p>
+							<p className="mb-3">{content["faq.section1.a4.p3"]}</p>
 						</div>
 					),
 				},
@@ -111,23 +125,45 @@ export const faq = {
 					answer: (
 						<div>
 							<p className="mb-3">{content["faq.section1.a5.p1"]}</p>
+							<p className="mb-3">{content["faq.section1.a5.p2"]}</p>
 							<ul className="ml-6 text-base leading-6 font-normal list-decimal">
 								<li>{content["faq.section1.a5.li1"]}</li>
 								<li>{content["faq.section1.a5.li2"]}</li>
+								<li>{content["faq.section1.a5.li3"]}</li>
+								<li>{content["faq.section1.a5.li4"]}</li>
 							</ul>
-
-							<p
-								className="mt-3"
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section1.a5.p2"],
-								}}
-							/>
+							<div>
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
+									{content["faq.furtherLinksVideos.title"]}
+								</h4>
+								<DownloadItem
+									href={content["faq.section1.a5.link1.href"]}
+									title={content["faq.section1.a5.link1.title"]}
+									subtitle="PDF"
+									hasBorder={false}
+								/>
+								<VideoItem
+									title={content["faq.section1.a5.video1.title"]}
+									href={`/tutorials/${createSlug(content["faq.section1.a5.video1.linkName"])}`}
+									hasBorder={false}
+								/>
+								<AnchorLink
+									href={content["faq.section1.a5.link2.href"]}
+									title={content["faq.section1.a5.link2.title"]}
+									hasBorder={false}
+								/>
+							</div>
 						</div>
 					),
 				},
 				{
 					question: content["faq.section1.q6"],
-					answer: content["faq.section1.a6"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section1.a6.p1"]}</p>
+							<p className="mb-3">{content["faq.section1.a6.p2"]}</p>
+						</div>
+					),
 				},
 				{
 					question: content["faq.section1.q7"],
@@ -142,6 +178,12 @@ export const faq = {
 								<DownloadItem
 									href={content["faq.section1.a7.link.href"]}
 									title={content["faq.section1.a7.link.title"]}
+									subtitle="PDF"
+									hasBorder={false}
+								/>
+								<DownloadItem
+									href={content["faq.section1.a7.link2.href"]}
+									title={content["faq.section1.a7.link2.title"]}
 									subtitle="PDF"
 									hasBorder={false}
 								/>

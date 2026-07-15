@@ -143,93 +143,116 @@ export const content = {
 	"faq.button": "Alle Fragen anzeigen",
 
 	/* -------------------- FAQ PAGE -------------------- */
-	"faq.title": "Fragen und Antworten",
+	"faq.title": "Antworten auf häufige Fragen",
+	"faq.description":
+		"Sie suchen eine schnelle Antwort? In den FAQ finden Sie die häufigsten Fragen zu BärGPT von Anmeldung und Funktionen bis zu Datenschutz und technischen Problemen.",
 	"faq.accordion.chevronDownAltText": "Antwort zeigen",
 	"faq.accordion.chevronUpAltText": "Antwort verstecken",
-	"faq.furtherLinksVideos.title": "Weitere Links, Tutorials und Downloads",
+	"faq.furtherLinksVideos.title": "Weiterführende Informationen",
 
-	/* -------------------- Section 1 - Einstieg in BärGPT -------------------- */
-	"faq.section1.title": "Einstieg in BärGPT",
+	/* -------------------- Section 1 - Erste Schritte -------------------- */
+	"faq.section1.title": "Erste Schritte",
 
 	//Section 1 - Question 1
 	"faq.section1.q1": "Was ist BärGPT?",
 	"faq.section1.q1.landingPage": "Was ist BärGPT und wofür kann ich es nutzen?",
-	"faq.section1.a1":
-		"BärGPT ist ein KI-Assistent für die Berliner Verwaltung mit dem Sie Ihre Dokumente schneller verstehen und bearbeiten können. Sie können Dateien hochladen, im Chat Fragen zu deren Inhalt stellen und auch allgemeine Fragen beantworten lassen. BärGPT hilft Ihnen, Informationen effizient zu finden, Texte zu analysieren oder Inhalte zusammenzufassen.",
-	"faq.section1.a1.video1.title": "Arbeiten mit KI",
-	"faq.section1.a1.video1.linkName": "Arbeiten mit KI",
-	"faq.section1.a1.link1.title": "Arbeiten mit BärGPT",
-	"faq.section1.a1.link1.href": "/arbeiten-mit-baergpt/",
-	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section1.a1.p1":
+		"BärGPT ist ein KI-Assistent für Beschäftigte der Berliner Verwaltung. Er unterstützt Sie unter anderem beim Erstellen und Überarbeiten von Texten, beim Zusammenfassen von Dokumenten und bei der Recherche in ausgewählten Wissensbeständen.",
+	"faq.section1.a1.p2":
+		"BärGPT kann Fehler machen. Prüfen Sie wichtige Ergebnisse deshalb immer fachlich, bevor Sie sie verwenden oder weitergeben.",
+	"faq.section1.a1.h4": "Neu bei BärGPT?",
+	"faq.section1.a1.p3":
+		"Lesen Sie zuerst die Einführung in BärGPT oder besuchen Sie die BärGPT Online Schulung.",
+	"faq.section1.a1.video1.title": "BärGPT - Ihr KI Assistent",
+	"faq.section1.a1.video1.linkName": "BärGPT - Ihr KI Assistent",
+	"faq.section1.a1.link2.title": "https://vimeo.com/1135699264?fl=pl&fe=cm",
 	"faq.section1.a1.link2.href":
 		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
+	"faq.section1.a1.link3.title": "BärGPT OnePager",
+	"faq.section1.a1.link3.href":
+		"https://citylab-berlin.org/app/uploads/2026/02/CLB-OnePager-BaerGPT-Presse-20251118-2.pdf",
+	"faq.section1.a1.link4.title": "Online Schulung",
+	"faq.section1.a1.link4.href": "/training",
 	//Section 1 - Question 2
-	"faq.section1.q2":
-		"Wer kann BärGPT nutzen und welche Voraussetzungen brauche ich?",
+	"faq.section1.q2": "Wer kann BärGPT nutzen?",
 	"faq.section1.a2.p1":
-		"BärGPT ist ein Angebot für Mitarbeitende der Berliner Verwaltung. Der Zugang erfolgt über einen gesicherten Login.",
-	"faq.section1.a2.p2": "Sie benötigen:",
-	"faq.section1.a2.li1":
-		"Eine dienstliche E-Mail-Adresse der Berliner Verwaltung",
-	"faq.section1.a2.li2":
-		"Einen aktuellen Internetbrowser (z. B. Chrome, Edge oder Firefox)",
-	"faq.section1.a2.li3": "Eine stabile Internetverbindung",
-	"faq.section1.a2.li4":
-		"Grundkenntnisse im Umgang mit der Benutzung von KI. Besondere technische Kenntnisse sind <strong>nicht</strong> erforderlich.",
-	"faq.section1.a2.link.title": "Nutzerhandbuch",
-	"faq.section1.a2.link.href": "/baergpt-nutzerhandbuch.pdf",
+		"BärGPT steht Beschäftigten der Berliner Verwaltung zur Verfügung. Für die Registrierung benötigen Sie eine zugelassene dienstliche E-Mail-Adresse.",
+	"faq.section1.a2.p2":
+		"Für Nutzung ist ein aktueller Browser (z. B. Edge, Chrome oder Firefox) und eine stabile Internetverbindung notwendig. Besondere technische Kenntnisse sind nicht erforderlich.",
+	"faq.section1.a2.p3":
+		"Ob Ihre Organisation bereits teilnehmen kann, erfahren Sie bei Ihrer internen Ansprechpers der Senatskanzlei.",
 
 	// Section 1 - Question 3
 	"faq.section1.q3": "Wofür kann ich BärGPT nutzen?",
-	"faq.section1.a3.p1":
-		"BärGPT hilft bei vielen Routineaufgaben in der Verwaltung. Hier sind einige Beispiele:",
-	"faq.section1.a3.li1":
-		"Texte entwerfen (Einladungen, Vermerke, E-Mails, Pressemitteilungen)",
-	"faq.section1.a3.li2": "Informationen aus Dokumenten zusammenfassen",
-	"faq.section1.a3.li3": "Texte umformulieren oder übersetzen",
+	"faq.section1.a3.p1": "BärGPT kann Sie beispielsweise dabei unterstützen,",
+	"faq.section1.a3.li1": "Informationen aus Dokumenten zu finden,",
+	"faq.section1.a3.li2": "lange Texte zusammenzufassen,",
+	"faq.section1.a3.li3":
+		"erste Entwürfe für E-Mails oder Vermerke zu erstellen,",
 	"faq.section1.a3.li4":
-		"Spezifisches Wissen aus der Berliner Verwaltung abrufen, durch Zugriff auf relevante Dokumente der Berliner Verwaltung wie z.B. GGO , GGO 2 oder die  Landeshaushaltsordnung.",
+		"Texte zu überarbeiten, zu vereinfachen oder zu übersetzen,",
+	"faq.section1.a3.li5": "Inhalte zu strukturieren,",
+	"faq.section1.a3.li6":
+		"sich einen ersten Überblick über ein Thema zu verschaffen.",
 	"faq.section1.a3.p2":
-		"<strong>Hinweis</strong>: Mehr Informationen zum Verwaltungswissen und relevanten Dokumenten finden Sie hier:",
-	"faq.section1.a3.link.title": "KI Wissen & Antworten",
-	"faq.section1.a3.link.href": "KI Wissen & Antworten",
+		"Beschreiben Sie Ihre Aufgabe möglichst konkret und geben Sie den notwendigen Kontext an.",
+	"faq.section1.a3.link.title": "Tipps und Tricks für die Arbeit mit BärGPT",
+	"faq.section1.a3.link.href": "/training",
+	"faq.section1.a3.video1.title": "Dokumente zusammenfassen",
+	"faq.section1.a3.video1.linkName": "/dokumente-praezise-zusammenfassen",
+	"faq.section1.a3.video2.title": "Dokumente übersetzen",
+	"faq.section1.a3.video2.linkName": "/dokumente-direkt-im-chat-uebersetzen",
+	"faq.section1.a3.video3.title": "Texte schreiben und bearbeiten",
+	"faq.section1.a3.video3.linkName":
+		"/texte-mit-baergpt-schreiben-und-bearbeiten",
 
 	// Section 1 - Question 4
-	"faq.section1.q4": "Was kann BärGPT nicht?",
-	"faq.section1.a4":
-		"BärGPT ersetzt keine Fachprüfung oder menschliche Entscheidung. Er kann Fehler machen oder unvollständige Antworten liefern. Bitte beachten Sie:",
-	"faq.section1.a4.li1":
-		"BärGPT unterstützt Sie bei der Recherche und Texterstellung, übernimmt jedoch keine rechtliche oder fachliche Verantwortung für die Ergebnisse.",
-	"faq.section1.a4.li2":
-		"Verwenden Sie BärGPT nicht zur Verarbeitung von personenbezogenen Daten, die nicht erforderlich sind, oder von besonders schützenswerten Daten, wenn dies nicht genehmigt ist.",
-	"faq.section1.a4.li3":
-		"Auf aktuelle Informationen zugreifen, die nicht Verwaltungswissen betreffen, da BärGPT noch keine Internetsuche durchführen kann.",
+	"faq.section1.q4": "Welche Aufgaben kann BärGPT nicht übernehmen?",
+	"faq.section1.a4.p1":
+		"BärGPT trifft keine Entscheidungen und ersetzt keine fachliche, rechtliche oder datenschutzrechtliche Prüfung.",
+	"faq.section1.a4.p2":
+		"Das System kann Informationen unvollständig, ungenau oder falsch wiedergeben. Es kennt außerdem nicht automatisch alle aktuellen Entwicklungen und hat nur Zugriff auf die ausdrücklich verfügbaren Wissensquellen.",
+	"faq.section1.a4.p3":
+		"Die Verantwortung für die Prüfung und Verwendung der Ergebnisse bleibt bei Ihnen.",
 
 	//Section 1 - Question 5
-	"faq.section1.q5": "Warum ist BärGPT vorübergehend nicht erreichbar?",
+	"faq.section1.q5": "Wie beginne ich mit der Nutzung von BärGPT?",
 	"faq.section1.a5.p1":
-		"BärGPT kann vorübergehend nicht erreichbar sein, wenn Wartungsarbeiten durchgeführt werden, Systemupdates durchgeführt werden oder das System überlastet ist. In diesem Fall können Sie folgende Schritte unternehmen:",
-	"faq.section1.a5.li1": "Versuchen Sie es nach kurzer Zeit erneut.",
-	"faq.section1.a5.li2": "Aktualisieren Sie die Seite.",
-	"faq.section1.a5.p2": `Wir arbeiten in solchen Fällen umgehend daran, den Dienst wieder bereitzustellen und danken für Ihr Verständnis. Wenn das Problem länger anhält, melden Sie sich bitte bei 
-			<a class="underline underline-offset-6"
-				href="mailto:support@baergpt.berlin">
-				support@baergpt.berlin
-			</a>.`,
+		"Nach Resgistriung und Ihrer Anmeldung können Sie direkt eine Frage in das Chatfeld eingeben oder eine Datei zum Chat hinzufügen.",
+	"faq.section1.a5.p2": "Probieren Sie zum Beispiel:",
+	"faq.section1.a5.li1":
+		"„Fasse dieses Dokument in fünf Stichpunkten zusammen.“",
+	"faq.section1.a5.li2":
+		"„Überarbeite den folgenden Text in verständlicher Verwaltungssprache.“",
+	"faq.section1.a5.li3": "„Erstelle einen Entwurf für eine Einladung.“",
+	"faq.section1.a5.li4":
+		"„Nenne mir die relevanten Abschnitte in diesem Dokument.“",
+	"faq.section1.a5.link1.title": "Handbuch zur Nutzung von BärGPT",
+	"faq.section1.a5.link1.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
+	"faq.section1.a5.video1.title": "Erste Schritte mit BärGPT",
+	"faq.section1.a5.video1.linkName": "/erste-schritte-mit-baergpt",
+	"faq.section1.a5.link2.title": "Tipps und Tricks für die Arbeit mit BärGPT",
+	"faq.section1.a5.link2.href": "/training",
 
 	//Section 1 - Question 6
 	"faq.section1.q6": "Welche Sprachen unterstützt BärGPT?",
-	"faq.section1.a6":
-		"BärGPT versteht grundsätzlich mehrere Sprachen, funktioniert aber am zuverlässigsten auf Deutsch. Das liegt daran, dass BärGPT sein zugrundeliegendes Sprachmodell mit einer Wissensdatenbank kombiniert, die vor allem deutschsprachige Inhalte aus der Berliner Verwaltung enthält.",
-
+	"faq.section1.a6.p1":
+		"BärGPT kann Texte in mehreren Sprachen verstehen, erstellen und übersetzen.",
+	"faq.section1.a6.p2":
+		"Bei verwaltungsspezifischen Themen arbeitet BärGPT auf Deutsch in der Regel am zuverlässigsten, da viele der verfügbaren Dokumente deutschsprachig sind. Prüfen Sie Übersetzungen, bevor Sie diese veröffentlichen oder als verbindliche Kommunikation verwenden.",
 	//Section 1 - Question 7
 	"faq.section1.q7":
-		"Gibt es eine offizielle Orientierungshilfe zur Nutzung von KI-Chatbots in der Berliner Verwaltung?",
+		"Gibt es Vorgaben zur Nutzung von KI in der Berliner Verwaltung?",
 	"faq.section1.a7":
-		"Ja. Die Senatskanzlei hat eine „Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin“ veröffentlicht. Sie enthält Empfehlungen, Einsatzgrenzen und datenschutzrechtliche Hinweise zur Nutzung generativer KI in der Verwaltung.",
+		"Ja. Beachten Sie die geltenden Vorgaben Ihrer Organisation sowie die Orientierungshilfe des Landes Berlin zum Umgang mit generativen KI-Anwendungen.",
 	"faq.section1.a7.link.title":
-		"Orientierungshilfe: Umgang mit LLM-basierten Chatbots (Berlin)",
+		"Umgang mit generativen KI-Anwendungen in der Berliner Verwaltung",
 	"faq.section1.a7.link.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
+	"faq.section1.a7.link2.title":
+		"Orientierungshilfe zum Umgang mit LLM-basierten Chatbots im Land Berlin",
+	"faq.section1.a7.link2.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 
 	//Section 1 - Question 8
