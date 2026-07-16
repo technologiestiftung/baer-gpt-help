@@ -4,6 +4,10 @@ export default [
 	route("/", "routes/index.tsx"),
 	route("/about/", "./routes/about/index.tsx"),
 	route("/faq/", "./routes/faq/index.tsx"),
+	route(
+		"/baergpt-ihr-ki-assistent/",
+		"./routes/baergpt-ihr-ki-assistent/index.tsx",
+	),
 	route("/arbeiten-mit-baergpt/", "./routes/working-with-baergpt/index.tsx"),
 	route("/tutorials/", "./routes/tutorials/index.tsx"),
 	route("/tutorials/:video-slug/", "./routes/tutorials/video-detail/index.tsx"),

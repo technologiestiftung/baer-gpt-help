@@ -165,7 +165,8 @@ export const content = {
 		"Lesen Sie zuerst die Einführung in BärGPT oder besuchen Sie die BärGPT Online Schulung.",
 	"faq.section1.a1.video1.title": "BärGPT - Ihr KI Assistent",
 	"faq.section1.a1.video1.linkName": "BärGPT - Ihr KI Assistent",
-	"faq.section1.a1.link2.title": "https://vimeo.com/1135699264?fl=pl&fe=cm",
+	"faq.section1.a1.video1.link": "https://player.vimeo.com/video/1135699264?",
+	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
 	"faq.section1.a1.link2.href":
 		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
 	"faq.section1.a1.link3.title": "BärGPT OnePager",
@@ -197,14 +198,14 @@ export const content = {
 	"faq.section1.a3.p2":
 		"Beschreiben Sie Ihre Aufgabe möglichst konkret und geben Sie den notwendigen Kontext an.",
 	"faq.section1.a3.link.title": "Tipps und Tricks für die Arbeit mit BärGPT",
-	"faq.section1.a3.link.href": "/training",
+	"faq.section1.a3.link.href": "/arbeiten-mit-baergpt",
 	"faq.section1.a3.video1.title": "Dokumente zusammenfassen",
-	"faq.section1.a3.video1.linkName": "/dokumente-praezise-zusammenfassen",
+	"faq.section1.a3.video1.linkName": "Dokumente präzise zusammenfassen",
 	"faq.section1.a3.video2.title": "Dokumente übersetzen",
-	"faq.section1.a3.video2.linkName": "/dokumente-direkt-im-chat-uebersetzen",
+	"faq.section1.a3.video2.linkName": "Dokumente direkt im Chat übersetzen",
 	"faq.section1.a3.video3.title": "Texte schreiben und bearbeiten",
 	"faq.section1.a3.video3.linkName":
-		"/texte-mit-baergpt-schreiben-und-bearbeiten",
+		"Texte mit BärGPT schreiben und bearbeiten",
 
 	// Section 1 - Question 4
 	"faq.section1.q4": "Welche Aufgaben kann BärGPT nicht übernehmen?",
@@ -231,9 +232,9 @@ export const content = {
 	"faq.section1.a5.link1.href":
 		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
 	"faq.section1.a5.video1.title": "Erste Schritte mit BärGPT",
-	"faq.section1.a5.video1.linkName": "/erste-schritte-mit-baergpt",
+	"faq.section1.a5.video1.linkName": "Erste Schritte mit BärGPT",
 	"faq.section1.a5.link2.title": "Tipps und Tricks für die Arbeit mit BärGPT",
-	"faq.section1.a5.link2.href": "/training",
+	"faq.section1.a5.link2.href": "/arbeiten-mit-baergpt",
 
 	//Section 1 - Question 6
 	"faq.section1.q6": "Welche Sprachen unterstützt BärGPT?",
@@ -255,27 +256,578 @@ export const content = {
 	"faq.section1.a7.link2.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329261",
 
-	//Section 1 - Question 8
-	"faq.section1.q8": "Wie erstelle ich ein Benutzerkonto?",
-	"faq.section1.a8.p1": `Sie können Ihr persönliches Benutzerkonto direkt auf der Startseite von  
-						<a class="underline underline-offset-6"
-							href="https://www.baergpt.berlin"
-							target="_blank"
-							rel="noopener noreferrer"
-						>www.baergpt.berlin</a> erstellen.`,
-	"faq.section1.a8.li1": "Klicken Sie auf „Registrieren“.",
-	"faq.section1.a8.li2":
-		"Geben Sie Vorname, Nachname, Ihre dienstliche E-Mail-Adresse sowie ein selbstgewähltes, sicheres Passwort ein.",
-	"faq.section1.a8.li3":
-		"Optional können Sie einen akademischen Titel und eine Anrede angeben.",
-	"faq.section1.a8.li4":
-		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail. Klicken Sie auf den darin enthaltenen Link, um Ihr Konto zu aktivieren.",
-	"faq.section1.a8.p2":
-		"<strong>Hinweis:</strong> Bitte verwenden Sie ausschließlich Ihre dienstliche E-Mail-Adresse, um Zugriff auf die verwaltungsinternen Funktionen von BärGPT zu erhalten.",
+	/* -------------------- Section 2 - Konto und Anmeldung -------------------- */
+	"faq.section2.title": "Konto und Anmeldung",
 
-	//Section 1 - Question 9
+	"faq.section2.q1": "Wie erstelle ich ein Benutzerkonto?",
+	"faq.section2.a1.li1": `Öffnen Sie <a class="underline underline-offset-6" href="https://www.baergpt.berlin" target="_blank" rel="noopener noreferrer"><strong>www.baergpt.berlin</strong></a>.`,
+	"faq.section2.a1.li2": "Klicken Sie auf Registrieren.",
+	"faq.section2.a1.li3":
+		"Geben Sie Ihre dienstliche E-Mail-Adresse und ein Passwort ein.",
+	"faq.section2.a1.li4":
+		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail in ihrem Postfach.",
+	"faq.section2.a1.li5":
+		"Bestätigen Sie Ihre Registrierung über den Link in der E-Mail.",
+	"faq.section2.a1.p1":
+		"Bitte verwenden Sie ausschließlich Ihre dienstliche E-Mail-Adresse, um Zugriff auf die verwaltungsinternen Funktionen von BärGPT zu erhalten.",
+
+	"faq.section2.q2": "Warum kann ich mich nicht registrieren?",
+	"faq.section2.a2.p1":
+		"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
+	"faq.section2.a2.h4.1":
+		"Für die E-Mail-Adresse besteht bereits ein Benutzerkonto.",
+	"faq.section2.a2.p2":
+		"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
+	"faq.section2.a2.h4.2":
+		"Ihre dienstliche E-Mail-Domain ist nicht freigeschaltet.",
+	"faq.section2.a2.p3":
+		"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
+	"faq.section2.a2.h4.3": "Das Passwort erfüllt die Anforderungen nicht.",
+	"faq.section2.a2.p4":
+		"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
+
+	"faq.section2.q3":
+		"Ich habe keine Bestätigungs-E-Mail erhalten. Was kann ich tun?",
+	"faq.section2.a3.p1": "Prüfen Sie zunächst:",
+	"faq.section2.a3.li1": "den Spam- oder Junk-Ordner,",
+	"faq.section2.a3.li2": "die Schreibweise Ihrer E-Mail-Adresse,",
+	"faq.section2.a3.li3":
+		"ob die Nachricht mit einigen Minuten Verzögerung eingegangen ist.",
+	"faq.section2.a3.p2":
+		"Fordern Sie die Bestätigungs-E-Mail anschließend erneut an. Wird die Nachricht durch Ihre Organisation blockiert, wenden Sie sich an Ihre interne IT oder an den Support.",
+
+	"faq.section2.q4": "Wie melde ich mich an?",
+	"faq.section2.a4.li1": "Öffnen Sie www.baergpt.berlin.",
+	"faq.section2.a4.li2": "Klicken Sie auf Anmelden.",
+	"faq.section2.a4.li3": "Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.",
+	"faq.section2.a4.p1":
+		"Nach der Anmeldung können Sie direkt mit dem Chatten oder dem Hochladen von Dokumenten beginnen.",
+
+	"faq.section2.q5": "Warum kann ich mich nicht anmelden?",
+	"faq.section2.a5.p1":
+		"Prüfen Sie, ob Ihre E-Mail-Adresse und Ihr Passwort korrekt eingegeben sind. Achten Sie auch auf versehentliche Leerzeichen und die Groß- und Kleinschreibung des Passworts.",
+	"faq.section2.a5.p2":
+		"Haben Sie Ihr Passwort vergessen, wählen Sie Passwort vergessen?.",
+	"faq.section2.a5.p3":
+		"Bei einer technischen Störung aktualisieren Sie die Seite und versuchen Sie es erneut.",
+
+	"faq.section2.q6": "Wie setze ich mein Passwort zurück?",
+	"faq.section2.a6.li1": "Öffnen Sie die Anmeldeseite.",
+	"faq.section2.a6.li2": "Wählen Sie Passwort vergessen?.",
+	"faq.section2.a6.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
+	"faq.section2.a6.li4": "Öffnen Sie die zugesandte E-Mail.",
+	"faq.section2.a6.li5":
+		"Legen Sie über den enthaltenen Link ein neues Passwort fest.",
+	"faq.section2.a6.p1":
+		"Prüfen Sie Ihren Spam-Ordner, falls die E-Mail nicht ankommt.",
+
+	"faq.section2.q7": "Wie ändere ich meine Profildaten?",
+	"faq.section2.a7.li1":
+		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
+	"faq.section2.a7.li2": "Wählen Sie Profil.",
+	"faq.section2.a7.li3": "Ändern Sie die gewünschten Angaben.",
+	"faq.section2.a7.li4": "Speichern Sie Ihre Änderungen.",
+
+	"faq.section2.q8": "Wie lösche ich mein Benutzerkonto?",
+	"faq.section2.a8.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
+	"faq.section2.a8.li1":
+		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
+	"faq.section2.a8.li2": "Wählen Sie Profil.",
+	"faq.section2.a8.li3": "Wählen Sie Konto unwiderruflich löschen.",
+	"faq.section2.a8.li4": "Lesen Sie den angezeigten Hinweis.",
+	"faq.section2.a8.li5": "Bestätigen Sie die Löschung.",
+	"faq.section2.a8.p2":
+		"Die Löschung kann nicht rückgängig gemacht werden. Informationen zu den betroffenen Daten und Löschfristen finden Sie in den Datenschutzhinweisen.",
+
+	/* -------------------- Section 3 - Im Chat arbeiten -------------------- */
+	"faq.section3.title": "Im Chat arbeiten",
+
+	"faq.section3.q1": "Was ist der Freie Chat?",
+	"faq.section3.a1.p1":
+		"Im Freien Chat können Sie eigene Fragen und Aufgaben formulieren. Es gibt keine festgelegten Vorlagen.",
+	"faq.section3.a1.p2": "Beschreiben Sie möglichst genau:",
+	"faq.section3.a1.li1": "was BärGPT tun soll,",
+	"faq.section3.a1.li2": "welche Informationen wichtig sind,",
+	"faq.section3.a1.li3": "für wen das Ergebnis bestimmt ist,",
+	"faq.section3.a1.li4": "in welchem Format Sie die Antwort benötigen.",
+	"faq.section3.a1.video1.title": "Starke Anfragen formulieren mit BärGPT",
+	"faq.section3.a1.video1.linkName": "Starke Anfragen formulieren mit BärGPT",
+	"faq.section3.a1.link1.title": "Tipps und Tricks für gute Anfragen",
+	"faq.section3.a1.link1.href": "/arbeiten-mit-baergpt",
+
+	"faq.section3.q2": "Kann ich ein Gespräch fortsetzen?",
+	"faq.section3.a2.p1":
+		"Ja. BärGPT berücksichtigt den bisherigen Verlauf eines Chats. Sie können Rückfragen stellen, Antworten präzisieren oder auf vorherige Inhalte Bezug nehmen.",
+	"faq.section3.a2.h4": "Beispiele",
+	"faq.section3.a2.li1": "„Ergänze noch einen Absatz zur Finanzierung.“",
+	"faq.section3.a2.li2": "„Schreibe die Antwort kürzer.“",
+	"faq.section3.a2.li3": "„Übersetze den Text ins Englische.“",
+	"faq.section3.a2.p2":
+		"Beginnen Sie bei einem neuen Thema besser einen neuen Chat.",
+
+	"faq.section3.q3":
+		"Was kann ich tun, wenn BärGPT meine Frage nicht versteht?",
+	"faq.section3.a3.p1":
+		"Formulieren Sie Ihre Anfrage genauer und ergänzen Sie fehlenden Kontext.",
+	"faq.section3.a3.p2": "Sie können zum Beispiel erklären:",
+	"faq.section3.a3.li1": "was mit einem Fachbegriff gemeint ist,",
+	"faq.section3.a3.li2": "auf welches Dokument Sie sich beziehen,",
+	"faq.section3.a3.li3": "welche Zielgruppe der Text hat,",
+	"faq.section3.a3.li4": "welches Ergebnis Sie erwarten.",
+	"faq.section3.a3.p3":
+		"Teilen Sie eine komplexe Aufgabe bei Bedarf in mehrere kleinere Schritte auf.",
+
+	"faq.section3.q4": "Wie stoppe ich eine laufende Antwort?",
+	"faq.section3.a4.p1":
+		"Wählen Sie während der Erstellung die Schaltfläche Stoppen im Chat.",
+	"faq.section3.a4.p2":
+		"Sie können Ihre Anfrage anschließend ändern und erneut absenden.",
+
+	"faq.section3.q5": "Wie speichere oder exportiere ich meine Antworten?",
+	"faq.section3.a5.p1": "Unter jeder Antwort finden Sie zwei Schaltflächen:",
+	"faq.section3.a5.li1":
+		"Mit Kopieren übernehmen Sie den Text in die Zwischenablage.",
+	"faq.section3.a5.li2":
+		"Mit Exportieren speichern Sie das Ergebnis in einem der angebotenen Dateiformate.",
+	"faq.section3.a5.p2":
+		"So können Sie Inhalte einfach weiterverwenden oder teilen.",
+
+	"faq.section3.q6": "Wo finde ich meine bisherigen Chats?",
+	"faq.section3.a6.p1":
+		"Ihre gespeicherten Unterhaltungen finden Sie im Chatverlauf. Dort können Sie frühere Chats öffnen, fortsetzen oder löschen.",
+	"faq.section3.a6.p2":
+		"Werden Chats nicht angezeigt, prüfen Sie, ob Sie mit dem richtigen Benutzerkonto angemeldet sind. Aktualisieren Sie anschließend die Seite.",
+
+	"faq.section3.q7": "Warum antwortet BärGPT nicht?",
+	"faq.section3.a7.p1":
+		"Eine Antwort kann länger dauern, wenn eine Anfrage komplex ist, umfangreiche Dokumente verarbeitet werden oder das System stark ausgelastet ist.",
+	"faq.section3.a7.p2": "Sie können:",
+	"faq.section3.a7.li1": "die laufende Anfrage stoppen,",
+	"faq.section3.a7.li2": "die Seite aktualisieren,",
+	"faq.section3.a7.li3": "einen neuen Chat öffnen,",
+	"faq.section3.a7.li4": "die Anfrage kürzer formulieren.",
+	"faq.section3.a7.p3": `Tritt das Problem wiederholt auf, senden Sie <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin">support@baergpt.berlin</a> den Zeitpunkt, den verwendeten Browser und die angezeigte Fehlermeldung. Übermitteln Sie dabei keine unnötigen vertraulichen Inhalte.`,
+
+	/* -------------------- Section 4 - Mit Dokumenten arbeiten -------------------- */
+	"faq.section4.title": "Mit Dokumenten arbeiten",
+
+	"faq.section4.q1": "Wie lade ich eigene Dokumente hoch?",
+	"faq.section4.a1.li1": "Öffnen Sie den Bereich Meine Dateien.",
+	"faq.section4.a1.li2": "Wählen Sie Datei hochladen.",
+	"faq.section4.a1.li3": "Wählen Sie die Datei auf Ihrem Gerät aus.",
+	"faq.section4.a1.p2":
+		"Alternativ können Sie eine Datei per Drag-and-drop in den vorgesehenen Bereich ziehen.",
+	"faq.section4.a1.p3":
+		"Warten Sie, bis die Verarbeitung abgeschlossen ist, bevor Sie die Datei im Chat verwenden.",
+	"faq.section4.a1.video1.title": "Dokumente hochladen leicht gemacht",
+	"faq.section4.a1.video1.linkName": "Dokumente hochladen leicht gemacht",
+
+	"faq.section4.q2": "Welche Dateiformate und Dateigrößen werden unterstützt?",
+	"faq.section4.a2.p1": "Aktuell können Sie folgende Dateiformate hochladen:",
+	"faq.section4.a2.li1":
+		"<strong>PDF (.pdf)</strong> – für Zusammenfassungen und Fragen zu Dokumenten.",
+	"faq.section4.a2.li2":
+		"<strong>Word (.docx)</strong> – für die Analyse und Bearbeitung von Texten.",
+	"faq.section4.a2.li3":
+		"<strong>Excel (.xlsx)</strong> – für die Analyse von Tabellen und Kennzahlen.",
+	"faq.section4.a2.li4":
+		"<strong>CSV (.csv)</strong> – für strukturierte Daten und tabellarische Informationen.",
+	"faq.section4.a2.p2": "Zusätzlich sind derzeit folgende Grenzen vorgesehen:",
+	"faq.section4.a2.li5": "maximal <strong>20 MB</strong> pro Datei,",
+	"faq.section4.a2.li6": "bis zu <strong>100 Dateien</strong> gleichzeitig.",
+	"faq.section4.a2.p3":
+		"Ist ein Dokument größer, können Sie es in mehrere Dateien aufteilen und einzeln hochladen.",
+
+	"faq.section4.q3": "Warum dauert die Verarbeitung einer Datei länger?",
+	"faq.section4.a3.p1":
+		"Nach dem Upload wird die Datei für die Suche und Verwendung im Chat aufbereitet. Die Dauer hängt unter anderem von der Dateigröße, dem Dateiformat und der Komplexität des Inhalts ab.",
+	"faq.section4.a3.p2":
+		"Warten Sie, bis die Datei als verwendbar angezeigt wird. Aktualisieren Sie die Seite nicht während eines laufenden Uploads.",
+
+	"faq.section4.q4": "Warum kann ich eine Datei nicht hochladen?",
+	"faq.section4.a4.p1": "Prüfen Sie:",
+	"faq.section4.a4.li1": "ob das Dateiformat unterstützt wird,",
+	"faq.section4.a4.li2": "ob die Datei das Größenlimit überschreitet,",
+	"faq.section4.a4.li3": "ob Ihre Internetverbindung stabil ist,",
+	"faq.section4.a4.li4": "ob die Datei bereits verarbeitet wird,",
+	"faq.section4.a4.li5": "ob eine Fehlermeldung angezeigt wird.",
+	"faq.section4.a4.p2": `Versuchen Sie den Upload anschließend erneut. Bleibt das Problem bestehen, wenden Sie sich mit der Fehlermeldung an <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin">support@baergpt.berlin</a>.`,
+
+	"faq.section4.q5": "Wie stelle ich Fragen zu meinen Dokumenten?",
+	"faq.section4.a5.p1": "Fügen Sie die Datei zunächst zum Chat hinzu:",
+	"faq.section4.a5.li1": "Öffnen Sie Meine Dateien.",
+	"faq.section4.a5.li2": "Wählen Sie die gewünschte Datei aus.",
+	"faq.section4.a5.li3": "Klicken Sie auf In den Chat.",
+	"faq.section4.a5.p2":
+		"Die Datei wird anschließend oberhalb des Eingabefeldes angezeigt.",
+	"faq.section4.a5.p3":
+		"Sie können nun Fragen stellen. BärGPT durchsucht das Dokument und nutzt die enthaltenen Informationen für seine Antwort.",
+	"faq.section4.a5.link1.title": "Arbeiten mit BärGPT",
+	"faq.section4.a5.link1.href": "/arbeiten-mit-baergpt",
+	"faq.section4.a5.video1.title":
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
+	"faq.section4.a5.video1.linkName":
+		"Fragen zu Dokumenten und Ordnern im Chat stellen",
+
+	"faq.section4.q6": "Kann ich mehrere Dokumente gleichzeitig befragen?",
+	"faq.section4.a6.p1":
+		"Ja. Sie können mehrere Dateien oder einen ganzen Ordner zum Chat hinzufügen.",
+	"faq.section4.a6.p2":
+		"Beschreiben Sie in Ihrer Anfrage, ob BärGPT die Dokumente vergleichen, gemeinsam auswerten oder getrennt zusammenfassen soll.",
+
+	"faq.section4.q7": "Wie entferne ich eine Datei aus dem Chat?",
+	"faq.section4.a7.p1":
+		"Wählen Sie das X neben der Datei oberhalb des Eingabefeldes. Alternativ können Sie in der Dateiübersicht Aus dem Chat entfernen wählen.",
+	"faq.section4.a7.p2":
+		"Die Datei wird dadurch nur aus dem aktuellen Chat entfernt. Sie bleibt im Bereich Meine Dateien gespeichert.",
+
+	"faq.section4.q8": "Wie organisiere ich meine Dateien?",
+	"faq.section4.a8.p1":
+		"Im Bereich Meine Dateien können Sie Ordner anlegen, Dateien verschieben und nicht mehr benötigte Inhalte löschen.",
+	"faq.section4.a8.h4.1": "Einen neuen Ordner anlegen",
+	"faq.section4.a8.li1": "Klicken Sie auf Neuer Ordner.",
+	"faq.section4.a8.li2": "Geben Sie einen Namen ein.",
+	"faq.section4.a8.li3": "Bestätigen Sie mit Enter.",
+	"faq.section4.a8.p2": "Der Ordner erscheint sofort in Ihrer Übersicht.",
+	"faq.section4.a8.h4.2": "Dateien verschieben",
+	"faq.section4.a8.p3":
+		"Dokumente können per Drag & Drop in einen Ordner verschoben werden.",
+	"faq.section4.a8.p4":
+		"Soll eine Datei aus einem Ordner in einen anderen verschoben werden, verschieben Sie sie zunächst nach Meine Dateien und anschließend in den Zielordner.",
+	"faq.section4.a8.p5":
+		"<strong>Gut zu wissen:</strong> Über die Navigationsleiste (Meine Dateien > Ordnername) können Sie jederzeit nachvollziehen, in welchem Ordner Sie sich gerade befinden.",
+	"faq.section4.a8.h4.3": "Ordner oder Dateien löschen",
+	"faq.section4.a8.li4": "Öffnen Sie das Menü neben dem Eintrag.",
+	"faq.section4.a8.li5": "Wählen Sie Löschen.",
+	"faq.section4.a8.li6": "Bestätigen Sie die Löschung.",
+	"faq.section4.a8.link1.title": "Ordner erstellen und Dateien sortieren",
+	"faq.section4.a8.link1.href":
+		"/tutorials/ordner-erstellen-und-dateien-sortieren",
+	"faq.section4.a8.link2.title": "Dokumente verwalten",
+	"faq.section4.a8.link2.href":
+		"/tutorials/dokumente-verwalten-anzeigen-herunterladen-und-loeschen",
+
+	"faq.section4.q9": "Kann ich Dateien und Ordner umbenennen?",
+	"faq.section4.a9.p1":
+		"Nach dem aktuellen Redaktionsstand können Dateien und Ordner nicht direkt umbenannt werden.",
+	"faq.section4.a9.p2":
+		"Benennen Sie Dateien deshalb möglichst bereits vor dem Hochladen eindeutig.",
+
+	"faq.section4.q10": "Was passiert, wenn ich ein Dokument lösche?",
+	"faq.section4.a10.p1":
+		"Beim Löschen wird die Datei aus Ihrer Dateiablage entfernt und kann über die Benutzeroberfläche nicht wiederhergestellt werden.",
+	"faq.section4.a10.p2":
+		"Für technische Sicherungskopien gelten die in der Datenschutzerklärung genannten Löschfristen.",
+
+	"faq.section4.q11": "Warum sehe ich meine Dokumente nicht mehr?",
+	"faq.section4.a11.p1": "Prüfen Sie zunächst:",
+	"faq.section4.a11.li1":
+		"ob Sie mit dem richtigen Benutzerkonto angemeldet sind,",
+	"faq.section4.a11.li2": "ob Sie sich im richtigen Ordner befinden,",
+	"faq.section4.a11.li3": "ob ein Filter aktiv ist,",
+	"faq.section4.a11.li4": "ob die Datei noch verarbeitet wird.",
+	"faq.section4.a11.p2": `Aktualisieren Sie anschließend die Seite. Werden die Dateien weiterhin nicht angezeigt, kontaktieren Sie <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin">support@baergpt.berlin</a>.`,
+
+	/* -------------------- Section 5 - Wissen, Quellen und Antwortqualität -------------------- */
+	"faq.section5.title": "Wissen, Quellen und Antwortqualität",
+
+	"faq.section5.q1": "Welche Informationsquellen kann BärGPT verwenden?",
+	"faq.section5.a1.p1":
+		"Abhängig von der gewählten Funktion kann BärGPT unterschiedliche Informationsquellen verwenden:",
+	"faq.section5.a1.li1":
+		"<strong>Allgemeines Sprachwissen</strong> des KI-Modells",
+	"faq.section5.a1.li2":
+		"<strong>Verwaltungswissen</strong> mit ausgewählten Dokumenten der Berliner Verwaltung",
+	"faq.section5.a1.li3": "<strong>Eigene Dokumente</strong>, die Sie hochladen",
+	"faq.section5.a1.li4": "<strong>Websuche</strong>, wenn diese aktiviert ist",
+	"faq.section5.a1.li5":
+		"<strong>Externe Datenquellen</strong>, wenn diese aktiviert sind",
+	"faq.section5.a1.p2":
+		"BärGPT kann bei einer Antwort mehrere Quellen miteinander verbinden.",
+	"faq.section5.a1.link.title": "Technische Details & Hintergründe",
+	"faq.section5.a1.link.href": "/about",
+
+	"faq.section5.q2": "Was ist das Verwaltungswissen und wie nutze ich es?",
+	"faq.section5.a2.p1":
+		"Das Verwaltungswissen ist eine Sammlung ausgewählter Dokumente der Berliner Verwaltung. Dazu gehören beispielsweise Gesetze, Verwaltungsvorschriften, Handbücher, Leitfäden und Regelwerke.",
+	"faq.section5.a2.p2":
+		"Sie können das Verwaltungswissen nutzen, indem Sie einzelne Dokumente aus dem Bereich Verwaltungswissen zum Chat hinzu. Die verfügbaren Dokumente finden Sie unter Meine Dateien in der Bibliothek im Bereich Verwaltungswissen.",
+	"faq.section5.a2.p3":
+		"Verwendet BärGPT Informationen aus dem Verwaltungswissen, werden die entsprechenden Quellen an der Antwort angezeigt. Prüfen Sie bei rechtlich oder fachlich relevanten Informationen auch den Stand und die Gültigkeit des Originaldokuments.",
+	"faq.section5.a2.p4":
+		"Die Dokumentensammlung wird regelmäßig ergänzt und aktualisiert.",
+	"faq.section5.a2.h4": "Fehlt ein Dokument?",
+	"faq.section5.a2.p5": `Senden Sie Ihren Vorschlag an <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin"><strong>support@baergpt.berlin</strong></a>. Bis das Dokument in das Verwaltungswissen aufgenommen wurde, können Sie es selbst hochladen und zum Chat hinzufügen.`,
+
+	"faq.section5.q3": "Wie erkenne ich, welche Quellen verwendet wurden?",
+	"faq.section5.a3.p1":
+		"Wenn BärGPT Informationen aus hinzugefügten Dokumenten oder dem Verwaltungswissen verwendet, werden die zugehörigen Quellen direkt an der Antwort angezeigt.",
+	"faq.section5.a3.p2": "Öffnen Sie die Quellenansicht, um",
+	"faq.section5.a3.li1": "das verwendete Dokument zu sehen,",
+	"faq.section5.a3.li2": "die relevante Textstelle zu prüfen,",
+	"faq.section5.a3.li3": "den Zusammenhang in der Originalquelle nachzulesen.",
+	"faq.section5.a3.p3":
+		"Ist die Websuche aktiviert, werden die verwendeten Webseiten direkt in der Antwort verlinkt.",
+	"faq.section5.a3.p4":
+		"Nicht jede Antwort enthält Quellen. Das gilt insbesondere für allgemeine Textaufgaben oder Antworten, die nicht auf einem hinterlegten Dokument beruhen.",
+	"faq.section5.a3.p5":
+		"Prüfen Sie die Quellen insbesondere bei fachlichen, rechtlichen oder aktuellen Informationen.",
+
+	"faq.section5.q4": "Wie aktuell sind die Informationen von BärGPT?",
+	"faq.section5.a4.p1":
+		"Die Aktualität hängt von der verwendeten Wissensquelle ab.",
+	"faq.section5.a4.li1":
+		"Das allgemeine <strong>Wissen des KI-Modells</strong> hat einen begrenzten Wissensstand.",
+	"faq.section5.a4.li2":
+		"<strong>Dokumente</strong> können einen bestimmten Bearbeitungs- oder Veröffentlichungsstand haben.",
+	"faq.section5.a4.li3":
+		"<strong>Die Websuche</strong> kann aktuelle Informationen berücksichtigen.",
+	"faq.section5.a4.p2":
+		"Prüfen Sie aktuelle oder rechtlich relevante Informationen immer anhand der angegebenen Quellen.",
+
+	"faq.section5.q5": "Wie zuverlässig sind die Antworten von BärGPT?",
+	"faq.section5.a5.p1":
+		"BärGPT kann hilfreiche und plausibel klingende Antworten erstellen, garantiert aber keine Richtigkeit oder Vollständigkeit. Das System verarbeitet Sprache auf Grundlage statistischer Muster und kann Inhalte deshalb falsch, ungenau oder unvollständig wiedergeben.",
+	"faq.section5.a5.p2": "Fehler können unter anderem entstehen, wenn:",
+	"faq.section5.a5.li1": "eine Frage mehrdeutig ist,",
+	"faq.section5.a5.li2": "wichtige Informationen fehlen,",
+	"faq.section5.a5.li3": "Quellen veraltet oder widersprüchlich sind,",
+	"faq.section5.a5.li4": "Inhalte falsch miteinander verknüpft werden,",
+	"faq.section5.a5.li5":
+		"das Sprachmodell eine plausible, aber unbelegte Aussage erzeugt.",
+	"faq.section5.a5.p3":
+		"Solche erfundenen oder falsch dargestellten Informationen werden häufig als „Halluzinationen“ bezeichnet.",
+	"faq.section5.a5.p4":
+		"Betrachten Sie die Antworten deshalb als Arbeitsgrundlage und nicht als abschließende Entscheidung. Prüfen Sie wichtige Angaben anhand verlässlicher und aktueller Quellen.",
+
+	"faq.section5.q6": "Wie überprüfe ich eine Antwort?",
+	"faq.section5.a6.li1": "Sind Quellen angegeben?",
+	"faq.section5.a6.li2":
+		"Stützen die zitierten Stellen tatsächlich die Aussage?",
+	"faq.section5.a6.li3":
+		"Ist das Dokument aktuell und für Ihren Fall maßgeblich?",
+	"faq.section5.a6.li4": "Stimmen Zahlen, Namen und Fristen?",
+	"faq.section5.a6.li5": "Muss eine Fachstelle beteiligt werden?",
+	"faq.section5.a6.p1":
+		"Lassen Sie sich bei Bedarf Unsicherheiten ausdrücklich kennzeichnen, zum Beispiel mit der Anfrage: „Trenne belegte Aussagen, Schlussfolgerungen und offene Fragen.“",
+
+	"faq.section5.q7": "Warum unterscheiden sich Antworten auf dieselbe Frage?",
+	"faq.section5.a7.p1":
+		"BärGPT erzeugt Antworten jeweils neu. Deshalb können Formulierung, Aufbau und einzelne Inhalte variieren.",
+	"faq.section5.a7.p2": "Unterschiede können außerdem entstehen, wenn:",
+	"faq.section5.a7.li1": "die Frage anders formuliert wird,",
+	"faq.section5.a7.li2": "andere Dokumente hinzugefügt sind,",
+	"faq.section5.a7.li3": "sich der bisherige Chatverlauf unterscheidet,",
+	"faq.section5.a7.li4":
+		"eine andere Funktion oder Datenquelle verwendet wird.",
+	"faq.section5.a7.p3":
+		"Geben Sie klare Anforderungen und relevante Quellen vor, um die Ergebnisse besser vergleichbar zu machen.",
+
+	"faq.section5.q8": "Wie kann ich die Qualität einer Antwort beeinflussen?",
+	"faq.section5.a8.p1":
+		"Gute Ergebnisse hängen stark von Ihrer Anfrage ab. Hilfreich sind:",
+	"faq.section5.a8.li1": "eine konkrete Fragestellung,",
+	"faq.section5.a8.li2": "ausreichender Kontext,",
+	"faq.section5.a8.li3": "Angaben zur Zielgruppe,",
+	"faq.section5.a8.li4": "ein gewünschtes Ausgabeformat,",
+	"faq.section5.a8.li5": "relevante Dokumente oder Quellen.",
+	"faq.section5.a8.h4": "Antwortmodi",
+	"faq.section5.a8.p2":
+		"BärGPT bietet zwei Antwortmodi – Schnell und Präzise – zur Auswahl:",
+	"faq.section5.a8.p3":
+		"Den Antwortmodus können Sie jederzeit im Chatfenster wechseln.",
+	"faq.section5.a8.p4":
+		"Beide Modelle beantworten Ihre Fragen, setzen aber unterschiedliche Schwerpunkte.",
+	"faq.section5.a8.p5":
+		"Welcher Modus sinnvoll ist, hängt von Ihrer Aufgabe ab.",
+	"faq.section5.a8.li6":
+		"Nutzen Sie <strong>Schnell</strong> für kurze Fragen, Umformulierungen, Übersetzungen und erste Entwürfe.",
+	"faq.section5.a8.li7":
+		"Nutzen Sie <strong>Präzise</strong> für komplexe Sachverhalte, umfangreiche Dokumente und ausführlichere Auswertungen.",
+	"faq.section5.a8.link1.title": "Technische Details & Hintergründe",
+	"faq.section5.a8.link1.href": "/about",
+	"faq.section5.a8.link2.title": "Arbeiten mit KI",
+	"faq.section5.a8.link2.href": "/arbeiten-mit-baergpt",
+
+	"faq.section5.q9": "Warum finde ich bestimmte Informationen nicht?",
+	"faq.section5.a9.p1": "Mögliche Gründe sind:",
+	"faq.section5.a9.li1":
+		"Die Information ist in den verfügbaren Quellen nicht enthalten.",
+	"faq.section5.a9.li2":
+		"Das relevante Dokument wurde nicht zum Chat hinzugefügt.",
+	"faq.section5.a9.li3":
+		"Die verwendete Formulierung unterscheidet sich stark vom Wortlaut des Dokuments.",
+	"faq.section5.a9.li4":
+		"Das Dokument ist schwer lesbar oder nicht vollständig verarbeitet.",
+	"faq.section5.a9.li5": "Die Frage ist zu allgemein.",
+	"faq.section5.a9.p2":
+		"Nennen Sie Synonyme, Fundstellen oder zusätzliche Zusammenhänge.",
+
+	"faq.section5.q10": "Kann BärGPT im Internet suchen?",
+	"faq.section5.a10.p1":
+		"Ja. Mit der Websuche kann BärGPT aktuelle Informationen aus dem Internet in eine Antwort einbeziehen. Aktivieren Sie die Funktion im Chat und prüfen Sie anschließend die angegebenen Internetquellen.",
+	"faq.section5.a10.p2":
+		"Die Websuche ergänzt die anderen Wissensquellen, ersetzt aber nicht die eigene Prüfung.",
+
+	"faq.section5.q11": "Wie kann ich Parla verwenden?",
+	"faq.section5.a11.p1":
+		"Parla ist eine zusätzliche Wissensquelle für Dokumente des Berliner Abgeordnetenhauses, zum Beispiel:",
+	"faq.section5.a11.li1": "Drucksachen,",
+	"faq.section5.a11.li2": "Plenarprotokolle,",
+	"faq.section5.a11.li3": "Anträge,",
+	"faq.section5.a11.li4": "Unterlagen zu Gesetzesvorhaben.",
+	"faq.section5.a11.p2":
+		"Wählen Sie Parla im Chat als Datenquelle aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
+	"faq.section5.a11.link1.title": "Technische Informationen zu MCP",
+	"faq.section5.a11.link1.href": "/about",
+	"faq.section5.a11.link2.title": "Zur Anwendung Parla Berlin",
+	"faq.section5.a11.link2.href": "https://www.parla.berlin/",
+	"faq.section5.a11.link3.title": "Zur Projektbeschreibung von Parla",
+	"faq.section5.a11.link3.href": "https://citylab-berlin.org/projekte/parla/",
+
+	/* -------------------- Section 6 - Datenschutz & Sicherheit -------------------- */
+	"faq.section6.title": "Datenschutz & Sicherheit",
+
+	"faq.section6.q1": "Darf ich personenbezogene Daten mit BärGPT verarbeiten?",
+	"faq.section6.a1.p1":
+		"Personenbezogene Daten können mit BärGPT verarbeitet werden, wenn Ihre Behörde zur Verarbeitung dieser Daten für ihre Aufgabenerfüllung befugt ist und die gesetzlichen sowie internen Voraussetzungen erfüllt sind.",
+	"faq.section6.a1.p2": "Trotzdem gilt:",
+	"faq.section6.a1.li1":
+		"Verarbeiten Sie nur die Daten, die tatsächlich benötigt werden.",
+	"faq.section6.a1.li2":
+		"Vermeiden Sie insbesondere die Eingabe von privaten Informationen ohne dienstlichen Bezug oder vertrauliche Informationen,",
+	"faq.section6.a1.li3":
+		"Anonymisieren oder pseudonymisieren Sie Angaben, soweit dies möglich ist,",
+	"faq.section6.a1.li4":
+		"Löschen Sie Chats und Dokumente, sobald Sie diese nicht mehr benötigen.",
+	"faq.section6.a1.p3":
+		"Seit Inkrafttreten des neuen § 16a EGovG Bln besteht eine eigene Rechtsgrundlage für die Verarbeitung personenbezogener Daten in KI-Systemen. Sie gilt jedoch nur unter den dort genannten Voraussetzungen und ersetzt nicht die Prüfung des konkreten Anwendungsfalls.",
+	"faq.section6.a1.p4":
+		"Wenden Sie sich bei Unsicherheit an Ihre zuständige Datenschutz- oder Informationssicherheitsstelle.",
+	"faq.section6.a1.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a1.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+	"faq.section6.a1.link2.title": "Rundschreiben SKZL",
+	"faq.section6.a1.link2.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
+
+	"faq.section6.q2": "Darf ich interne oder vertrauliche Dokumente hochladen?",
+	"faq.section6.a2.p1":
+		"Interne Dokumente dürfen Sie hochladen, wenn dies für Ihre dienstliche Aufgabe erforderlich und nach den geltenden Vorgaben zulässig ist.",
+	"faq.section6.a2.p2":
+		"Prüfen Sie vor dem Upload, ob das gesamte Dokument benötigt wird und ob es personenbezogene, besonders sensible, geheimhaltungsbedürftige oder eingestufte Informationen enthält. Entfernen oder anonymisieren Sie nicht benötigte Angaben.",
+	"faq.section6.a2.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a2.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+	"faq.section6.a2.link2.title": "Rundschreiben SKZL",
+	"faq.section6.a2.link2.href":
+		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
+
+	"faq.section6.q3":
+		"Werden meine Eingaben für das Training der KI Modelle verwendet?",
+	"faq.section6.a3.p1":
+		"Nein. Ihre Eingaben und hochgeladenen Dokumente werden nicht zum Training der eingesetzten KI-Modelle verwendet.",
+	"faq.section6.a3.p2":
+		"Die Daten werden jedoch verarbeitet, um Ihre Anfrage zu beantworten und die erforderlichen Betriebs-, Sicherheits- und Supportprozesse zu ermöglichen.",
+	"faq.section6.a3.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a3.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+
+	"faq.section6.q4": "Wer kann meine Chats und Dateien sehen?",
+	"faq.section6.a4.p1":
+		"Andere reguläre Nutzerinnen und Nutzer von BärGPT können Ihre Chats und Dateien nicht einsehen.",
+	"faq.section6.a4.p2":
+		"Für den technischen Betrieb, die Systemsicherheit, die Fehlerbehebung oder die Bearbeitung einer Supportanfrage können besonders berechtigte Personen oder beauftragte Dienstleister im erforderlichen Umfang Daten verarbeiten.",
+	"faq.section6.a4.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a4.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+
+	"faq.section6.q5": "Wo werden meine Daten verarbeitet und gespeichert?",
+	"faq.section6.a5.p1":
+		"Die Verarbeitung und Speicherung erfolgt entsprechend den Vorgaben der Datenschutzerklärung in einer abgesicherten technischen Umgebung innerhalb der Europäischen Union.",
+	"faq.section6.a5.p2":
+		"Weitere Informationen zu den eingesetzten Dienstleistern, Sicherheitsmaßnahmen und Verarbeitungsorten finden Sie in der Datenschutzerklärung.",
+	"faq.section6.a5.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a5.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+
+	"faq.section6.q6":
+		"Was passiert, wenn ich einen Chat, eine Datei oder mein Konto lösche?",
+	"faq.section6.a6.p1":
+		"Gelöschte Chats, Dateien und Kontodaten werden aus dem aktiven System entfernt und können über BärGPT nicht wiederhergestellt werden.",
+	"faq.section6.a6.p2":
+		"Für technische Sicherungskopien gelten gesonderte Löschfristen. Die Einzelheiten finden Sie in der Datenschutzerklärung.",
+	"faq.section6.a6.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a6.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+
+	"faq.section6.q7": "Wird die Nutzung von BärGPT protokolliert?",
+	"faq.section6.a7.p1":
+		"Für den sicheren und zuverlässigen Betrieb können technische Nutzungs-, Monitoring- und Fehlerdaten protokolliert werden. Sie werden beispielsweise für die Systemsicherheit, die Fehleranalyse und den Support benötigt.",
+	"faq.section6.a7.p2":
+		"Welche Daten dabei verarbeitet werden und wie lange sie gespeichert bleiben, ist in der Datenschutzerklärung beschrieben.",
+	"faq.section6.a7.link1.title": "Datenschutzrichtlinien",
+	"faq.section6.a7.link1.href": "https://www.baergpt.berlin/privacy-policy/",
+
+	/* -------------------- Section 7 - Weitere Hilfe -------------------- */
+	"faq.section7.title": "Weitere Hilfe",
+
+	"faq.section7.q1": "Warum ist BärGPT nicht erreichbar?",
+	"faq.section7.a1.p1":
+		"BärGPT kann während Wartungsarbeiten, bei technischen Störungen oder bei hoher Auslastung vorübergehend nicht erreichbar sein.",
+	"faq.section7.a1.p2": `Aktualisieren Sie die Seite und versuchen Sie es nach kurzer Zeit erneut. Hält die Störung an, wenden Sie sich an <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin">support@baergpt.berlin</a> und nennen Sie:`,
+	"faq.section7.a1.li1": "den Zeitpunkt,",
+	"faq.section7.a1.li2": "den verwendeten Browser,",
+	"faq.section7.a1.li3": "die angezeigte Fehlermeldung.",
+	"faq.section7.a1.p3":
+		"Übermitteln Sie dabei keine unnötigen personenbezogenen oder vertraulichen Inhalte.",
+	"faq.section7.a1.link1.title": "Aktuelle Wartungshinweise",
+	"faq.section7.a1.link1.href":
+		"https://app.notion.com/p/citylabberlin/B-rGPT-Lots-innen-Hub-382a2fee956d80d8b708edede118a16f?pvs=21",
+
+	"faq.section7.q2": "Welche Browser werden unterstützt?",
+	"faq.section7.a2.p1":
+		"BärGPT unterstützt aktuelle Versionen aller gängigen Browser.",
+	"faq.section7.a2.p2": "Bei Problemen können Sie:",
+	"faq.section7.a2.li1": "die Seite aktualisieren,",
+	"faq.section7.a2.li2": "den Browser aktualisieren,",
+	"faq.section7.a2.li3": "testweise ein privates Browserfenster öffnen,",
+	"faq.section7.a2.li4": "Browser-Erweiterungen vorübergehend deaktivieren,",
+	"faq.section7.a2.li5": "einen anderen unterstützten Browser verwenden.",
+
+	"faq.section7.q3": "Wo finde ich Anleitungen und Schulungen?",
+	"faq.section7.a3.link1.title": "Video-Tutorials",
+	"faq.section7.a3.link1.href": "/tutorials",
+	"faq.section7.a3.link2.title": "Handbuch zu Nutzung",
+	"faq.section7.a3.link2.href":
+		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
+	"faq.section7.a3.link3.title": "Schulungsangebote",
+	"faq.section7.a3.link3.href": "/training",
+	"faq.section7.a3.link4.title": "Anleitung für gute Anfragen",
+	"faq.section7.a3.link4.href": "/arbeiten-mit-baergpt",
+	"faq.section7.a3.link5.title": "Technische Hintergrundinformationen",
+	"faq.section7.a3.link5.href": "/about",
+	"faq.section7.a3.link6.title": "Informationen zum Projekt",
+	"faq.section7.a3.link6.href": "https://citylab-berlin.org/projekte/baergpt/",
+
+	"faq.section7.q4":
+		"Wo finde ich Informationen zu Neuerungen und Wartungsarbeiten?",
+	"faq.section7.a4.p1":
+		"Aktuelle Informationen zu neuen Funktionen, Änderungen und geplanten Wartungsarbeiten finden Sie im verlinkten Notion Dokument.",
+	"faq.section7.a4.link1.title": "Neuigkeiten und Wartungshinweise",
+	"faq.section7.a4.link1.href":
+		"https://app.notion.com/p/citylabberlin/B-rGPT-Lots-innen-Hub-382a2fee956d80d8b708edede118a16f?pvs=21",
+
+	"faq.section7.q5": "Wie kann ich Feedback zu BärGPT geben?",
+	"faq.section7.a5.p1":
+		"Nutzen Sie das Feedbackformular, um Verbesserungsvorschläge oder allgemeine Rückmeldungen zu BärGPT zu senden.",
+	"faq.section7.a5.p2": `Technische Fehler melden Sie direkt an <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin">support@baergpt.berlin</a>. Beschreiben Sie dabei:`,
+	"faq.section7.a5.li1": "was Sie getan haben,",
+	"faq.section7.a5.li2": "welches Ergebnis Sie erwartet haben,",
+	"faq.section7.a5.li3": "was stattdessen passiert ist,",
+	"faq.section7.a5.li4": "ob eine Fehlermeldung angezeigt wurde.",
+	"faq.section7.a5.p3":
+		"Übermitteln Sie keine unnötigen personenbezogenen oder vertraulichen Inhalte.",
+	"faq.section7.a5.link1.title": "Feedbackformular",
+	"faq.section7.a5.link1.href":
+		"https://citylabberlin.typeform.com/to/GhoCHw0J",
+
+	/* -------------------- FAQ landing page references -------------------- */
 	"faq.section1.q9": "Wie beginne ich mit der Nutzung von BärGPT?",
-
 	"faq.section1.a9.li1": `Öffnen Sie Ihren Browser und geben die Adresse 
 							<a class="underline underline-offset-6"
 							href="https://www.baergpt.berlin"
@@ -283,512 +835,26 @@ export const content = {
 							rel="noopener noreferrer"
 						>www.baergpt.berlin</a> ein.`,
 	"faq.section1.a9.li2":
-		"Klicken Sie auf “Anmelden” im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
+		"Klicken Sie auf Anmelden im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
 	"faq.section1.a9.li3": "Nach der Anmeldung können Sie direkt loslegen:",
 	"faq.section1.a9.li3.p1":
-		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche „Datei hochladen“ oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
+		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche Datei hochladen oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
 	"faq.section1.a9.li3.p2":
-		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. „Was steht im Abschnitt zur Budgetplanung?“",
+		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. Was steht im Abschnitt zur Budgetplanung?",
 	"faq.section1.a9.li4":
-		"BärGPT erstellt daraufhin eine Antwort, den Sie anpassen oder weiter verfeinern können.",
+		"BärGPT erstellt daraufhin eine Antwort, die Sie anpassen oder weiter verfeinern können.",
 	"faq.section1.a9.link.title": "Arbeiten mit BärGPT",
 	"faq.section1.a9.link.href": "/arbeiten-mit-baergpt",
-
-	"faq.section1.a9.h4": "Weitere Links und Tutorials",
 	"faq.section1.a2.video1.title": "Erste Schritte mit BärGPT",
 	"faq.section1.a2.video1.linkName": "Erste Schritte mit BärGPT",
 	"faq.section1.a2.video2.title": "Dokumente hochladen leicht gemacht",
 	"faq.section1.a2.video2.linkName": "Dokumente hochladen leicht gemacht",
 	"faq.section1.a2.video3.title": "Starke Anfragen formulieren mit BärGPT",
 	"faq.section1.a2.video3.linkName": "Starke Anfragen formulieren mit BärGPT",
-
-	/* -------------------- Section 2 - Datenschutz & Datensicherheit -------------------- */
-	"faq.section2.title": "Datenschutz & Datensicherheit",
-	//Section 2 - Question 1
-	"faq.section2.q1": "Ist BärGPT DSGVO-konform?",
-	"faq.section2.a1":
-		"BärGPT ist gemäß den Anforderungen der Datenschutz-Grundverordnung (DSGVO) konzipiert und betrieben. Alle personenbezogenen Daten werden ausschließlich auf Servern innerhalb der Europäischen Union verarbeitet. Die Anwendung verwendet ausschließlich Open-Source-Komponenten, die so integriert sind, dass eine datenschutzkonforme Verarbeitung gewährleistet ist. Alle Eingaben werden vertraulich behandelt und nicht zur Weiterentwicklung des Modells verwendet.",
-
-	//Section 2 - Question 2
-	"faq.section2.q2": "Wer ist verantwortlich für den Datenschutz bei BärGPT?",
-	"faq.section2.a2.h4": "Datenschutzbeauftragter",
-	"faq.section2.a2.p1": `Der Regierende Bürgermeister von Berlin - Senatskanzlei <br />
-							Der behördliche Datenschutzbeauftragte <br />
-							Jüdenstr. 1 <br />
-							10178 Berlin <br />
-							E-Mail: 
-							<a class="underline underline-offset-6"
-								href="mailto:behDSB@senatskanzlei.berlin.de"
-								target="_blank"
-								rel="noopener noreferrer">
-								behDSB@senatskanzlei.berlin.de
-							</a>
-	`,
-
-	//Section 2 - Question 3
-	"faq.section2.q3": "Was passiert mit meinen Eingaben?",
-	"faq.section2.a3":
-		"Ihre Eingaben werden ausschließlich für die Verarbeitung Ihrer Anfrage genutzt. Sie fließen nicht in das Training des Modells ein und werden nicht an externe Anbieter weitergegeben. Personenbezogene Daten werden nur so lange gespeichert, wie es für die Erfüllung des Zwecks erforderlich ist.",
-
-	//Section 2 - Question 4
-	"faq.section2.q4": "Wo und wie werden meine Daten gespeichert?",
-	"faq.section2.a4":
-		"Persönliche Daten werden ausschließlich in deutschen Rechenzentren gemäß dem BSI C5-Standard gespeichert. Sie sind während Übertragung und Speicherung verschlüsselt und werden nach Zweckerfüllung ordnungsgemäß gelöscht.",
-
-	//Section 2 - Question 5
-	"faq.section2.q5":
-		"Was passiert bei längerer Inaktivität oder Accountlöschung?",
-	"faq.section2.a5.p1":
-		"Wenn Sie sich über einen längeren Zeitraum von zwölf Monaten nicht bei BärGPT angemeldet haben, erhalten Sie eine E-Mail mit der Bitte, sich innerhalb von 14 Tagen anzumelden. Erfolgt dies nicht, wird der Account als inaktiv bewertet und inklusive aller persönlichen Daten und Einstellungen, Chats und Dateien gelöscht – vollständig und unwiderruflich.",
-	"faq.section2.a5.p2":
-		"Sie können Ihren Account jederzeit selbst löschen, die Funktion dazu finden Sie in Ihrem Nutzendenprofil.",
-	"faq.section2.a5.p3":
-		"Auch bei automatischer oder administrativer Löschung gilt:",
-	"faq.section2.a5.li1":
-		"<strong>Chats und Dokumente:</strong> können jederzeit manuell gelöscht werden; die Löschung erfolgt sofort und endgültig.",
-	"faq.section2.a5.li2":
-		"<strong>Deaktivierte Accounts:</strong> werden unmittelbar endgültig gelöscht.",
-	"faq.section2.a5.li3":
-		"<strong>Backups:</strong> werden nach einem festgelegten Rotationsplan (z. B. täglich, wöchentlich, monatlich) überschrieben und damit gelöscht.",
-	"faq.section2.a5.li4":
-		"<strong>Support- und Diagnosedaten:</strong> werden nach Abschluss der Fehleranalyse gelöscht oder anonymisiert.",
-
-	//Section 2 - Question 6
-	"faq.section2.q6":
-		"Wird die Nutzung von BärGPT protokolliert oder ausgewertet?",
-	"faq.section2.a6":
-		"Ja, die Nutzung von BärGPT wird technisch protokolliert, um den Betrieb, die Sicherheit und die Weiterentwicklung der Anwendung zu gewährleisten. Dabei werden ausschließlich anonymisierte Metadaten erfasst – zum Beispiel, wann ein Chat gestartet wurde oder welche Funktionen genutzt wurden. Diese Daten enthalten keine Inhalte von Chats oder Dokumenten und lassen keine Rückschlüsse auf einzelne Personen zu. Eine personenbezogene Auswertung der Nutzung findet grundsätzlich nicht statt. Die erhobenen technischen Protokolle werden regelmäßig gelöscht, sobald sie für den genannten Zweck nicht mehr erforderlich sind.",
-
-	//Section 2 - Question 7
-	"faq.section2.q7": "Wer hat Zugriff auf meine Daten?",
-	"faq.section2.a7":
-		"Der Zugriff auf Daten in BärGPT ist streng reglementiert. Nur Sie haben Zugriff auf Ihre persönliche Chats und Dokumente. Es gibt keine manuelle Einsicht durch Mitarbeitende, keine Weitergabe an Dritte und keine Nutzung zu anderen Zwecken.",
-
-	//Section 2 - Question 8
-	"faq.section2.q8":
-		"Darf ich personenbezogene und sensible Daten mit BärGPT verarbeiten?",
-	"faq.section2.a8.p1.1":
-		"Ja, das dürfen Sie. Dabei gibt es ein paar Dinge zu beachten:",
-	"faq.section2.a8.p1.2":
-		"Personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) dürfen gemäß § 16a EGovG Bln in BärGPT verarbeitet werden, wenn dies für die Erfüllung Ihrer dienstlichen Aufgabe erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden, nicht zu Trainingszwecken verwendet und nicht durch Dritte eingesehen werden.",
-	"faq.section2.a8.p1.3": "Beachten Sie dennoch folgende Grundsätze:",
-	"faq.section2.a8.li1":
-		"Gehen Sie mit sensiblen Informationen stets umsichtig um.",
-	"faq.section2.a8.li2":
-		"Anonymisieren oder abstrahieren Sie Daten, wann immer dies möglich ist.",
-	"faq.section2.a8.li3":
-		"Löschen Sie Chats oder Dokumente, sobald Sie diese nicht mehr benötigen.",
-	"faq.section2.a8.link.title": "Rundschreiben zu § 16a E-Government-Gesetz",
-	"faq.section2.a8.link.subtitle": "PDF",
-	"faq.section2.a8.link.href":
-		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
-
-	/* -------------------- Section 3 - Konto & Anmeldung -------------------- */
-	"faq.section3.title": "Konto & Anmeldung",
-	//Section 3 - Question 1
-	"faq.section3.q1": "Warum kann ich mich nicht einloggen?",
-	"faq.section3.a1.p1":
-		"Es kann mehrere Gründe geben, warum der Login nicht funktioniert:",
-	"faq.section3.a1.li1":
-		"<strong>Falsche E-Mail-Adresse oder Passwort:</strong> Stellen Sie sicher, dass Sie die korrekten Anmeldedaten verwenden. Achten Sie auf Tippfehler und Groß-/Kleinschreibung.",
-	"faq.section3.a1.li2":
-		"<strong>Passwort vergessen:</strong> Klicken Sie auf „Passwort vergessen?“ auf der Login-Seite, um ein neues Passwort festzulegen.",
-	"faq.section3.a1.li3":
-		"<strong>Konto noch nicht erstellt:</strong> Wenn Sie sich zum ersten Mal anmelden, müssen Sie zunächst ein Benutzerkonto anlegen.",
-	"faq.section3.a1.li4":
-		"<strong>Technisches Problem:</strong> Es kann vorübergehend zu Störungen kommen. Versuchen Sie es später noch einmal.",
-
-	//Section 3 - Question 2
-	"faq.section3.q2": "Warum kann ich mich nicht registrieren?",
-	"faq.section3.a2.p1":
-		"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
-	"faq.section3.a2.h4.p1": "Die E-Mail-Adresse ist bereits vergeben.",
-	"faq.section3.a2.p2":
-		"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
-	"faq.section3.a2.h4.p2": "Ihre Domäne ist nicht freigeschaltet.",
-	"faq.section3.a2.p3":
-		"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
-	"faq.section3.a2.li1":
-		"<strong>Generell erlaubt:</strong> @subdomain.berlin.de",
-	"faq.section3.a2.li2": "<strong>Generell nicht erlaubt:</strong> @berlin.de",
-	"faq.section3.a2.li3": `<strong>Weitere Domains erlaubt:</strong><br />
-							@charlottenburg-wilmersdorf.de<br />
-							@bezirksamt-neukoelln.de<br />
-							@parlament-berlin.de<br />
-							@berliner-feuerwehr.de<br />
-							@statistik-bbb.de<br />
-							@lfg-b.de<br />
-							@senbjf-goeurope.de<br />
-							@aufarbeitung-berlin.de<br />
-							@bebuepol-berlin.de<br />
-							@anlaufstelle-buergerbeteiligung.de<br />
-							@itdz-berlin.de<br />
-							@sfbb.berlin-brandenburg.de<br />
-							@lme.berlin-brandenburg.de`,
-	"faq.section3.a2.h4.p3": "Die Bestätigungsmail ist nicht angekommen.",
-	"faq.section3.a2.p4":
-		"Schauen Sie im Spam-/Junk-Ordner nach und prüfen Sie ggf. Firmenfilter. Sie können den Bestätigungslink auch neu senden.",
-	"faq.section3.a2.h4.p4": "Das Passwort erfüllt die Anforderungen nicht.",
-	"faq.section3.a2.p5":
-		"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
-	"faq.section3.a2.h4.p5": "Ihre IT blockiert die Bestätigungsmail.",
-	"faq.section3.a2.p6":
-		"Bitten Sie Ihre IT, die Absenderadresse <strong>@baergpt.berlin</strong> zuzulassen, damit die Mail zugestellt werden kann.",
-
-	//Section 3 - Question 3
-	"faq.section3.q3": "Ich habe mein Passwort vergessen?",
-	"faq.section3.a3.p1":
-		"Wenn Sie Ihr Passwort für BärGPT vergessen haben oder ändern möchten, können Sie es selbst zurücksetzen:",
-	"faq.section3.a3.li1": "Gehen Sie auf die Login-Seite von BärGPT.",
-	"faq.section3.a3.li2": "Klicken Sie auf „Passwort vergessen?“.",
-	"faq.section3.a3.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
-	"faq.section3.a3.li4":
-		"Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts. Folgen Sie dem Link und vergeben Sie ein neues Passwort.",
-	"faq.section3.a3.p2": `Falls Sie keine E-Mail erhalten, prüfen Sie bitte Ihren Spam-Ordner oder wenden Sie sich an 
-		<a class="underline underline-offset-6"
-							href="mailto:support@baergpt.berlin"
-							target="_blank"
-							rel="noopener noreferrer"
-						>support@baergpt.berlin</a>.`,
-
-	//Section 3 - Question 4
-	"faq.section3.q4": "Wie ändere ich meine Nutzerdaten?",
-	"faq.section3.a4.l1":
-		"Sie können Ihre persönlichen Daten jederzeit anpassen – dazu gehören Name, E-Mail-Adresse und Passwort.",
-	"faq.section3.a4.l2":
-		" Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
-	"faq.section3.a4.l3": " Wählen Sie „Profil“ aus.",
-	"faq.section3.a4.l4":
-		" In der Eingabemaske können Sie Ihre Angaben ändern und anschließend speichern.",
-	"faq.section3.a4.l5":
-		" Zusätzlich können Sie einstellen, wie Sie von BärGPT angesprochen werden möchten: Bevorzugen Sie ein freundliches „Du“, verschieben Sie den Schieberegler entsprechend.",
-
-	//Section 3 - Question 5
-	"faq.section3.q5": "Wie lösche ich mein Benutzerkonto?",
-	"faq.section3.a5.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
-	"faq.section3.a5.li1":
-		"Öffnen Sie Ihren Nutzeraccount (oben rechts auf der Startseite).",
-	"faq.section3.a5.li2": "Klicken Sie auf „Konto löschen“.",
-	"faq.section3.a5.li3":
-		"Bestätigen Sie die Löschung im anschließenden Hinweisfenster.",
-	"faq.section3.a5.p2":
-		"Nach Ihrer Bestätigung werden alle personenbezogenen Daten und gespeicherten Chatverläufe gemäß den Datenschutzbestimmungen dauerhaft gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
-	"faq.section3.a5.p3":
-		"<strong>Hinweis:</strong> Nach der Löschung ist eine erneute Nutzung von BärGPT nur durch eine neue Registrierung möglich.",
-	"faq.section3.a5.p4":
-		"Weitere Informationen zur Verwendung Ihrer Daten finden Sie hier:",
-	"faq.section3.a5.link.title": "Datenschutz & Datensicherheit",
-	"faq.section3.a5.link.href": "Datenschutz & Datensicherheit",
-
-	/* -------------------- Section 4 - Arbeiten im Chat (Prompting) -------------------- */
-	"faq.section4.title": "Arbeiten im Chat (Prompting)",
-	//Section 4 - Question 1
-	"faq.section4.q1": "Wie kommuniziere ich mit BärGPT?",
-	"faq.section4.a1.p1":
-		"Rechts befindet sich der Chatbereich. Dort können Sie Ihre Anfrage direkt in das Chatfenster eingeben. Schreiben Sie einfach in Alltagssprache so, als würden Sie einer Kollegin oder einem Kollegen eine Aufgabe erklären.",
-	"faq.section4.a1.p2":
-		"BärGPT versteht sowohl vollständige Fragen als auch kurze Anweisungen. Je genauer Sie Ihr Anliegen beschreiben, desto passender wird die Antwort. Nennen Sie, wenn möglich Ziel, Kontext und gewünschtes Format, zum Beispiel: „Fasse den Text als Stichpunkte zusammen“ oder „Formuliere eine E-Mail zur Projektabstimmung“.",
-	"faq.section4.a1.link.title":
-		"Hilfestellungen für gutes Prompting finden Sie im Bereich “Arbeiten mit KI“",
-	"faq.section4.a1.link.href": "/arbeiten-mit-baergpt",
-
-	//Section 4 - Question 2
-	"faq.section4.q2": "Was ist der „Freie Chat“?",
-	"faq.section4.a2.p1":
-		"Im Freien Chat können Sie ohne Vorlage oder vorgegebenes Thema mit BärGPT arbeiten. Er eignet sich für allgemeine Aufgaben wie Textentwürfe, Übersetzungen oder Formulierungshilfen. Sie können hier auch allgemeine Fragen stellen. Wenn Sie spezielles Verwaltungswissen abrufen möchten, können Sie BärGPT einfach eine Frage dazu stellen. Das System nutzt dann automatisch das Verwaltungsbasiswissen als Quelle.",
-	"faq.section4.a2.link.title":
-		"Informationen zum Verwaltungswissen finden Sie im Bereich “KI Wissen & Antworten”",
-	"faq.section4.a2.link.href": "KI Wissen & Antworten",
-
-	//Section 4 - Question 3
-	"faq.section4.q3": "Was tun, wenn keine Antwort kommt?",
-	"faq.section4.a3.p1": "Längere Ladezeiten können auftreten, wenn:",
-	"faq.section4.a3.li1": "das hochgeladene Dokument sehr umfangreich ist,",
-	"faq.section4.a3.li2": "der Server stark ausgelastet ist oder",
-	"faq.section4.a3.li3": "Ihre Internetverbindung langsam reagiert.",
-	"faq.section4.a3.p2": `Wenn die Antwort ungewöhnlich lange dauert, brechen Sie die Anfrage ab und starten Sie den Chat neu. Wenn der Fehler wiederholt auftritt, melden Sie ihn über:
-						<a class="underline underline-offset-6"
-							href="mailto:support@baergpt.berlin">
-							support@baergpt.berlin
-						</a>`,
-
-	//Section 4 - Question 4
-	"faq.section4.q4": "Was mache ich, wenn BärGPT meine Frage nicht versteht?",
-	"faq.section4.a4.p1":
-		"Wenn BärGPT die Anfrage nicht richtig interpretiert, versuchen Sie:",
-	"faq.section4.a4.li1": "kurze, klare Sätze ohne Fachjargon",
-	"faq.section4.a4.li2":
-		"konkrete Fragen statt allgemeiner Themen („Wie wird der Zuschuss beantragt?“ statt „Zuschussverfahren“)",
-	"faq.section4.a4.li3":
-		"ggf. ein Stichwort oder Dokument als Bezug („Beziehe dich auf die PDF ‚Förderprogramm‘“)",
-	"faq.section4.a4.p2":
-		"Wenn weiterhin keine sinnvolle Antwort erscheint, starten Sie den Chat neu.",
-
-	//Section 4 - Question 5
-	"faq.section4.q5": "Wie kann ich eine falsche Antwort verbessern lassen?",
-	"faq.section4.a5.p1":
-		"Sie können BärGPT direkt im Chat um eine Korrektur bitten, z. B.:",
-	"faq.section4.a5.li1":
-		"„Überarbeite bitte den Abschnitt zur Begründung, er enthält einen Fehler.“",
-	"faq.section4.a5.p2": "Oder geben Sie zusätzliche Informationen:",
-	"faq.section4.a5.li2":
-		"„Beziehe dich bitte auf das Dokument ‚Förderrichtlinie 2024‘.“",
-	"faq.section4.a5.link.title":
-		"Auf der Seite Prompting finden Sie praxisnahe Hinweise und Beispiele, wie Sie Ihre Anfragen noch gezielter stellen können“",
-	"faq.section4.a5.link.href": "/arbeiten-mit-baergpt",
-
-	//Section 4 - Question 6
-	"faq.section4.q6":
-		"Wie kann ich meine Ergebnisse speichern oder exportieren?",
-	"faq.section4.a6.p1": "Unter jeder Antwort finden Sie zwei Schaltflächen:",
-	"faq.section4.a6.li1":
-		"<strong>Kopieren:</strong> Übernimmt den Text der Antwort direkt in Ihre Zwischenablage. Sie können ihn anschließend in Ihre E-Mail oder ein anderes Dokument einfügen.",
-	"faq.section4.a6.li2":
-		"<strong>Exportieren:</strong> Lädt die Antwort als <strong>.docx</strong> oder <strong>.pdf-Datei</strong> herunter.",
-
-	//Section 4 - Question 7
-	"faq.section4.q7": "Kann ich meine bisherigen Chats wiedersehen?",
-	"faq.section4.a7":
-		"Ja. Ihre bisherigen Chats werden in Ihrem persönlichen Verlauf gespeichert und bleiben erhalten, bis Sie sie manuell löschen. Sie können diese jederzeit öffnen, bearbeiten oder fortsetzen. Aus Datenschutzgründen sind Chats nur für Sie sichtbar und nicht für andere Nutzende.",
-
-	//Section 4 - Question 8
-	"faq.section4.q8": "Erkennt BärGPT Fachbegriffe oder Abkürzungen?",
-	"faq.section4.a8":
-		"Ja, gängige Verwaltungsbegriffe und Abkürzungen erkennt BärGPT in der Regel automatisch. Wenn Sie sicherstellen möchten, dass ein Begriff richtig verstanden wird, können Sie ihn einmal kurz ausschreiben oder Sie laden ein Dokument hoch, indem die Fachbegriffe erklärt werden.",
-
-	//Section 4 - Question 9
-	"faq.section4.q9": "Warum finde ich bestimmte Informationen nicht?",
-	"faq.section4.a9.p1":
-		"BärGPT funktioniert nicht wie eine Internet-Suchmaschine. Es greift nur auf Informationen zu, die in der internen Wissensdatenbank und dem Verwaltungsbasiswissen oder in Ihren hochgeladenen Dokumenten enthalten sind.",
-	"faq.section4.a9.p2":
-		"Wenn Sie also keine passende Antwort erhalten, kann das mehrere Gründe haben:",
-	"faq.section4.a9.li1":
-		"Die gesuchte Information ist nicht im hinterlegten Wissensbestand enthalten.",
-	"faq.section4.a9.li2":
-		"Ihre Wortwahl unterscheidet sich von der Formulierung im Dokument.",
-	"faq.section4.a9.li3":
-		"Das Thema liegt außerhalb des Aufgabenbereichs von BärGPT (z. B. private, externe oder tagesaktuelle Inhalte).",
-	"faq.section4.a9.p3":
-		"<strong>Tipp:</strong> Versuchen Sie, die Anfrage mit synonymen Begriffen oder einer genaueren Beschreibung zu stellen.",
-	"faq.section4.a9.link.title":
-		"Im Abschnitt KI Wissen erhalten Sie ausführliche Informationen darüber, woher BärGPT sein Wissen nimmt.",
-	"faq.section4.a9.link.href": "KI Wissen & Antworten",
-
-	//Section 4 - Question 10
-	"faq.section4.q10": "Warum wiederholt BärGPT manchmal Informationen?",
-	"faq.section4.a10.p1":
-		"Das kann passieren, wenn ähnliche Formulierungen in Ihren Dokumenten oder im Verwaltungswissen mehrfach vorkommen. Das Modell erkennt dann Redundanzen nicht immer als solche. Sie können das leicht vermeiden, indem Sie:",
-	"faq.section4.a10.li1":
-		"die Anfrage präziser formulieren („Nur eine kurze Zusammenfassung, keine Wiederholungen“)",
-	"faq.section4.a10.li2": "oder die Antwort nachträglich kürzen.",
-
-	/* -------------------- Section 5 - Arbeiten mit Dokumenten -------------------- */
-
-	"faq.section5.title": "Arbeiten mit Dokumenten",
-	//Section 5 - Question 1
-	"faq.section5.q1": "Wie lade ich eine Datei hoch?",
-	"faq.section5.a1.p1":
-		"Sie haben zwei einfache Möglichkeiten, eine Datei hochzuladen:",
-	"faq.section5.a1.p2": 'Über die Schaltfläche "Datei hochladen":',
-	"faq.section5.a1.li1":
-		"Klicken Sie auf die Schaltfläche „Datei hochladen“ im Dateibereich.",
-	"faq.section5.a1.li2": "Wählen Sie ein Dokument von Ihrem Computer aus.",
-	"faq.section5.a1.li3":
-		"Die Datei wird automatisch in Ihrem Dateibereich gespeichert.",
-	"faq.section5.a1.p3": "Per Drag & Drop:",
-	"faq.section5.a1.li4":
-		"Ziehen Sie die Datei direkt in den Dateibereich der Anwendung.",
-	"faq.section5.a1.p4": "<strong>Hinweis:</strong>",
-	"faq.section5.a1.li5": "Sie können bis zu 5 Dokumente parallel hochladen.",
-	"faq.section5.a1.li6":
-		"Die Maximale Dateigröße ist 10 MB pro Datei. Teilen Sie größere Dateien in mehrere Abschnitte und laden Sie diese getrennt hoch.",
-	"faq.section5.a1.li7":
-		"Im Dateibereich können insgesamt bis zu 30 Dokumente hinterlegt werden.",
-
-	//Section 5 - Question 2
-	"faq.section5.q2": "Welche Dateiformate kann ich hochladen?",
-	"faq.section5.a2.p1":
-		"Aktuell unterstützt die Dokumentenfunktion von BärGPT den Upload von folgenden Formten:",
-	"faq.section5.a2.li1":
-		"<strong>PDF (.pdf):</strong> zur Zusammenfassung, Textanalyse oder Formulierung von Antworten.",
-	"faq.section5.a2.li2":
-		"<strong>Word (.docx):</strong> für die Bearbeitung und Analyse von Textdokumenten.",
-	"faq.section5.a2.li3":
-		"<strong>Excel (.xlsx):</strong> zum Analysieren, Sortieren und Zusammenfassen von Tabellen (z. B. Kennzahlen, Protokolle).",
-	"faq.section5.a2.li4":
-		"<strong>CSV (.csv):</strong> für strukturierte Datenabfragen und Analysen.",
-
-	//Section 5 - Question 3
-	"faq.section5.q3": "Warum dauert der Dateiupload so lange?",
-	"faq.section5.a3":
-		"Nach dem Hochladen wird Ihre Datei nicht nur gespeichert, sondern auch im Hintergrund verarbeitet z. B. analysiert, in lesbare Textformate umgewandelt und für den Chat vorbereitet. Je nach Größe und Inhalt der Datei kann das einige Sekunden dauern.",
-
-	//Section 5 - Question 4
-	"faq.section5.q4": "Wie chatte ich mit meinen Dateien?",
-	"faq.section5.a4.p1":
-		"Sobald Sie eine Datei hochgeladen haben, können Sie direkt Fragen zu ihrem Inhalt stellen.",
-	"faq.section5.a4.li1":
-		"Beispiel: „Was steht im Abschnitt zur Budgetplanung?“",
-	"faq.section5.a4.p2":
-		"BärGPT durchsucht die Datei, analysiert den Text und gibt Ihnen eine passende Antwort zurück.",
-
-	//Section 5 - Question 5
-	"faq.section5.q5": "Kann ich mehrere Dateien gleichzeitig befragen?",
-	"faq.section5.a5.p1":
-		"Ja. BärGPT berücksichtigt alle <strong>hochgeladenen und hinzugefügten Dateien</strong> beim Beantworten Ihrer Fragen.",
-
-	"faq.section5.a5.li1":
-		"Sie können mehrere Dateien einzeln auswählen und dem Chat hinzufügen.",
-	"faq.section5.a5.li2":
-		"Alternativ können Sie auch einen <strong>ganzen Ordner</strong> auswählen.",
-
-	"faq.section5.a5.video1.title":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
-	"faq.section5.a5.video1.linkName":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
-
-	/* -------------------- Section 6 - Dokumentenverwaltung -------------------- */
-	"faq.section6.title": "Dokumentenverwaltung",
-	//Section 6 - Question 1
-	"faq.section6.q1": "Was passiert, wenn ich eine Datei lösche?",
-	"faq.section6.a1":
-		"Gelöschte Dateien werden unwiderruflich entfernt und sind nicht wieder herzustellen.",
-	//Section 6 - Question 2
-	"faq.section6.q2": "Wie lege ich einen Ordner an?",
-	"faq.section6.a2":
-		"Klicken Sie im Dateibereich auf die Schaltfläche „Neuer Ordner“. Geben Sie anschließend einen Namen ein und bestätigen Sie mit Enter. Der Ordner erscheint sofort in Ihrer Übersicht.",
-	"faq.section6.a2.video1.title": "Ordner erstellen und Dateien sortieren",
-	"faq.section6.a2.video1.linkName": "Ordner erstellen und Dateien sortieren",
-	//Section 6 - Question 3
-	"faq.section6.q3": "Wie lösche ich einen Ordner?",
-	"faq.section6.a3": "Um einen Ordner zu löschen, gehen Sie wie folgt vor:",
-	"faq.section6.a3.li1":
-		"Wählen Sie den Ordner aus, den Sie entfernen möchten.",
-	"faq.section6.a3.li2": "Klicken Sie auf das Papierkorb-Symbol oben rechts.",
-	"faq.section6.a3.li3": "Bestätigen Sie die Löschung im angezeigten Dialog.",
-	//Section 6 - Question 4
-	"faq.section6.q4": "Kann ich Dateien und Ordner umbenennen?",
-	"faq.section6.a4":
-		"Derzeit ist das Umbenennen von Dateien und Ordnern leider nicht möglich. Wir arbeiten daran, diese Funktion in einer zukünftigen Version bereitzustellen. Bis dahin empfehlen wir, Dateien bereits vor dem Hochladen sinnvoll zu benennen, um die Übersicht zu behalten.",
-	//Section 6 - Question 5
-	"faq.section6.q5": "Wie verschiebe ich eine Datei in einen anderen Ordner?",
-	"faq.section6.a5":
-		"Ziehen Sie die Datei einfach per Drag & Drop in den gewünschten Ordner.",
-
-	/* -------------------- Section 7 - KI Wissen & Antworten -------------------- */
-	"faq.section7.title": "KI Wissen & Antworten",
-	//Section 7 - Question 1
-	"faq.section7.q1": "Woher stammen die Informationen die BärGPT nutzt?",
-	"faq.section7.a1.p1": "BärGPT arbeitet mit drei Arten von Wissen:",
-	"faq.section7.a1.p2.h4": "Allgemeines Sprach- und Sachwissen der KI",
-	"faq.section7.a1.p2":
-		"Das KI-Modell von Mistral wurde mit großen Mengen öffentlich zugänglicher Texte, wie z.B. Artikeln, Webseiten und Lehrbüchern, trainiert. Dadurch versteht BärGPT Sprache und allgemeine Zusammenhänge. Dieses Wissen ist nicht mit dem Internet verbunden. BärGPT ruft also keine aktuellen Webseiten oder Datenbanken ab, sondern nutzt das vorhandene Sprachverständnis, um Antworten zu formulieren.",
-	"faq.section7.a1.p3.h4": "Verwaltungswissen Berlin",
-	"faq.section7.a1.p3":
-		"Zusätzlich kann BärGPT auf Dokumente aus der Berliner Verwaltung zugreifen. Diese Informationen wurden geprüft und in einem eigenen Wissensspeicher hinterlegt, der regelmäßig aktualisiert wird. Wenn BärGPT auf dieses Wissen zurückgreift, zeigt er automatisch Quellenangaben an. So können Sie nachvollziehen, aus welchem Dokument oder Abschnitt die Information stammt.",
-	"faq.section7.a1.p4.h4": "Eigene Dokumente",
-	"faq.section7.a1.p4":
-		"Sie können auch eigene Dokumente (PDF, Word oder Excel Dateien) hochladen. Diese werden nur vorübergehend verarbeitet, um Fragen zu beantworten oder Inhalte zusammenzufassen.",
-	"faq.section7.a1.link.title": "Arbeiten mit Dokumenten",
-	"faq.section7.a1.link.href": "Arbeiten mit Dokumenten",
-
-	//Section 7 - Question 2
-	"faq.section7.q2": "Wie funktioniert Verwaltungswissen?",
-	"faq.section7.a2.p1":
-		"Das Verwaltungswissen ist eine Sammlung allgemeiner Dokumente für die Berliner Verwaltung. Es umfasst offizielle Texte wie zum Beispiel die Gemeinsame Geschäftsordnung der Berliner Verwaltung (GGO 1 und 2), Landesorganisationsgesetz, Verfassung von Berlin und weitere Gesetze, Verordnungen und Handbücher. Eine vollständige Liste der hinterlegten Dokumente mit Links zum Herunterladen finden Sie in Ihrem Benutzerprofil.",
-	"faq.section7.a2.p2":
-		"Diese Inhalte sind öffentlich oder verwaltungsintern zugänglich und werden so aufbereitet, dass BärGPT sie verstehen und gezielt durchsuchen kann. Wenn BärGPT daraus Informationen verwendet, werden automatisch Quellenangaben angezeigt. Sie können so sehen, aus welchem Dokument und Abschnitt eine Antwort stammt.",
-	"faq.section7.a2.p3":
-		"Das Verwaltungswissen wird regelmäßig überprüft und aktualisiert, damit die Informationen möglichst verlässlich und aktuell bleiben.",
-	"faq.section7.a2.h4": "So funktioniert es im Hintergrund:",
-	"faq.section7.a2.li1":
-		"Bestimmte Dokumente werden als Verwaltungswissen von Administrator:innen hinterlegt.",
-	"faq.section7.a2.li2":
-		"Die Inhalte werden in kleinere Textabschnitte zerlegt und in einer Datenbank gespeichert.",
-	"faq.section7.a2.li3":
-		"Wenn Sie eine Frage stellen, prüft BärGPT, ob dafür das Verwaltungswissen relevant ist.",
-	"faq.section7.a2.li4":
-		"Falls ja, werden die passenden Dokumentenabschnitte gesucht und in die Antwort eingebunden.",
-	"faq.section7.a2.li5":
-		"Über die Schaltfläche „Quellen“ am Ende der Antwort können Sie die genutzten Dokumente und Textstellen direkt aufgerufen werden.",
-	"faq.section7.a2.li6":
-		"Falls nein, nutzt BärGPT das allgemeine Sprachwissen des Modells.",
-	"faq.section7.a2.p4":
-		"Sie können das Verwaltungswissen im Eingabebereich ihres Chatfensters jederzeit ein- oder ausschalten: Deaktivieren Sie dafür den Schalter „Verwaltungswissen“.",
-	//Section 7 - Question 3
-	"faq.section7.q3": "Welche Dokumente sind im Verwaltungswissen hinterlegt?",
-	"faq.section7.a3.p1":
-		"Alle für Sie hinterlegten Dokumente können Sie in Ihrem Profil einsehen. Klicken Sie dazu in der oberen Menüleiste auf das Icon mit Ihren Initialen (rechts oben) und wählen Sie „<strong>Profil</strong>“ aus.",
-	"faq.section7.a3.p2":
-		"Im Profil finden Sie den Bereich „<strong>Verwaltungswissen</strong>“, in dem alle Dokumente aufgelistet sind und zum Download bereitstehen.",
-	//Section 7 - Question 4
-	"faq.section7.q4": "Kann ich nachvollziehen, woher eine Information stammt?",
-	"faq.section7.a4.p1":
-		"Ja. Wenn BärGPT auf das hochgeladene Dokument oder das Verwaltungswissen zugreift, werden unter der Antwort automatisch Quellenangaben angezeigt. Über die Schaltfläche „Quellen“ können Sie sehen, aus welchem Dokument oder welchem Dokument die Information stammt, welcher Abschnitt oder Absatz genutzt wurde und direkt in das entsprechende Dokument navigieren. Die Quellen sind verlinkt, damit Sie die Originalstelle direkt öffnen und prüfen können. Diese Funktionalität sorgt für Transparenz und hilft, die Antworten fachlich einzuordnen.",
-	"faq.section7.a4.p2":
-		"Außerdem können Sie BärGPT aktiv darum bitten, seine Quellen zu nennen, zum Beispiel mit einer Anfrage wie: „Bitte gib mir die Quelle für diese Information.“ oder „Aus welchem Dokument stammen diese Angaben?“",
-	"faq.section7.a4.p3":
-		"<strong>Hinweis:</strong> Mehr Tipps & Tricks im Umgang mit KI finden Sie hier:",
-	"faq.section7.a4.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a4.link.href": "/arbeiten-mit-baergpt",
-
-	//Section 7 - Question 5
-	"faq.section7.q5": "Wie aktuell ist das Wissen von BärGPT?",
-	"faq.section7.a5.p1":
-		"Das Sprachmodell selbst wurde zuletzt am 01.10.2023 aktualisiert. Inhalte aus dem Verwaltungswissen werden regelmäßig überprüft und aktualisiert. Dennoch kann es vorkommen, dass einzelne Informationen veraltet sind.",
-
-	//Section 7 - Question 6
-	"faq.section7.q6": "Wie zuverlässig sind die Antworten von BärGPT?",
-	"faq.section7.a6.p1":
-		"BärGPT formuliert seine Antworten auf Basis von Wahrscheinlichkeiten. Das bedeutet: Die Texte sind meist plausibel, aber nicht immer korrekt. Die Zuverlässigkeit hängt vor allem davon ab, welche Datenquelle genutzt wird.",
-	"faq.section7.a6.li1":
-		"Antworten aus dem <strong>Verwaltungswissen</strong> beruhen auf geprüften Dokumenten, können aber falsch interpretiert oder ungenau wiedergegeben werden.",
-	"faq.section7.a6.li2":
-		"Antworten aus dem allgemeinen Sprachwissen sind eher als Orientierung zu verstehen.",
-	"faq.section7.a6.p2":
-		"Besonders bei rechtlichen, fachlichen oder aktuellen Themen sollten Sie die Angaben immer mit den Originalquellen oder Fachstellen abgleichen.",
-
-	//Section 7 - Question 7
-	"faq.section7.q7": "Warum kann BärGPT Fehler machen?",
-	"faq.section7.a7.p1":
-		"BärGPT versteht Sprache nicht inhaltlich, sondern erkennt statistische Muster in Texten. Dadurch kann es vorkommen, dass die KI plausible, aber falsche oder veraltete Aussagen macht. Typische Ursachen sind:",
-	"faq.section7.a7.li1":
-		"<strong>Unvollständige oder uneinheitliche Quellen:</strong> Wenn sich Informationen in den Trainingsdaten widersprechen, kann die KI nicht sicher entscheiden, welche stimmt.",
-	"faq.section7.a7.li2":
-		"<strong>Veraltetes Wissen:</strong> Das Sprachmodell selbst ist zu einem bestimmten Zeitpunkt trainiert worden und kennt keine aktuellen Entwicklungen.",
-	"faq.section7.a7.li3":
-		"<strong>Mehrdeutige Anfragen:</strong> Wenn eine Frage unklar formuliert ist, kann BärGPT sie missverstehen.",
-	"faq.section7.a7.li4":
-		"<strong>Fehlerhafte Kombinationen:</strong> Beim Zusammenfassen mehrerer Quellen können Details verloren gehen oder falsch verknüpft werden.",
-
-	//Section 7 - Question 8
-	"faq.section7.q8":
-		"Wie kann ich sicherstellen, dass die Informationen richtig sind?",
-	"faq.section7.a8.p1":
-		"Sie können selbst dazu beitragen, die Qualität der Antworten zu prüfen:",
-	"faq.section7.a8.li1":
-		"<strong>Quellen prüfen:</strong> Wenn eine Antwort Quellen enthält, öffnen Sie diese über die Schaltfläche „Quellen“ am Ende der Antwort. So sehen Sie den genauen Ursprung.",
-	"faq.section7.a8.li2":
-		"<strong>Fachlich abgleichen:</strong> Bei rechtlichen, organisatorischen oder aktuellen Themen immer mit offiziellen Dokumenten oder dem Fachbereich gegenprüfen.",
-	"faq.section7.a8.li3":
-		"<strong>Ergebnis hinterfragen:</strong> Wenn etwas unlogisch oder zu allgemein klingt, einfach nachfragen oder um eine genauere Begründung bitten.",
-	"faq.section7.a8.p2":
-		"<strong>Hinweis:</strong> Weitere nützliche Hinweise im Umgang mit KI finden Sie hier:",
-	"faq.section7.a8.link.title": "Arbeiten mit BärGPT",
-	"faq.section7.a8.link.href": "/arbeiten-mit-baergpt",
-
-	/* -------------------- Section 8 - Weitere Hilfe-------------------- */
-	"faq.section8.title": "Weitere Hilfe",
-	//Section 8 - Question 1
-	"faq.section8.q1": "Wo finde ich weitere Unterstützung?",
-	"faq.section8.a1.p1":
-		"Schauen Sie in unsere Video-Tutorials oder kontaktieren Sie den Support über ",
-	"faq.section8.a1.email": "support@baergpt.berlin",
-	"faq.section8.a1.link1.title": "Video-Tutorials Seite",
-	"faq.section8.a1.link1.href": "/tutorials",
-	"faq.section8.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
-	"faq.section8.a1.link2.href":
-		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
+	"faq.section6.a1.p1.landingPage":
+		"Personenbezogene Daten können mit BärGPT verarbeitet werden, wenn Ihre Behörde zur Verarbeitung dieser Daten für ihre Aufgabenerfüllung befugt ist und die gesetzlichen sowie internen Voraussetzungen erfüllt sind.",
+	"faq.section5.a1.p1.landingPage":
+		"Abhängig von der gewählten Funktion kann BärGPT unterschiedliche Informationsquellen verwenden:",
 
 	/* -------------------- Feedback -------------------- */
 	"feedback.title": "Haben Sie Feedback zu BärGPT?",
