@@ -15,7 +15,10 @@ import { useMenuStore } from "./store/use-menu-store";
 import { CookieBanner } from "~/components/cookie-banner/cookie-banner";
 
 export const links: Route.LinksFunction = () => [
-	{ rel: "icon", type: "image/svg+xml", href: "/citylab.png" },
+	{ rel: "icon", type: "image/svg+xml", href: "/logo/favicon/favicon.svg" },
+	{ rel: "icon", type: "image/x-icon", href: "/logo/favicon/favicon.ico" },
+	{ rel: "apple-touch-icon", href: "/logo/favicon/apple-touch-icon.png" },
+	{ rel: "manifest", href: "/logo/favicon/site.webmanifest" },
 ];
 
 export function Layout({ children }: { children: ReactNode }) {
@@ -29,18 +32,6 @@ export function Layout({ children }: { children: ReactNode }) {
 				<title>BärGPT Hilfecenter</title>
 				<Meta />
 				<Links />
-				{/* <!-- Favicon --> */}
-				<link
-					rel="icon"
-					href="../logo/favicon/favicon.svg"
-					type="image/svg+xml"
-				/>
-				<link
-					rel="icon"
-					href="../logo/favicon/favicon.ico"
-					type="image/x-icon"
-				/>
-				<link rel="manifest" href="../logo/favicon/site.webmanifest" />
 				{/* <!-- Matomo --> */}
 				<script>
 					{`var _paq = (window._paq = window._paq || []);
