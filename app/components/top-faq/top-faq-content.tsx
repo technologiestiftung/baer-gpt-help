@@ -119,6 +119,7 @@ export const topFaq = {
 							href={content["faq.section6.a1.link2.href"]}
 							title={content["faq.section6.a1.link2.title"]}
 							subtitle="PDF"
+							hasBorder={false}
 						/>
 					</div>
 				</div>
