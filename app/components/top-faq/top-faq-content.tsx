@@ -27,23 +27,21 @@ export const topFaq = {
 						<VideoItem
 							title={content["faq.section1.a1.video1.title"]}
 							href={`/faq/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
-							hasBorder={false}
 						/>
 						<DownloadItem
 							href={content["faq.section1.a1.link2.href"]}
 							title={content["faq.section1.a1.link2.title"]}
-							hasBorder={false}
 							subtitle="PDF"
 						/>
 						<DownloadItem
 							href={content["faq.section1.a1.link3.href"]}
 							title={content["faq.section1.a1.link3.title"]}
-							hasBorder={false}
 							subtitle="PDF"
 						/>
 						<AnchorLink
 							href={content["faq.section1.a1.link4.href"]}
 							title={content["faq.section1.a1.link4.title"]}
+							hasBorder={false}
 						/>
 					</div>
 				</div>

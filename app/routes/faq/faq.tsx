@@ -30,23 +30,21 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section1.a1.video1.title"]}
 									href={`/faq/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
-									hasBorder={false}
 								/>
 								<DownloadItem
 									href={content["faq.section1.a1.link2.href"]}
 									title={content["faq.section1.a1.link2.title"]}
-									hasBorder={false}
 									subtitle="PDF"
 								/>
 								<DownloadItem
 									href={content["faq.section1.a1.link3.href"]}
 									title={content["faq.section1.a1.link3.title"]}
-									hasBorder={false}
 									subtitle="PDF"
 								/>
 								<AnchorLink
 									href={content["faq.section1.a1.link4.href"]}
 									title={content["faq.section1.a1.link4.title"]}
+									hasBorder={false}
 								/>
 							</div>
 						</div>
@@ -85,17 +83,14 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section1.a3.link.href"]}
 									title={content["faq.section1.a3.link.title"]}
-									hasBorder={false}
 								/>
 								<VideoItem
 									title={content["faq.section1.a3.video1.title"]}
 									href={`/tutorials/${createSlug(content["faq.section1.a3.video1.linkName"])}`}
-									hasBorder={false}
 								/>
 								<VideoItem
 									title={content["faq.section1.a3.video2.title"]}
 									href={`/tutorials/${createSlug(content["faq.section1.a3.video2.linkName"])}`}
-									hasBorder={false}
 								/>
 								<VideoItem
 									title={content["faq.section1.a3.video3.title"]}
@@ -136,12 +131,10 @@ export const faq = {
 									href={content["faq.section1.a5.link1.href"]}
 									title={content["faq.section1.a5.link1.title"]}
 									subtitle="PDF"
-									hasBorder={false}
 								/>
 								<VideoItem
 									title={content["faq.section1.a5.video1.title"]}
 									href={`/tutorials/${createSlug(content["faq.section1.a5.video1.linkName"])}`}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section1.a5.link2.href"]}
@@ -174,7 +167,6 @@ export const faq = {
 									href={content["faq.section1.a7.link.href"]}
 									title={content["faq.section1.a7.link.title"]}
 									subtitle="PDF"
-									hasBorder={false}
 								/>
 								<DownloadItem
 									href={content["faq.section1.a7.link2.href"]}
@@ -337,7 +329,6 @@ export const faq = {
 								<VideoItem
 									title={content["faq.section3.a1.video1.title"]}
 									href={`/tutorials/${createSlug(content["faq.section3.a1.video1.linkName"])}`}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section3.a1.link1.href"]}
@@ -557,7 +548,6 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section4.a5.link1.href"]}
 									title={content["faq.section4.a5.link1.title"]}
-									hasBorder={false}
 								/>
 								<VideoItem
 									title={content["faq.section4.a5.video1.title"]}
@@ -631,7 +621,6 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section4.a8.link1.href"]}
 									title={content["faq.section4.a8.link1.title"]}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section4.a8.link2.href"]}
@@ -883,7 +872,6 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section5.a8.link1.href"]}
 									title={content["faq.section5.a8.link1.title"]}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section5.a8.link2.href"]}
@@ -940,12 +928,10 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section5.a11.link1.href"]}
 									title={content["faq.section5.a11.link1.title"]}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section5.a11.link2.href"]}
 									title={content["faq.section5.a11.link2.title"]}
-									hasBorder={false}
 								/>
 								<AnchorLink
 									href={content["faq.section5.a11.link3.href"]}
@@ -986,7 +972,6 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section6.a1.link1.href"]}
 									title={content["faq.section6.a1.link1.title"]}
-									hasBorder={false}
 								/>
 								<DownloadItem
 									href={content["faq.section6.a1.link2.href"]}
@@ -1013,7 +998,6 @@ export const faq = {
 								<AnchorLink
 									href={content["faq.section6.a2.link1.href"]}
 									title={content["faq.section6.a2.link1.title"]}
-									hasBorder={false}
 								/>
 								<DownloadItem
 									href={content["faq.section6.a2.link2.href"]}
@@ -1193,28 +1177,23 @@ export const faq = {
 							<AnchorLink
 								href={content["faq.section7.a3.link1.href"]}
 								title={content["faq.section7.a3.link1.title"]}
-								hasBorder={false}
 							/>
 							<DownloadItem
 								href={content["faq.section7.a3.link2.href"]}
 								title={content["faq.section7.a3.link2.title"]}
 								subtitle="PDF"
-								hasBorder={false}
 							/>
 							<AnchorLink
 								href={content["faq.section7.a3.link3.href"]}
 								title={content["faq.section7.a3.link3.title"]}
-								hasBorder={false}
 							/>
 							<AnchorLink
 								href={content["faq.section7.a3.link4.href"]}
 								title={content["faq.section7.a3.link4.title"]}
-								hasBorder={false}
 							/>
 							<AnchorLink
 								href={content["faq.section7.a3.link5.href"]}
 								title={content["faq.section7.a3.link5.title"]}
-								hasBorder={false}
 							/>
 							<AnchorLink
 								href={content["faq.section7.a3.link6.href"]}
