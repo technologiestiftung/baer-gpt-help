@@ -26,7 +26,7 @@ export const topFaq = {
 						</h4>
 						<VideoItem
 							title={content["faq.section1.a1.video1.title"]}
-							href={`/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
+							href={`/faq/${createSlug(content["faq.section1.a1.video1.linkName"])}`}
 							hasBorder={false}
 						/>
 						<DownloadItem

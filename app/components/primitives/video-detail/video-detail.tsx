@@ -5,7 +5,7 @@ import { createSlug } from "~/utils/create-slug";
 import { VimeoPlayer } from "~/components/primitives/video-players/vimeo-player";
 
 interface VideoDetailProps {
-	mainRoute: "tutorials" | "training";
+	mainRoute: "tutorials" | "training" | "faq";
 	videoElements: { videoTitle: string; videoLink: string }[];
 }
 
