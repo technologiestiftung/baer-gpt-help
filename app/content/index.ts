@@ -181,7 +181,7 @@ export const content = {
 	"faq.section1.a2.p2":
 		"Für Nutzung ist ein aktueller Browser (z. B. Edge, Chrome oder Firefox) und eine stabile Internetverbindung notwendig. Besondere technische Kenntnisse sind nicht erforderlich.",
 	"faq.section1.a2.p3":
-		"Ob Ihre Organisation bereits teilnehmen kann, erfahren Sie bei Ihrer internen Ansprechpers der Senatskanzlei.",
+		"Ob Ihre Organisation bereits teilnehmen kann, erfahren Sie bei Ihrer internen Ansprechperson der Senatskanzlei.",
 
 	// Section 1 - Question 3
 	"faq.section1.q3": "Wofür kann ich BärGPT nutzen?",
@@ -219,7 +219,7 @@ export const content = {
 	//Section 1 - Question 5
 	"faq.section1.q5": "Wie beginne ich mit der Nutzung von BärGPT?",
 	"faq.section1.a5.p1":
-		"Nach Resgistriung und Ihrer Anmeldung können Sie direkt eine Frage in das Chatfeld eingeben oder eine Datei zum Chat hinzufügen.",
+		"Nach Registrierung und Ihrer Anmeldung können Sie direkt eine Frage in das Chatfeld eingeben oder eine Datei zum Chat hinzufügen.",
 	"faq.section1.a5.p2": "Probieren Sie zum Beispiel:",
 	"faq.section1.a5.li1":
 		"„Fasse dieses Dokument in fünf Stichpunkten zusammen.“",
