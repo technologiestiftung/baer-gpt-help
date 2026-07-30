@@ -145,7 +145,7 @@ export const content = {
 	/* -------------------- FAQ PAGE -------------------- */
 	"faq.title": "Antworten auf häufige Fragen",
 	"faq.description":
-		"Sie suchen eine schnelle Antwort? In den FAQ finden Sie die häufigsten Fragen zu BärGPT von Anmeldung und Funktionen bis zu Datenschutz und technischen Problemen.",
+		"Sie suchen eine schnelle Antwort? Hier finden Sie Antworten auf häufige Fragen zu Anmeldung, Funktionen, Datenschutz und technischen Problemen.",
 	"faq.accordion.chevronDownAltText": "Antwort zeigen",
 	"faq.accordion.chevronUpAltText": "Antwort verstecken",
 	"faq.furtherLinksVideos.title": "Weiterführende Informationen",
@@ -179,9 +179,9 @@ export const content = {
 	"faq.section1.a2.p1":
 		"BärGPT steht Beschäftigten der Berliner Verwaltung zur Verfügung. Für die Registrierung benötigen Sie eine zugelassene dienstliche E-Mail-Adresse.",
 	"faq.section1.a2.p2":
-		"Für Nutzung ist ein aktueller Browser (z. B. Edge, Chrome oder Firefox) und eine stabile Internetverbindung notwendig. Besondere technische Kenntnisse sind nicht erforderlich.",
+		"Für die Nutzung ist ein aktueller Browser (z. B. Edge, Chrome oder Firefox) und eine stabile Internetverbindung notwendig. Besondere technische Kenntnisse sind nicht erforderlich.",
 	"faq.section1.a2.p3":
-		"Ob Ihre Organisation bereits teilnehmen kann, erfahren Sie bei Ihrer internen Ansprechperson der Senatskanzlei.",
+		"Ob Ihre Organisation bereits teilnehmen kann, erfahren Sie bei Ihrer internen Ansprechperson.",
 
 	// Section 1 - Question 3
 	"faq.section1.q3": "Wofür kann ich BärGPT nutzen?",
@@ -219,7 +219,7 @@ export const content = {
 	//Section 1 - Question 5
 	"faq.section1.q5": "Wie beginne ich mit der Nutzung von BärGPT?",
 	"faq.section1.a5.p1":
-		"Nach Registrierung und Ihrer Anmeldung können Sie direkt eine Frage in das Chatfeld eingeben oder eine Datei zum Chat hinzufügen.",
+		"Nach  der Registrierung und Anmeldung können Sie direkt eine Frage in das Chatfeld eingeben oder eine Datei zum Chat hinzufügen.",
 	"faq.section1.a5.p2": "Probieren Sie zum Beispiel:",
 	"faq.section1.a5.li1":
 		"„Fasse dieses Dokument in fünf Stichpunkten zusammen.“",
@@ -265,7 +265,7 @@ export const content = {
 	"faq.section2.a1.li3":
 		"Geben Sie Ihre dienstliche E-Mail-Adresse und ein Passwort ein.",
 	"faq.section2.a1.li4":
-		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail in ihrem Postfach.",
+		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail in Ihrem Postfach.",
 	"faq.section2.a1.li5":
 		"Bestätigen Sie Ihre Registrierung über den Link in der E-Mail.",
 	"faq.section2.a1.p1":
@@ -273,18 +273,18 @@ export const content = {
 
 	"faq.section2.q2": "Warum kann ich mich nicht registrieren?",
 	"faq.section2.a2.p1":
-		"Es gibt mehrere mögliche Ursachen, warum die Registrierung nicht funktioniert:",
+		"Die Registrierung kann aus mehreren Gründen fehlschlagen:“,
 	"faq.section2.a2.h4.1":
 		"Für die E-Mail-Adresse besteht bereits ein Benutzerkonto.",
 	"faq.section2.a2.p2":
-		"Möglicherweise existiert schon ein Account. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
+		"Möglicherweise existiert schon ein Benutzerkonto. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
 	"faq.section2.a2.h4.2":
 		"Ihre dienstliche E-Mail-Domain ist nicht freigeschaltet.",
 	"faq.section2.a2.p3":
 		"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
 	"faq.section2.a2.h4.3": "Das Passwort erfüllt die Anforderungen nicht.",
 	"faq.section2.a2.p4":
-		"Nutzen Sie ein stärkeres Passwort (mindestens 10 Zeichen, Kombination aus Buchstaben, Zahlen, Sonderzeichen).",
+		"Verwenden Sie ein Passwort mit mindestens zehn Zeichen und einer Kombination aus Buchstaben, Zahlen und Sonderzeichen.",
 
 	"faq.section2.q3":
 		"Ich habe keine Bestätigungs-E-Mail erhalten. Was kann ich tun?",
@@ -323,7 +323,7 @@ export const content = {
 
 	"faq.section2.q7": "Wie ändere ich meine Profildaten?",
 	"faq.section2.a7.li1":
-		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
+		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profilsymbol (mit Ihren Initialen).",
 	"faq.section2.a7.li2": "Wählen Sie Profil.",
 	"faq.section2.a7.li3": "Ändern Sie die gewünschten Angaben.",
 	"faq.section2.a7.li4": "Speichern Sie Ihre Änderungen.",
@@ -331,7 +331,7 @@ export const content = {
 	"faq.section2.q8": "Wie lösche ich mein Benutzerkonto?",
 	"faq.section2.a8.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
 	"faq.section2.a8.li1":
-		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profil-Icon (mit Ihren Initialen).",
+		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profilsymbol (mit Ihren Initialen).",
 	"faq.section2.a8.li2": "Wählen Sie Profil.",
 	"faq.section2.a8.li3": "Wählen Sie Konto unwiderruflich löschen.",
 	"faq.section2.a8.li4": "Lesen Sie den angezeigten Hinweis.",
@@ -491,7 +491,7 @@ export const content = {
 	"faq.section4.a8.p2": "Der Ordner erscheint sofort in Ihrer Übersicht.",
 	"faq.section4.a8.h4.2": "Dateien verschieben",
 	"faq.section4.a8.p3":
-		"Dokumente können per Drag & Drop in einen Ordner verschoben werden.",
+		"Dokumente können per Drag-and-drop in einen Ordner verschoben werden.",
 	"faq.section4.a8.p4":
 		"Soll eine Datei aus einem Ordner in einen anderen verschoben werden, verschieben Sie sie zunächst nach Meine Dateien und anschließend in den Zielordner.",
 	"faq.section4.a8.p5":
@@ -553,7 +553,7 @@ export const content = {
 	"faq.section5.a2.p2":
 		"Sie können das Verwaltungswissen nutzen, indem Sie einzelne Dokumente aus dem Bereich Verwaltungswissen zum Chat hinzufügen. Die verfügbaren Dokumente finden Sie unter Meine Dateien in der Bibliothek im Bereich Verwaltungswissen.",
 	"faq.section5.a2.p3":
-		"Verwendet BärGPT Informationen aus dem Verwaltungswissen, werden die entsprechenden Quellen an der Antwort angezeigt. Prüfen Sie bei rechtlich oder fachlich relevanten Informationen auch den Stand und die Gültigkeit des Originaldokuments.",
+		"Verwendet BärGPT Informationen aus dem Verwaltungswissen, werden die entsprechenden Quellen unter der Antwort angezeigt. Prüfen Sie bei rechtlich oder fachlich relevanten Informationen auch den Stand und die Gültigkeit des Originaldokuments.",
 	"faq.section5.a2.p4":
 		"Die Dokumentensammlung wird regelmäßig ergänzt und aktualisiert.",
 	"faq.section5.a2.h4": "Fehlt ein Dokument?",
@@ -734,13 +734,13 @@ export const content = {
 	"faq.section6.a4.p1":
 		"Andere Nutzerinnen und Nutzer von BärGPT können Ihre Chats und Dateien nicht einsehen. Es werden auch keine Chatinhalte analysiert.",
 	"faq.section6.a4.p2":
-		"Für den technischen Betrieb, können Administratorinnen und Administratoren die Inhalte von Nachrichten sehen, ohne sie direkt einer bestimmten Nutzerin oder einem bestimmten Nutzer zuzuordnen.",
+		"Für den technischen Betrieb können Administratorinnen und Administratoren die Inhalte von Nachrichten sehen, ohne sie direkt einer bestimmten Nutzerin oder einem bestimmten Nutzer zuzuordnen.",
 	"faq.section6.a4.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a4.link1.href": "https://www.baergpt.berlin/privacy-policy/",
 
 	"faq.section6.q5": "Wo werden meine Daten verarbeitet und gespeichert?",
 	"faq.section6.a5.p1":
-		"Die Daten werden ausschließlich auf Servern in Europa verarbeitet und gespeichert. BärGPT wird auf der Cloud-Infrastruktur von STACKIT betrieben, deren Rechenzentren in Deutschland stehen. Es findet kein Transfer der Daten an Dienste oder Server außerhalb Deutschlands statt. Accountdaten, Chats und hochgeladene Dokumente werden gespeichert solange der Account aktiv ist.",
+		"Die Daten werden ausschließlich auf Servern in Europa verarbeitet und gespeichert. BärGPT wird auf der Cloud-Infrastruktur von STACKIT betrieben, deren Rechenzentren in Deutschland stehen. Es findet kein Transfer der Daten an Dienste oder Server außerhalb Deutschlands statt. Kontodaten, Chats und hochgeladene Dokumente werden gespeichert, solange das Benutzerkonto aktiv ist.",
 	"faq.section6.a5.p2":
 		"Weitere Informationen zu den eingesetzten Dienstleistern, Sicherheitsmaßnahmen und Verarbeitungsorten finden Sie in der Datenschutzerklärung.",
 	"faq.section6.a5.link1.title": "Datenschutzrichtlinien",
@@ -749,7 +749,7 @@ export const content = {
 	"faq.section6.q6":
 		"Was passiert, wenn ich einen Chat, eine Datei oder mein Konto lösche?",
 	"faq.section6.a6.p1":
-		"Accountdaten, Chats und hochgeladene Dokumente werden sofort aus dem aktiven System entfernt und können über BärGPT nicht wiederhergestellt werden.",
+		"Kontodaten, Chats und hochgeladene Dokumente werden sofort aus dem aktiven System entfernt und können über BärGPT nicht wiederhergestellt werden.",
 	"faq.section6.a6.p2":
 		"Für technische Sicherungskopien (Backups) gilt eine Löschfrist von 30 Tagen. Die Einzelheiten finden Sie in der Datenschutzerklärung.",
 	"faq.section6.a6.link1.title": "Datenschutzrichtlinien",
@@ -757,7 +757,7 @@ export const content = {
 
 	"faq.section6.q7": "Wird die Nutzung von BärGPT protokolliert?",
 	"faq.section6.a7.p1":
-		"Logfiles, Monitoring-Daten und Fehleranalysen werden protokolliert. Diese werden beispielsweise für die Systemsicherheit, die Fehleranalyse und den Support benötigt.",
+		"Für den sicheren technischen Betrieb werden Protokoll- und Monitoringdaten erfasst. Sie dienen insbesondere der Fehleranalyse, der Systemsicherheit und dem Support.",
 	"faq.section6.a7.p2":
 		"Welche Daten dabei verarbeitet werden und wie lange sie gespeichert bleiben, ist in der Datenschutzerklärung beschrieben.",
 	"faq.section6.a7.link1.title": "Datenschutzrichtlinien",
@@ -792,7 +792,7 @@ export const content = {
 	"faq.section7.q3": "Wo finde ich Anleitungen und Schulungen?",
 	"faq.section7.a3.link1.title": "Video-Tutorials",
 	"faq.section7.a3.link1.href": "/tutorials",
-	"faq.section7.a3.link2.title": "Handbuch zu Nutzung",
+	"faq.section7.a3.link2.title": "Handbuch zur Nutzung",
 	"faq.section7.a3.link2.href":
 		"https://github.com/technologiestiftung/baer-gpt-help/raw/3273307823c938dac1d879079a8942fcadd2cc99/public/documents/BaerGPT-Nutzendenhandbuch.pdf",
 	"faq.section7.a3.link3.title": "Schulungsangebote",
@@ -838,7 +838,7 @@ export const content = {
 		"Klicken Sie auf Anmelden im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
 	"faq.section1.a9.li3": "Nach der Anmeldung können Sie direkt loslegen:",
 	"faq.section1.a9.li3.p1":
-		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche Datei hochladen oder ziehen Sie Ihre Datei per Drag & Drop in das Upload-Feld.",
+		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche Datei hochladen oder ziehen Sie Ihre Datei per Drag-and-drop in das Upload-Feld.",
 	"faq.section1.a9.li3.p2":
 		"<strong>Frage stellen:</strong> Geben Sie im Chatfeld Ihre Anfrage in Alltagssprache ein z. B. Was steht im Abschnitt zur Budgetplanung?",
 	"faq.section1.a9.li4":
