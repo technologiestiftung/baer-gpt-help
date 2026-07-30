@@ -248,7 +248,7 @@ export const content = {
 	"faq.section1.a7":
 		"Ja. Beachten Sie die geltenden Vorgaben Ihrer Organisation sowie die Orientierungshilfe des Landes Berlin zum Umgang mit generativen KI-Anwendungen.",
 	"faq.section1.a7.link.title":
-		"Umgang mit generativen KI-Anwendungen in der Berliner Verwaltung",
+		"Rundschreiben RBm Skzl Nr. 02/2024",
 	"faq.section1.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
 	"faq.section1.a7.link2.title":
@@ -509,7 +509,7 @@ export const content = {
 
 	"faq.section4.q9": "Kann ich Dateien und Ordner umbenennen?",
 	"faq.section4.a9.p1":
-		"Nach dem aktuellen Redaktionsstand können Dateien und Ordner nicht direkt umbenannt werden.",
+		"Dateien und Ordner können derzeit nicht direkt umbenannt werden.",
 	"faq.section4.a9.p2":
 		"Benennen Sie Dateien deshalb möglichst bereits vor dem Hochladen eindeutig.",
 
@@ -551,7 +551,7 @@ export const content = {
 	"faq.section5.a2.p1":
 		"Das Verwaltungswissen ist eine Sammlung ausgewählter Dokumente der Berliner Verwaltung. Dazu gehören beispielsweise Gesetze, Verwaltungsvorschriften, Handbücher, Leitfäden und Regelwerke.",
 	"faq.section5.a2.p2":
-		"Sie können das Verwaltungswissen nutzen, indem Sie einzelne Dokumente aus dem Bereich Verwaltungswissen zum Chat hinzu. Die verfügbaren Dokumente finden Sie unter Meine Dateien in der Bibliothek im Bereich Verwaltungswissen.",
+		"Sie können das Verwaltungswissen nutzen, indem Sie einzelne Dokumente aus dem Bereich Verwaltungswissen zum Chat hinzufügen. Die verfügbaren Dokumente finden Sie unter Meine Dateien in der Bibliothek im Bereich Verwaltungswissen.",
 	"faq.section5.a2.p3":
 		"Verwendet BärGPT Informationen aus dem Verwaltungswissen, werden die entsprechenden Quellen an der Antwort angezeigt. Prüfen Sie bei rechtlich oder fachlich relevanten Informationen auch den Stand und die Gültigkeit des Originaldokuments.",
 	"faq.section5.a2.p4":
@@ -671,13 +671,13 @@ export const content = {
 
 	"faq.section5.q11": "Wie kann ich Parla verwenden?",
 	"faq.section5.a11.p1":
-		"Parla ist eine zusätzliche Wissensquelle für Dokumente des Berliner Abgeordnetenhauses, zum Beispiel:",
+		"Parla ist eine zusätzliche Wissensquelle für öffentlich zugängliche Dokumente des Abgeordnetenhauses von Berlin. Sie umfasst derzeit Schriftliche Anfragen und Hauptausschussvorgänge, die auch als „Rote Nummern“ bezeichnet werden.",
 	"faq.section5.a11.li1": "Drucksachen,",
 	"faq.section5.a11.li2": "Plenarprotokolle,",
 	"faq.section5.a11.li3": "Anträge,",
 	"faq.section5.a11.li4": "Unterlagen zu Gesetzesvorhaben.",
 	"faq.section5.a11.p2":
-		"Wählen Sie Parla im Chat als Datenquelle aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
+		"Um Parla zu nutzen, wählen Sie die Datenquelle Parla im Chat aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
 	"faq.section5.a11.link1.title": "Technische Informationen zu MCP",
 	"faq.section5.a11.link1.href": "/about",
 	"faq.section5.a11.link2.title": "Zur Anwendung Parla Berlin",
