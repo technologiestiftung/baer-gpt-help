@@ -690,7 +690,7 @@ export const content = {
 
 	"faq.section6.q1": "Darf ich personenbezogene Daten mit BärGPT verarbeiten?",
 	"faq.section6.a1.p1":
-		"Personenbezogene Daten können mit BärGPT verarbeitet werden, wenn Ihre Behörde zur Verarbeitung dieser Daten für ihre Aufgabenerfüllung befugt ist und die gesetzlichen sowie internen Voraussetzungen erfüllt sind.",
+		"Ja, das dürfen Sie. Personenbezogene oder vertrauliche Daten (z. B. Namen, Adressen oder interne Dokumente) dürfen gemäß § 16a EGovG Bln in BärGPT verarbeitet werden, wenn dies für die Erfüllung Ihrer dienstlichen Aufgabe erforderlich ist. BärGPT ist so konzipiert, dass alle Eingaben innerhalb einer geschützten Umgebung verarbeitet werden, nicht zu Trainingszwecken verwendet und nicht durch Dritte eingesehen werden.",
 	"faq.section6.a1.p2": "Trotzdem gilt:",
 	"faq.section6.a1.li1":
 		"Verarbeiten Sie nur die Daten, die tatsächlich benötigt werden.",
@@ -706,7 +706,7 @@ export const content = {
 		"Wenden Sie sich bei Unsicherheit an Ihre zuständige Datenschutz- oder Informationssicherheitsstelle.",
 	"faq.section6.a1.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a1.link1.href": "https://www.baergpt.berlin/privacy-policy/",
-	"faq.section6.a1.link2.title": "Rundschreiben SKZL",
+	"faq.section6.a1.link2.title": "Rundschreiben RBm Skzl Nr. 1/2026",
 	"faq.section6.a1.link2.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
 
@@ -714,10 +714,10 @@ export const content = {
 	"faq.section6.a2.p1":
 		"Interne Dokumente dürfen Sie hochladen, wenn dies für Ihre dienstliche Aufgabe erforderlich und nach den geltenden Vorgaben zulässig ist.",
 	"faq.section6.a2.p2":
-		"Prüfen Sie vor dem Upload, ob das gesamte Dokument benötigt wird und ob es personenbezogene, besonders sensible, geheimhaltungsbedürftige oder eingestufte Informationen enthält. Entfernen oder anonymisieren Sie nicht benötigte Angaben.",
+		"Entfernen oder anonymisieren Sie nicht benötigte Angaben.",
 	"faq.section6.a2.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a2.link1.href": "https://www.baergpt.berlin/privacy-policy/",
-	"faq.section6.a2.link2.title": "Rundschreiben SKZL",
+	"faq.section6.a2.link2.title": "Rundschreiben RBm Skzl Nr. 1/2026",
 	"faq.section6.a2.link2.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4330330",
 
@@ -726,21 +726,21 @@ export const content = {
 	"faq.section6.a3.p1":
 		"Nein. Ihre Eingaben und hochgeladenen Dokumente werden nicht zum Training der eingesetzten KI-Modelle verwendet.",
 	"faq.section6.a3.p2":
-		"Die Daten werden jedoch verarbeitet, um Ihre Anfrage zu beantworten und die erforderlichen Betriebs-, Sicherheits- und Supportprozesse zu ermöglichen.",
+		"Die Daten werden jedoch verarbeitet, um Ihre Anfrage zu beantworten.",
 	"faq.section6.a3.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a3.link1.href": "https://www.baergpt.berlin/privacy-policy/",
 
 	"faq.section6.q4": "Wer kann meine Chats und Dateien sehen?",
 	"faq.section6.a4.p1":
-		"Andere reguläre Nutzerinnen und Nutzer von BärGPT können Ihre Chats und Dateien nicht einsehen.",
+		"Andere Nutzerinnen und Nutzer von BärGPT können Ihre Chats und Dateien nicht einsehen. Es werden auch keine Chatinhalte analysiert.",
 	"faq.section6.a4.p2":
-		"Für den technischen Betrieb, die Systemsicherheit, die Fehlerbehebung oder die Bearbeitung einer Supportanfrage können besonders berechtigte Personen oder beauftragte Dienstleister im erforderlichen Umfang Daten verarbeiten.",
+		"Für den technischen Betrieb, können Administratorinnen und Administratoren die Inhalte von Nachrichten sehen, ohne sie direkt einer bestimmten Nutzerin oder einem bestimmten Nutzer zuzuordnen.",
 	"faq.section6.a4.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a4.link1.href": "https://www.baergpt.berlin/privacy-policy/",
 
 	"faq.section6.q5": "Wo werden meine Daten verarbeitet und gespeichert?",
 	"faq.section6.a5.p1":
-		"Die Verarbeitung und Speicherung erfolgt entsprechend den Vorgaben der Datenschutzerklärung in einer abgesicherten technischen Umgebung innerhalb der Europäischen Union.",
+		"Die Daten werden ausschließlich auf Servern in Europa verarbeitet und gespeichert. BärGPT wird auf der Cloud-Infrastruktur von STACKIT betrieben, deren Rechenzentren in Deutschland stehen. Es findet kein Transfer der Daten an Dienste oder Server außerhalb Deutschlands statt. Accountdaten, Chats und hochgeladene Dokumente werden gespeichert solange der Account aktiv ist.",
 	"faq.section6.a5.p2":
 		"Weitere Informationen zu den eingesetzten Dienstleistern, Sicherheitsmaßnahmen und Verarbeitungsorten finden Sie in der Datenschutzerklärung.",
 	"faq.section6.a5.link1.title": "Datenschutzrichtlinien",
@@ -749,15 +749,15 @@ export const content = {
 	"faq.section6.q6":
 		"Was passiert, wenn ich einen Chat, eine Datei oder mein Konto lösche?",
 	"faq.section6.a6.p1":
-		"Gelöschte Chats, Dateien und Kontodaten werden aus dem aktiven System entfernt und können über BärGPT nicht wiederhergestellt werden.",
+		"Accountdaten, Chats und hochgeladene Dokumente werden sofort aus dem aktiven System entfernt und können über BärGPT nicht wiederhergestellt werden.",
 	"faq.section6.a6.p2":
-		"Für technische Sicherungskopien gelten gesonderte Löschfristen. Die Einzelheiten finden Sie in der Datenschutzerklärung.",
+		"Für technische Sicherungskopien (Backups) gilt eine Löschfrist von 30 Tagen. Die Einzelheiten finden Sie in der Datenschutzerklärung.",
 	"faq.section6.a6.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a6.link1.href": "https://www.baergpt.berlin/privacy-policy/",
 
 	"faq.section6.q7": "Wird die Nutzung von BärGPT protokolliert?",
 	"faq.section6.a7.p1":
-		"Für den sicheren und zuverlässigen Betrieb können technische Nutzungs-, Monitoring- und Fehlerdaten protokolliert werden. Sie werden beispielsweise für die Systemsicherheit, die Fehleranalyse und den Support benötigt.",
+		"Logfiles, Monitoring-Daten und Fehleranalysen werden protokolliert. Diese werden beispielsweise für die Systemsicherheit, die Fehleranalyse und den Support benötigt.",
 	"faq.section6.a7.p2":
 		"Welche Daten dabei verarbeitet werden und wie lange sie gespeichert bleiben, ist in der Datenschutzerklärung beschrieben.",
 	"faq.section6.a7.link1.title": "Datenschutzrichtlinien",
