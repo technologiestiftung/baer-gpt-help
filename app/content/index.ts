@@ -273,7 +273,7 @@ export const content = {
 
 	"faq.section2.q2": "Warum kann ich mich nicht registrieren?",
 	"faq.section2.a2.p1":
-		"Die Registrierung kann aus mehreren Gründen fehlschlagen:“,
+		"Die Registrierung kann aus mehreren Gründen fehlschlagen“,
 	"faq.section2.a2.h4.1":
 		"Für die E-Mail-Adresse besteht bereits ein Benutzerkonto.",
 	"faq.section2.a2.p2":
