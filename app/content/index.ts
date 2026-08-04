@@ -247,8 +247,7 @@ export const content = {
 		"Gibt es Vorgaben zur Nutzung von KI in der Berliner Verwaltung?",
 	"faq.section1.a7":
 		"Ja. Beachten Sie die geltenden Vorgaben Ihrer Organisation sowie die Orientierungshilfe des Landes Berlin zum Umgang mit generativen KI-Anwendungen.",
-	"faq.section1.a7.link.title":
-		"Rundschreiben RBm Skzl Nr. 02/2024",
+	"faq.section1.a7.link.title": "Rundschreiben RBm Skzl Nr. 02/2024",
 	"faq.section1.a7.link.href":
 		"https://www.berlin.de/politik-und-verwaltung/rundschreiben/download.php/4329258",
 	"faq.section1.a7.link2.title":
@@ -273,7 +272,7 @@ export const content = {
 
 	"faq.section2.q2": "Warum kann ich mich nicht registrieren?",
 	"faq.section2.a2.p1":
-		"Die Registrierung kann aus mehreren Gründen fehlschlagen“,
+		"Die Registrierung kann aus mehreren Gründen fehlschlagen",
 	"faq.section2.a2.h4.1":
 		"Für die E-Mail-Adresse besteht bereits ein Benutzerkonto.",
 	"faq.section2.a2.p2":
@@ -672,10 +671,6 @@ export const content = {
 	"faq.section5.q11": "Wie kann ich Parla verwenden?",
 	"faq.section5.a11.p1":
 		"Parla ist eine zusätzliche Wissensquelle für öffentlich zugängliche Dokumente des Abgeordnetenhauses von Berlin. Sie umfasst derzeit Schriftliche Anfragen und Hauptausschussvorgänge, die auch als „Rote Nummern“ bezeichnet werden.",
-	"faq.section5.a11.li1": "Drucksachen,",
-	"faq.section5.a11.li2": "Plenarprotokolle,",
-	"faq.section5.a11.li3": "Anträge,",
-	"faq.section5.a11.li4": "Unterlagen zu Gesetzesvorhaben.",
 	"faq.section5.a11.p2":
 		"Um Parla zu nutzen, wählen Sie die Datenquelle Parla im Chat aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
 	"faq.section5.a11.link1.title": "Technische Informationen zu MCP",
@@ -700,10 +695,6 @@ export const content = {
 		"Anonymisieren oder pseudonymisieren Sie Angaben, soweit dies möglich ist,",
 	"faq.section6.a1.li4":
 		"Löschen Sie Chats und Dokumente, sobald Sie diese nicht mehr benötigen.",
-	"faq.section6.a1.p3":
-		"Seit Inkrafttreten des neuen § 16a EGovG Bln besteht eine eigene Rechtsgrundlage für die Verarbeitung personenbezogener Daten in KI-Systemen. Sie gilt jedoch nur unter den dort genannten Voraussetzungen und ersetzt nicht die Prüfung des konkreten Anwendungsfalls.",
-	"faq.section6.a1.p4":
-		"Wenden Sie sich bei Unsicherheit an Ihre zuständige Datenschutz- oder Informationssicherheitsstelle.",
 	"faq.section6.a1.link1.title": "Datenschutzrichtlinien",
 	"faq.section6.a1.link1.href": "https://www.baergpt.berlin/privacy-policy/",
 	"faq.section6.a1.link2.title": "Rundschreiben RBm Skzl Nr. 1/2026",

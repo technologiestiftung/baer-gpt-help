@@ -913,12 +913,6 @@ export const faq = {
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
 								<p className="mb-3">{content["faq.section5.a11.p1"]}</p>
-								<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
-									<li>{content["faq.section5.a11.li1"]}</li>
-									<li>{content["faq.section5.a11.li2"]}</li>
-									<li>{content["faq.section5.a11.li3"]}</li>
-									<li>{content["faq.section5.a11.li4"]}</li>
-								</ul>
 								<p>{content["faq.section5.a11.p2"]}</p>
 							</div>
 							<div>
@@ -962,8 +956,6 @@ export const faq = {
 									<li>{content["faq.section6.a1.li3"]}</li>
 									<li>{content["faq.section6.a1.li4"]}</li>
 								</ul>
-								<p className="mb-3">{content["faq.section6.a1.p3"]}</p>
-								<p>{content["faq.section6.a1.p4"]}</p>
 							</div>
 							<div>
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
