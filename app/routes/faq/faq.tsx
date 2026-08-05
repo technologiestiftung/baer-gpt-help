@@ -695,16 +695,16 @@ export const faq = {
 											__html: content["faq.section5.a1.li3"],
 										}}
 									/>
-									{/* <li
+									<li
 										dangerouslySetInnerHTML={{
 											__html: content["faq.section5.a1.li4"],
 										}}
-									/> */}
-									{/* <li
+									/>
+									<li
 										dangerouslySetInnerHTML={{
 											__html: content["faq.section5.a1.li5"],
 										}}
-									/> */}
+									/>
 								</ul>
 								<p>{content["faq.section5.a1.p2"]}</p>
 							</div>
@@ -751,7 +751,7 @@ export const faq = {
 								<li>{content["faq.section5.a3.li2"]}</li>
 								<li>{content["faq.section5.a3.li3"]}</li>
 							</ul>
-							{/* <p className="mb-3">{content["faq.section5.a3.p3"]}</p> */}
+							<p className="mb-3">{content["faq.section5.a3.p3"]}</p>
 							<p className="mb-3">{content["faq.section5.a3.p4"]}</p>
 							<p>{content["faq.section5.a3.p5"]}</p>
 						</div>
@@ -773,11 +773,11 @@ export const faq = {
 										__html: content["faq.section5.a4.li2"],
 									}}
 								/>
-								{/* <li
+								<li
 									dangerouslySetInnerHTML={{
 										__html: content["faq.section5.a4.li3"],
 									}}
-								/> */}
+								/>
 							</ul>
 							<p>{content["faq.section5.a4.p2"]}</p>
 						</div>
@@ -898,15 +898,15 @@ export const faq = {
 						</div>
 					),
 				},
-				// {
-				// 	question: content["faq.section5.q10"],
-				// 	answer: (
-				// 		<div>
-				// 			<p className="mb-3">{content["faq.section5.a10.p1"]}</p>
-				// 			<p>{content["faq.section5.a10.p2"]}</p>
-				// 		</div>
-				// 	),
-				// },
+				{
+					question: content["faq.section5.q10"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section5.a10.p1"]}</p>
+							<p>{content["faq.section5.a10.p2"]}</p>
+						</div>
+					),
+				},
 				{
 					question: content["faq.section5.q11"],
 					answer: (
