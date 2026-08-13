@@ -6,19 +6,26 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# BärGPT Help Center
+![Hilecenter](public/images/hero_visual.png)
 
-A comprehensive help center and documentation website for [BärGPT](https://github.com/technologiestiftung/baergpt/), the AI assistant for Berlin's public administration. This website provides video tutorials, FAQs, and guides to help users get started with and make the most of BärGPT.
+# BärGPT Hilfecenter
 
-## Features
+The BärGPT Hilfecenter is the public help and documentation website for [BärGPT](https://github.com/technologiestiftung/baergpt/), the AI assistant for Berlin's public administration.
+The German-language site helps administrative staff get started with BärGPT, use it responsibly, work with documents, write effective prompts, and understand the system's capabilities and limitations.
 
-- **Video Tutorials**: Step-by-step video guides for using BärGPT
-- **FAQ Section**: Comprehensive answers to frequently asked questions
-- **Interactive Components**: Accordion sections, video players, and navigation
-- **Cookie Banner**: GDPR-compliant cookie consent management
-- **Analytics Integration**: Matomo analytics for usage tracking
-- **Responsive Design**: Mobile-first design with Tailwind CSS
-- **Accessibility**: Built with accessibility in mind (a11y testing included)
+**Live site**: [hilfe.baergpt.berlin](https://hilfe.baergpt.berlin)
+
+## What users can find here
+
+The help center supports employees of Berlin’s public administration in using BärGPT effectively and responsibly.
+Users can:
+
+- **Get started with BärGPT** and learn how to use its main features
+- **Find answers to common questions** about access, accounts, data protection, functionality, and limitations
+- **Learn how to work with documents and texts**, for example by summarizing, revising, translating, or extracting information
+- **Improve their prompts** with practical guidance and examples for everyday administrative tasks
+- **Understand how to use BärGPT securely and responsibly** and when results require further review
+- **Use tutorials and training materials** for step-by-step learning and continued practice
 
 ## Tech Stack
 
