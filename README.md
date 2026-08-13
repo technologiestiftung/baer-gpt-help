@@ -1,9 +1,7 @@
 ![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # BärGPT Help Center
@@ -101,9 +99,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://annaeschenbacher.com"><img src="https://avatars.githubusercontent.com/u/56318362?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>Anna Eschenbacher</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=aeschi" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Aaeschi" title="Reviewed Pull Requests">👀</a> <a href="#a11y-aeschi" title="Accessibility">️️️️♿️</a> <a href="https://github.com/technologiestiftung/baergpt/commits?author=aeschi" title="Documentation">📖</a> 
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zainab-tariq"><img src="https://avatars.githubusercontent.com/u/15946816?v=4?s=64" width="64px;" alt="Zainab Tariq"/><br /><sub><b>Zainab Tariq</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=zainab-tariq" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Azainab-tariq" title="Reviewed Pull Requests">👀</a> <a href="#a11y-zainab-tariq" title="Accessibility">️️️️♿️</a></td>
-     <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="Rapha"/><br /><sub><b>Raphael Arce</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=raphael-arce" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Araphael-arce" title="Reviewed Pull Requests">👀</a> <a href="#a11y-raphael-arce" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aeschi"><img src="https://avatars.githubusercontent.com/u/aeschi?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>aeschi</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=aeschi" title="Code">💻</a> <a href="#design-aeschi" title="Design">🎨</a> <a href="#a11y-aeschi" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zainab-tariq"><img src="https://avatars.githubusercontent.com/u/zainab-tariq?v=4?s=64" width="64px;" alt="zainab-tariq"/><br /><sub><b>zainab-tariq</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=zainab-tariq" title="Code">💻</a> <a href="#design-zainab-tariq" title="Design">🎨</a> <a href="#a11y-zainab-tariq" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/raphael-arce?v=4?s=64" width="64px;" alt="raphael-arce"/><br /><sub><b>raphael-arce</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=raphael-arce" title="Code">💻</a> <a href="#design-raphael-arce" title="Design">🎨</a> <a href="#a11y-raphael-arce" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Isschirm"><img src="https://avatars.githubusercontent.com/u/232557027?v=4?s=64" width="64px;" alt="Isschirm"/><br /><sub><b>Isschirm</b></sub></a><br /><a href="#content-Isschirm" title="Content">🖋</a> <a href="#ideas-Isschirm" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
