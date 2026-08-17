@@ -1,24 +1,29 @@
 ![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# BärGPT Help Center
+![Hilecenter](public/images/hero_visual.png)
 
-A comprehensive help center and documentation website for [BärGPT](https://github.com/technologiestiftung/baergpt/), the AI assistant for Berlin's public administration. This website provides video tutorials, FAQs, and guides to help users get started with and make the most of BärGPT.
+# BärGPT Hilfecenter
 
-## Features
+The BärGPT Hilfecenter is the public help and documentation website for [BärGPT](https://github.com/technologiestiftung/baergpt/), the AI assistant for Berlin's public administration.
+The German-language site helps administrative staff get started with BärGPT, use it responsibly, work with documents, write effective prompts, and understand the system's capabilities and limitations.
 
-- **Video Tutorials**: Step-by-step video guides for using BärGPT
-- **FAQ Section**: Comprehensive answers to frequently asked questions
-- **Interactive Components**: Accordion sections, video players, and navigation
-- **Cookie Banner**: GDPR-compliant cookie consent management
-- **Analytics Integration**: Matomo analytics for usage tracking
-- **Responsive Design**: Mobile-first design with Tailwind CSS
-- **Accessibility**: Built with accessibility in mind (a11y testing included)
+**Live site**: [hilfe.baergpt.berlin](https://hilfe.baergpt.berlin)
+
+## What users can find here
+
+The help center supports employees of Berlin’s public administration in using BärGPT effectively and responsibly.
+Users can:
+
+- **Get started with BärGPT** and learn how to use its main features
+- **Find answers to common questions** about access, accounts, data protection, functionality, and limitations
+- **Learn how to work with documents and texts**, for example by summarizing, revising, translating, or extracting information
+- **Improve their prompts** with practical guidance and examples for everyday administrative tasks
+- **Understand how to use BärGPT securely and responsibly** and when results require further review
+- **Use tutorials and training materials** for step-by-step learning and continued practice
 
 ## Tech Stack
 
@@ -101,9 +106,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://annaeschenbacher.com"><img src="https://avatars.githubusercontent.com/u/56318362?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>Anna Eschenbacher</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=aeschi" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Aaeschi" title="Reviewed Pull Requests">👀</a> <a href="#a11y-aeschi" title="Accessibility">️️️️♿️</a> <a href="https://github.com/technologiestiftung/baergpt/commits?author=aeschi" title="Documentation">📖</a> 
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zainab-tariq"><img src="https://avatars.githubusercontent.com/u/15946816?v=4?s=64" width="64px;" alt="Zainab Tariq"/><br /><sub><b>Zainab Tariq</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=zainab-tariq" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Azainab-tariq" title="Reviewed Pull Requests">👀</a> <a href="#a11y-zainab-tariq" title="Accessibility">️️️️♿️</a></td>
-     <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="Rapha"/><br /><sub><b>Raphael Arce</b></sub></a><br /><a href="https://github.com/technologiestiftung/baergpt/commits?author=raphael-arce" title="Code">💻</a> <a href="https://github.com/technologiestiftung/baergpt/pulls?q=is%3Apr+reviewed-by%3Araphael-arce" title="Reviewed Pull Requests">👀</a> <a href="#a11y-raphael-arce" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aeschi"><img src="https://avatars.githubusercontent.com/u/56318362?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>aeschi</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=aeschi" title="Code">💻</a> <a href="#design-aeschi" title="Design">🎨</a> <a href="#a11y-aeschi" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zainab-tariq"><img src="https://avatars.githubusercontent.com/u/15946816?v=4?s=64" width="64px;" alt="zainab-tariq"/><br /><sub><b>zainab-tariq</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=zainab-tariq" title="Code">💻</a> <a href="#design-zainab-tariq" title="Design">🎨</a> <a href="#a11y-zainab-tariq" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="raphael-arce"/><br /><sub><b>raphael-arce</b></sub></a><br /><a href="https://github.com/technologiestiftung/baer-gpt-help/commits?author=raphael-arce" title="Code">💻</a> <a href="#design-raphael-arce" title="Design">🎨</a> <a href="#a11y-raphael-arce" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Isschirm"><img src="https://avatars.githubusercontent.com/u/232557027?v=4?s=64" width="64px;" alt="Isschirm"/><br /><sub><b>Isschirm</b></sub></a><br /><a href="#content-Isschirm" title="Content">🖋</a> <a href="#ideas-Isschirm" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
