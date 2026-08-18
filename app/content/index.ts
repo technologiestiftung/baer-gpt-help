@@ -463,10 +463,8 @@ export const content = {
 		"Sie können nun Fragen stellen. BärGPT durchsucht das Dokument und nutzt die enthaltenen Informationen für seine Antwort.",
 	"faq.section4.a5.link1.title": "Arbeiten mit BärGPT",
 	"faq.section4.a5.link1.href": "/arbeiten-mit-baergpt",
-	"faq.section4.a5.video1.title":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
-	"faq.section4.a5.video1.linkName":
-		"Fragen zu Dokumenten und Ordnern im Chat stellen",
+	"faq.section4.a5.video1.title": "Dokumente hochladen leicht gemacht",
+	"faq.section4.a5.video1.linkName": "Dokumente hochladen leicht gemacht",
 
 	"faq.section4.q6": "Kann ich mehrere Dokumente gleichzeitig befragen?",
 	"faq.section4.a6.p1":
@@ -499,12 +497,10 @@ export const content = {
 	"faq.section4.a8.li4": "Öffnen Sie das Menü neben dem Eintrag.",
 	"faq.section4.a8.li5": "Wählen Sie Löschen.",
 	"faq.section4.a8.li6": "Bestätigen Sie die Löschung.",
-	"faq.section4.a8.link1.title": "Ordner erstellen und Dateien sortieren",
-	"faq.section4.a8.link1.href":
-		"/tutorials/ordner-erstellen-und-dateien-sortieren",
-	"faq.section4.a8.link2.title": "Dokumente verwalten",
-	"faq.section4.a8.link2.href":
-		"/tutorials/dokumente-verwalten-anzeigen-herunterladen-und-loeschen",
+	"faq.section4.a8.video1.title":
+		"Dokumente verwalten, anzeigen, herunterladen und löschen",
+	"faq.section4.a8.video1.linkName":
+		"Dokumente verwalten, anzeigen, herunterladen und löschen",
 
 	"faq.section4.q9": "Kann ich Dateien und Ordner umbenennen?",
 	"faq.section4.a9.p1":
@@ -881,14 +877,6 @@ export const content = {
 					videoTitle:
 						"Dokumente verwalten, anzeigen, herunterladen und löschen",
 					videoLink: "https://player.vimeo.com/video/1081772308?",
-				},
-				{
-					videoTitle: "Ordner erstellen und Dateien sortieren",
-					videoLink: "https://player.vimeo.com/video/1138900300?",
-				},
-				{
-					videoTitle: "Fragen zu Dokumenten und Ordnern im Chat stellen",
-					videoLink: "https://player.vimeo.com/video/1082105161?",
 				},
 			],
 		},
