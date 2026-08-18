@@ -618,13 +618,9 @@ export const faq = {
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
-								<AnchorLink
-									href={content["faq.section4.a8.link1.href"]}
-									title={content["faq.section4.a8.link1.title"]}
-								/>
-								<AnchorLink
-									href={content["faq.section4.a8.link2.href"]}
-									title={content["faq.section4.a8.link2.title"]}
+								<VideoItem
+									title={content["faq.section4.a8.video1.title"]}
+									href={`/tutorials/${createSlug(content["faq.section4.a8.video1.linkName"])}`}
 									hasBorder={false}
 								/>
 							</div>
