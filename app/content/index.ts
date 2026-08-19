@@ -4,7 +4,7 @@ export const content = {
 	"hero.title":
 		"Hilfe und Tipps zur Nutzung von BärGPT, dem KI-Assistenten für die Verwaltung",
 	"hero.pill.videoTutorial": "Video Tutorial",
-	"hero.video.title": "BärGPT - der KI Assistent für die Berliner Verwaltung",
+	"hero.video.title": "BärGPT - der KI-Assistent für die Berliner Verwaltung",
 	"hero.video.link": "https://player.vimeo.com/video/1135699264?",
 	hero: {
 		cards: [
@@ -27,8 +27,8 @@ export const content = {
 	/* -------------------- Anchor links -------------------- */
 	"anchor.download.label": "Download",
 	"anchor.download.alt": "PDF Herunterladen",
-	"anchor.toVideo.label": "zum Video",
-	"anchor.toVideo.alt": "zum Video-Tutorial",
+	"anchor.toVideo.label": "Zum Video",
+	"anchor.toVideo.alt": "Zum Video-Tutorial",
 
 	/* -------------------- Header -------------------- */
 	"header.logoAlt": "Zur Startseite",
@@ -162,9 +162,9 @@ export const content = {
 		"BärGPT kann Fehler machen. Prüfen Sie wichtige Ergebnisse deshalb immer fachlich, bevor Sie sie verwenden oder weitergeben.",
 	"faq.section1.a1.h4": "Neu bei BärGPT?",
 	"faq.section1.a1.p3":
-		"Lesen Sie zuerst die Einführung in BärGPT oder besuchen Sie die BärGPT Online Schulung.",
-	"faq.section1.a1.video1.title": "BärGPT - Ihr KI Assistent",
-	"faq.section1.a1.video1.linkName": "BärGPT - Ihr KI Assistent",
+		"Lesen Sie zuerst die Einführung in BärGPT oder besuchen Sie die BärGPT Schulung.",
+	"faq.section1.a1.video1.title": "BärGPT - Ihr KI-Assistent",
+	"faq.section1.a1.video1.linkName": "BärGPT - Ihr KI-Assistent",
 	"faq.section1.a1.video1.link": "https://player.vimeo.com/video/1135699264?",
 	"faq.section1.a1.link2.title": "Handbuch zur Nutzung von BärGPT",
 	"faq.section1.a1.link2.href":
@@ -172,7 +172,7 @@ export const content = {
 	"faq.section1.a1.link3.title": "BärGPT OnePager",
 	"faq.section1.a1.link3.href":
 		"https://citylab-berlin.org/app/uploads/2026/02/CLB-OnePager-BaerGPT-Presse-20251118-2.pdf",
-	"faq.section1.a1.link4.title": "Online Schulung",
+	"faq.section1.a1.link4.title": "Online-Schulung",
 	"faq.section1.a1.link4.href": "/training",
 	//Section 1 - Question 2
 	"faq.section1.q2": "Wer kann BärGPT nutzen?",
@@ -297,7 +297,7 @@ export const content = {
 
 	"faq.section2.q4": "Wie melde ich mich an?",
 	"faq.section2.a4.li1": "Öffnen Sie www.baergpt.berlin.",
-	"faq.section2.a4.li2": "Klicken Sie auf Anmelden.",
+	"faq.section2.a4.li2": "Klicken Sie auf <strong>Anmelden</strong>.",
 	"faq.section2.a4.li3": "Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.",
 	"faq.section2.a4.p1":
 		"Nach der Anmeldung können Sie direkt mit dem Chatten oder dem Hochladen von Dokumenten beginnen.",
@@ -306,13 +306,13 @@ export const content = {
 	"faq.section2.a5.p1":
 		"Prüfen Sie, ob Ihre E-Mail-Adresse und Ihr Passwort korrekt eingegeben sind. Achten Sie auch auf versehentliche Leerzeichen und die Groß- und Kleinschreibung des Passworts.",
 	"faq.section2.a5.p2":
-		"Haben Sie Ihr Passwort vergessen, wählen Sie Passwort vergessen?.",
+		"Haben Sie Ihr Passwort vergessen, wählen Sie <strong>Passwort vergessen?</strong>.",
 	"faq.section2.a5.p3":
 		"Bei einer technischen Störung aktualisieren Sie die Seite und versuchen Sie es erneut.",
 
 	"faq.section2.q6": "Wie setze ich mein Passwort zurück?",
 	"faq.section2.a6.li1": "Öffnen Sie die Anmeldeseite.",
-	"faq.section2.a6.li2": "Wählen Sie Passwort vergessen?.",
+	"faq.section2.a6.li2": "Wählen Sie <strong>Passwort vergessen?</strong>.",
 	"faq.section2.a6.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
 	"faq.section2.a6.li4": "Öffnen Sie die zugesandte E-Mail.",
 	"faq.section2.a6.li5":
@@ -474,7 +474,7 @@ export const content = {
 
 	"faq.section4.q7": "Wie entferne ich eine Datei aus dem Chat?",
 	"faq.section4.a7.p1":
-		"Wählen Sie das X neben der Datei oberhalb des Eingabefeldes. Alternativ können Sie in der Dateiübersicht Aus dem Chat entfernen wählen.",
+		"Wählen Sie das <strong>X</strong> neben der Datei oberhalb des Eingabefeldes. Alternativ können Sie in der Dateiübersicht Aus dem Chat entfernen wählen.",
 	"faq.section4.a7.p2":
 		"Die Datei wird dadurch nur aus dem aktuellen Chat entfernt. Sie bleibt im Bereich Meine Dateien gespeichert.",
 
@@ -538,7 +538,7 @@ export const content = {
 	"faq.section5.a1.li5":
 		"<strong>Externe Datenquellen</strong>, wenn diese aktiviert sind",
 	"faq.section5.a1.p2":
-		"BärGPT kann bei einer Antwort mehrere Quellen miteinander verbinden.",
+		"BärGPT kann bei einer Antwort mehrere Quellen miteinander verbinden. Aus Datenschutzgründen lassen sich eigene Dokumente und externe Datenquellen wie Websuche und Konnektoren jedoch nicht gleichzeitig nutzen.",
 	"faq.section5.a1.link.title": "Technische Details & Hintergründe",
 	"faq.section5.a1.link.href": "/about",
 
@@ -822,7 +822,7 @@ export const content = {
 							rel="noopener noreferrer"
 						>www.baergpt.berlin</a> ein.`,
 	"faq.section1.a9.li2":
-		"Klicken Sie auf Anmelden im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
+		"Klicken Sie auf <strong>Anmelden</strong> im rechten oberen Bereich der Startseite. Eine Anmeldemaske erscheint. Melden Sie sich mit Ihren dienstlichen Zugangsdaten an.",
 	"faq.section1.a9.li3": "Nach der Anmeldung können Sie direkt loslegen:",
 	"faq.section1.a9.li3.p1":
 		"<strong>Datei hochladen:</strong> Klicken Sie auf die Schaltfläche Datei hochladen oder ziehen Sie Ihre Datei per Drag-and-drop in das Upload-Feld.",
