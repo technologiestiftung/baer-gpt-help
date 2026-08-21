@@ -553,6 +553,9 @@ export const content = {
 		"Die Dokumentensammlung wird regelmäßig ergänzt und aktualisiert.",
 	"faq.section5.a2.h4": "Fehlt ein Dokument?",
 	"faq.section5.a2.p5": `Senden Sie Ihren Vorschlag an <a class="underline underline-offset-6" href="mailto:support@baergpt.berlin"><strong>support@baergpt.berlin</strong></a>. Bis das Dokument in das Verwaltungswissen aufgenommen wurde, können Sie es selbst hochladen und zum Chat hinzufügen.`,
+	"faq.section5.a2.link.title": " Blogbeitrag CityLAB",
+	"faq.section5.a2.link.href":
+		"https://citylab-berlin.org/de/blog/baergpt-devlog-1-basiswissen-fuer-die-verwaltung/",
 
 	"faq.section5.q3": "Wie erkenne ich, welche Quellen verwendet wurden?",
 	"faq.section5.a3.p1":
@@ -567,6 +570,9 @@ export const content = {
 		"Nicht jede Antwort enthält Quellen. Das gilt insbesondere für allgemeine Textaufgaben oder Antworten, die nicht auf einem hinterlegten Dokument beruhen.",
 	"faq.section5.a3.p5":
 		"Prüfen Sie die Quellen insbesondere bei fachlichen, rechtlichen oder aktuellen Informationen.",
+	"faq.section5.a3.link.title": " Blogbeitrag CityLAB",
+	"faq.section5.a3.link.href":
+		"https://citylab-berlin.org/de/blog/baergpt-devlog-2-quellenangaben/",
 
 	"faq.section5.q4": "Wie aktuell sind die Informationen von BärGPT?",
 	"faq.section5.a4.p1":
@@ -663,18 +669,54 @@ export const content = {
 		"Ja. Mit der Websuche kann BärGPT aktuelle Informationen aus dem Internet in eine Antwort einbeziehen. Aktivieren Sie die Funktion im Chat und prüfen Sie anschließend die angegebenen Internetquellen.",
 	"faq.section5.a10.p2":
 		"Die Websuche ergänzt die anderen Wissensquellen, ersetzt aber nicht die eigene Prüfung.",
+	"faq.section5.a10.link1.title": "Blogbeitrag CityLAB",
+	"faq.section5.a10.link1.href":
+		"https://citylab-berlin.org/blog/baergpt-devlog-3-websuche-berlins-ki-assistent-kann-jetzt-insweb/",
 
-	"faq.section5.q11": "Wie kann ich Parla verwenden?",
+	"faq.section5.q11": "Was passiert bei der Websuche mit meinen Daten?",
 	"faq.section5.a11.p1":
-		"Parla ist eine zusätzliche Wissensquelle für öffentlich zugängliche Dokumente des Abgeordnetenhauses von Berlin. Sie umfasst derzeit Schriftliche Anfragen und Hauptausschussvorgänge, die auch als „Rote Nummern“ bezeichnet werden.",
-	"faq.section5.a11.p2":
-		"Um Parla zu nutzen, wählen Sie die Datenquelle Parla im Chat aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
-	"faq.section5.a11.link1.title": "Technische Informationen zu MCP",
-	"faq.section5.a11.link1.href": "/about",
-	"faq.section5.a11.link2.title": "Zur Anwendung Parla Berlin",
-	"faq.section5.a11.link2.href": "https://www.parla.berlin/",
-	"faq.section5.a11.link3.title": "Zur Projektbeschreibung von Parla",
-	"faq.section5.a11.link3.href": "https://citylab-berlin.org/projekte/parla/",
+		"Bei aktiver Websuche wird ein Teil des Gesprächskontexts an den Suchdienst übermittelt. Dabei gilt:",
+	"faq.section5.a11.li1":
+		"Übermittelt werden nur vorherige Nachrichten, bei denen die Websuche eingeschaltet war.",
+	"faq.section5.a11.li2":
+		"Hochgeladene Dokumente werden nicht an den Suchdienst übermittelt.",
+	"faq.section5.a11.li3":
+		"Sobald Sie ein Dokument hinzufügen, wird die Websuche automatisch deaktiviert. Um sie erneut einzuschalten, klicken Sie auf das Plus-Symbol.",
+	"faq.section5.a11.li4":
+		"Schalten Sie die Websuche im laufenden Gespräch ein, steht Ihnen der bisherige Gesprächsverlauf für die Dauer der Websuche nicht zur Verfügung.",
+
+	"faq.section5.q12": "Was sind Konnektoren?",
+	"faq.section5.a12.p1":
+		"Konnektoren verbinden BärGPT mit freigegebenen Fachanwendungen und Datenquellen. Dadurch kann BärGPT Informationen aus diesen Systemen direkt nutzen, ohne dass Sie zwischen verschiedenen Anwendungen wechseln müssen.",
+	"faq.section5.a12.p2":
+		"Aktuell stehen Konnektoren zu <strong>Parla</strong>, dem <strong>Open Data Portal Berlin</strong> und <strong>Datawrapper</strong> zur Verfügung. Das Angebot wird schrittweise erweitert.",
+
+	"faq.section5.q13":
+		"Was passiert, wenn ich Konnektoren ein- oder ausschalte?",
+	"faq.section5.a13.p1":
+		"Konnektoren binden externe Datenquellen in den Chat ein. Aus Datenschutzgründen ändert sich dabei, worauf BärGPT im laufenden Gespräch zugreifen kann:",
+	"faq.section5.a13.li1":
+		"<strong>Beim Einschalten:</strong> BärGPT verliert den Zugriff auf die bisherigen Nachrichten und auf alle Dokumente, die Sie in diesem Chat hinzugefügt haben.",
+	"faq.section5.a13.li2":
+		"<strong>Während Konnektoren aktiv sind:</strong> BärGPT bezieht sich ausschließlich auf Ihre aktuelle Frage und die Daten der Konnektoren. Neue Dokumente können Sie in dieser Zeit nicht hinzufügen.",
+	"faq.section5.a13.li3":
+		"<strong>Beim Ausschalten:</strong> Der Chatverlauf ist wieder verfügbar. Dokumente müssen Sie dem Chat erneut hinzufügen.",
+
+	"faq.section5.q14": "Wie kann ich Parla verwenden?",
+	"faq.section5.a14.p1":
+		"Parla ist eine zusätzliche Wissensquelle für Dokumente des Berliner Abgeordnetenhauses, zum Beispiel:",
+	"faq.section5.a14.li1": "Drucksachen,",
+	"faq.section5.a14.li2": "Plenarprotokolle,",
+	"faq.section5.a14.li3": "Anträge,",
+	"faq.section5.a14.li4": "Unterlagen zu Gesetzesvorhaben.",
+	"faq.section5.a14.p2":
+		"Wählen Sie Parla im Chat als Datenquelle aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
+	"faq.section5.a14.link1.title": "Technische Informationen zu MCP",
+	"faq.section5.a14.link1.href": "/about",
+	"faq.section5.a14.link2.title": "Zur Anwendung Parla Berlin",
+	"faq.section5.a14.link2.href": "https://citylab-berlin.org/projekte/parla/",
+	"faq.section5.a14.link3.title": "Zur Projektbeschreibung von Parla",
+	"faq.section5.a14.link3.href": "https://citylab-berlin.org/projekte/parla/",
 
 	/* -------------------- Section 6 - Datenschutz & Sicherheit -------------------- */
 	"faq.section6.title": "Datenschutz & Sicherheit",
@@ -812,6 +854,29 @@ export const content = {
 	"faq.section7.a5.link1.title": "Feedbackformular",
 	"faq.section7.a5.link1.href":
 		"https://citylabberlin.typeform.com/to/GhoCHw0J",
+	"faq.section7.q6":
+		"Wo finde ich Hintergrundinformationen und technische Deep-Dives?",
+	"faq.section7.a6.link1.title": "Long Read zur Entwicklung vor Launch",
+	"faq.section7.a6.link1.href":
+		"https://citylab-berlin.org/blog/ki-fuer-die-verwaltung-was-wir-bei-der-entwicklung-bedarfsgerechter-prototypen-bereits-gelernt-haben/",
+	"faq.section7.a6.link2.title": "Learnings-Artikel vor Launch",
+	"faq.section7.a6.link2.href":
+		"https://www.technologiestiftung-berlin.de/profil/blog/baergpt-wie-ki-entwicklung-fuer-die-verwaltung-mit-rga-geht-3-learnings",
+	"faq.section7.a6.link3.title": "Technischer Deep Dive zum Launch",
+	"faq.section7.a6.link3.href":
+		"https://citylab-berlin.org/blog/baergpt-technischer-deep-dive-ki-assistenten-berliner-verwaltung/",
+	"faq.section7.a6.link4.title": "Kommentar zur technischen Eigenentwicklung",
+	"faq.section7.a6.link4.href":
+		"https://app.notion.com/p/citylabberlin/FAQ-3-1-h-ufig-gestellte-Fragen-und-Antworten-99fa2fee956d82bd9dbd81913323941c#3c1a2fee956d80069655db68618cb361",
+	"faq.section7.a6.link5.title": "Devlog #1 - Basiswissen Verwaltung",
+	"faq.section7.a6.link5.href":
+		"https://citylab-berlin.org/blog/baergpt-devlog-1-basiswissen-fuer-die-verwaltung/",
+	"faq.section7.a6.link6.title": "Devlog #2 - Quellenangaben",
+	"faq.section7.a6.link6.href":
+		"https://citylab-berlin.org/blog/baergpt-devlog-2-quellenangaben/",
+	"faq.section7.a6.link7.title": "Devlog #3 Websuche",
+	"faq.section7.a6.link7.href":
+		"https://citylab-berlin.org/blog/baergpt-devlog-3-websuche-berlins-ki-assistent-kann-jetzt-insweb/",
 
 	/* -------------------- FAQ landing page references -------------------- */
 	"faq.section1.q9": "Wie beginne ich mit der Nutzung von BärGPT?",

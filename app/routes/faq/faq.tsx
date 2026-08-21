@@ -720,36 +720,60 @@ export const faq = {
 				{
 					question: content["faq.section5.q2"],
 					answer: (
-						<div>
-							<p className="mb-3">{content["faq.section5.a2.p1"]}</p>
-							<p className="mb-3">{content["faq.section5.a2.p2"]}</p>
-							<p className="mb-3">{content["faq.section5.a2.p3"]}</p>
-							<p className="mb-3">{content["faq.section5.a2.p4"]}</p>
-							<h4 className="text-base leading-6 font-semibold mb-2">
-								{content["faq.section5.a2.h4"]}
-							</h4>
-							<p
-								dangerouslySetInnerHTML={{
-									__html: content["faq.section5.a2.p5"],
-								}}
-							/>
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p className="mb-3">{content["faq.section5.a2.p1"]}</p>
+								<p className="mb-3">{content["faq.section5.a2.p2"]}</p>
+								<p className="mb-3">{content["faq.section5.a2.p3"]}</p>
+								<p className="mb-3">{content["faq.section5.a2.p4"]}</p>
+								<h4 className="text-base leading-6 font-semibold mb-2">
+									{content["faq.section5.a2.h4"]}
+								</h4>
+								<p
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section5.a2.p5"],
+									}}
+								/>
+							</div>
+							<div>
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
+									{content["faq.furtherLinksVideos.title"]}
+								</h4>
+								<AnchorLink
+									href={content["faq.section5.a2.link.href"]}
+									title={content["faq.section5.a2.link.title"]}
+									hasBorder={false}
+								/>
+							</div>
 						</div>
 					),
 				},
 				{
 					question: content["faq.section5.q3"],
 					answer: (
-						<div>
-							<p className="mb-3">{content["faq.section5.a3.p1"]}</p>
-							<p className="mb-3">{content["faq.section5.a3.p2"]}</p>
-							<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
-								<li>{content["faq.section5.a3.li1"]}</li>
-								<li>{content["faq.section5.a3.li2"]}</li>
-								<li>{content["faq.section5.a3.li3"]}</li>
-							</ul>
-							<p className="mb-3">{content["faq.section5.a3.p3"]}</p>
-							<p className="mb-3">{content["faq.section5.a3.p4"]}</p>
-							<p>{content["faq.section5.a3.p5"]}</p>
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p className="mb-3">{content["faq.section5.a3.p1"]}</p>
+								<p className="mb-3">{content["faq.section5.a3.p2"]}</p>
+								<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
+									<li>{content["faq.section5.a3.li1"]}</li>
+									<li>{content["faq.section5.a3.li2"]}</li>
+									<li>{content["faq.section5.a3.li3"]}</li>
+								</ul>
+								<p className="mb-3">{content["faq.section5.a3.p3"]}</p>
+								<p className="mb-3">{content["faq.section5.a3.p4"]}</p>
+								<p>{content["faq.section5.a3.p5"]}</p>
+							</div>
+							<div>
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
+									{content["faq.furtherLinksVideos.title"]}
+								</h4>
+								<AnchorLink
+									href={content["faq.section5.a3.link.href"]}
+									title={content["faq.section5.a3.link.title"]}
+									hasBorder={false}
+								/>
+							</div>
 						</div>
 					),
 				},
@@ -897,35 +921,105 @@ export const faq = {
 				{
 					question: content["faq.section5.q10"],
 					answer: (
-						<div>
-							<p className="mb-3">{content["faq.section5.a10.p1"]}</p>
-							<p>{content["faq.section5.a10.p2"]}</p>
-						</div>
-					),
-				},
-				{
-					question: content["faq.section5.q11"],
-					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
-								<p className="mb-3">{content["faq.section5.a11.p1"]}</p>
-								<p>{content["faq.section5.a11.p2"]}</p>
+								<p className="mb-3">{content["faq.section5.a10.p1"]}</p>
+								<p>{content["faq.section5.a10.p2"]}</p>
 							</div>
 							<div>
 								<h4 className="lg:px-3 text-base leading-6 font-semibold">
 									{content["faq.furtherLinksVideos.title"]}
 								</h4>
 								<AnchorLink
-									href={content["faq.section5.a11.link1.href"]}
-									title={content["faq.section5.a11.link1.title"]}
+									href={content["faq.section5.a10.link1.href"]}
+									title={content["faq.section5.a10.link1.title"]}
+									hasBorder={false}
+								/>
+							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section5.q11"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section5.a11.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section5.a11.li1"]}</li>
+								<li>{content["faq.section5.a11.li2"]}</li>
+								<li>{content["faq.section5.a11.li3"]}</li>
+								<li>{content["faq.section5.a11.li4"]}</li>
+							</ul>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section5.q12"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section5.a12.p1"]}</p>
+							<p
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section5.a12.p2"],
+								}}
+							/>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section5.q13"],
+					answer: (
+						<div>
+							<p className="mb-3">{content["faq.section5.a13.p1"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section5.a13.li1"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section5.a13.li2"],
+									}}
+								/>
+								<li
+									dangerouslySetInnerHTML={{
+										__html: content["faq.section5.a13.li3"],
+									}}
+								/>
+							</ul>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section5.q14"],
+					answer: (
+						<div className="flex flex-col gap-5 lg:gap-9">
+							<div>
+								<p className="mb-3">{content["faq.section5.a14.p1"]}</p>
+								<ul className="list-disc ml-6 text-base leading-6 font-normal mb-3">
+									<li>{content["faq.section5.a14.li1"]}</li>
+									<li>{content["faq.section5.a14.li2"]}</li>
+									<li>{content["faq.section5.a14.li3"]}</li>
+									<li>{content["faq.section5.a14.li4"]}</li>
+								</ul>
+								<p>{content["faq.section5.a14.p2"]}</p>
+							</div>
+							<div>
+								<h4 className="lg:px-3 text-base leading-6 font-semibold">
+									{content["faq.furtherLinksVideos.title"]}
+								</h4>
+								<AnchorLink
+									href={content["faq.section5.a14.link1.href"]}
+									title={content["faq.section5.a14.link1.title"]}
 								/>
 								<AnchorLink
-									href={content["faq.section5.a11.link2.href"]}
-									title={content["faq.section5.a11.link2.title"]}
+									href={content["faq.section5.a14.link2.href"]}
+									title={content["faq.section5.a14.link2.title"]}
 								/>
 								<AnchorLink
-									href={content["faq.section5.a11.link3.href"]}
-									title={content["faq.section5.a11.link3.title"]}
+									href={content["faq.section5.a14.link3.href"]}
+									title={content["faq.section5.a14.link3.title"]}
 									hasBorder={false}
 								/>
 							</div>
@@ -1239,6 +1333,54 @@ export const faq = {
 									hasBorder={false}
 								/>
 							</div>
+						</div>
+					),
+				},
+				{
+					question: content["faq.section7.q6"],
+					answer: (
+						<div>
+							<AnchorLink
+								href={content["faq.section7.a6.link1.href"]}
+								title={content["faq.section7.a6.link1.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link2.href"]}
+								title={content["faq.section7.a6.link2.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link3.href"]}
+								title={content["faq.section7.a6.link3.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link4.href"]}
+								title={content["faq.section7.a6.link4.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link5.href"]}
+								title={content["faq.section7.a6.link5.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link6.href"]}
+								title={content["faq.section7.a6.link6.title"]}
+								hasBorder={true}
+							/>
+
+							<AnchorLink
+								href={content["faq.section7.a6.link7.href"]}
+								title={content["faq.section7.a6.link7.title"]}
+								hasBorder={false}
+							/>
 						</div>
 					),
 				},
