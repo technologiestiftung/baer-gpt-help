@@ -262,7 +262,7 @@ export const content = {
 	"faq.section2.a1.li1": `Öffnen Sie <a class="underline underline-offset-6" href="https://www.baergpt.berlin" target="_blank" rel="noopener noreferrer"><strong>www.baergpt.berlin</strong></a>.`,
 	"faq.section2.a1.li2": "Klicken Sie auf Registrieren.",
 	"faq.section2.a1.li3":
-		"Geben Sie Ihre dienstliche E-Mail-Adresse und ein Passwort ein.",
+		"Geben Sie Ihre dienstliche E-Mail-Adresse.",
 	"faq.section2.a1.li4":
 		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail in Ihrem Postfach.",
 	"faq.section2.a1.li5":
@@ -276,7 +276,7 @@ export const content = {
 	"faq.section2.a2.h4.1":
 		"Für die E-Mail-Adresse besteht bereits ein Benutzerkonto.",
 	"faq.section2.a2.p2":
-		"Möglicherweise existiert schon ein Benutzerkonto. Versuchen Sie, sich einzuloggen oder das Passwort zurückzusetzen.",
+		"Möglicherweise existiert schon ein Benutzerkonto. Versuchen Sie, sich einzuloggen.",
 	"faq.section2.a2.h4.2":
 		"Ihre dienstliche E-Mail-Domain ist nicht freigeschaltet.",
 	"faq.section2.a2.p3":
