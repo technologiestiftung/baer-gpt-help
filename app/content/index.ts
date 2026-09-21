@@ -261,8 +261,7 @@ export const content = {
 	"faq.section2.q1": "Wie erstelle ich ein Benutzerkonto?",
 	"faq.section2.a1.li1": `Öffnen Sie <a class="underline underline-offset-6" href="https://www.baergpt.berlin" target="_blank" rel="noopener noreferrer"><strong>www.baergpt.berlin</strong></a>.`,
 	"faq.section2.a1.li2": "Klicken Sie auf Registrieren.",
-	"faq.section2.a1.li3":
-		"Geben Sie Ihre dienstliche E-Mail-Adresse.",
+	"faq.section2.a1.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
 	"faq.section2.a1.li4":
 		"Nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail in Ihrem Postfach.",
 	"faq.section2.a1.li5":
@@ -281,9 +280,6 @@ export const content = {
 		"Ihre dienstliche E-Mail-Domain ist nicht freigeschaltet.",
 	"faq.section2.a2.p3":
 		"Nur bestimmte dienstliche E-Mail-Adressen können genutzt werden. Prüfen Sie, ob Ihre Domäne zugelassen ist.",
-	"faq.section2.a2.h4.3": "Das Passwort erfüllt die Anforderungen nicht.",
-	"faq.section2.a2.p4":
-		"Verwenden Sie ein Passwort mit mindestens zehn Zeichen und einer Kombination aus Buchstaben, Zahlen und Sonderzeichen.",
 
 	"faq.section2.q3":
 		"Ich habe keine Bestätigungs-E-Mail erhalten. Was kann ich tun?",
@@ -296,46 +292,45 @@ export const content = {
 		"Fordern Sie die Bestätigungs-E-Mail anschließend erneut an. Wird die Nachricht durch Ihre Organisation blockiert, wenden Sie sich an Ihre interne IT oder an den Support.",
 
 	"faq.section2.q4": "Wie melde ich mich an?",
-	"faq.section2.a4.li1": "Öffnen Sie www.baergpt.berlin.",
-	"faq.section2.a4.li2": "Klicken Sie auf <strong>Anmelden</strong>.",
-	"faq.section2.a4.li3": "Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.",
 	"faq.section2.a4.p1":
-		"Nach der Anmeldung können Sie direkt mit dem Chatten oder dem Hochladen von Dokumenten beginnen.",
+		"Die Anmeldung bei BärGPT erfolgt mit Ihrer E-Mail-Adresse und einem einmaligen Anmeldecode:",
+	"faq.section2.a4.li1":
+		"Geben Sie auf der Anmeldeseite Ihre E-Mail-Adresse ein.",
+	"faq.section2.a4.li2":
+		"Sie erhalten per E-Mail einen Anmeldecode, der 60 Minuten gültig ist.",
+	"faq.section2.a4.li3":
+		"Geben Sie den Code auf der Anmeldeseite ein. Sie werden anschließend automatisch angemeldet.",
+	"faq.section2.a4.p2":
+		"<strong>Keinen Code erhalten?</strong> Prüfen Sie bitte auch Ihren Spam- oder Junk-Ordner. Es kann einige Minuten dauern, bis die E-Mail bei Ihnen eingeht.",
 
 	"faq.section2.q5": "Warum kann ich mich nicht anmelden?",
 	"faq.section2.a5.p1":
-		"Prüfen Sie, ob Ihre E-Mail-Adresse und Ihr Passwort korrekt eingegeben sind. Achten Sie auch auf versehentliche Leerzeichen und die Groß- und Kleinschreibung des Passworts.",
-	"faq.section2.a5.p2":
-		"Haben Sie Ihr Passwort vergessen, wählen Sie <strong>Passwort vergessen?</strong>.",
-	"faq.section2.a5.p3":
-		"Bei einer technischen Störung aktualisieren Sie die Seite und versuchen Sie es erneut.",
+		"Wenn die Anmeldung bei BärGPT nicht funktioniert, prüfen Sie bitte folgende Punkte:",
+	"faq.section2.a5.li1":
+		"Stellen Sie sicher, dass Ihre E-Mail-Adresse korrekt eingegeben ist und keine Tippfehler oder zusätzlichen Leerzeichen enthält.",
+	"faq.section2.a5.li2":
+		"Prüfen Sie, ob Sie den Anmeldecode korrekt eingegeben haben. Der Code ist 60 Minuten gültig.",
+	"faq.section2.a5.li3":
+		"Keinen Code erhalten? Prüfen Sie Ihren Spam-Ordner. Falls Sie dort keine E-Mail finden, fordern Sie einen neuen Code an.",
+	"faq.section2.a5.li4":
+		"Technische Störung: Laden Sie die Seite neu und versuchen Sie die Anmeldung erneut.",
 
-	"faq.section2.q6": "Wie setze ich mein Passwort zurück?",
-	"faq.section2.a6.li1": "Öffnen Sie die Anmeldeseite.",
-	"faq.section2.a6.li2": "Wählen Sie <strong>Passwort vergessen?</strong>.",
-	"faq.section2.a6.li3": "Geben Sie Ihre dienstliche E-Mail-Adresse ein.",
-	"faq.section2.a6.li4": "Öffnen Sie die zugesandte E-Mail.",
-	"faq.section2.a6.li5":
-		"Legen Sie über den enthaltenen Link ein neues Passwort fest.",
-	"faq.section2.a6.p1":
-		"Prüfen Sie Ihren Spam-Ordner, falls die E-Mail nicht ankommt.",
+	"faq.section2.q6": "Wie ändere ich meine Profildaten?",
+	"faq.section2.a6.li1":
+		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profilsymbol (mit Ihren Initialen).",
+	"faq.section2.a6.li2": "Wählen Sie Profil.",
+	"faq.section2.a6.li3": "Ändern Sie die gewünschten Angaben.",
+	"faq.section2.a6.li4": "Speichern Sie Ihre Änderungen.",
 
-	"faq.section2.q7": "Wie ändere ich meine Profildaten?",
+	"faq.section2.q7": "Wie lösche ich mein Benutzerkonto?",
+	"faq.section2.a7.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
 	"faq.section2.a7.li1":
 		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profilsymbol (mit Ihren Initialen).",
 	"faq.section2.a7.li2": "Wählen Sie Profil.",
-	"faq.section2.a7.li3": "Ändern Sie die gewünschten Angaben.",
-	"faq.section2.a7.li4": "Speichern Sie Ihre Änderungen.",
-
-	"faq.section2.q8": "Wie lösche ich mein Benutzerkonto?",
-	"faq.section2.a8.p1": "Sie können Ihr Benutzerkonto direkt selbst löschen:",
-	"faq.section2.a8.li1":
-		"Gehen Sie oben rechts im Kopfbereich der Anwendung auf Ihr Profilsymbol (mit Ihren Initialen).",
-	"faq.section2.a8.li2": "Wählen Sie Profil.",
-	"faq.section2.a8.li3": "Wählen Sie Konto unwiderruflich löschen.",
-	"faq.section2.a8.li4": "Lesen Sie den angezeigten Hinweis.",
-	"faq.section2.a8.li5": "Bestätigen Sie die Löschung.",
-	"faq.section2.a8.p2":
+	"faq.section2.a7.li3": "Wählen Sie Konto unwiderruflich löschen.",
+	"faq.section2.a7.li4": "Lesen Sie den angezeigten Hinweis.",
+	"faq.section2.a7.li5": "Bestätigen Sie die Löschung.",
+	"faq.section2.a7.p2":
 		"Die Löschung kann nicht rückgängig gemacht werden. Informationen zu den betroffenen Daten und Löschfristen finden Sie in den Datenschutzhinweisen.",
 
 	/* -------------------- Section 3 - Im Chat arbeiten -------------------- */
