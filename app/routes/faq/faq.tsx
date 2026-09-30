@@ -215,10 +215,6 @@ export const faq = {
 								{content["faq.section2.a2.h4.2"]}
 							</h4>
 							<p className="mb-3">{content["faq.section2.a2.p3"]}</p>
-							<h4 className="text-base leading-6 font-semibold mb-2">
-								{content["faq.section2.a2.h4.3"]}
-							</h4>
-							<p>{content["faq.section2.a2.p4"]}</p>
 						</div>
 					),
 				},
@@ -240,12 +236,17 @@ export const faq = {
 					question: content["faq.section2.q4"],
 					answer: (
 						<div>
+							<p className="mb-3">{content["faq.section2.a4.p1"]}</p>
 							<ol className="list-decimal ml-6 text-base leading-6 font-normal mb-3">
 								<li>{content["faq.section2.a4.li1"]}</li>
 								<li>{content["faq.section2.a4.li2"]}</li>
 								<li>{content["faq.section2.a4.li3"]}</li>
 							</ol>
-							<p>{content["faq.section2.a4.p1"]}</p>
+							<p
+								dangerouslySetInnerHTML={{
+									__html: content["faq.section2.a4.p2"],
+								}}
+							/>
 						</div>
 					),
 				},
@@ -254,51 +255,40 @@ export const faq = {
 					answer: (
 						<div>
 							<p className="mb-3">{content["faq.section2.a5.p1"]}</p>
-							<p className="mb-3">{content["faq.section2.a5.p2"]}</p>
-							<p>{content["faq.section2.a5.p3"]}</p>
+							<ul className="list-disc ml-6 text-base leading-6 font-normal">
+								<li>{content["faq.section2.a5.li1"]}</li>
+								<li>{content["faq.section2.a5.li2"]}</li>
+								<li>{content["faq.section2.a5.li3"]}</li>
+								<li>{content["faq.section2.a5.li4"]}</li>
+							</ul>
 						</div>
 					),
 				},
 				{
 					question: content["faq.section2.q6"],
 					answer: (
-						<div>
-							<ol className="list-decimal ml-6 text-base leading-6 font-normal mb-3">
-								<li>{content["faq.section2.a6.li1"]}</li>
-								<li>{content["faq.section2.a6.li2"]}</li>
-								<li>{content["faq.section2.a6.li3"]}</li>
-								<li>{content["faq.section2.a6.li4"]}</li>
-								<li>{content["faq.section2.a6.li5"]}</li>
-							</ol>
-							<p>{content["faq.section2.a6.p1"]}</p>
-						</div>
+						<ol className="list-decimal ml-6 text-base leading-6 font-normal">
+							<li>{content["faq.section2.a6.li1"]}</li>
+							<li>{content["faq.section2.a6.li2"]}</li>
+							<li>{content["faq.section2.a6.li3"]}</li>
+							<li>{content["faq.section2.a6.li4"]}</li>
+						</ol>
 					),
 				},
 				{
 					question: content["faq.section2.q7"],
 					answer: (
-						<ol className="list-decimal ml-6 text-base leading-6 font-normal">
-							<li>{content["faq.section2.a7.li1"]}</li>
-							<li>{content["faq.section2.a7.li2"]}</li>
-							<li>{content["faq.section2.a7.li3"]}</li>
-							<li>{content["faq.section2.a7.li4"]}</li>
-						</ol>
-					),
-				},
-				{
-					question: content["faq.section2.q8"],
-					answer: (
 						<div className="flex flex-col gap-5 lg:gap-9">
 							<div>
-								<p className="mb-3">{content["faq.section2.a8.p1"]}</p>
+								<p className="mb-3">{content["faq.section2.a7.p1"]}</p>
 								<ol className="list-decimal ml-6 text-base leading-6 font-normal mb-3">
-									<li>{content["faq.section2.a8.li1"]}</li>
-									<li>{content["faq.section2.a8.li2"]}</li>
-									<li>{content["faq.section2.a8.li3"]}</li>
-									<li>{content["faq.section2.a8.li4"]}</li>
-									<li>{content["faq.section2.a8.li5"]}</li>
+									<li>{content["faq.section2.a7.li1"]}</li>
+									<li>{content["faq.section2.a7.li2"]}</li>
+									<li>{content["faq.section2.a7.li3"]}</li>
+									<li>{content["faq.section2.a7.li4"]}</li>
+									<li>{content["faq.section2.a7.li5"]}</li>
 								</ol>
-								<p>{content["faq.section2.a8.p2"]}</p>
+								<p>{content["faq.section2.a7.p2"]}</p>
 							</div>
 						</div>
 					),
