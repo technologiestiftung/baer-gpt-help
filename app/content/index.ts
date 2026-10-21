@@ -713,6 +713,65 @@ export const content = {
 	"faq.section5.a14.link3.title": "Zur Projektbeschreibung von Parla",
 	"faq.section5.a14.link3.href": "https://citylab-berlin.org/projekte/parla/",
 
+	"faq.section5.q15": "Wie kann ich das Open Data Portal verwenden?",
+	"faq.section5.a15.p1":
+		"Das Open Data Portal ist eine Wissensquelle der Berliner Verwaltung, zum Beispiel zu:",
+	"faq.section5.a15.li1":
+		"<strong>Umweltdaten:</strong> Luftqualität, Lärmbelastung, Bodenqualität",
+	"faq.section5.a15.li2":
+		"<strong>Geodaten:</strong> Stadtpläne, Flächennutzung, Radwege, Grünflächen",
+	"faq.section5.a15.li3":
+		"<strong>Statistiken:</strong> Bevölkerungsdaten, Wahlergebnisse, Wirtschaftsdaten",
+	"faq.section5.a15.li4":
+		"<strong>Haushaltsdaten:</strong> Öffentliche Ausgaben von Städten oder Behörden",
+	"faq.section5.a15.p2":
+		"Wählen Sie das Open Data Portal im Chat als Konnektor aus und stellen Sie anschließend Ihre Frage. Das Open Data Portal kann dabei helfen, relevante Datensätze leichter zu finden und zu analysieren, spezifische Geodaten zu verarbeiten sowie erste Auswertungen und Visualisierungen zu erstellen.",
+	"faq.section5.a15.p3": "Beispiel-Prompts:",
+	"faq.section5.a15.li5": "Gibt es offene Daten zu Straßenbäumen in Berlin?",
+	"faq.section5.a15.li6":
+		"In welchem Bezirk werden die meisten Fahrräder gestohlen?",
+	"faq.section5.a15.li7": "Wie viele Kitas gibt es eigentlich in Pankow?",
+	"faq.section5.a15.p4":
+		"Offene Daten (Open Data) sind frei zugänglich und können von allen genutzt, geteilt und für eigene Zwecke verwendet werden. Personenbezogene oder sicherheitskritische Informationen sind per Definition ausgeschlossen. Das Angebot an offenen Daten im Berliner Open Data Portal umfasst derzeit über 2.600 Datensätze (Stand September 2026) und wächst stetig weiter.",
+	"faq.section5.a15.link1.title": "Zum Open Data Portal",
+	"faq.section5.a15.link1.href": "https://daten.berlin.de/",
+	"faq.section5.a15.link2.title":
+		"Zur Übersichtsseite Open Data der Senatskanzlei Berlin",
+	"faq.section5.a15.link2.href":
+		"https://www.berlin.de/moderne-verwaltung/e-government/open-data",
+	"faq.section5.a15.link3.title":
+		"Zur Open Data Informationsstelle Berlin der Technologiestiftung Berlin",
+	"faq.section5.a15.link3.href": "https://odis-berlin.de/",
+	"faq.section5.a15.link4.title": "Technische Informationen zu MCP",
+	"faq.section5.a15.link4.href": "/about",
+
+	"faq.section5.q16": "Wie bekomme ich einen API-Zugangs-Token? (Datawrapper)",
+	"faq.section5.a16.p1":
+		"Um Datawrapper als Konnektor in BärGPT zu nutzen, benötigen Sie einen persönlichen API-Zugangs-Token aus Ihrem Datawrapper-Konto. Der Token authentifiziert die Anfragen an Datawrapper, zum Beispiel zum Erstellen, Bearbeiten oder Veröffentlichen von Grafiken.",
+	"faq.section5.a16.p2": "So erstellen Sie einen Token:",
+	"faq.section5.a16.li1": `Melden Sie sich bei Datawrapper an und öffnen Sie die Seite für API-Tokens: <a class="underline underline-offset-6"
+							href="https://app.datawrapper.de/account/api-tokens"
+							target="_blank"
+							rel="noopener noreferrer"
+						>app.datawrapper.de/account/api-tokens</a>`,
+	"faq.section5.a16.li2": "Klicken Sie auf „Create new Access Token“.",
+	"faq.section5.a16.li3":
+		"Vergeben Sie einen Namen, an dem Sie den Token später wiedererkennen (z. B. „BärGPT“).",
+	"faq.section5.a16.li4":
+		"Wählen Sie mindestens diese vier Berechtigungen (Scopes) aus: <strong>chart:read</strong>, <strong>chart:write</strong>, <strong>theme:read</strong> und <strong>visualization:read</strong>.",
+	"faq.section5.a16.li5":
+		"Klicken Sie auf „Generate token“. Der Token wird nur einmal angezeigt – kopieren Sie ihn und bewahren Sie ihn sicher auf.",
+	"faq.section5.a16.p3":
+		"<strong>Wichtig:</strong> Behandeln Sie den Token wie ein Passwort und geben Sie ihn nicht weiter. Wenn Sie vermuten, dass jemand anderes Zugriff auf Ihren Token hat, können Sie ihn in Datawrapper jederzeit widerrufen und einen neuen erstellen.",
+	"faq.section5.a16.link1.title":
+		"Zu den API-Tokens in Ihrem Datawrapper-Konto",
+	"faq.section5.a16.link1.href":
+		"https://app.datawrapper.de/account/api-tokens",
+	"faq.section5.a16.link2.title":
+		"Datawrapper-Dokumentation: Getting Started (API-Token erstellen)",
+	"faq.section5.a16.link2.href":
+		"https://developer.datawrapper.de/docs/getting-started",
+
 	/* -------------------- Section 6 - Datenschutz & Sicherheit -------------------- */
 	"faq.section6.title": "Datenschutz & Sicherheit",
 
