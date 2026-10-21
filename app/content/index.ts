@@ -758,7 +758,7 @@ export const content = {
 	"faq.section5.a16.li3":
 		"Vergeben Sie einen Namen, an dem Sie den Token später wiedererkennen (z. B. „BärGPT“).",
 	"faq.section5.a16.li4":
-		"Wählen Sie mindestens diese vier Berechtigungen (Scopes) aus: <strong>chart:read</strong>, <strong>chart:write</strong>, <strong>theme:read</strong> und <strong>visualization:read</strong>.",
+		"Wählen Sie mindestens diese vier Zugriffsrechte (Scopes) aus: <strong>chart:read</strong>, <strong>chart:write</strong>, <strong>theme:read</strong> und <strong>visualization:read</strong>.",
 	"faq.section5.a16.li5":
 		"Klicken Sie auf „Generate token“. Der Token wird nur einmal angezeigt – kopieren Sie ihn und bewahren Sie ihn sicher auf.",
 	"faq.section5.a16.p3":
