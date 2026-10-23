@@ -707,7 +707,8 @@ export const content = {
 	"faq.section5.a14.p2":
 		"Wählen Sie Parla im Chat als Datenquelle aus und stellen Sie anschließend Ihre Frage. Parla kann beispielsweise helfen, politische Entscheidungen, frühere Beschlüsse und parlamentarische Debatten nachzuvollziehen.",
 	"faq.section5.a14.link1.title": "Technische Informationen zu MCP",
-	"faq.section5.a14.link1.href": "/about",
+	"faq.section5.a14.link1.href":
+		"https://www.berlin.de/moderne-verwaltung/e-government/open-data-1513722.php",
 	"faq.section5.a14.link2.title": "Zur Anwendung Parla Berlin",
 	"faq.section5.a14.link2.href": "https://citylab-berlin.org/projekte/parla/",
 	"faq.section5.a14.link3.title": "Zur Projektbeschreibung von Parla",
@@ -738,12 +739,13 @@ export const content = {
 	"faq.section5.a15.link2.title":
 		"Zur Übersichtsseite Open Data der Senatskanzlei Berlin",
 	"faq.section5.a15.link2.href":
-		"https://www.berlin.de/moderne-verwaltung/e-government/open-data",
+		"https://www.berlin.de/moderne-verwaltung/e-government/open-data-1513722.php",
 	"faq.section5.a15.link3.title":
 		"Zur Open Data Informationsstelle Berlin der Technologiestiftung Berlin",
 	"faq.section5.a15.link3.href": "https://odis-berlin.de/",
 	"faq.section5.a15.link4.title": "Technische Informationen zu MCP",
-	"faq.section5.a15.link4.href": "/about",
+	"faq.section5.a15.link4.href":
+		"https://github.com/technologiestiftung/open-data-mcps",
 
 	"faq.section5.q16": "Wie bekomme ich einen API-Zugangs-Token? (Datawrapper)",
 	"faq.section5.a16.p1":
